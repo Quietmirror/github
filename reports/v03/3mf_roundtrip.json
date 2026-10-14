@@ -1,0 +1,85 @@
+{
+  "configuration_loaded": true,
+  "method": "Final 3MF re-sliced without --load; actual outputs retained independently",
+  "unit": "millimeter",
+  "mesh_triangles": 109408,
+  "comparison": {
+    "layer_height": {
+      "stl_ini": "0.2",
+      "embedded_3mf": "0.2"
+    },
+    "first_layer_height": {
+      "stl_ini": "0.2",
+      "embedded_3mf": "0.2"
+    },
+    "perimeters": {
+      "stl_ini": "4",
+      "embedded_3mf": "4"
+    },
+    "top_solid_layers": {
+      "stl_ini": "5",
+      "embedded_3mf": "5"
+    },
+    "bottom_solid_layers": {
+      "stl_ini": "5",
+      "embedded_3mf": "5"
+    },
+    "fill_density": {
+      "stl_ini": "20%",
+      "embedded_3mf": "20%"
+    },
+    "nozzle_diameter": {
+      "stl_ini": "0.4",
+      "embedded_3mf": "0.4"
+    },
+    "filament_density": {
+      "stl_ini": "1.24",
+      "embedded_3mf": "1.24"
+    },
+    "filament_diameter": {
+      "stl_ini": "1.75",
+      "embedded_3mf": "1.75"
+    },
+    "support_material": {
+      "stl_ini": "1",
+      "embedded_3mf": "1"
+    },
+    "support_material_style": {
+      "stl_ini": "organic",
+      "embedded_3mf": "organic"
+    },
+    "support_material_buildplate_only": {
+      "stl_ini": "1",
+      "embedded_3mf": "1"
+    },
+    "support_material_contact_distance": {
+      "stl_ini": "0.2",
+      "embedded_3mf": "0.2"
+    },
+    "brim_width": {
+      "stl_ini": "4",
+      "embedded_3mf": "4"
+    },
+    "external_perimeter_speed": {
+      "stl_ini": "25",
+      "embedded_3mf": "25"
+    },
+    "temperature": {
+      "stl_ini": "210",
+      "embedded_3mf": "210"
+    }
+  },
+  "stl_ini_estimate": {
+    "grams": 41.87,
+    "time": "5h 13m 20s"
+  },
+  "embedded_3mf_estimate": {
+    "grams": 41.83,
+    "time": "5h 13m 7s"
+  },
+  "difference": {
+    "grams": -0.04,
+    "time_seconds": -13
+  },
+  "note": "Small repeat slicing differences retained, not claimed byte-identical"
+}

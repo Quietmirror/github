@@ -1,0 +1,34 @@
+{
+  "slicer": "PrusaSlicer 2.9.6",
+  "version": "0.3",
+  "profile": "slicing/V0.3_PLA_0.4_0.20_ESTIMATE.ini",
+  "orientation": "feet on Z=0; 100 percent scale",
+  "estimates_only": true,
+  "footer": {
+    "filament used [mm]": "14039.89",
+    "filament used [cm3]": "33.77",
+    "filament used [g]": "41.87",
+    "total filament used [g]": "41.87",
+    "estimated printing time (normal mode)": "5h 13m 20s",
+    "estimated printing time (silent mode)": "5h 23m 0s"
+  },
+  "material_by_extrusion_role_g": {
+    "Skirt/Brim": 0.173,
+    "Support material interface": 1.0284,
+    "Support material": 15.0871,
+    "Perimeter": 13.1125,
+    "External perimeter": 7.4577,
+    "Solid infill": 3.3927,
+    "Overhang perimeter": 1.0638,
+    "Bridge infill": 0.3349,
+    "Internal infill": 0.0834,
+    "Top solid infill": 0.141
+  },
+  "material_by_category_g": {
+    "model_g": 25.586,
+    "support_g": 16.116,
+    "adhesion_g": 0.173
+  },
+  "calculation": "Productive relative-E extrusion moves, 1.75 mm filament, PLA density 1.24 g/cm3; footer totals are authoritative",
+  "layers": 155
+}

@@ -1,0 +1,41 @@
+{
+  "shell": {
+    "footer": {
+      "filament used [mm]": "13629.56",
+      "filament used [cm3]": "32.78",
+      "filament used [g]": "40.65",
+      "total filament used [g]": "40.65",
+      "estimated printing time (normal mode)": "5h 3m 45s",
+      "estimated printing time (silent mode)": "5h 13m 9s"
+    },
+    "model_g": 24.41493406161552,
+    "support_g": 16.062868592772254,
+    "brim_g": 0.17303040363533861
+  },
+  "cap_1": {
+    "footer": {
+      "filament used [mm]": "305.86",
+      "filament used [cm3]": "0.74",
+      "filament used [g]": "0.91",
+      "total filament used [g]": "0.91",
+      "estimated printing time (normal mode)": "10m 38s",
+      "estimated printing time (silent mode)": "10m 50s"
+    },
+    "model_g": 0.579097631843006,
+    "support_g": 0.29041430705556104,
+    "brim_g": 0.042722576262202494
+  },
+  "cap_2": {
+    "footer": {
+      "filament used [mm]": "305.86",
+      "filament used [cm3]": "0.74",
+      "filament used [g]": "0.91",
+      "total filament used [g]": "0.91",
+      "estimated printing time (normal mode)": "10m 38s",
+      "estimated printing time (silent mode)": "10m 50s"
+    },
+    "model_g": 0.579097631843006,
+    "support_g": 0.29041430705556104,
+    "brim_g": 0.042722576262202494
+  }
+}

@@ -28,6 +28,9 @@ def dimensions():
     for x in (-31,31):ax.plot([x,x],[0,6],color=c,lw=.8)
     for y in (0,-90):ax.plot([31,40],[y,y],color=c,lw=.8)
     detail='高度 31 mm；右主键顶低于左主键 1.2 mm' if VERSION=='0.1' else '高度 31 mm；中心夹持截面实测约 54.04 mm'
+    if VERSION=='0.3':
+        actual=json.loads((REPORT/'validation.json').read_text())['grip_width_samples'][1]['outer_span_mm']
+        detail=f'高度 31 mm；中心夹持截面实测约 {actual:.2f} mm'
     ax.text(-38,-96,'左：拇指侧；右：无名指 / 小指侧\n'+detail,fontsize=11,color=c)
     ax.set_xlim(-43,48);ax.set_ylim(-101,13);ax.axis('off')
     fig.suptitle(f'V{VERSION} 尺寸基准 / 试握假设',fontsize=20,y=.97)
@@ -64,6 +67,7 @@ def envelopes():
     fig.savefig(VIEWS/'08_envelope_layout.png');plt.close(fig)
 
 if __name__=='__main__':
-    ap=argparse.ArgumentParser();ap.add_argument('--version',choices=['0.1','0.2'],default='0.1');args=ap.parse_args();VERSION=args.version
+    ap=argparse.ArgumentParser();ap.add_argument('--version',choices=['0.1','0.2','0.3'],default='0.1');args=ap.parse_args();VERSION=args.version
     if VERSION=='0.2':VIEWS=ROOT/'views/v02';REPORT=ROOT/'reports/v02'
+    if VERSION=='0.3':VIEWS=ROOT/'views/v03';REPORT=ROOT/'reports/v03'
     dimensions();envelopes()

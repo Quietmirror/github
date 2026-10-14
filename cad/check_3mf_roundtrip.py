@@ -2,7 +2,7 @@
 from pathlib import Path
 import json,zipfile,xml.etree.ElementTree as ET,argparse,re
 ROOT=Path(__file__).resolve().parents[1]
-ap=argparse.ArgumentParser();ap.add_argument('--version',choices=['0.1','0.2'],default='0.2');v=ap.parse_args().version
+ap=argparse.ArgumentParser();ap.add_argument('--version',choices=['0.1','0.2','0.3'],default='0.2');v=ap.parse_args().version
 def footer(path):
     out={}
     for line in path.read_text(encoding='utf8').splitlines():
@@ -10,7 +10,7 @@ def footer(path):
             k,a=line[2:].split(' = ',1);out[k]=a
     return out
 a=footer(ROOT/f'.tools/V{v}_estimate_with_support.gcode');b=footer(ROOT/f'.tools/V{v}_3mf_roundtrip.gcode')
-suffix='/v02' if v=='0.2' else ''
+suffix='/v'+v.replace('.','') if v!='0.1' else ''
 with zipfile.ZipFile(ROOT/f'exports{suffix}/quietmirror_fingertip_V{v}_PRINT.3mf') as z:
     model=ET.fromstring(z.read('3D/3dmodel.model'))
 keys='layer_height first_layer_height perimeters top_solid_layers bottom_solid_layers fill_density nozzle_diameter filament_density filament_diameter support_material support_material_style support_material_buildplate_only support_material_contact_distance brim_width external_perimeter_speed temperature'.split()
