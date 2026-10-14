@@ -28,9 +28,9 @@ def dimensions():
     for x in (-31,31):ax.plot([x,x],[0,6],color=c,lw=.8)
     for y in (0,-90):ax.plot([31,40],[y,y],color=c,lw=.8)
     detail='高度 31 mm；右主键顶低于左主键 1.2 mm' if VERSION=='0.1' else '高度 31 mm；中心夹持截面实测约 54.04 mm'
-    if VERSION=='0.3':
+    if VERSION in ('0.3','0.4'):
         actual=json.loads((REPORT/'validation.json').read_text())['grip_width_samples'][1]['outer_span_mm']
-        detail=f'高度 31 mm；中心夹持截面实测约 {actual:.2f} mm'
+        detail=f'高度 {28 if VERSION=="0.4" else 31} mm；中心夹持截面实测约 {actual:.2f} mm'
     ax.text(-38,-96,'左：拇指侧；右：无名指 / 小指侧\n'+detail,fontsize=11,color=c)
     ax.set_xlim(-43,48);ax.set_ylim(-101,13);ax.axis('off')
     fig.suptitle(f'V{VERSION} 尺寸基准 / 试握假设',fontsize=20,y=.97)
@@ -52,9 +52,9 @@ def envelopes():
     top.add_patch(Rectangle((-31,-90),62,90,fill=False,ec='#748897',ls='--'))
     top.set(xlim=(-36,36),ylim=(-95,12),xlabel='X / mm；负侧为拇指',ylabel='Y / mm；前端为 0')
     top.set_aspect('equal');top.set_title('俯视包络 / 前端向上',pad=16)
-    side.add_patch(Rectangle((0,0),90,31,fill=False,ec='#748897',ls='--'))
+    side.add_patch(Rectangle((0,0),90,28 if VERSION=='0.4' else 31,fill=False,ec='#748897',ls='--'))
     side.set(xlim=(-5,95),ylim=(-2,38),xlabel='距前端距离 / mm',ylabel='Z / mm');side.set_aspect('equal');side.set_title('侧面高度分布（投影重叠不等于碰撞）',pad=16)
-    side.text(0,-17,'虚线仅为 90 × 62 × 31 外接框，\n不表示包络已被壳体包住。\n\n红色天线区与主板 / 电池估计范围重叠，\n装配版须先改布局或板型。',fontsize=11,color='#984e4e',va='top')
+    side.text(0,-17,('虚线仅为 90 × 62 × 28 外接框，' if VERSION=='0.4' else '虚线仅为 90 × 62 × 31 外接框，')+'\n不表示包络已被壳体包住。\n\n红色天线区与主板 / 电池估计范围重叠，\n装配版须先改布局或板型。',fontsize=11,color='#984e4e',va='top')
     legend.axis('off')
     for i,(e,n) in enumerate(zip(env,names)):
         y=1-i*.06;legend.add_patch(Rectangle((0,y-.024),.034,.028,fc=e['color'],ec='none'))
@@ -67,7 +67,8 @@ def envelopes():
     fig.savefig(VIEWS/'08_envelope_layout.png');plt.close(fig)
 
 if __name__=='__main__':
-    ap=argparse.ArgumentParser();ap.add_argument('--version',choices=['0.1','0.2','0.3'],default='0.1');args=ap.parse_args();VERSION=args.version
+    ap=argparse.ArgumentParser();ap.add_argument('--version',choices=['0.1','0.2','0.3','0.4'],default='0.1');args=ap.parse_args();VERSION=args.version
     if VERSION=='0.2':VIEWS=ROOT/'views/v02';REPORT=ROOT/'reports/v02'
     if VERSION=='0.3':VIEWS=ROOT/'views/v03';REPORT=ROOT/'reports/v03'
+    if VERSION=='0.4':VIEWS=ROOT/'views/v04';REPORT=ROOT/'reports/v04'
     dimensions();envelopes()

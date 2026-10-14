@@ -1,0 +1,1136 @@
+[
+  {
+    "cap": 1,
+    "method": "Discrete CAD intersections at <=1.5 mm path intervals; not swept-volume certification",
+    "waypoints_xyz_translation_mm": [
+      [
+        25.0,
+        5.0,
+        -30.0
+      ],
+      [
+        25.0,
+        5.0,
+        -7.300000000000001
+      ],
+      [
+        25.0,
+        0.0,
+        -7.300000000000001
+      ],
+      [
+        10.0,
+        0.0,
+        -7.300000000000001
+      ],
+      [
+        10.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "sample_count": 48,
+    "max_shell_overlap_mm3": 0.0,
+    "max_other_cap_overlap_mm3": 0.0,
+    "samples": [
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -30.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -28.58125
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -27.1625
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -25.74375
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -24.325
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -22.90625
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -21.4875
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -20.06875
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -18.65
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -17.231250000000003
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -15.8125
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -14.39375
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -12.975000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -11.556250000000002
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -10.1375
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -8.71875
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          5.0,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          3.75,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          2.5,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          1.25,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          0.0,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          25.0,
+          0.0,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          23.636363636363637,
+          0.0,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          22.272727272727273,
+          0.0,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          20.90909090909091,
+          0.0,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          19.545454545454547,
+          0.0,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          18.18181818181818,
+          0.0,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          16.81818181818182,
+          0.0,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          15.454545454545455,
+          0.0,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          14.09090909090909,
+          0.0,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          12.727272727272727,
+          0.0,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          11.363636363636363,
+          0.0,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 3,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          -7.300000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 3,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          -5.840000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 3,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          -4.380000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 3,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          -2.92
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 3,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          -1.46
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 3,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 4,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 4,
+        "translation_xyz_mm": [
+          8.571428571428571,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 4,
+        "translation_xyz_mm": [
+          7.142857142857143,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 4,
+        "translation_xyz_mm": [
+          5.714285714285714,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 4,
+        "translation_xyz_mm": [
+          4.2857142857142865,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 4,
+        "translation_xyz_mm": [
+          2.8571428571428577,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 4,
+        "translation_xyz_mm": [
+          1.4285714285714288,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 4,
+        "translation_xyz_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      }
+    ],
+    "sampled_path_clear": true
+  },
+  {
+    "cap": 2,
+    "method": "Discrete CAD intersections at <=1.5 mm path intervals; not swept-volume certification",
+    "waypoints_xyz_translation_mm": [
+      [
+        25.0,
+        19.0,
+        -30.0
+      ],
+      [
+        25.0,
+        19.0,
+        -9.600000000000001
+      ],
+      [
+        25.0,
+        0.0,
+        -9.600000000000001
+      ],
+      [
+        10.0,
+        0.0,
+        -9.600000000000001
+      ],
+      [
+        10.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "sample_count": 57,
+    "max_shell_overlap_mm3": 0.0,
+    "max_other_cap_overlap_mm3": 0.0,
+    "samples": [
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          19.0,
+          -30.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          19.0,
+          -28.542857142857144
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          19.0,
+          -27.085714285714285
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          19.0,
+          -25.62857142857143
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          19.0,
+          -24.17142857142857
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          19.0,
+          -22.714285714285715
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          19.0,
+          -21.25714285714286
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          19.0,
+          -19.8
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          19.0,
+          -18.342857142857145
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          19.0,
+          -16.885714285714286
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          19.0,
+          -15.428571428571432
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          19.0,
+          -13.971428571428572
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          19.0,
+          -12.514285714285716
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          19.0,
+          -11.05714285714286
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 0,
+        "translation_xyz_mm": [
+          25.0,
+          19.0,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          19.0,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          17.53846153846154,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          16.076923076923077,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          14.615384615384615,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          13.153846153846153,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          11.692307692307692,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          10.23076923076923,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          8.769230769230768,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          7.307692307692307,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          5.846153846153847,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          4.384615384615383,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          2.92307692307692,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          1.46153846153846,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 1,
+        "translation_xyz_mm": [
+          25.0,
+          0.0,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          25.0,
+          0.0,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          23.636363636363637,
+          0.0,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          22.272727272727273,
+          0.0,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          20.90909090909091,
+          0.0,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          19.545454545454547,
+          0.0,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          18.18181818181818,
+          0.0,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          16.81818181818182,
+          0.0,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          15.454545454545455,
+          0.0,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          14.09090909090909,
+          0.0,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          12.727272727272727,
+          0.0,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          11.363636363636363,
+          0.0,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 2,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 3,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          -9.600000000000001
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 3,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          -8.22857142857143
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 3,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          -6.857142857142858
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 3,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          -5.485714285714287
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 3,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          -4.114285714285715
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 3,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          -2.7428571428571438
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 3,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          -1.3714285714285719
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 3,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 4,
+        "translation_xyz_mm": [
+          10.0,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 4,
+        "translation_xyz_mm": [
+          8.571428571428571,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 4,
+        "translation_xyz_mm": [
+          7.142857142857143,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 4,
+        "translation_xyz_mm": [
+          5.714285714285714,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 4,
+        "translation_xyz_mm": [
+          4.2857142857142865,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 4,
+        "translation_xyz_mm": [
+          2.8571428571428577,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 4,
+        "translation_xyz_mm": [
+          1.4285714285714288,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      },
+      {
+        "segment": 4,
+        "translation_xyz_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "shell_overlap_mm3": 0.0,
+        "other_cap_overlap_mm3": 0.0
+      }
+    ],
+    "sampled_path_clear": true
+  }
+]
