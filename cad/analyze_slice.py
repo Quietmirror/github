@@ -40,6 +40,8 @@ def main():
     categories=dict(model_g=sum(v for k,v in mass.items() if not k.startswith('Support') and k!='Skirt/Brim'),support_g=sum(v for k,v in mass.items() if k.startswith('Support')),adhesion_g=mass.get('Skirt/Brim',0))
     profile='slicing/'+(f'V{VERSION}_' if VERSION!='0.1' else '')+'PLA_0.4_0.20_ESTIMATE.ini'
     result=dict(slicer='PrusaSlicer 2.9.6',version=VERSION,profile=profile,orientation='feet on Z=0; 100 percent scale',estimates_only=True,footer=footer,material_by_extrusion_role_g=mass,material_by_category_g={k:round(v,3) for k,v in categories.items()},calculation='Productive relative-E extrusion moves, 1.75 mm filament, PLA density 1.24 g/cm3; footer totals are authoritative',layers=len(np.unique(np.round(z,4))))
+    result['model_layers']=len(np.unique(np.round(z[cat=='model'],4)))
+    result['extrusion_z_planes_count']=result['layers']
     (REPORT/'slice_summary.json').write_text(json.dumps(result,indent=2,ensure_ascii=False),encoding='utf8')
     fig,axes=plt.subplots(2,2,figsize=(12,11),dpi=160,facecolor='#f8fafc')
     colors={'model':'#315f73','support':'#e1973d','adhesion':'#95a95e'}
@@ -56,8 +58,9 @@ def main():
     print(json.dumps(result,indent=2,ensure_ascii=False))
 
 if __name__=='__main__':
-    ap=argparse.ArgumentParser();ap.add_argument('--version',choices=['0.1','0.2','0.3','0.4'],default='0.1');args=ap.parse_args();VERSION=args.version
+    ap=argparse.ArgumentParser();ap.add_argument('--version',choices=['0.1','0.2','0.3','0.4','0.5'],default='0.1');args=ap.parse_args();VERSION=args.version
     if VERSION=='0.2':GCODE=ROOT/'.tools/V0.2_estimate_with_support.gcode';REPORT=ROOT/'reports/v02';VIEWS=ROOT/'views/v02'
     if VERSION=='0.3':GCODE=ROOT/'.tools/V0.3_estimate_with_support.gcode';REPORT=ROOT/'reports/v03';VIEWS=ROOT/'views/v03'
     if VERSION=='0.4':GCODE=ROOT/'.tools/V0.4_estimate_with_support.gcode';REPORT=ROOT/'reports/v04';VIEWS=ROOT/'views/v04'
+    if VERSION=='0.5':GCODE=ROOT/'.tools/V0.5_estimate_with_support.gcode';REPORT=ROOT/'reports/v05';VIEWS=ROOT/'views/v05'
     main()

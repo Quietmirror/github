@@ -1,0 +1,951 @@
+{
+  "reference_commit": "4316b3531f2956c5623ffef4c64e8b869d723e04",
+  "method": "Git canonical blob identity, with repository text normalization; each historical file compared once",
+  "protected_files_checked": 177,
+  "all_unchanged": true,
+  "readme_v04_archived_exactly": true,
+  "shared_files_updated": [
+    "HISTORY.md",
+    "NOTICE.md",
+    "README.md",
+    "cad/analyze_slice.py",
+    "cad/check_3mf_roundtrip.py",
+    "cad/embed_3mf_profile.py",
+    "cad/make_diagrams.py",
+    "requirements.txt"
+  ],
+  "version_assets": [
+    {
+      "version": "0.1",
+      "core_assets": [
+        "exports/quietmirror_fingertip_V0.1.stl",
+        "exports/quietmirror_fingertip_V0.1.step",
+        "exports/quietmirror_fingertip_V0.1_PRINT.3mf"
+      ],
+      "all_present": true
+    },
+    {
+      "version": "0.2",
+      "core_assets": [
+        "exports/v02/quietmirror_fingertip_V0.2.stl",
+        "exports/v02/quietmirror_fingertip_V0.2.step",
+        "exports/v02/quietmirror_fingertip_V0.2_PRINT.3mf"
+      ],
+      "all_present": true
+    },
+    {
+      "version": "0.3",
+      "core_assets": [
+        "exports/v03/quietmirror_fingertip_V0.3_FIT.stl",
+        "exports/v03/quietmirror_fingertip_V0.3_FIT.step",
+        "exports/v03/quietmirror_fingertip_V0.3_PRINT.3mf"
+      ],
+      "all_present": true
+    },
+    {
+      "version": "0.4",
+      "core_assets": [
+        "exports/v04/quietmirror_fingertip_V0.4_FIT.stl",
+        "exports/v04/quietmirror_fingertip_V0.4_FIT.step",
+        "exports/v04/quietmirror_fingertip_V0.4_PRINT.3mf"
+      ],
+      "all_present": true
+    },
+    {
+      "version": "0.5",
+      "core_assets": [
+        "exports/v05/quietmirror_fingertip_V0.5_FIT.stl",
+        "exports/v05/quietmirror_fingertip_V0.5_FIT.step",
+        "exports/v05/quietmirror_fingertip_V0.5_PRINT.3mf"
+      ],
+      "all_present": true
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "git_blob": "a7185a11b507dffaede2fc678a548fab0825969a",
+      "unchanged": true
+    },
+    {
+      "path": ".gitignore",
+      "git_blob": "27b86e03644a667fc1ea503c90183f48f2b78040",
+      "unchanged": true
+    },
+    {
+      "path": "LICENSE",
+      "git_blob": "4fe041e077a8179e50d8d068fb5803cf1f80abba",
+      "unchanged": true
+    },
+    {
+      "path": "README_V0.1.md",
+      "git_blob": "641b5154e79e49b605510a86667482886ee9e532",
+      "unchanged": true
+    },
+    {
+      "path": "README_V0.2.md",
+      "git_blob": "185174947cba7f6d21c3eebf07ae53604db0282f",
+      "unchanged": true
+    },
+    {
+      "path": "README_V0.3.md",
+      "git_blob": "2bfd4c1401db95c9d632e74b7eab83fb210d7425",
+      "unchanged": true
+    },
+    {
+      "path": "cad/PARAMETERS.md",
+      "git_blob": "85f15013c51d8006e8eca53eecc051d0f738fd20",
+      "unchanged": true
+    },
+    {
+      "path": "cad/PARAMETERS_V0.2.md",
+      "git_blob": "88081a30bf24c5e3cba857a50328aaa8fb75774f",
+      "unchanged": true
+    },
+    {
+      "path": "cad/PARAMETERS_V0.3.md",
+      "git_blob": "1394881d794f8debe619bc48a92c0ecef3647534",
+      "unchanged": true
+    },
+    {
+      "path": "cad/PARAMETERS_V0.4.md",
+      "git_blob": "6124c4e41272637d5397c46c0e11178fdb3419b6",
+      "unchanged": true
+    },
+    {
+      "path": "cad/build_mouse.py",
+      "git_blob": "18ed501fd6685a2821645ffa1905f566ecf58a6a",
+      "unchanged": true
+    },
+    {
+      "path": "cad/build_v02.py",
+      "git_blob": "fd4f30cd336e4161d83db7a38e47dc034793e3eb",
+      "unchanged": true
+    },
+    {
+      "path": "cad/build_v03.py",
+      "git_blob": "4501b687a70ec136a0a04bd6cd5b2a3fd9ffbdfb",
+      "unchanged": true
+    },
+    {
+      "path": "cad/build_v04.py",
+      "git_blob": "bb18307c8bf656c4ece9968b0ca62a221a864a68",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_bottom_v04.py",
+      "git_blob": "5c64e97d87e7fb9286502255cb1565c6cff72fa7",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_side_button_path_v03.py",
+      "git_blob": "177968c507d21d8c0bd65df839569bf51a93a26b",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_side_button_path_v04.py",
+      "git_blob": "eedeb9837b39d3ac3280e4e32d7a3f1d2dbb7e2b",
+      "unchanged": true
+    },
+    {
+      "path": "cad/inspect_references.py",
+      "git_blob": "3e64637f41f03459d4de1f2ebe8f827652025a06",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameter_smoke_v02.py",
+      "git_blob": "a9d069b2613acabffeac2b44518da8f02cdecf3c",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameters.json",
+      "git_blob": "9612d217818e37d65842126d167bfb913f7d541f",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameters_v02.json",
+      "git_blob": "780e1f8bc7ba31f5724ada05539e733b435c67cc",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameters_v03.json",
+      "git_blob": "6f1de903143f7960ab0eab42dda86ff7f6577c88",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameters_v04.json",
+      "git_blob": "ce3ee9478ed859762807356dbd9696b78b0e2d1b",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_comparison.py",
+      "git_blob": "8a977ba27e3bf1f7b7e8bbd6616ddd4d4a6abcd7",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_v02.py",
+      "git_blob": "1f3012e5d2c5990ec1bcbb5bffd3fd8169a987a1",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_v03.py",
+      "git_blob": "3ce9962d6fb924538823f2df87d29349a191bab1",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_v04.py",
+      "git_blob": "44467fdaf7d9240cfee520dd85940267e4d66a22",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_views.py",
+      "git_blob": "acb2a4834c3668b4de5d3b33bb9d03dd05afff01",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_mouse.py",
+      "git_blob": "ef734fc39c94116af248d8a9cfa41be0e2ff49ea",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_v02.py",
+      "git_blob": "3ff5e00b3aa1631c19c527c775316add0dbb0dac",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_v03.py",
+      "git_blob": "d69499193f89f9fc49f4fd6ad2a1bf83eebf5c72",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_v04.py",
+      "git_blob": "0c6445fd7ef65a6a8e43807b3714ff0ce2db4f31",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_electronics_v02.py",
+      "git_blob": "83b8e1920cff6268c6332c81393e02dcf55ce3ba",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_electronics_v03.py",
+      "git_blob": "76c5a85589acecb80b18df24d9063dafad622d7c",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_electronics_v04.py",
+      "git_blob": "ef8606693609c3b90bbe21dcf76ea22b2ff1743e",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_release_v04.py",
+      "git_blob": "82147050bf264a11c36ea1ff4d201be55c703d03",
+      "unchanged": true
+    },
+    {
+      "path": "exports/electronic_envelopes_ESTIMATES.step",
+      "git_blob": "cb9f006565b85deb00507468673f929f98471d3f",
+      "unchanged": true
+    },
+    {
+      "path": "exports/quietmirror_fingertip_V0.1.step",
+      "git_blob": "359f75a2b7fe37a3b583d87bfa92a462e9c7b32a",
+      "unchanged": true
+    },
+    {
+      "path": "exports/quietmirror_fingertip_V0.1.stl",
+      "git_blob": "1301eb8458eff0093b9e35684843bc09aa5e5441",
+      "unchanged": true
+    },
+    {
+      "path": "exports/quietmirror_fingertip_V0.1_PRINT.3mf",
+      "git_blob": "9aaf66d76a0a1356831b85e0b4270c59604ae277",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v02/electronic_envelopes_V0.2_ESTIMATES.step",
+      "git_blob": "54f630cc5474ddcb0873345f7056c8fd08244805",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v02/quietmirror_fingertip_V0.2.step",
+      "git_blob": "1936f26a3fd0d4ee9b6fb09fd94223f7ba77448a",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v02/quietmirror_fingertip_V0.2.stl",
+      "git_blob": "e31826e92fb77ccec7c3947bffb89ce2d2246f98",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v02/quietmirror_fingertip_V0.2_PRINT.3mf",
+      "git_blob": "c870149f4961ec5e3c6ad697b5faa343e01a0d7b",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/electronic_envelopes_V0.3_ESTIMATES.step",
+      "git_blob": "ed82f1b33d47ce8ebf264334e9fe4d628f26d851",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/quietmirror_fingertip_V0.3_FIT.step",
+      "git_blob": "841ee1aab945b229c01ebfce25bedf80434a0ac3",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/quietmirror_fingertip_V0.3_FIT.stl",
+      "git_blob": "472c6a4156c7a5d4eea8657119ec32d5b4eec03c",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/quietmirror_fingertip_V0.3_PRINT.3mf",
+      "git_blob": "5bea36628269ee3599d1ea6988eef5cfd360369f",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/quietmirror_fingertip_V0.3_SHELL.step",
+      "git_blob": "b302112fad5e931abf30bdea60264d421cd34907",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/quietmirror_fingertip_V0.3_SHELL.stl",
+      "git_blob": "d98887bc7027f42f729111bdfd38dc78aee203f0",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/side_button_1_V0.3_PRINT.step",
+      "git_blob": "cddefaca53b2fa5aa3b40181c849162324a19bab",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/side_button_1_V0.3_PRINT.stl",
+      "git_blob": "2280372f6ac2c5bbcaa0f15b3ffcef2c5f8e4583",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/side_button_2_V0.3_PRINT.step",
+      "git_blob": "b040b97598d13cf379e1ed5e97c05a9ea9737512",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/side_button_2_V0.3_PRINT.stl",
+      "git_blob": "2280372f6ac2c5bbcaa0f15b3ffcef2c5f8e4583",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/side_button_assembly_V0.3.step",
+      "git_blob": "cfd6773eba626c596f9e5f60a238cc3c24b3ebb8",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/electronic_envelopes_V0.4_ESTIMATES.step",
+      "git_blob": "cd9e9171d6577fe6208911e337a309006fd76943",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/quietmirror_fingertip_V0.4_FIT.step",
+      "git_blob": "cf60512ea1b3055c2893007e3cbc39a882a76e4d",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/quietmirror_fingertip_V0.4_FIT.stl",
+      "git_blob": "415f637c089f40295044b0af4f576a6312d69fc4",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/quietmirror_fingertip_V0.4_PRINT.3mf",
+      "git_blob": "32b9ed37278c8953d85c521167adf47289ed0d2d",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/quietmirror_fingertip_V0.4_SHELL.step",
+      "git_blob": "80d91537bb57579e3fb36347be23d0e2389b69fd",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/quietmirror_fingertip_V0.4_SHELL.stl",
+      "git_blob": "0203d3c384c487afa70d28f401930d9534b6d41a",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/side_button_1_V0.4_PRINT.step",
+      "git_blob": "c368e6290e008e15821b90b90de8912230cb07f9",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/side_button_1_V0.4_PRINT.stl",
+      "git_blob": "de4ba793453a60da67697c3cc1cde9453057b8f6",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/side_button_2_V0.4_PRINT.step",
+      "git_blob": "95871f0e4f8b9c3eb55e1ec2cd68ed5d7982cabc",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/side_button_2_V0.4_PRINT.stl",
+      "git_blob": "307452794717cdba7a4f1f6abd3304739611ec8e",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/side_button_assembly_V0.4.step",
+      "git_blob": "6017fa99a6137d1687c16fb74fb0796038531721",
+      "unchanged": true
+    },
+    {
+      "path": "references/FENRIR_REFERENCE.md",
+      "git_blob": "b2c395df4d59ae0efd1d33e883af55e244dba1f9",
+      "unchanged": true
+    },
+    {
+      "path": "references/FINALMOUSE_MINISE_REFERENCE.md",
+      "git_blob": "be335b430667c895e941c8f3f0e603ef8c0e7ad8",
+      "unchanged": true
+    },
+    {
+      "path": "references/GWOLVES_REFERENCE.md",
+      "git_blob": "6b9856186bdbe977d092d25d6329e52dcd236144",
+      "unchanged": true
+    },
+    {
+      "path": "references/REFERENCE_REVIEW.md",
+      "git_blob": "e5ca40be3f3ba151dc86d6234c2dfabd8111fd4e",
+      "unchanged": true
+    },
+    {
+      "path": "references/licenses/Kotinos-GPL-3.0.txt",
+      "git_blob": "e62ec04cdeece724caeeeeaeb6ae1f6af1bb6b9a",
+      "unchanged": true
+    },
+    {
+      "path": "references/licenses/olliebella-CERN-OHL-P-2.0.txt",
+      "git_blob": "4fe041e077a8179e50d8d068fb5803cf1f80abba",
+      "unchanged": true
+    },
+    {
+      "path": "references/licenses/paw3395-pcb-CERN-OHL-P-2.0.txt",
+      "git_blob": "4fe041e077a8179e50d8d068fb5803cf1f80abba",
+      "unchanged": true
+    },
+    {
+      "path": "reports/3mf_roundtrip.json",
+      "git_blob": "41b9ffe49eaeb47721f628a44c8e423467448892",
+      "unchanged": true
+    },
+    {
+      "path": "reports/V0.1_\u8bbe\u8ba1\u4e0e\u9a8c\u8bc1\u62a5\u544a.md",
+      "git_blob": "a8fb09accef1fc32be073b357a465fdf1bfca0b3",
+      "unchanged": true
+    },
+    {
+      "path": "reports/cad_metrics.json",
+      "git_blob": "963f5e896a78fa489b0da162a8471ae5dc7b2e1b",
+      "unchanged": true
+    },
+    {
+      "path": "reports/envelope_interferences.json",
+      "git_blob": "5137623031710ae488b8ed71cf3dbae1e7a110d5",
+      "unchanged": true
+    },
+    {
+      "path": "reports/parameter_smoke_check.json",
+      "git_blob": "dc3146946aa177002116c690ac1136be58148fcf",
+      "unchanged": true
+    },
+    {
+      "path": "reports/reference_geometry.json",
+      "git_blob": "990044c336561b82555e93f8da85ef323cbdc7c9",
+      "unchanged": true
+    },
+    {
+      "path": "reports/slice_summary.json",
+      "git_blob": "d277b6b47ef75457c541b9232795e746cbbbdd6a",
+      "unchanged": true
+    },
+    {
+      "path": "reports/slicer_model_info.txt",
+      "git_blob": "a340cc9b2c8aed64a783f43dceff1743180c2a57",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/3mf_roundtrip.json",
+      "git_blob": "5dc5762ed5471b41ec6c5146d83cebef7c524d49",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/DESIGN.md",
+      "git_blob": "a75d4bc057c8f58bb8ecc2fdc3d70c3cc3abf7b1",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/ELECTRONICS.md",
+      "git_blob": "b561c059e28fee3d64b62871ce722d50d78ae710",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/FIT_FEEDBACK.md",
+      "git_blob": "3178675ac2af02eb9e25bd01bc96338c72121f3d",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/cad_metrics.json",
+      "git_blob": "1e29bc5aad99841d99ea1be255ec329a931aa305",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/envelope_interferences.json",
+      "git_blob": "6d11e41e6957a964346abbf715969f51557332fb",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/parameter_smoke_check.json",
+      "git_blob": "7b86a08b32bb3329c558dc0bcd65f2da2f4056a7",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/slice_summary.json",
+      "git_blob": "5e537e8981ca834028af1eab7cfa65b0326ead48",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/slicer_model_info.txt",
+      "git_blob": "c994124aab5d850293ee8e3741a1f76a62bd8ef1",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/validation.json",
+      "git_blob": "2b906a05cd033d780958cc06acd6c98ba119e081",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/3mf_roundtrip.json",
+      "git_blob": "052ba262ed5b7e053d47e3d6206cf20974228539",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/DESIGN.md",
+      "git_blob": "7c3e7286fba503e6b9cb2499b0b3db2bc6886d4d",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/ELECTRONICS.md",
+      "git_blob": "71b4f34019a7221b95645567e40f2497e00c1a2b",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/FIT_FEEDBACK.md",
+      "git_blob": "2932fe8bd8613de2e85a456c33206bfe70b1e8db",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/cad_metrics.json",
+      "git_blob": "683c21d05ef303944ee381bd16166c79110e0857",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/envelope_interferences.json",
+      "git_blob": "ec94d7e7e4a7bbf1c202ed65b11e07afb7a883d4",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/separate_parts_slice.json",
+      "git_blob": "c192eac22247a2c5679677b185b5bbbfbb603a4b",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/side_button_insertion.json",
+      "git_blob": "20c3bf20acad25f6167797547b0b6cb200aa5e95",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/slice_summary.json",
+      "git_blob": "6d1231bff285230ff3de3f1a994c6345603f09bc",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/slicer_model_info.txt",
+      "git_blob": "49de08b7f0085f7a80b0e7c2b8bac38e11e98f70",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/validation.json",
+      "git_blob": "8b295ce90ccc44f6b1e708e3e7b3c529a45ccbcd",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/3mf_roundtrip.json",
+      "git_blob": "2be5902be322efcd787a9c47f470a668841f4fca",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/DESIGN.md",
+      "git_blob": "f6972dd6720d02d7f45eb4c889962617b3e1d722",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/ELECTRONICS.md",
+      "git_blob": "cbe663a0ecae010c125eea0021e6f06621c66a94",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/FIT_FEEDBACK.md",
+      "git_blob": "e48922f4ce189f3e4992d38e6943fe50792a1513",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/bottom_preservation.json",
+      "git_blob": "644af6cafde418ac636822acf6839c7212dd9873",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/cad_metrics.json",
+      "git_blob": "b4af41e981c9c1950477646202c7c2327795d740",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/envelope_interferences.json",
+      "git_blob": "f7e10e3a80267e47737c1254863fb7d66594d06c",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/history_preservation.json",
+      "git_blob": "5b241cad84637b44f35361af70bf0c06b2a81bed",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/separate_parts_slice.json",
+      "git_blob": "216d004860c33dd21052b75c593067df44312978",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/side_button_insertion.json",
+      "git_blob": "fb142f7c0ec31669d9bb25bb241a40111b402b33",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/slice_summary.json",
+      "git_blob": "cfdb87b234b72b00e8ffd9b14fb772bfab365ddc",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/slicer_model_info.txt",
+      "git_blob": "f8406bddfb1b87d17d814219c9d796208e6de7ed",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/validation.json",
+      "git_blob": "69b0d28d356ba09859495cb81ba324e7715a421f",
+      "unchanged": true
+    },
+    {
+      "path": "reports/validation.json",
+      "git_blob": "59265f0240361025483f8e6847abead216529846",
+      "unchanged": true
+    },
+    {
+      "path": "reports/\u7535\u5b50\u5305\u7edc\u4e0e\u88c5\u914d\u5f85\u6d4b.md",
+      "git_blob": "256cf6e1d184645bf9b0fc86cdc7548715406e65",
+      "unchanged": true
+    },
+    {
+      "path": "reports/\u8bd5\u63e1\u53cd\u9988\u8868.md",
+      "git_blob": "030d955ae1eb43529f311f2829af3404a3dca732",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/PLA_0.4_0.20_ESTIMATE.ini",
+      "git_blob": "6b2b1fdb807293846adb02e1ad78963f8d88ebd1",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/PLA_0.4_0.20_FULL.ini",
+      "git_blob": "d1d8e6de838e73a3c9f055aad9f564a675fc4352",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/README.md",
+      "git_blob": "1d0ec1e045e63bbb240bf80d1bde41e793d1d8db",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.2_PLA_0.4_0.20_ESTIMATE.ini",
+      "git_blob": "4d72b0a42332f6680c1be62938732a90ad4bde87",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.2_PLA_0.4_0.20_FULL.ini",
+      "git_blob": "bfcb5ddeb88b685ac968bed26f3b06d3b0801eb6",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.2_PRINTING.md",
+      "git_blob": "503aec8be8e4392649a8647f7e95dabf2ee82368",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.3_PLA_0.4_0.20_ESTIMATE.ini",
+      "git_blob": "4d72b0a42332f6680c1be62938732a90ad4bde87",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.3_PLA_0.4_0.20_FULL.ini",
+      "git_blob": "27f9633b5640763e48be7c269a00493a5f6d8476",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.3_PRINTING.md",
+      "git_blob": "cec97eb9247b124c37abc02a59340eca9c78f79e",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.4_PLA_0.4_0.20_ESTIMATE.ini",
+      "git_blob": "ffc1c33c98143bb1200016eb0720633eb9eef28d",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.4_PLA_0.4_0.20_FULL.ini",
+      "git_blob": "c20a1295b7a84b5d85d4bb4a9bbf9294cb2c7143",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.4_PRINTING.md",
+      "git_blob": "5ef59a111588258745e52cd9e128c2ce5a2f0934",
+      "unchanged": true
+    },
+    {
+      "path": "views/01_isometric.png",
+      "git_blob": "d989a5706dd80c9a91de8d0ae81c6732b872af48",
+      "unchanged": true
+    },
+    {
+      "path": "views/02_top.png",
+      "git_blob": "5b80071536232effdb4cd766ddea538dffd59ea8",
+      "unchanged": true
+    },
+    {
+      "path": "views/03_left_side.png",
+      "git_blob": "cefa6853b8759d5b262147b829382abd932017d5",
+      "unchanged": true
+    },
+    {
+      "path": "views/04_bottom.png",
+      "git_blob": "3993a5623dae5678ff363ab2151267db7c0a843d",
+      "unchanged": true
+    },
+    {
+      "path": "views/05_right_side.png",
+      "git_blob": "17d4a22cff6b0d0307fb4f3a1cf56c7835c72b0e",
+      "unchanged": true
+    },
+    {
+      "path": "views/06_envelopes.png",
+      "git_blob": "64faf4d5c4bbbb8633d553bf7aa0a016d310fb5a",
+      "unchanged": true
+    },
+    {
+      "path": "views/07_dimensions.png",
+      "git_blob": "351f9dbdefb1466097d3c306cb6eb65f325e945f",
+      "unchanged": true
+    },
+    {
+      "path": "views/08_envelope_layout.png",
+      "git_blob": "2ebf73774d7c402497815e1b33a52ffcb679308e",
+      "unchanged": true
+    },
+    {
+      "path": "views/09_slice_layers.png",
+      "git_blob": "60d6d2b2d8d8d05528c7703a1ed878ec4f101eac",
+      "unchanged": true
+    },
+    {
+      "path": "views/history_V0.1-V0.4.png",
+      "git_blob": "8ef5f4316545c4b76d4292cba2737468ec3f84bb",
+      "unchanged": true
+    },
+    {
+      "path": "views/ref_kotinos.png",
+      "git_blob": "2dd200b5e667a5761794a808177fd0bce109440a",
+      "unchanged": true
+    },
+    {
+      "path": "views/ref_olliebella.png",
+      "git_blob": "2580ec51201479e2846f5b68c624ded6aae09897",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/01_isometric.png",
+      "git_blob": "061173e74c4a5fc39aeaac4378db22a4c85b58fd",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/02_top.png",
+      "git_blob": "cddbabb2de89071b867ecf0f7a550053996fe489",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/03_left_side.png",
+      "git_blob": "5783ee53fb8f628031a0e3c276f77bec3fbf116f",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/04_bottom.png",
+      "git_blob": "8e8eb46ac6ec42a19fb2cdbcc704e515a4a4b199",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/05_right_side.png",
+      "git_blob": "e0d7fd0d958c61fdb86efff2ea0411bbc0d79c49",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/06_envelopes.png",
+      "git_blob": "8d3ecec181fb5ef4d343b535873d654ab7996c63",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/07_dimensions.png",
+      "git_blob": "85e03ee8076463025db9ed7af72db871dfe69173",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/08_envelope_layout.png",
+      "git_blob": "822320c2ada9f43bfd95b828031fff1459decdff",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/09_slice_layers.png",
+      "git_blob": "30e5980d243a886ec93f3344ec3b4aa1681b9fcf",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/10_comparison.png",
+      "git_blob": "bd0a8973777f9106878de3daba4b7050dfd3f39a",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/01_isometric.png",
+      "git_blob": "1461816b5f9d7343ba262818feede501975d8cb9",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/02_top.png",
+      "git_blob": "f28f03d5ec5b63d44a4e3d4b55467505b2900c1a",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/03_left_side.png",
+      "git_blob": "831340f6f94e0d3fb6b291a948c306b9ec522cf1",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/04_bottom.png",
+      "git_blob": "2342ea854763d36f65453649f3e4ddae0373beaf",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/05_right_side.png",
+      "git_blob": "3a15b9af1f2a4ab58ed589f9ee12a9109676d71a",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/06_envelopes.png",
+      "git_blob": "d1b8e11029db5e857cdb60792c6249c164b3d07e",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/07_dimensions.png",
+      "git_blob": "1c70823b8d6fe315619650548f1bed2338b04be1",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/08_envelope_layout.png",
+      "git_blob": "2e854c90b9d0451c0cc4037b872446701554f6bd",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/09_slice_layers.png",
+      "git_blob": "90248990a67a883716e3386b78fb2e82ae9416aa",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/10_comparison.png",
+      "git_blob": "c6e619963dcda3a543877f9f611c4aa983ad9901",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/11_side_buttons_exploded.png",
+      "git_blob": "250c17c7702c20bd63ed1fcb3cf8752b82581b77",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/12_side_buttons_fitted.png",
+      "git_blob": "79db999a6b49965b1edacc673dec0c1d6d17cd90",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/01_isometric.png",
+      "git_blob": "c8501eb56cbebc3bb17888ddedfed075de5f43b4",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/02_top.png",
+      "git_blob": "3bf9207de7adb7072052d41329bde82bb93a9256",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/03_left_side.png",
+      "git_blob": "0ea1a52ca7c3bfa868cdf21a9dd15898457bd8f4",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/04_bottom.png",
+      "git_blob": "6477bb8e7ab73d5bd1938859a01eeb34e598105a",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/05_right_side.png",
+      "git_blob": "4fa6ea1eb1dab58777e1868a68c28626d6afd354",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/06_envelopes.png",
+      "git_blob": "c31125e34f54ad988e936fbb5acb81c1ab87505a",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/07_dimensions.png",
+      "git_blob": "e60e5f3f7c509b505f9a9e1fb3b1a01669b5d344",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/08_envelope_layout.png",
+      "git_blob": "baa383c7b160ff7d6b1615ebf2c900fe8beebbb7",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/09_slice_layers.png",
+      "git_blob": "7875b8a52868e4498b70dd70867a54d7da61b4ab",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/10_comparison.png",
+      "git_blob": "7aaab746bfa7963bada4c92388071e09ba0d3c17",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/11_side_buttons_exploded.png",
+      "git_blob": "5a340bee0d02af9461b1ab4629d17751f0a7d753",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/12_side_buttons_fitted.png",
+      "git_blob": "e53ad263aa81f34f63bcbe76c0b66310f43619d3",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/13_frozen_bottom.png",
+      "git_blob": "a052aea65a2856620ef24b7e3b69607d46c1a7f6",
+      "unchanged": true
+    }
+  ]
+}

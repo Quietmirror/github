@@ -1,0 +1,10 @@
+{
+  "method": "V0.4 FIT and V0.5 FIT both sliced with the final V0.5 snug-support profile; historical V0.4 reports preserved",
+  "profile": "slicing/V0.5_PLA_0.4_0.20_ESTIMATE.ini",
+  "old_model_g": 23.344977913372865,
+  "new_model_g": 22.19,
+  "model_saving_g": 1.1549779133728642,
+  "model_saving_percent": 4.94743630796605,
+  "old_total_g": 39.21,
+  "old_time": "4h 17m 31s"
+}
