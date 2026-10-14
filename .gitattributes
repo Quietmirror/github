@@ -1,0 +1,9 @@
+* text=auto
+*.stl binary
+*.3mf binary
+*.png binary
+*.step text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.ini text eol=lf

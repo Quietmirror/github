@@ -1,0 +1,696 @@
+{
+  "units": "mm",
+  "step": {
+    "valid": true,
+    "solids": 1,
+    "dimensions_xyz_mm": [
+      62.0,
+      90.0000001,
+      31.0000001
+    ],
+    "volume_mm3": 14704.307259265388
+  },
+  "mesh": {
+    "dimensions_xyz_mm": [
+      61.99917030334473,
+      89.99999237060547,
+      31.0
+    ],
+    "faces": 179008,
+    "vertices": 89462,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "self_intersecting_faces": 0,
+    "volume_mm3": 14694.74395366497,
+    "topology": {
+      "boundary_edges": 0,
+      "connected_components_number": 1,
+      "edges_number": 268512,
+      "faces_number": 179008,
+      "genus": 22,
+      "incident_faces_on_non_two_manifold_edges": 0,
+      "incident_faces_on_non_two_manifold_vertices": 0,
+      "is_mesh_two_manifold": true,
+      "non_two_manifold_edges": 0,
+      "non_two_manifold_vertices": 0,
+      "number_holes": 0,
+      "unreferenced_vertices": 0,
+      "vertices_number": 89462
+    }
+  },
+  "wall_check": {
+    "method": "60 normal-ray samples across four contact fields; analytic field wall is 1.8 mm; not a continuous global medial-axis proof",
+    "nominal_field_mm": 1.8,
+    "rounded_rim_mm": 2.4,
+    "samples": [
+      {
+        "field": "left_key",
+        "origin_mm": [
+          -21.10263157894737,
+          -11.994736842105263,
+          30.389463852840024
+        ],
+        "thickness_mm": 1.80117
+      },
+      {
+        "field": "left_key",
+        "origin_mm": [
+          -21.10263157894737,
+          -16.99736842105263,
+          30.786337910959713
+        ],
+        "thickness_mm": 1.79853
+      },
+      {
+        "field": "left_key",
+        "origin_mm": [
+          -21.10263157894737,
+          -22.0,
+          30.91826050494877
+        ],
+        "thickness_mm": 1.79841
+      },
+      {
+        "field": "left_key",
+        "origin_mm": [
+          -21.10263157894737,
+          -27.00263157894737,
+          30.786337910959713
+        ],
+        "thickness_mm": 1.79853
+      },
+      {
+        "field": "left_key",
+        "origin_mm": [
+          -21.10263157894737,
+          -32.00526315789474,
+          30.389463852840024
+        ],
+        "thickness_mm": 1.80117
+      },
+      {
+        "field": "left_key",
+        "origin_mm": [
+          -16.1,
+          -11.994736842105263,
+          30.521940358528788
+        ],
+        "thickness_mm": 1.79747
+      },
+      {
+        "field": "left_key",
+        "origin_mm": [
+          -16.1,
+          -16.99736842105263,
+          30.91826050494877
+        ],
+        "thickness_mm": 1.79843
+      },
+      {
+        "field": "left_key",
+        "origin_mm": [
+          -16.1,
+          -22.0,
+          31.05
+        ],
+        "thickness_mm": 1.8
+      },
+      {
+        "field": "left_key",
+        "origin_mm": [
+          -16.1,
+          -27.00263157894737,
+          30.91826050494877
+        ],
+        "thickness_mm": 1.79843
+      },
+      {
+        "field": "left_key",
+        "origin_mm": [
+          -16.1,
+          -32.00526315789474,
+          30.521940358528788
+        ],
+        "thickness_mm": 1.79747
+      },
+      {
+        "field": "left_key",
+        "origin_mm": [
+          -11.097368421052632,
+          -11.994736842105263,
+          30.389463852840024
+        ],
+        "thickness_mm": 1.80112
+      },
+      {
+        "field": "left_key",
+        "origin_mm": [
+          -11.097368421052632,
+          -16.99736842105263,
+          30.786337910959713
+        ],
+        "thickness_mm": 1.79853
+      },
+      {
+        "field": "left_key",
+        "origin_mm": [
+          -11.097368421052632,
+          -22.0,
+          30.91826050494877
+        ],
+        "thickness_mm": 1.8004
+      },
+      {
+        "field": "left_key",
+        "origin_mm": [
+          -11.097368421052632,
+          -27.00263157894737,
+          30.786337910959713
+        ],
+        "thickness_mm": 1.79853
+      },
+      {
+        "field": "left_key",
+        "origin_mm": [
+          -11.097368421052632,
+          -32.00526315789474,
+          30.389463852840024
+        ],
+        "thickness_mm": 1.80112
+      },
+      {
+        "field": "right_key",
+        "origin_mm": [
+          11.097368421052632,
+          -11.994736842105263,
+          29.18946385284002
+        ],
+        "thickness_mm": 1.80118
+      },
+      {
+        "field": "right_key",
+        "origin_mm": [
+          11.097368421052632,
+          -16.99736842105263,
+          29.58633791095971
+        ],
+        "thickness_mm": 1.79853
+      },
+      {
+        "field": "right_key",
+        "origin_mm": [
+          11.097368421052632,
+          -22.0,
+          29.718260504948766
+        ],
+        "thickness_mm": 1.79841
+      },
+      {
+        "field": "right_key",
+        "origin_mm": [
+          11.097368421052632,
+          -27.00263157894737,
+          29.58633791095971
+        ],
+        "thickness_mm": 1.79853
+      },
+      {
+        "field": "right_key",
+        "origin_mm": [
+          11.097368421052632,
+          -32.00526315789474,
+          29.18946385284002
+        ],
+        "thickness_mm": 1.80118
+      },
+      {
+        "field": "right_key",
+        "origin_mm": [
+          16.1,
+          -11.994736842105263,
+          29.321940358528785
+        ],
+        "thickness_mm": 1.79747
+      },
+      {
+        "field": "right_key",
+        "origin_mm": [
+          16.1,
+          -16.99736842105263,
+          29.718260504948766
+        ],
+        "thickness_mm": 1.79843
+      },
+      {
+        "field": "right_key",
+        "origin_mm": [
+          16.1,
+          -22.0,
+          29.849999999999998
+        ],
+        "thickness_mm": 1.8
+      },
+      {
+        "field": "right_key",
+        "origin_mm": [
+          16.1,
+          -27.00263157894737,
+          29.718260504948766
+        ],
+        "thickness_mm": 1.79843
+      },
+      {
+        "field": "right_key",
+        "origin_mm": [
+          16.1,
+          -32.00526315789474,
+          29.321940358528785
+        ],
+        "thickness_mm": 1.79747
+      },
+      {
+        "field": "right_key",
+        "origin_mm": [
+          21.10263157894737,
+          -11.994736842105263,
+          29.18946385284002
+        ],
+        "thickness_mm": 1.80112
+      },
+      {
+        "field": "right_key",
+        "origin_mm": [
+          21.10263157894737,
+          -16.99736842105263,
+          29.58633791095971
+        ],
+        "thickness_mm": 1.79853
+      },
+      {
+        "field": "right_key",
+        "origin_mm": [
+          21.10263157894737,
+          -22.0,
+          29.718260504948766
+        ],
+        "thickness_mm": 1.79956
+      },
+      {
+        "field": "right_key",
+        "origin_mm": [
+          21.10263157894737,
+          -27.00263157894737,
+          29.58633791095971
+        ],
+        "thickness_mm": 1.79853
+      },
+      {
+        "field": "right_key",
+        "origin_mm": [
+          21.10263157894737,
+          -32.00526315789474,
+          29.18946385284002
+        ],
+        "thickness_mm": 1.80112
+      },
+      {
+        "field": "thumb_contact",
+        "origin_mm": [
+          -27.625124070819563,
+          -36.00526315789474,
+          10.60157894736842
+        ],
+        "thickness_mm": 1.79625
+      },
+      {
+        "field": "thumb_contact",
+        "origin_mm": [
+          -27.577504081616958,
+          -36.00526315789474,
+          13.6
+        ],
+        "thickness_mm": 1.80401
+      },
+      {
+        "field": "thumb_contact",
+        "origin_mm": [
+          -27.625124070819563,
+          -36.00526315789474,
+          16.59842105263158
+        ],
+        "thickness_mm": 1.80043
+      },
+      {
+        "field": "thumb_contact",
+        "origin_mm": [
+          -27.22902195262834,
+          -41.002631578947366,
+          10.60157894736842
+        ],
+        "thickness_mm": 1.79918
+      },
+      {
+        "field": "thumb_contact",
+        "origin_mm": [
+          -27.18160089484602,
+          -41.002631578947366,
+          13.6
+        ],
+        "thickness_mm": 1.80217
+      },
+      {
+        "field": "thumb_contact",
+        "origin_mm": [
+          -27.22902195262834,
+          -41.002631578947366,
+          16.59842105263158
+        ],
+        "thickness_mm": 1.79918
+      },
+      {
+        "field": "thumb_contact",
+        "origin_mm": [
+          -27.097355299279794,
+          -46.0,
+          10.60157894736842
+        ],
+        "thickness_mm": 3.88044
+      },
+      {
+        "field": "thumb_contact",
+        "origin_mm": [
+          -27.05,
+          -46.0,
+          13.6
+        ],
+        "thickness_mm": 1.8
+      },
+      {
+        "field": "thumb_contact",
+        "origin_mm": [
+          -27.097355299279794,
+          -46.0,
+          16.59842105263158
+        ],
+        "thickness_mm": 3.85198
+      },
+      {
+        "field": "thumb_contact",
+        "origin_mm": [
+          -27.22902195262834,
+          -50.997368421052634,
+          10.60157894736842
+        ],
+        "thickness_mm": 1.79915
+      },
+      {
+        "field": "thumb_contact",
+        "origin_mm": [
+          -27.18160089484602,
+          -50.997368421052634,
+          13.6
+        ],
+        "thickness_mm": 1.79936
+      },
+      {
+        "field": "thumb_contact",
+        "origin_mm": [
+          -27.22902195262834,
+          -50.997368421052634,
+          16.59842105263158
+        ],
+        "thickness_mm": 1.79915
+      },
+      {
+        "field": "thumb_contact",
+        "origin_mm": [
+          -27.625124070819563,
+          -55.99473684210526,
+          10.60157894736842
+        ],
+        "thickness_mm": 1.7962
+      },
+      {
+        "field": "thumb_contact",
+        "origin_mm": [
+          -27.577504081616958,
+          -55.99473684210526,
+          13.6
+        ],
+        "thickness_mm": 1.79877
+      },
+      {
+        "field": "thumb_contact",
+        "origin_mm": [
+          -27.625124070819563,
+          -55.99473684210526,
+          16.59842105263158
+        ],
+        "thickness_mm": 1.7962
+      },
+      {
+        "field": "right_contact",
+        "origin_mm": [
+          27.54634967992876,
+          -36.00454545454546,
+          9.601363636363637
+        ],
+        "thickness_mm": 1.80056
+      },
+      {
+        "field": "right_contact",
+        "origin_mm": [
+          27.50528145873997,
+          -36.00454545454546,
+          12.6
+        ],
+        "thickness_mm": 1.80035
+      },
+      {
+        "field": "right_contact",
+        "origin_mm": [
+          27.54634967992876,
+          -36.00454545454546,
+          15.598636363636363
+        ],
+        "thickness_mm": 1.80798
+      },
+      {
+        "field": "right_contact",
+        "origin_mm": [
+          27.20458387498084,
+          -41.002272727272725,
+          9.601363636363637
+        ],
+        "thickness_mm": 1.80067
+      },
+      {
+        "field": "right_contact",
+        "origin_mm": [
+          27.163643441220078,
+          -41.002272727272725,
+          12.6
+        ],
+        "thickness_mm": 1.79977
+      },
+      {
+        "field": "right_contact",
+        "origin_mm": [
+          27.20458387498084,
+          -41.002272727272725,
+          15.598636363636363
+        ],
+        "thickness_mm": 1.80067
+      },
+      {
+        "field": "right_contact",
+        "origin_mm": [
+          27.09089810230148,
+          -46.0,
+          9.601363636363637
+        ],
+        "thickness_mm": 3.90903
+      },
+      {
+        "field": "right_contact",
+        "origin_mm": [
+          27.05,
+          -46.0,
+          12.6
+        ],
+        "thickness_mm": 3.68332
+      },
+      {
+        "field": "right_contact",
+        "origin_mm": [
+          27.09089810230148,
+          -46.0,
+          15.598636363636363
+        ],
+        "thickness_mm": 3.79483
+      },
+      {
+        "field": "right_contact",
+        "origin_mm": [
+          27.20458387498084,
+          -50.997727272727275,
+          9.601363636363637
+        ],
+        "thickness_mm": 1.79911
+      },
+      {
+        "field": "right_contact",
+        "origin_mm": [
+          27.163643441220078,
+          -50.997727272727275,
+          12.6
+        ],
+        "thickness_mm": 1.79713
+      },
+      {
+        "field": "right_contact",
+        "origin_mm": [
+          27.20458387498084,
+          -50.997727272727275,
+          15.598636363636363
+        ],
+        "thickness_mm": 1.80067
+      },
+      {
+        "field": "right_contact",
+        "origin_mm": [
+          27.54634967992876,
+          -55.99545454545454,
+          9.601363636363637
+        ],
+        "thickness_mm": 1.79994
+      },
+      {
+        "field": "right_contact",
+        "origin_mm": [
+          27.50528145873997,
+          -55.99545454545454,
+          12.6
+        ],
+        "thickness_mm": 1.7999
+      },
+      {
+        "field": "right_contact",
+        "origin_mm": [
+          27.54634967992876,
+          -55.99545454545454,
+          15.598636363636363
+        ],
+        "thickness_mm": 1.80056
+      }
+    ],
+    "min_mm": 1.7962,
+    "max_mm": 3.90903
+  },
+  "feet": [
+    {
+      "id": 1,
+      "center_xy_mm": [
+        -21,
+        -8.0
+      ],
+      "sample_count": 9,
+      "bottom_z_range_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 2,
+      "center_xy_mm": [
+        21,
+        -8.0
+      ],
+      "sample_count": 9,
+      "bottom_z_range_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 3,
+      "center_xy_mm": [
+        -23,
+        -61.0
+      ],
+      "sample_count": 9,
+      "bottom_z_range_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 4,
+      "center_xy_mm": [
+        25,
+        -63.0
+      ],
+      "sample_count": 9,
+      "bottom_z_range_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 5,
+      "center_xy_mm": [
+        0,
+        -85.6
+      ],
+      "sample_count": 9,
+      "bottom_z_range_mm": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "base_section": {
+    "z_mm": 0.2,
+    "solid_section_area_mm2": 1007.2616575350935,
+    "xy_convex_hull_area_mm2": 4822.832696768324,
+    "open_area_fraction": 0.7911472943670558
+  },
+  "envelope_pairs": [
+    {
+      "a": "main_pcb_and_components_EST",
+      "b": "wiring_channel_EST",
+      "overlap_mm3": 68.0
+    },
+    {
+      "a": "main_pcb_and_components_EST",
+      "b": "antenna_keepout_EST",
+      "overlap_mm3": 378.0
+    },
+    {
+      "a": "reference_breakout_pcb",
+      "b": "sensor_package_EST",
+      "overlap_mm3": 115.2
+    },
+    {
+      "a": "sensor_package_EST",
+      "b": "lens_EST",
+      "overlap_mm3": 100.8
+    },
+    {
+      "a": "left_switch_EST",
+      "b": "wiring_channel_EST",
+      "overlap_mm3": 10.0
+    },
+    {
+      "a": "battery_EST",
+      "b": "battery_connector_EST",
+      "overlap_mm3": 48.0
+    },
+    {
+      "a": "battery_EST",
+      "b": "antenna_keepout_EST",
+      "overlap_mm3": 189.0
+    }
+  ]
+}

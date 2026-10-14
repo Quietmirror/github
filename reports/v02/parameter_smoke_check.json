@@ -1,0 +1,14 @@
+{
+  "parameters_changed": "L94 W64 H32 grip56; both key patches back1; wheel back1.5; side bumps back1; mm",
+  "valid": true,
+  "solids": 1,
+  "dimensions_xyz_mm": [
+    63.98950498599261,
+    94.00000019999999,
+    32.0000001
+  ],
+  "volume_mm3": 21892.9130147799,
+  "scope": "One nearby parameter smoke check; no alternative print file exported; not a parameter-range certification",
+  "initial_attempt": {"exit_code": 1, "python_traceback": null, "cause": "not established", "result": "not validated"},
+  "retry": {"same_parameters": true, "exit_code": 0, "result": "valid single CAD solid; results above"}
+}

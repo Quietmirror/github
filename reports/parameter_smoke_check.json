@@ -1,0 +1,94 @@
+{
+  "test": "single near-default combined parameter change; no exported variant",
+  "parameters": {
+    "version": "0.1",
+    "units": "mm",
+    "length": 94,
+    "max_width": 64,
+    "height": 32,
+    "grip_width": 56,
+    "wall": 1.8,
+    "contact_rim_thickness": 2.4,
+    "contact_edge_radius": 1.0,
+    "rib_diameter": 2.8,
+    "base_rib_width": 2.6,
+    "base_rib_height": 2.6,
+    "inner_anchor_pad_depth": 3.2,
+    "inner_anchor_pad_span": 5.6,
+    "foot_diameter": 8.8,
+    "foot_thickness": 2.4,
+    "skate_diameter_reference": 7.5,
+    "skate_thickness_estimate": 0.7,
+    "left_key": {
+      "x": -16.1,
+      "y": 23,
+      "width": 24.4,
+      "length": 40.0,
+      "height_offset": 0.0,
+      "curvature_radius": 95.0
+    },
+    "right_key": {
+      "x": 16.1,
+      "y": 23,
+      "width": 24.4,
+      "length": 40.0,
+      "height_offset": -1.2,
+      "curvature_radius": 95.0
+    },
+    "thumb_contact": {
+      "y": 46.0,
+      "z": 13.6,
+      "length": 42.0,
+      "height": 19.0,
+      "curvature_radius": 95.0
+    },
+    "right_contact": {
+      "y": 46.0,
+      "z": 12.6,
+      "length": 46.0,
+      "height": 19.0,
+      "curvature_radius": 110.0
+    },
+    "side_buttons": [
+      {
+        "y": 34,
+        "z": 21.5,
+        "length": 10.5
+      },
+      {
+        "y": 48,
+        "z": 21.5,
+        "length": 10.5
+      }
+    ],
+    "wheel": {
+      "x": 0.0,
+      "y": 17,
+      "height_offset": 0.0,
+      "diameter": 15.0,
+      "width": 5.2
+    },
+    "sensor": {
+      "x": 0.0,
+      "y": 48.0,
+      "frame_z": 2.6,
+      "opening_width": 14.0,
+      "opening_length": 18.0
+    },
+    "human_data": {
+      "wrist_to_middle_tip_approx": 230,
+      "thumb_to_pinky_spread_approx": 190,
+      "palm_width": null,
+      "phalange_lengths": null,
+      "actual_grip": null
+    },
+    "notes": "All mouse dimensions are V0.1 fit hypotheses. Human AR measurements do not drive global scale. Electronic positions are estimates, not mounting dimensions."
+  },
+  "valid": true,
+  "solids": 1,
+  "dimensions_xyz_mm": [
+    64.0,
+    94.0000001,
+    32.0000001
+  ]
+}

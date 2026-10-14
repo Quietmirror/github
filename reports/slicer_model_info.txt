@@ -1,0 +1,14 @@
+[quietmirror_fingertip_V0.1.stl]
+size_x = 61.999168
+size_y = 89.999992
+size_z = 31.000000
+min_x = -30.999168
+min_y = -89.999992
+min_z = 0.000000
+max_x = 31.000000
+max_y = 0.000000
+max_z = 31.000000
+number_of_facets = 179008
+manifold = yes
+number_of_parts =  1
+volume = 14694.689453

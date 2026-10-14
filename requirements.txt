@@ -1,0 +1,11 @@
+# Python 3.12 used for V0.1 generation and verification.
+cadquery==2.8.0
+trimesh==5.1.1
+numpy==2.5.4
+rtree==1.4.1
+networkx==3.7
+shapely==2.2.0
+pymeshlab==2025.7.post1
+matplotlib==3.11.2
+Pillow==12.3.0
+# vtk is installed by cadquery; used only for renders.

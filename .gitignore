@@ -1,0 +1,10 @@
+.tools/
+.venv/
+.reference/
+deliverables/
+__pycache__/
+*.pyc
+*.gcode
+*.bgcode
+*.log
+*.brep
