@@ -1,0 +1,3288 @@
+{
+  "baseline_commit": "c200308ceafff8805ebec9744344d4626b925dfa",
+  "unchanged_previous_files": 819,
+  "verified_files": [
+    {
+      "path": ".gitattributes",
+      "unchanged": true
+    },
+    {
+      "path": ".gitignore",
+      "unchanged": true
+    },
+    {
+      "path": "LICENSE",
+      "unchanged": true
+    },
+    {
+      "path": "NOTICE.md",
+      "unchanged": true
+    },
+    {
+      "path": "README_V0.1.md",
+      "unchanged": true
+    },
+    {
+      "path": "README_V0.2.md",
+      "unchanged": true
+    },
+    {
+      "path": "README_V0.3.md",
+      "unchanged": true
+    },
+    {
+      "path": "README_V0.4.md",
+      "unchanged": true
+    },
+    {
+      "path": "README_V0.5.md",
+      "unchanged": true
+    },
+    {
+      "path": "README_V0.6.md",
+      "unchanged": true
+    },
+    {
+      "path": "README_V0.7.md",
+      "unchanged": true
+    },
+    {
+      "path": "cad/PARAMETERS.md",
+      "unchanged": true
+    },
+    {
+      "path": "cad/PARAMETERS_V0.2.md",
+      "unchanged": true
+    },
+    {
+      "path": "cad/PARAMETERS_V0.3.md",
+      "unchanged": true
+    },
+    {
+      "path": "cad/PARAMETERS_V0.4.md",
+      "unchanged": true
+    },
+    {
+      "path": "cad/PARAMETERS_V0.5.md",
+      "unchanged": true
+    },
+    {
+      "path": "cad/PARAMETERS_V0.6.md",
+      "unchanged": true
+    },
+    {
+      "path": "cad/PARAMETERS_V0.7.md",
+      "unchanged": true
+    },
+    {
+      "path": "cad/PARAMETERS_V0.8.md",
+      "unchanged": true
+    },
+    {
+      "path": "cad/analyze_slice.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/build_mouse.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/build_v02.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/build_v03.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/build_v04.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/build_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/build_v06.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/build_v07.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/build_v08.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/calibration_v07.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/calibration_v08.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_3mf_roundtrip.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_bottom_v04.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_bottom_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_geometry_v06.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_geometry_v07.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_geometry_v08.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_history_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_history_v06.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_history_v07.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_history_v08.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_package_v07.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_package_v08.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_side_button_path_v03.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_side_button_path_v04.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_side_button_path_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_side_button_path_v06.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_vents_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/clearances_v07.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/clearances_v08.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/electronics_v06.json",
+      "unchanged": true
+    },
+    {
+      "path": "cad/electronics_v06.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/electronics_v07.json",
+      "unchanged": true
+    },
+    {
+      "path": "cad/electronics_v07.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/electronics_v08.json",
+      "unchanged": true
+    },
+    {
+      "path": "cad/electronics_v08.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/embed_3mf_profile.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/inspect_references.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/make_diagrams.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/mechanisms_v07.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/mechanisms_v08.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/open_v07_in_FreeCAD.FCMacro",
+      "unchanged": true
+    },
+    {
+      "path": "cad/open_v08_in_FreeCAD.FCMacro",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameter_smoke_v02.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameters.json",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameters_v02.json",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameters_v03.json",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameters_v04.json",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameters_v05.json",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameters_v06.json",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameters_v07.json",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameters_v08.json",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_comparison.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_electronics_v07.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_electronics_v08.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_v02.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_v03.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_v04.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_v06.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_v07.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_v08.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_vents_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_views.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/slice_v06.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/slice_v07.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/slice_v08.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_electronics_v06.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_mouse.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_v02.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_v03.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_v04.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_v06.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_v07.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_v08.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/vent_layout_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/vent_layout_v06.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_electronics_v02.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_electronics_v03.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_electronics_v04.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_electronics_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_release_v04.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_release_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_release_v06.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_release_v07.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_release_v08.py",
+      "unchanged": true
+    },
+    {
+      "path": "exports/electronic_envelopes_ESTIMATES.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/quietmirror_fingertip_V0.1.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/quietmirror_fingertip_V0.1.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/quietmirror_fingertip_V0.1_PRINT.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v02/electronic_envelopes_V0.2_ESTIMATES.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v02/quietmirror_fingertip_V0.2.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v02/quietmirror_fingertip_V0.2.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v02/quietmirror_fingertip_V0.2_PRINT.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/electronic_envelopes_V0.3_ESTIMATES.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/quietmirror_fingertip_V0.3_FIT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/quietmirror_fingertip_V0.3_FIT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/quietmirror_fingertip_V0.3_PRINT.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/quietmirror_fingertip_V0.3_SHELL.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/quietmirror_fingertip_V0.3_SHELL.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/side_button_1_V0.3_PRINT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/side_button_1_V0.3_PRINT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/side_button_2_V0.3_PRINT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/side_button_2_V0.3_PRINT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/side_button_assembly_V0.3.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/electronic_envelopes_V0.4_ESTIMATES.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/quietmirror_fingertip_V0.4_FIT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/quietmirror_fingertip_V0.4_FIT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/quietmirror_fingertip_V0.4_PRINT.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/quietmirror_fingertip_V0.4_SHELL.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/quietmirror_fingertip_V0.4_SHELL.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/side_button_1_V0.4_PRINT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/side_button_1_V0.4_PRINT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/side_button_2_V0.4_PRINT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/side_button_2_V0.4_PRINT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/side_button_assembly_V0.4.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/electronic_envelopes_V0.5_ESTIMATES.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/quietmirror_fingertip_V0.5_FIT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/quietmirror_fingertip_V0.5_FIT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/quietmirror_fingertip_V0.5_PRINT.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/quietmirror_fingertip_V0.5_SHELL.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/quietmirror_fingertip_V0.5_SHELL.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/side_button_1_V0.5_PRINT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/side_button_1_V0.5_PRINT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/side_button_2_V0.5_PRINT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/side_button_2_V0.5_PRINT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/side_button_assembly_V0.5.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/USB_C_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/USB_harness_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/USB_plug_insertion_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/antenna_keepout_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/battery_500mAh_TARGET.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/battery_harness_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/battery_plug_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/battery_swell_service_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/charge_powerpath_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/donor_MCU_RF_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/donor_antenna_region_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/donor_mainboard_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/encoder_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/front_side_switch_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/left_key_travel_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/left_switch_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/lens_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/middle_switch_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/optical_axis_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/power_switch_body_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/power_switch_tab_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/rear_side_switch_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/right_key_travel_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/right_switch_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/sensor_package_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/side_board_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/side_harness_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/wheel_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/ATK_A1_PLUS/wheel_axle_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/MCU_RF_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/RF_board_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/RF_harness_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/USB_C_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/USB_harness_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/USB_plug_insertion_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/antenna_keepout_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/battery_500mAh_TARGET.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/battery_harness_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/battery_plug_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/battery_swell_service_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/charge_powerpath_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/custom_mainboard_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/encoder_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/front_side_switch_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/left_key_travel_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/left_switch_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/lens_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/middle_switch_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/optical_axis_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/power_switch_body_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/power_switch_tab_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/rear_side_switch_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/right_key_travel_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/right_switch_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/sensor_board_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/sensor_package_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/side_board_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/side_harness_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/wheel_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/PAW3950_CUSTOM/wheel_axle_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/quietmirror_V0.6_ATK_A1_PLUS_ESTIMATED.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/quietmirror_V0.6_ATK_A1_PLUS_ESTIMATED_CLEARANCES.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/quietmirror_V0.6_ATK_A1_PLUS_ESTIMATED_VIEW_ONLY.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/quietmirror_V0.6_PAW3950_CUSTOM_ESTIMATED.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/quietmirror_V0.6_PAW3950_CUSTOM_ESTIMATED_CLEARANCES.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/quietmirror_V0.6_PAW3950_CUSTOM_ESTIMATED_VIEW_ONLY.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/quietmirror_fingertip_V0.6_FIT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/quietmirror_fingertip_V0.6_FIT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/quietmirror_fingertip_V0.6_PRINT.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/quietmirror_fingertip_V0.6_SHELL.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/quietmirror_fingertip_V0.6_SHELL.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/side_button_1_V0.6_PRINT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/side_button_1_V0.6_PRINT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/side_button_2_V0.6_PRINT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v06/side_button_2_V0.6_PRINT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/USB_C_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/USB_C_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/USB_plug_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/antenna_clearance_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/battery_500mAh_TARGET.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/battery_500mAh_TARGET.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/battery_plug_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/battery_plug_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/battery_service_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/charge_powerpath_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/charge_powerpath_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/donor_MCU_RF_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/donor_MCU_RF_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/donor_antenna_region_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/donor_antenna_region_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/donor_mainboard_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/donor_mainboard_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/encoder_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/encoder_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/left_wire_corridor_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/lens_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/lens_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/optical_path_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/power_switch_body_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/power_switch_body_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/power_switch_tab_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/power_switch_tab_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/right_wire_corridor_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/sensor_package_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/sensor_package_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/side_board_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/ATK_A1_PLUS/side_board_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/MCU_RF_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/MCU_RF_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/RF_board_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/RF_board_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/USB_C_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/USB_C_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/USB_plug_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/antenna_clearance_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/battery_500mAh_TARGET.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/battery_500mAh_TARGET.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/battery_plug_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/battery_plug_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/battery_service_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/custom_mainboard_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/custom_mainboard_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/encoder_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/encoder_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/left_wire_corridor_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/lens_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/lens_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/optical_path_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/power_switch_body_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/power_switch_body_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/power_switch_tab_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/power_switch_tab_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/right_wire_corridor_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/sensor_board_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/sensor_board_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/sensor_package_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/sensor_package_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/side_board_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/PAW3950_CUSTOM/side_board_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/calibration/AXLE_TEST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/calibration/AXLE_TEST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/calibration/CLEARANCE_COUPON.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/calibration/CLEARANCE_COUPON.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/calibration/STEM_TEST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/calibration/STEM_TEST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/AXLE.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/AXLE.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/AXLE_WASHER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/AXLE_WASHER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/BODY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/BODY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/DETENT_LEAF.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/DETENT_LEAF.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/WHEEL.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/WHEEL.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/WHEEL_CARRIER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/WHEEL_CARRIER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/left_KEY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/left_KEY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/left_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/left_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/left_SWITCH_EXAMPLE.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/left_SWITCH_EXAMPLE.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/left_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/left_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/middle_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/middle_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/middle_SWITCH_EXAMPLE.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/middle_SWITCH_EXAMPLE.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/middle_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/middle_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/right_KEY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/right_KEY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/right_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/right_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/right_SWITCH_EXAMPLE.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/right_SWITCH_EXAMPLE.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/right_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/right_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/thumb_front_KEY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/thumb_front_KEY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/thumb_front_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/thumb_front_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/thumb_front_SWITCH_EXAMPLE.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/thumb_front_SWITCH_EXAMPLE.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/thumb_front_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/thumb_front_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/thumb_rear_KEY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/thumb_rear_KEY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/thumb_rear_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/thumb_rear_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/thumb_rear_SWITCH_EXAMPLE.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/thumb_rear_SWITCH_EXAMPLE.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/thumb_rear_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/placed/thumb_rear_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/AXLE.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/AXLE.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/AXLE_WASHER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/AXLE_WASHER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/BODY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/BODY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/DETENT_LEAF.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/DETENT_LEAF.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/WHEEL.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/WHEEL.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/WHEEL_CARRIER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/WHEEL_CARRIER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/left_KEY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/left_KEY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/left_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/left_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/left_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/left_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/middle_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/middle_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/middle_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/middle_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/right_KEY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/right_KEY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/right_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/right_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/right_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/right_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/thumb_front_KEY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/thumb_front_KEY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/thumb_front_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/thumb_front_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/thumb_front_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/thumb_front_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/thumb_rear_KEY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/thumb_rear_KEY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/thumb_rear_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/thumb_rear_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/thumb_rear_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/print/thumb_rear_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/quietmirror_V0.7_ATK_A1_PLUS_CLEARANCES.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/quietmirror_V0.7_ATK_A1_PLUS_ESTIMATED.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/quietmirror_V0.7_ATK_A1_PLUS_VIEW_ONLY.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/quietmirror_V0.7_MECHANICAL_ASSEMBLY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/quietmirror_V0.7_MECHANICAL_VIEW_ONLY.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/quietmirror_V0.7_PAW3950_CUSTOM_CLEARANCES.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/quietmirror_V0.7_PAW3950_CUSTOM_ESTIMATED.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/quietmirror_V0.7_PAW3950_CUSTOM_VIEW_ONLY.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v07/quietmirror_V0.7_PRINT_PLATE.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/USB_C_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/USB_C_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/USB_plug_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/antenna_clearance_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/battery_500mAh_TARGET.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/battery_500mAh_TARGET.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/battery_plug_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/battery_plug_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/battery_service_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/charge_powerpath_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/charge_powerpath_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/donor_MCU_RF_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/donor_MCU_RF_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/donor_antenna_region_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/donor_antenna_region_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/donor_mainboard_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/donor_mainboard_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/encoder_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/encoder_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/left_wire_corridor_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/lens_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/lens_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/optical_path_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/power_switch_body_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/power_switch_body_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/power_switch_tab_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/power_switch_tab_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/right_wire_corridor_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/sensor_package_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/sensor_package_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/side_board_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/ATK_A1_PLUS/side_board_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/MCU_RF_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/MCU_RF_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/RF_board_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/RF_board_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/USB_C_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/USB_C_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/USB_plug_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/antenna_clearance_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/battery_500mAh_TARGET.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/battery_500mAh_TARGET.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/battery_plug_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/battery_plug_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/battery_service_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/custom_mainboard_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/custom_mainboard_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/encoder_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/encoder_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/left_wire_corridor_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/lens_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/lens_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/optical_path_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/power_switch_body_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/power_switch_body_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/power_switch_tab_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/power_switch_tab_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/right_wire_corridor_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/sensor_board_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/sensor_board_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/sensor_package_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/sensor_package_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/side_board_EST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/PAW3950_CUSTOM/side_board_EST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/calibration/AXLE_TEST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/calibration/AXLE_TEST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/calibration/CLEARANCE_COUPON.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/calibration/CLEARANCE_COUPON.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/calibration/STEM_TEST.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/calibration/STEM_TEST.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/AXLE.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/AXLE.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/AXLE_WASHER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/AXLE_WASHER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/BODY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/BODY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/DETENT_LEAF.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/DETENT_LEAF.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/WHEEL.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/WHEEL.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/WHEEL_CARRIER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/WHEEL_CARRIER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/left_KEY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/left_KEY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/left_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/left_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/left_SWITCH_EXAMPLE.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/left_SWITCH_EXAMPLE.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/left_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/left_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/middle_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/middle_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/middle_SWITCH_EXAMPLE.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/middle_SWITCH_EXAMPLE.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/middle_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/middle_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/right_KEY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/right_KEY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/right_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/right_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/right_SWITCH_EXAMPLE.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/right_SWITCH_EXAMPLE.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/right_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/right_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/thumb_front_KEY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/thumb_front_KEY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/thumb_front_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/thumb_front_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/thumb_front_SWITCH_EXAMPLE.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/thumb_front_SWITCH_EXAMPLE.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/thumb_front_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/thumb_front_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/thumb_rear_KEY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/thumb_rear_KEY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/thumb_rear_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/thumb_rear_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/thumb_rear_SWITCH_EXAMPLE.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/thumb_rear_SWITCH_EXAMPLE.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/thumb_rear_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/placed/thumb_rear_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/AXLE.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/AXLE.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/AXLE_WASHER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/AXLE_WASHER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/BODY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/BODY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/DETENT_LEAF.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/DETENT_LEAF.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/WHEEL.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/WHEEL.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/WHEEL_CARRIER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/WHEEL_CARRIER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/left_KEY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/left_KEY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/left_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/left_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/left_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/left_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/middle_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/middle_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/middle_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/middle_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/right_KEY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/right_KEY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/right_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/right_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/right_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/right_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/thumb_front_KEY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/thumb_front_KEY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/thumb_front_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/thumb_front_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/thumb_front_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/thumb_front_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/thumb_rear_KEY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/thumb_rear_KEY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/thumb_rear_RETAINER.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/thumb_rear_RETAINER.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/thumb_rear_TRAY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/print/thumb_rear_TRAY.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/quietmirror_V0.8_ATK_A1_PLUS_CLEARANCES.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/quietmirror_V0.8_ATK_A1_PLUS_ESTIMATED.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/quietmirror_V0.8_ATK_A1_PLUS_VIEW_ONLY.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/quietmirror_V0.8_MECHANICAL_ASSEMBLY.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/quietmirror_V0.8_MECHANICAL_VIEW_ONLY.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/quietmirror_V0.8_PAW3950_CUSTOM_CLEARANCES.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/quietmirror_V0.8_PAW3950_CUSTOM_ESTIMATED.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/quietmirror_V0.8_PAW3950_CUSTOM_VIEW_ONLY.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v08/quietmirror_V0.8_PRINT_PLATE.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "references/FENRIR_REFERENCE.md",
+      "unchanged": true
+    },
+    {
+      "path": "references/FINALMOUSE_MINISE_REFERENCE.md",
+      "unchanged": true
+    },
+    {
+      "path": "references/GWOLVES_REFERENCE.md",
+      "unchanged": true
+    },
+    {
+      "path": "references/REFERENCE_REVIEW.md",
+      "unchanged": true
+    },
+    {
+      "path": "references/V0.7_REFERENCE_NOTES.md",
+      "unchanged": true
+    },
+    {
+      "path": "references/V0.8_REFERENCE_NOTES.md",
+      "unchanged": true
+    },
+    {
+      "path": "references/licenses/Kotinos-GPL-3.0.txt",
+      "unchanged": true
+    },
+    {
+      "path": "references/licenses/olliebella-CERN-OHL-P-2.0.txt",
+      "unchanged": true
+    },
+    {
+      "path": "references/licenses/paw3395-pcb-CERN-OHL-P-2.0.txt",
+      "unchanged": true
+    },
+    {
+      "path": "reports/3mf_roundtrip.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/V0.1_\u8bbe\u8ba1\u4e0e\u9a8c\u8bc1\u62a5\u544a.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/cad_metrics.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/envelope_interferences.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/parameter_smoke_check.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/reference_geometry.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/slice_summary.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/slicer_model_info.txt",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/3mf_roundtrip.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/DESIGN.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/ELECTRONICS.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/FIT_FEEDBACK.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/cad_metrics.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/envelope_interferences.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/parameter_smoke_check.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/slice_summary.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/slicer_model_info.txt",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/validation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/3mf_roundtrip.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/DESIGN.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/ELECTRONICS.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/FIT_FEEDBACK.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/cad_metrics.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/envelope_interferences.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/separate_parts_slice.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/side_button_insertion.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/slice_summary.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/slicer_model_info.txt",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/validation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/3mf_roundtrip.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/DESIGN.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/ELECTRONICS.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/FIT_FEEDBACK.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/bottom_preservation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/cad_metrics.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/envelope_interferences.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/history_preservation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/separate_parts_slice.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/side_button_insertion.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/slice_summary.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/slicer_model_info.txt",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/validation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/3mf_roundtrip.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/DESIGN.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/ELECTRONICS.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/FIT_FEEDBACK.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/bottom_preservation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/cad_metrics.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/comparison_slice.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/envelope_interferences.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/history_preservation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/separate_parts_slice.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/side_button_insertion.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/slice_summary.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/slicer_model_info.txt",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/validation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/vent_layout.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/vent_verification.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/3mf_roundtrip.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/ASSEMBLY_CHECKS.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/ATK_A1_PLUS_layout.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/DESIGN.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/ELECTRONICS.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/FIT_FEEDBACK.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/PAW3950_CUSTOM_layout.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/cad_metrics.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/electronics_validation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/geometry_checks.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/history_preservation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/power_budget.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/separate_parts_slice.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/side_button_insertion.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/slice_summary.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/slicer_model_info.txt",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/underside_web_rails.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/validation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v06/vent_layout.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v07/ASSEMBLY.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v07/ATK_A1_PLUS_clearances.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v07/ATK_A1_PLUS_layout.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v07/DESIGN.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v07/ELECTRONICS.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v07/PAW3950_CUSTOM_clearances.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v07/PAW3950_CUSTOM_layout.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v07/cad_metrics.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v07/geometry_checks.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v07/history_preservation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v07/package_checks.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v07/slice_summary.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v07/slicer_model_info.txt",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v07/static_intersections.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v07/validation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v07/vent_layout.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v08/ASSEMBLY.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v08/ATK_A1_PLUS_clearances.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v08/ATK_A1_PLUS_layout.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v08/DESIGN.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v08/ELECTRONICS.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v08/PAW3950_CUSTOM_clearances.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v08/PAW3950_CUSTOM_layout.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v08/base_trim.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v08/cad_metrics.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v08/geometry_checks.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v08/history_preservation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v08/package_checks.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v08/slice_summary.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v08/slicer_model_info.txt",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v08/static_intersections.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v08/validation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v08/vent_layout.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/validation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/\u7535\u5b50\u5305\u7edc\u4e0e\u88c5\u914d\u5f85\u6d4b.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/\u8bd5\u63e1\u53cd\u9988\u8868.md",
+      "unchanged": true
+    },
+    {
+      "path": "requirements.txt",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/PLA_0.4_0.20_ESTIMATE.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/PLA_0.4_0.20_FULL.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.2_PLA_0.4_0.20_ESTIMATE.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.2_PLA_0.4_0.20_FULL.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.2_PRINTING.md",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.3_PLA_0.4_0.20_ESTIMATE.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.3_PLA_0.4_0.20_FULL.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.3_PRINTING.md",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.4_PLA_0.4_0.20_ESTIMATE.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.4_PLA_0.4_0.20_FULL.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.4_PRINTING.md",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.5_PLA_0.4_0.20_ESTIMATE.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.5_PLA_0.4_0.20_FULL.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.5_PRINTING.md",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.6_PLA_0.4_0.20_ESTIMATE.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.6_PLA_0.4_0.20_FULL.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.6_PRINTING.md",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.7_PLA_0.4_0.20_ESTIMATE.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.7_PLA_0.4_0.20_FULL.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.8_PLA_0.4_0.20_ESTIMATE.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.8_PLA_0.4_0.20_FULL.ini",
+      "unchanged": true
+    },
+    {
+      "path": "views/01_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/02_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/03_left_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/04_bottom.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/05_right_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/06_envelopes.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/07_dimensions.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/08_envelope_layout.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/09_slice_layers.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/history_V0.1-V0.4.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/history_V0.1-V0.5.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/ref_kotinos.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/ref_olliebella.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/01_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/02_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/03_left_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/04_bottom.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/05_right_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/06_envelopes.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/07_dimensions.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/08_envelope_layout.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/09_slice_layers.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/10_comparison.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/01_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/02_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/03_left_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/04_bottom.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/05_right_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/06_envelopes.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/07_dimensions.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/08_envelope_layout.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/09_slice_layers.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/10_comparison.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/11_side_buttons_exploded.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/12_side_buttons_fitted.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/01_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/02_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/03_left_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/04_bottom.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/05_right_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/06_envelopes.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/07_dimensions.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/08_envelope_layout.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/09_slice_layers.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/10_comparison.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/11_side_buttons_exploded.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/12_side_buttons_fitted.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/13_frozen_bottom.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/01_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/02_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/03_left_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/04_bottom.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/05_right_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/06_envelopes.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/07_dimensions.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/08_envelope_layout.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/09_slice_layers.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/10_comparison.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/11_side_buttons_exploded.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/12_side_buttons_fitted.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/13_frozen_bottom.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/14_vent_layout.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/14_vent_layout.svg",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/01_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/02_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/03_left_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/04_bottom.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/05_right_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/06_front_charge.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/07_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/07_layout.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/07_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/07_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/08_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/08_layout.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/08_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/08_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/09_slice_layers.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/10_three_variants.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/11_comparison.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/12_vent_layout.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v06/12_vent_layout.svg",
+      "unchanged": true
+    },
+    {
+      "path": "views/v07/01_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v07/02_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v07/03_left_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v07/04_bottom.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v07/05_right_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v07/06_front.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v07/07_exploded.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v07/08_internal.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v07/09_comparison.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v07/10_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v07/10_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v07/10_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v07/11_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v07/11_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v07/11_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v07/12_three_variants.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v08/01_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v08/02_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v08/03_left_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v08/04_bottom.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v08/05_right_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v08/06_front.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v08/07_exploded.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v08/08_internal.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v08/09_comparison.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v08/10_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v08/10_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v08/10_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v08/11_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v08/11_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v08/11_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v08/12_three_variants.png",
+      "unchanged": true
+    }
+  ],
+  "allowed_index_updates": [
+    "HISTORY.md",
+    "README.md"
+  ],
+  "readme_v08_exact_byte_archive": true,
+  "note": "All earlier models, source, parameters, images, reports and profiles retained. Only the shared README and HISTORY index are updated."
+}

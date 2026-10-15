@@ -1,0 +1,420 @@
+{
+  "variant": "PAW3950_CUSTOM",
+  "all_dimensions_estimated": true,
+  "physical": [
+    {
+      "name": "custom_mainboard_EST",
+      "kind": "pcb",
+      "size": [
+        20,
+        14,
+        1.2
+      ],
+      "center": [
+        0,
+        -10,
+        4.2
+      ],
+      "basis": "Estimated controller/charging board area, no routed PCB design.",
+      "cutouts": [],
+      "file": "exports/v09/PAW3950_CUSTOM/custom_mainboard_EST.stl",
+      "color": [
+        0.14,
+        0.48,
+        0.35
+      ],
+      "mechanical_hits": [],
+      "moving_part_hits": []
+    },
+    {
+      "name": "sensor_board_EST",
+      "kind": "pcb",
+      "size": [
+        18,
+        16,
+        1.2
+      ],
+      "center": [
+        0,
+        -50,
+        8.8
+      ],
+      "basis": "Separate optical daughterboard; PAW3950 package is not a board standard.",
+      "file": "exports/v09/PAW3950_CUSTOM/sensor_board_EST.stl",
+      "color": [
+        0.14,
+        0.48,
+        0.35
+      ],
+      "mechanical_hits": [],
+      "moving_part_hits": []
+    },
+    {
+      "name": "RF_board_EST",
+      "kind": "pcb",
+      "size": [
+        22,
+        16,
+        1.2
+      ],
+      "center": [
+        0,
+        -63,
+        7.5
+      ],
+      "basis": "Proprietary 2.4 GHz target and matched USB receiver.",
+      "file": "exports/v09/PAW3950_CUSTOM/RF_board_EST.stl",
+      "color": [
+        0.14,
+        0.48,
+        0.35
+      ],
+      "mechanical_hits": [],
+      "moving_part_hits": []
+    },
+    {
+      "name": "MCU_RF_EST",
+      "kind": "chip",
+      "size": [
+        7,
+        7,
+        2.6
+      ],
+      "center": [
+        0,
+        -62,
+        9.4
+      ],
+      "basis": "Example architecture class; no component or firmware selection asserted.",
+      "file": "exports/v09/PAW3950_CUSTOM/MCU_RF_EST.stl",
+      "color": [
+        0.14,
+        0.17,
+        0.2
+      ],
+      "mechanical_hits": [],
+      "moving_part_hits": []
+    },
+    {
+      "name": "battery_500mAh_TARGET",
+      "kind": "battery",
+      "size": [
+        20,
+        24,
+        6
+      ],
+      "center": [
+        5,
+        -53.5,
+        15.5
+      ],
+      "basis": "Smaller package target only; 500 mAh capacity in this envelope is NOT verified. Measure an actual cell before acceptance.",
+      "file": "exports/v09/PAW3950_CUSTOM/battery_500mAh_TARGET.stl",
+      "color": [
+        0.81,
+        0.7,
+        0.35
+      ],
+      "mechanical_hits": [],
+      "moving_part_hits": []
+    },
+    {
+      "name": "battery_plug_EST",
+      "kind": "connector",
+      "size": [
+        5,
+        6,
+        3
+      ],
+      "center": [
+        15.8,
+        -48,
+        10.8
+      ],
+      "basis": "Polarity, mating direction and retention unconfirmed.",
+      "file": "exports/v09/PAW3950_CUSTOM/battery_plug_EST.stl",
+      "color": [
+        0.65,
+        0.72,
+        0.77
+      ],
+      "mechanical_hits": [],
+      "moving_part_hits": []
+    },
+    {
+      "name": "sensor_package_EST",
+      "kind": "chip",
+      "size": [
+        8,
+        8,
+        2.4
+      ],
+      "center": [
+        0,
+        -48,
+        10.7
+      ],
+      "basis": "Sensor identity unknown on ATK; PAW3950 target for custom.",
+      "file": "exports/v09/PAW3950_CUSTOM/sensor_package_EST.stl",
+      "color": [
+        0.14,
+        0.17,
+        0.2
+      ],
+      "mechanical_hits": [],
+      "moving_part_hits": []
+    },
+    {
+      "name": "lens_EST",
+      "kind": "lens",
+      "size": [
+        12,
+        14,
+        2.8
+      ],
+      "center": [
+        0,
+        -48,
+        6.7
+      ],
+      "basis": "Z is a layout placeholder, NOT the lens-to-pad specification.",
+      "file": "exports/v09/PAW3950_CUSTOM/lens_EST.stl",
+      "color": [
+        0.25,
+        0.66,
+        0.78
+      ],
+      "mechanical_hits": [],
+      "moving_part_hits": []
+    },
+    {
+      "name": "encoder_EST",
+      "kind": "switch",
+      "size": [
+        4,
+        6,
+        7
+      ],
+      "center": [
+        -10.9,
+        -14,
+        9.5
+      ],
+      "basis": "Same 4 x 6 x 7 mm estimate lowered below the shared-surface front key. Wheel axis coupling remains undesigned.",
+      "file": "exports/v09/PAW3950_CUSTOM/encoder_EST.stl",
+      "color": [
+        0.8,
+        0.41,
+        0.24
+      ],
+      "mechanical_hits": [],
+      "moving_part_hits": []
+    },
+    {
+      "name": "side_board_EST",
+      "kind": "pcb",
+      "size": [
+        1.2,
+        10,
+        4.6
+      ],
+      "center": [
+        -20,
+        -61.5,
+        10.3
+      ],
+      "basis": "Estimated rearward side board clear of the two lower mounting bosses; actual switch linkage, cable routing and donor geometry are not established.",
+      "file": "exports/v09/PAW3950_CUSTOM/side_board_EST.stl",
+      "color": [
+        0.14,
+        0.48,
+        0.35
+      ],
+      "mechanical_hits": [],
+      "moving_part_hits": []
+    },
+    {
+      "name": "USB_C_EST",
+      "kind": "connector",
+      "size": [
+        9,
+        9,
+        3.2
+      ],
+      "center": [
+        0,
+        -4.5,
+        7.1
+      ],
+      "basis": "Port shell envelope; board relocation may be needed for donor.",
+      "file": "exports/v09/PAW3950_CUSTOM/USB_C_EST.stl",
+      "color": [
+        0.65,
+        0.72,
+        0.77
+      ],
+      "mechanical_hits": [],
+      "moving_part_hits": []
+    },
+    {
+      "name": "power_switch_body_EST",
+      "kind": "switch",
+      "size": [
+        8,
+        4,
+        3
+      ],
+      "center": [
+        0,
+        -72,
+        5.4
+      ],
+      "basis": "Bottom actuator aperture; neutral centred visualization.",
+      "cutouts": [
+        {
+          "size": [
+            3.4,
+            2.4,
+            1
+          ],
+          "center": [
+            0,
+            -72,
+            3.8
+          ],
+          "basis": "Conceptual actuator clearance in estimated housing, not a machining dimension."
+        }
+      ],
+      "file": "exports/v09/PAW3950_CUSTOM/power_switch_body_EST.stl",
+      "color": [
+        0.8,
+        0.41,
+        0.24
+      ],
+      "mechanical_hits": [],
+      "moving_part_hits": []
+    },
+    {
+      "name": "power_switch_tab_EST",
+      "kind": "switch",
+      "size": [
+        3,
+        2,
+        1.8
+      ],
+      "center": [
+        0,
+        -72,
+        3.1
+      ],
+      "basis": "Slider travel not represented by an off-centre outside protrusion.",
+      "file": "exports/v09/PAW3950_CUSTOM/power_switch_tab_EST.stl",
+      "color": [
+        0.8,
+        0.41,
+        0.24
+      ],
+      "mechanical_hits": [],
+      "moving_part_hits": []
+    }
+  ],
+  "component_intersections": [],
+  "mechanical_parts": [
+    "BODY",
+    "left_KEY",
+    "right_KEY",
+    "thumb_front_KEY",
+    "thumb_rear_KEY",
+    "WHEEL",
+    "AXLE",
+    "AXLE_WASHER",
+    "WHEEL_CARRIER"
+  ],
+  "omitted_trial_fixtures": [
+    "DETENT_LEAF",
+    "left_RETAINER",
+    "left_TRAY",
+    "middle_RETAINER",
+    "middle_TRAY",
+    "right_RETAINER",
+    "right_TRAY",
+    "thumb_front_RETAINER",
+    "thumb_front_TRAY",
+    "thumb_rear_RETAINER",
+    "thumb_rear_TRAY"
+  ],
+  "status": "Estimated electronic layouts. Eleven switch-trial fixtures (five trays, five retainers, detent leaf) are omitted in these separate configurations. Final PCB/switch mounts and encoder coupling are not designed; do not assemble these scenes as a working mouse.",
+  "switches": "Five tactile envelopes mark trial contact locations; their trays and retainers are excluded from electronic layout scenes and must be replaced by measured hardware/mounting.",
+  "power": {
+    "capacity_target_mAh": 500,
+    "usable_fraction": 0.75,
+    "continuous_average_current_budget_mA": 30,
+    "calculated_hours": 12.5,
+    "required_hours": 12,
+    "maximum_average_current_for_12h_mA": 31.25,
+    "actual_current_measured": false,
+    "actual_capacity_measured": false
+  },
+  "optical_stack": "Not solved: sensor axis vertical, lens-to-pad distance depends on real parts and skate stack.",
+  "wiring": "Clearance corridors are reserved spaces, not actual cables.",
+  "assembly_mounting": "Electronic scenes omit eleven trial fixtures. Final switch/PCB supports and encoder coupling remain undesigned; no working electronics assembly is asserted.",
+  "static_and_sampled_motion_pass": true,
+  "carrier_revision_recheck": {
+    "subset_added_material_mm3": 0.0,
+    "checks": [
+      {
+        "part": "custom_mainboard_EST",
+        "hits": []
+      },
+      {
+        "part": "sensor_board_EST",
+        "hits": []
+      },
+      {
+        "part": "RF_board_EST",
+        "hits": []
+      },
+      {
+        "part": "MCU_RF_EST",
+        "hits": []
+      },
+      {
+        "part": "battery_500mAh_TARGET",
+        "hits": []
+      },
+      {
+        "part": "battery_plug_EST",
+        "hits": []
+      },
+      {
+        "part": "sensor_package_EST",
+        "hits": []
+      },
+      {
+        "part": "lens_EST",
+        "hits": []
+      },
+      {
+        "part": "encoder_EST",
+        "hits": []
+      },
+      {
+        "part": "side_board_EST",
+        "hits": []
+      },
+      {
+        "part": "USB_C_EST",
+        "hits": []
+      },
+      {
+        "part": "power_switch_body_EST",
+        "hits": []
+      },
+      {
+        "part": "power_switch_tab_EST",
+        "hits": []
+      }
+    ],
+    "unchanged_components": "All other saved shapes and envelopes unchanged."
+  }
+}

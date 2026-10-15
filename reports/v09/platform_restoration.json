@@ -1,0 +1,292 @@
+{
+  "exact_platforms": [
+    {
+      "x": -21,
+      "y": -8,
+      "diameter_mm": 8.8,
+      "height_mm": 2.4,
+      "upper_fillet_mm": 0.35,
+      "missing_mm3": 0.0
+    },
+    {
+      "x": 21,
+      "y": -8,
+      "diameter_mm": 8.8,
+      "height_mm": 2.4,
+      "upper_fillet_mm": 0.35,
+      "missing_mm3": 0.0
+    },
+    {
+      "x": -21.5,
+      "y": -61.5,
+      "diameter_mm": 8.8,
+      "height_mm": 2.4,
+      "upper_fillet_mm": 0.35,
+      "missing_mm3": 0.0
+    },
+    {
+      "x": 21.5,
+      "y": -61.5,
+      "diameter_mm": 8.8,
+      "height_mm": 2.4,
+      "upper_fillet_mm": 0.35,
+      "missing_mm3": 0.0
+    },
+    {
+      "x": 0,
+      "y": -81.5,
+      "diameter_mm": 8.8,
+      "height_mm": 2.4,
+      "upper_fillet_mm": 0.35,
+      "missing_mm3": 0.0
+    }
+  ],
+  "added_volume_mm3": 3.005756297015591,
+  "added_material_maximum_z_mm": 2.4,
+  "conservative_mechanical_minima": [
+    {
+      "part": "left_KEY",
+      "conservative_lowest_z_mm": 9.83916797252139
+    },
+    {
+      "part": "right_KEY",
+      "conservative_lowest_z_mm": 9.839162579025754
+    },
+    {
+      "part": "thumb_front_KEY",
+      "conservative_lowest_z_mm": 14.096499956261924
+    },
+    {
+      "part": "thumb_rear_KEY",
+      "conservative_lowest_z_mm": 15.289526039741679
+    },
+    {
+      "part": "WHEEL",
+      "conservative_lowest_z_mm": 5.1
+    },
+    {
+      "part": "AXLE",
+      "conservative_lowest_z_mm": 10.7
+    },
+    {
+      "part": "AXLE_WASHER",
+      "conservative_lowest_z_mm": 10.7
+    },
+    {
+      "part": "WHEEL_CARRIER",
+      "conservative_lowest_z_mm": 7.9
+    },
+    {
+      "part": "DETENT_LEAF",
+      "conservative_lowest_z_mm": 6.5
+    },
+    {
+      "part": "left_RETAINER",
+      "conservative_lowest_z_mm": 10.99999999999763
+    },
+    {
+      "part": "left_TRAY",
+      "conservative_lowest_z_mm": 4.3999999999999995
+    },
+    {
+      "part": "right_RETAINER",
+      "conservative_lowest_z_mm": 11.0
+    },
+    {
+      "part": "right_TRAY",
+      "conservative_lowest_z_mm": 4.3999999999999995
+    },
+    {
+      "part": "middle_RETAINER",
+      "conservative_lowest_z_mm": 12.5
+    },
+    {
+      "part": "middle_TRAY",
+      "conservative_lowest_z_mm": 5.8999999999999995
+    },
+    {
+      "part": "thumb_front_RETAINER",
+      "conservative_lowest_z_mm": 14.1
+    },
+    {
+      "part": "thumb_front_TRAY",
+      "conservative_lowest_z_mm": 8.6
+    },
+    {
+      "part": "thumb_rear_RETAINER",
+      "conservative_lowest_z_mm": 15.499999999999998
+    },
+    {
+      "part": "thumb_rear_TRAY",
+      "conservative_lowest_z_mm": 9.999999999999998
+    }
+  ],
+  "electronic_checks": [
+    {
+      "variant": "ATK_A1_PLUS",
+      "part": "donor_mainboard_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "part": "donor_MCU_RF_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "part": "donor_antenna_region_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "part": "battery_500mAh_TARGET",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "part": "battery_plug_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "part": "sensor_package_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "part": "lens_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "part": "encoder_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "part": "side_board_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "part": "USB_C_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "part": "charge_powerpath_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "part": "power_switch_body_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "part": "power_switch_tab_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "part": "custom_mainboard_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "part": "sensor_board_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "part": "RF_board_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "part": "MCU_RF_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "part": "battery_500mAh_TARGET",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "part": "battery_plug_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "part": "sensor_package_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "part": "lens_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "part": "encoder_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "part": "side_board_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "part": "USB_C_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "part": "power_switch_body_EST",
+      "overlap_mm3": 0.0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "part": "power_switch_tab_EST",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "protected_regions": [
+    {
+      "name": "foot_-21_-8",
+      "difference_mm3": 0.0,
+      "note": "Bounding cylinder also contains the rebuilt adjacent skin; exact filleted-foot containment is tested separately."
+    },
+    {
+      "name": "foot_21_-8",
+      "difference_mm3": 0.0,
+      "note": "Bounding cylinder also contains the rebuilt adjacent skin; exact filleted-foot containment is tested separately."
+    },
+    {
+      "name": "foot_-21.5_-61.5",
+      "difference_mm3": 0.021129660177682644,
+      "note": "Bounding cylinder also contains the rebuilt adjacent skin; exact filleted-foot containment is tested separately."
+    },
+    {
+      "name": "foot_21.5_-61.5",
+      "difference_mm3": 0.021129554584567906,
+      "note": "Bounding cylinder also contains the rebuilt adjacent skin; exact filleted-foot containment is tested separately."
+    },
+    {
+      "name": "foot_0_-81.5",
+      "difference_mm3": 0.2167583440685461,
+      "note": "Bounding cylinder also contains the rebuilt adjacent skin; exact filleted-foot containment is tested separately."
+    },
+    {
+      "name": "sensor",
+      "difference_mm3": 0.0
+    },
+    {
+      "name": "power_switch",
+      "difference_mm3": 0.0
+    }
+  ],
+  "method": "Restore the original R4.4 x 2.4 mm platforms with R0.35 top fillets. Added material is below all mechanical parts and their conservative downward stroke; it cannot affect the tested upward/side insertion paths. Electronic envelopes are checked against the additions explicitly. No material was removed."
+}

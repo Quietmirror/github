@@ -1,0 +1,1368 @@
+{
+  "version": "0.9",
+  "units": "mm",
+  "parts": [
+    {
+      "name": "BODY",
+      "dimensions_xyz_mm": [
+        61.97101918473383,
+        90.26394109478677,
+        26.00224268858436
+      ],
+      "bounds": [
+        [
+          -30.985509594056822,
+          -90.26394099478678,
+          -1e-07
+        ],
+        [
+          30.985509590677005,
+          1.000000001110223e-07,
+          26.00224258858436
+        ]
+      ],
+      "volume_mm3": 13595.00931721474,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "source BRep",
+        "raw_faces": 116498,
+        "final_faces": 116492,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "fixed",
+      "color": [
+        0.44,
+        0.6,
+        0.65
+      ],
+      "print_quantity": 1,
+      "file": "exports/v09/placed/BODY.stl",
+      "print_file": "exports/v09/print/BODY.stl",
+      "print_bounds": [
+        [
+          -30.985509594056822,
+          -90.26394099478678,
+          -1e-07
+        ],
+        [
+          30.985509590677005,
+          1.000000001110223e-07,
+          26.00224258858436
+        ]
+      ]
+    },
+    {
+      "name": "left_KEY",
+      "dimensions_xyz_mm": [
+        23.00000020000011,
+        29.0000002,
+        12.527263503449117
+      ],
+      "bounds": [
+        [
+          -26.0000001000001,
+          -29.4000001,
+          10.23916797252139
+        ],
+        [
+          -2.999999899999991,
+          -0.39999989999999946,
+          22.766431475970506
+        ]
+      ],
+      "volume_mm3": 1391.8423826505013,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 48708,
+        "final_faces": 48708,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "moving",
+      "module": "left",
+      "color": [
+        0.72,
+        0.81,
+        0.81
+      ],
+      "print_quantity": 1,
+      "print_bounds": [
+        [
+          -11.500000100000026,
+          -14.5000001,
+          -4.7680796575570524e-15
+        ],
+        [
+          11.50000010000001,
+          14.500000100000006,
+          12.527263503449152
+        ]
+      ],
+      "file": "exports/v09/placed/left_KEY.stl",
+      "print_file": "exports/v09/print/left_KEY.stl"
+    },
+    {
+      "name": "right_KEY",
+      "dimensions_xyz_mm": [
+        23.000000200000823,
+        29.00000020000001,
+        12.52726909685074
+      ],
+      "bounds": [
+        [
+          2.9999998999998283,
+          -29.4000001,
+          10.239162579025754
+        ],
+        [
+          26.00000010000065,
+          -0.3999998999999901,
+          22.766431675876493
+        ]
+      ],
+      "volume_mm3": 1391.8253682034035,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 48752,
+        "final_faces": 48752,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "moving",
+      "module": "right",
+      "color": [
+        0.72,
+        0.81,
+        0.81
+      ],
+      "print_quantity": 1,
+      "print_bounds": [
+        [
+          -11.500000100000008,
+          -14.5000001,
+          2.818641905659871e-15
+        ],
+        [
+          11.500000100000127,
+          14.500000100000367,
+          12.527269096850763
+        ]
+      ],
+      "file": "exports/v09/placed/right_KEY.stl",
+      "print_file": "exports/v09/print/right_KEY.stl"
+    },
+    {
+      "name": "thumb_front_KEY",
+      "dimensions_xyz_mm": [
+        8.076812872574347,
+        12.564813763836021,
+        5.813974003499197
+      ],
+      "bounds": [
+        [
+          -26.576812772574346,
+          -42.80000010000001,
+          14.496499956261925
+        ],
+        [
+          -18.4999999,
+          -30.23518633616399,
+          20.310473959761122
+        ]
+      ],
+      "volume_mm3": 239.10253172738635,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 13608,
+        "final_faces": 13604,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "moving",
+      "module": "thumb_front",
+      "color": [
+        0.55,
+        0.66,
+        0.69
+      ],
+      "print_quantity": 1,
+      "print_bounds": [
+        [
+          -2.906987001749926,
+          -6.282406881915097,
+          -1.6366000029933167e-16
+        ],
+        [
+          2.9069870017501107,
+          6.282406881914906,
+          8.076812872577602
+        ]
+      ],
+      "file": "exports/v09/placed/thumb_front_KEY.stl",
+      "print_file": "exports/v09/print/thumb_front_KEY.stl"
+    },
+    {
+      "name": "thumb_rear_KEY",
+      "dimensions_xyz_mm": [
+        7.957670988258915,
+        12.564814955666613,
+        5.81397252335222
+      ],
+      "bounds": [
+        [
+          -26.457670888258914,
+          -56.76481485565949,
+          15.68952603974168
+        ],
+        [
+          -18.4999999,
+          -44.199999899992875,
+          21.5034985630939
+        ]
+      ],
+      "volume_mm3": 228.26936155556206,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 14586,
+        "final_faces": 14582,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "moving",
+      "module": "thumb_rear",
+      "color": [
+        0.55,
+        0.66,
+        0.69
+      ],
+      "print_quantity": 1,
+      "print_bounds": [
+        [
+          -2.906986261676324,
+          -6.282407477832055,
+          -1.6366000029933167e-16
+        ],
+        [
+          2.906986261676324,
+          6.282407477832398,
+          7.957670988266032
+        ]
+      ],
+      "file": "exports/v09/placed/thumb_rear_KEY.stl",
+      "print_file": "exports/v09/print/thumb_rear_KEY.stl"
+    },
+    {
+      "name": "WHEEL",
+      "dimensions_xyz_mm": [
+        5.2,
+        15.000000000000423,
+        15.000000000000863
+      ],
+      "bounds": [
+        [
+          -2.6,
+          -24.5,
+          5.5
+        ],
+        [
+          2.6,
+          -9.499999999999577,
+          20.500000000000863
+        ]
+      ],
+      "volume_mm3": 820.8289157804489,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 2640,
+        "final_faces": 2640,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "wheel",
+      "module": "middle",
+      "color": [
+        0.25,
+        0.31,
+        0.35
+      ],
+      "print_quantity": 1,
+      "file": "exports/v09/placed/WHEEL.stl",
+      "print_file": "exports/v09/print/WHEEL.stl",
+      "print_bounds": [
+        [
+          -7.500000000000466,
+          -7.500000000000466,
+          -7.048896513810394e-18
+        ],
+        [
+          7.500000000000466,
+          7.500000000000465,
+          5.2
+        ]
+      ]
+    },
+    {
+      "name": "AXLE",
+      "dimensions_xyz_mm": [
+        15.8,
+        3.799999999999999,
+        3.8000000000000007
+      ],
+      "bounds": [
+        [
+          -8.6,
+          -18.9,
+          11.1
+        ],
+        [
+          7.2,
+          -15.1,
+          14.9
+        ]
+      ],
+      "volume_mm3": 108.58600847867758,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 1004,
+        "final_faces": 1004,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "moving",
+      "module": "middle",
+      "color": [
+        0.25,
+        0.31,
+        0.35
+      ],
+      "print_quantity": 1,
+      "file": "exports/v09/placed/AXLE.stl",
+      "print_file": "exports/v09/print/AXLE.stl",
+      "print_bounds": [
+        [
+          -1.9000000000000017,
+          -1.9,
+          -2.1094237467875e-16
+        ],
+        [
+          1.9,
+          1.9,
+          15.8
+        ]
+      ]
+    },
+    {
+      "name": "AXLE_WASHER",
+      "dimensions_xyz_mm": [
+        1.2000000000000002,
+        3.799999999999999,
+        3.8000000000000007
+      ],
+      "bounds": [
+        [
+          7.2,
+          -18.9,
+          11.1
+        ],
+        [
+          8.4,
+          -15.1,
+          14.9
+        ]
+      ],
+      "volume_mm3": 9.047786842338605,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 672,
+        "final_faces": 672,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "moving",
+      "module": "middle",
+      "color": [
+        0.25,
+        0.31,
+        0.35
+      ],
+      "print_quantity": 1,
+      "file": "exports/v09/placed/AXLE_WASHER.stl",
+      "print_file": "exports/v09/print/AXLE_WASHER.stl",
+      "print_bounds": [
+        [
+          -1.9,
+          -1.9,
+          -2.1094237467875e-16
+        ],
+        [
+          1.9000000000000017,
+          1.9,
+          1.2000000000000002
+        ]
+      ]
+    },
+    {
+      "name": "WHEEL_CARRIER",
+      "dimensions_xyz_mm": [
+        12.200000200000002,
+        26.000000099999998,
+        15.2000001
+      ],
+      "bounds": [
+        [
+          -6.1000001,
+          -40.4,
+          8.3
+        ],
+        [
+          6.100000100000002,
+          -14.399999900000001,
+          23.5000001
+        ]
+      ],
+      "volume_mm3": 797.8887075006833,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 9746,
+        "final_faces": 9742,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "moving",
+      "module": "middle",
+      "color": [
+        0.77,
+        0.54,
+        0.27
+      ],
+      "print_quantity": 1,
+      "file": "exports/v09/placed/WHEEL_CARRIER.stl",
+      "print_file": "exports/v09/print/WHEEL_CARRIER.stl",
+      "print_bounds": [
+        [
+          -6.1000001,
+          -13.00000005,
+          0.0
+        ],
+        [
+          6.100000100000002,
+          13.000000049999999,
+          15.200000099999999
+        ]
+      ]
+    },
+    {
+      "name": "DETENT_LEAF",
+      "dimensions_xyz_mm": [
+        6.0,
+        5.0,
+        6.699999999999999
+      ],
+      "bounds": [
+        [
+          -3.0,
+          -29.0,
+          6.9
+        ],
+        [
+          3.0,
+          -24.0,
+          13.6
+        ]
+      ],
+      "volume_mm3": 50.17601435919099,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 3709,
+        "final_faces": 3708,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "moving",
+      "module": "middle",
+      "color": [
+        0.77,
+        0.54,
+        0.27
+      ],
+      "print_quantity": 1,
+      "file": "exports/v09/placed/DETENT_LEAF.stl",
+      "print_file": "exports/v09/print/DETENT_LEAF.stl",
+      "print_bounds": [
+        [
+          -3.0,
+          -3.35,
+          0.0
+        ],
+        [
+          3.0,
+          3.35,
+          5.0
+        ]
+      ]
+    },
+    {
+      "name": "left_RETAINER",
+      "dimensions_xyz_mm": [
+        8.0,
+        11.200000000000003,
+        1.6000000000023693
+      ],
+      "bounds": [
+        [
+          -18.5,
+          -29.6,
+          11.39999999999763
+        ],
+        [
+          -10.5,
+          -18.4,
+          13.0
+        ]
+      ],
+      "volume_mm3": 131.47435677003855,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 1108,
+        "final_faces": 1108,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "moving",
+      "module": "left",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "print_quantity": 1,
+      "print_bounds": [
+        [
+          -4.0,
+          -5.6,
+          -1.3471114790617e-16
+        ],
+        [
+          4.0,
+          5.6,
+          1.6000000000000014
+        ]
+      ],
+      "file": "exports/v09/placed/left_RETAINER.stl",
+      "print_file": "exports/v09/print/left_RETAINER.stl"
+    },
+    {
+      "name": "left_TRAY",
+      "dimensions_xyz_mm": [
+        17.6,
+        9.800000000000004,
+        4.8999999999999995
+      ],
+      "bounds": [
+        [
+          -23.3,
+          -28.900000000000002,
+          4.8
+        ],
+        [
+          -5.7,
+          -19.099999999999998,
+          9.7
+        ]
+      ],
+      "volume_mm3": 312.3834462651005,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 3912,
+        "final_faces": 3912,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "fixed",
+      "module": "left",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "print_quantity": 1,
+      "print_bounds": [
+        [
+          -8.8,
+          -4.9,
+          0.0
+        ],
+        [
+          8.8,
+          4.9,
+          4.9
+        ]
+      ],
+      "file": "exports/v09/placed/left_TRAY.stl",
+      "print_file": "exports/v09/print/left_TRAY.stl"
+    },
+    {
+      "name": "right_RETAINER",
+      "dimensions_xyz_mm": [
+        8.0,
+        11.200000000000003,
+        1.5999999999999996
+      ],
+      "bounds": [
+        [
+          10.5,
+          -29.6,
+          11.4
+        ],
+        [
+          18.5,
+          -18.4,
+          13.0
+        ]
+      ],
+      "volume_mm3": 131.47435677005254,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 1108,
+        "final_faces": 1108,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "moving",
+      "module": "right",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "print_quantity": 1,
+      "print_bounds": [
+        [
+          -4.0,
+          -5.6,
+          -1.3471114790617e-16
+        ],
+        [
+          4.0,
+          5.6,
+          1.6000000000000014
+        ]
+      ],
+      "file": "exports/v09/placed/right_RETAINER.stl",
+      "print_file": "exports/v09/print/right_RETAINER.stl"
+    },
+    {
+      "name": "right_TRAY",
+      "dimensions_xyz_mm": [
+        17.6,
+        9.800000000000004,
+        4.8999999999999995
+      ],
+      "bounds": [
+        [
+          5.7,
+          -28.900000000000002,
+          4.8
+        ],
+        [
+          23.3,
+          -19.099999999999998,
+          9.7
+        ]
+      ],
+      "volume_mm3": 312.3834462651005,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 3912,
+        "final_faces": 3912,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "fixed",
+      "module": "right",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "print_quantity": 1,
+      "print_bounds": [
+        [
+          -8.8,
+          -4.9,
+          0.0
+        ],
+        [
+          8.8,
+          4.9,
+          4.9
+        ]
+      ],
+      "file": "exports/v09/placed/right_TRAY.stl",
+      "print_file": "exports/v09/print/right_TRAY.stl"
+    },
+    {
+      "name": "middle_RETAINER",
+      "dimensions_xyz_mm": [
+        8.0,
+        11.200000000000003,
+        1.5999999999999996
+      ],
+      "bounds": [
+        [
+          -4.0,
+          -40.6,
+          12.9
+        ],
+        [
+          4.0,
+          -29.4,
+          14.5
+        ]
+      ],
+      "volume_mm3": 131.47435677005257,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 1108,
+        "final_faces": 1108,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "moving",
+      "module": "middle",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "print_quantity": 1,
+      "print_bounds": [
+        [
+          -4.0,
+          -5.6,
+          -1.224646799147e-16
+        ],
+        [
+          4.0,
+          5.6,
+          1.6000000000000014
+        ]
+      ],
+      "file": "exports/v09/placed/middle_RETAINER.stl",
+      "print_file": "exports/v09/print/middle_RETAINER.stl"
+    },
+    {
+      "name": "middle_TRAY",
+      "dimensions_xyz_mm": [
+        17.6,
+        9.8,
+        4.8999999999999995
+      ],
+      "bounds": [
+        [
+          -8.8,
+          -39.9,
+          6.3
+        ],
+        [
+          8.8,
+          -30.099999999999998,
+          11.2
+        ]
+      ],
+      "volume_mm3": 312.3834462651005,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 3912,
+        "final_faces": 3912,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "fixed",
+      "module": "middle",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "print_quantity": 1,
+      "print_bounds": [
+        [
+          -8.8,
+          -4.9,
+          0.0
+        ],
+        [
+          8.8,
+          4.9,
+          4.9
+        ]
+      ],
+      "file": "exports/v09/placed/middle_TRAY.stl",
+      "print_file": "exports/v09/print/middle_TRAY.stl"
+    },
+    {
+      "name": "thumb_front_RETAINER",
+      "dimensions_xyz_mm": [
+        1.6000000000000014,
+        11.200000000000003,
+        5.600000000000001
+      ],
+      "bounds": [
+        [
+          -18.5,
+          -42.1,
+          14.5
+        ],
+        [
+          -16.9,
+          -30.9,
+          20.1
+        ]
+      ],
+      "volume_mm3": 88.46635682842805,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 1108,
+        "final_faces": 1108,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "moving",
+      "module": "thumb_front",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "print_quantity": 1,
+      "print_bounds": [
+        [
+          -2.8,
+          -5.6,
+          1.224646799147e-16
+        ],
+        [
+          2.8,
+          5.6,
+          1.6000000000000014
+        ]
+      ],
+      "file": "exports/v09/placed/thumb_front_RETAINER.stl",
+      "print_file": "exports/v09/print/thumb_front_RETAINER.stl"
+    },
+    {
+      "name": "thumb_front_TRAY",
+      "dimensions_xyz_mm": [
+        4.9,
+        11.399999999999995,
+        13.2
+      ],
+      "bounds": [
+        [
+          -15.2,
+          -42.199999999999996,
+          9.0
+        ],
+        [
+          -10.299999999999999,
+          -30.8,
+          22.2
+        ]
+      ],
+      "volume_mm3": 299.2889513902837,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 3600,
+        "final_faces": 3600,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "fixed",
+      "module": "thumb_front",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "print_quantity": 1,
+      "print_bounds": [
+        [
+          -6.6,
+          -5.699999999999999,
+          0.0
+        ],
+        [
+          6.6,
+          5.699999999999999,
+          4.9
+        ]
+      ],
+      "file": "exports/v09/placed/thumb_front_TRAY.stl",
+      "print_file": "exports/v09/print/thumb_front_TRAY.stl"
+    },
+    {
+      "name": "thumb_rear_RETAINER",
+      "dimensions_xyz_mm": [
+        1.6000000000000014,
+        11.200000000000003,
+        5.600000000000001
+      ],
+      "bounds": [
+        [
+          -18.5,
+          -56.1,
+          15.899999999999999
+        ],
+        [
+          -16.9,
+          -44.9,
+          21.5
+        ]
+      ],
+      "volume_mm3": 88.46635682842805,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 1108,
+        "final_faces": 1108,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "moving",
+      "module": "thumb_rear",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "print_quantity": 1,
+      "print_bounds": [
+        [
+          -2.8,
+          -5.6,
+          1.224646799147e-16
+        ],
+        [
+          2.8,
+          5.6,
+          1.6000000000000014
+        ]
+      ],
+      "file": "exports/v09/placed/thumb_rear_RETAINER.stl",
+      "print_file": "exports/v09/print/thumb_rear_RETAINER.stl"
+    },
+    {
+      "name": "thumb_rear_TRAY",
+      "dimensions_xyz_mm": [
+        4.9,
+        11.399999999999991,
+        13.200000000000003
+      ],
+      "bounds": [
+        [
+          -15.2,
+          -56.199999999999996,
+          10.399999999999999
+        ],
+        [
+          -10.299999999999999,
+          -44.800000000000004,
+          23.6
+        ]
+      ],
+      "volume_mm3": 299.2889513902842,
+      "volume_integration_tolerance": 0.001,
+      "cad_valid": true,
+      "cad_solids": 1,
+      "mesh_cleanup": {
+        "source": "STEP reimport",
+        "raw_faces": 3600,
+        "final_faces": 3600,
+        "weld_tolerance_mm": 1e-06,
+        "holes_patched": 0,
+        "components_discarded": 0
+      },
+      "kind": "fixed",
+      "module": "thumb_rear",
+      "color": [
+        0.65,
+        0.69,
+        0.73
+      ],
+      "print_quantity": 1,
+      "print_bounds": [
+        [
+          -6.6,
+          -5.699999999999999,
+          0.0
+        ],
+        [
+          6.6,
+          5.699999999999999,
+          4.9
+        ]
+      ],
+      "file": "exports/v09/placed/thumb_rear_TRAY.stl",
+      "print_file": "exports/v09/print/thumb_rear_TRAY.stl"
+    }
+  ],
+  "printable_parts": 20,
+  "switch_examples": 5,
+  "vent_count": 28,
+  "build_seconds": 344.1428368091583,
+  "parameters": {
+    "version": "0.9",
+    "units": "mm",
+    "length": 90.0,
+    "max_width": 62.0,
+    "height": 26,
+    "grip_width": 54.0,
+    "wall": 1.6,
+    "shell_floor_z": 1.0,
+    "key_outline_width": 0.65,
+    "rib_diameter": 2.8,
+    "base_rib_width": 2.6,
+    "base_rib_height": 2.6,
+    "foot_diameter": 8.8,
+    "foot_thickness": 2.4,
+    "skate_diameter_reference": 7.5,
+    "skate_thickness_estimate": 0.7,
+    "left_key": {
+      "x": -14.5,
+      "y": 13.9,
+      "width": 23,
+      "length": 27
+    },
+    "right_key": {
+      "x": 14.5,
+      "y": 13.9,
+      "width": 23,
+      "length": 27
+    },
+    "wheel": {
+      "x": 0.0,
+      "y": 17.0,
+      "height_offset": -5,
+      "diameter": 15.0,
+      "width": 5.2,
+      "opening_width": 12.8,
+      "opening_length": 19.4,
+      "axis_z": 13.0,
+      "carrier_install_opening_xy": [
+        14.2,
+        34
+      ],
+      "carrier_install_opening_d": 25,
+      "carrier_lower_crossbar_length": 4.2,
+      "carrier_lower_crossbar_d": 26.9
+    },
+    "side_buttons": [
+      {
+        "y": 39.5,
+        "z": 15.5,
+        "length": 12
+      },
+      {
+        "y": 53.5,
+        "z": 16.0,
+        "length": 12
+      }
+    ],
+    "sensor": {
+      "x": 0.0,
+      "y": 48.0,
+      "frame_z": 2.6,
+      "opening_width": 14.0,
+      "opening_length": 18.0
+    },
+    "shell_stations": [
+      [
+        0,
+        23,
+        16
+      ],
+      [
+        2,
+        27.5,
+        16
+      ],
+      [
+        8,
+        31,
+        16
+      ],
+      [
+        18,
+        29,
+        20.5
+      ],
+      [
+        30,
+        27.25,
+        25.5
+      ],
+      [
+        44,
+        27.15,
+        28
+      ],
+      [
+        60,
+        27.05,
+        26
+      ],
+      [
+        72,
+        24,
+        18
+      ],
+      [
+        83,
+        17,
+        8
+      ],
+      [
+        86,
+        14.5,
+        5.8
+      ],
+      [
+        88,
+        10.7,
+        4.4
+      ],
+      [
+        89.5,
+        5.5,
+        3.3
+      ],
+      [
+        90,
+        0.6,
+        2.5
+      ]
+    ],
+    "human_data": {
+      "wrist_to_middle_tip_approx": 230,
+      "thumb_to_pinky_spread_approx": 190,
+      "palm_width": null,
+      "phalange_lengths": null,
+      "actual_grip": null
+    },
+    "notes": "V0.8: 23 x 27 mm free-front main keys, curved nearly-flush Fenrir-informed side keys, inward-trimmed lower framework. Physical fit/force remain untested.",
+    "side_profile_power": 4.0,
+    "rear_cavity_end": 84,
+    "side_interface": {
+      "opening_length": 12.0,
+      "opening_height": 6.6,
+      "opening_corner_radius": 1.7,
+      "cap_height": 5.4,
+      "cap_depth": 2.8,
+      "stem_length": 8.6,
+      "stem_height": 3.8,
+      "flange_length": 13.2,
+      "flange_height": 6.2,
+      "flange_thickness": 1.6,
+      "axial_gap": 0.3,
+      "reinforcement_length": 16.0,
+      "reinforcement_height": 10.6
+    },
+    "ventilation": {
+      "style": "rounded triangles, exact mirrored pairs",
+      "minimum_planar_web": 1.8,
+      "perimeter_web": 1.9,
+      "corner_radius": 0.65,
+      "front_d": 29.5,
+      "scope": "Upper-shell weight-reduction windows. Original lower frame, sensor and functional apertures retained."
+    },
+    "wheel_roof_tie_z": 17.0,
+    "upper_width_reduction": 0,
+    "usb_port": {
+      "width": 13.4,
+      "height": 6.4,
+      "radius": 1.8,
+      "z": 7.1,
+      "status": "estimated connector and plug opening; centre line"
+    },
+    "power_switch": {
+      "d": 72,
+      "opening_x": 6,
+      "opening_d": 3,
+      "status": "estimated bottom centre aperture"
+    },
+    "mechanism": {
+      "stem_xy": [
+        5.6,
+        7.6
+      ],
+      "radial_clearance": 0.3,
+      "travel": 0.4,
+      "switch_example": "ALPS SKHHAKA010, 6 x 6 x 5 mm; mechanical test only",
+      "nominal_switch_travel": 0.25,
+      "calibration_required": true,
+      "switch_seat_clearance_per_side": 0.3,
+      "printed_axle_diameter": 3,
+      "wheel_bore_diameter": 3.5,
+      "bearing_bore_diameter": 3.4
+    },
+    "modules": {
+      "left": {
+        "origin": [
+          -14.5,
+          -24,
+          16
+        ]
+      },
+      "right": {
+        "origin": [
+          14.5,
+          -24,
+          16
+        ]
+      },
+      "middle": {
+        "origin": [
+          0,
+          -35,
+          17.5
+        ]
+      },
+      "thumb_front": {
+        "origin": [
+          -21.5,
+          -36.5,
+          17.3
+        ],
+        "side": true
+      },
+      "thumb_rear": {
+        "origin": [
+          -21.5,
+          -50.5,
+          18.7
+        ],
+        "side": true
+      }
+    },
+    "main_key_surface": {
+      "method": "cut from the same outer loft as the shell; no raised secondary surface",
+      "thickness": 1.8,
+      "corner_radius": 6,
+      "edge_radius": 0.25,
+      "front_frame_cut_z": 7.6,
+      "motion_relief_depth": 0.6
+    },
+    "base_trim": {
+      "planar_inset_mm": 0.7,
+      "front_rear_trim_mm": 0.8,
+      "source": "exports/v06/quietmirror_fingertip_V0.6_SHELL.step",
+      "retain_feet_and_sensor": true
+    },
+    "fenrir_side": {
+      "band_center_d": 43.5,
+      "band_center_z": 18.0,
+      "band_length": 26.6,
+      "band_height": 4.8,
+      "slope": 0.1,
+      "split_gap": 1.4,
+      "surface_protrusion": 0.35,
+      "skin_depth": 1.8,
+      "aperture_clearance": 0.3,
+      "edge_radius": 0.3
+    },
+    "frozen_bottom": {
+      "through_z_mm": 5.4,
+      "source_step": "exports/v08/placed/BODY.step",
+      "scope": "Internal lower core and functional interfaces; lower side skin rebuilt with the thinner parent loft."
+    },
+    "main_support_drop_mm": 4.0,
+    "side_aperture_inner_extension_mm": 1.2,
+    "side_mount_centres_xy": [
+      [
+        -6.0,
+        -3.4
+      ],
+      [
+        -6.0,
+        3.4
+      ]
+    ]
+  },
+  "wheel_refresh": "Lowered axis Z13.0; lower crossbar D26.9, length 4.2, to clear the wheel and the insertion guide."
+}

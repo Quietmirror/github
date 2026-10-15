@@ -1,0 +1,27 @@
+{
+  "files": [
+    {
+      "name": "quietmirror_V0.9_MECHANICAL_ASSEMBLY.step",
+      "archive": "exports\\v09\\quietmirror_V0.9_MECHANICAL_ASSEMBLY.zip",
+      "bytes": 130091982,
+      "compressed_bytes": 29090037,
+      "archive_bytes": 29090217
+    },
+    {
+      "name": "quietmirror_V0.9_ATK_A1_PLUS_ESTIMATED.step",
+      "archive": "exports\\v09\\quietmirror_V0.9_ATK_A1_PLUS_ESTIMATED.zip",
+      "bytes": 129560604,
+      "compressed_bytes": 28996724,
+      "archive_bytes": 28996908
+    },
+    {
+      "name": "quietmirror_V0.9_PAW3950_CUSTOM_ESTIMATED.step",
+      "archive": "exports\\v09\\quietmirror_V0.9_PAW3950_CUSTOM_ESTIMATED.zip",
+      "bytes": 129551299,
+      "compressed_bytes": 28995007,
+      "archive_bytes": 28995197
+    }
+  ],
+  "zip_crc_readback_pass": true,
+  "reason": "Separate lossless ZIPs keep individual uploads within the GitHub connector transfer limit. Extract the named STEP before opening in CAD."
+}

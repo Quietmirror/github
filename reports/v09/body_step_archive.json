@@ -1,0 +1,11 @@
+{
+  "archive": "exports\\v09\\quietmirror_V0.9_BODY_STEP.zip",
+  "step_bytes": 57763777,
+  "zip_bytes": 13075259,
+  "zip_crc_readback_pass": true,
+  "targets": [
+    "exports/v09/placed/BODY.step",
+    "exports/v09/print/BODY.step"
+  ],
+  "note": "Both BODY files are identical. Extract the single saved CAD solid into either location; helper recreates both on demand."
+}

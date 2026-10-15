@@ -1,0 +1,53 @@
+{
+  "previous_crossbar": {
+    "length_mm": 5,
+    "center_d_mm": 27.3
+  },
+  "final_crossbar": {
+    "length_mm": 4.2,
+    "center_d_mm": 26.9
+  },
+  "added_material_mm3": 0.0,
+  "removed_material_mm3": 17.600000000042222,
+  "static_contacts": [],
+  "rechecked_middle_carrier_poses": [
+    {
+      "travel_mm": 0.0,
+      "hits": []
+    },
+    {
+      "travel_mm": 0.05,
+      "hits": []
+    },
+    {
+      "travel_mm": 0.1,
+      "hits": []
+    },
+    {
+      "travel_mm": 0.15000000000000002,
+      "hits": []
+    },
+    {
+      "travel_mm": 0.2,
+      "hits": []
+    },
+    {
+      "travel_mm": 0.25,
+      "hits": []
+    },
+    {
+      "travel_mm": 0.30000000000000004,
+      "hits": []
+    },
+    {
+      "travel_mm": 0.35000000000000003,
+      "hits": []
+    },
+    {
+      "travel_mm": 0.4,
+      "hits": []
+    }
+  ],
+  "new_wheel_insertion_pass": true,
+  "method": "Only the lower crossbar was shortened. New carrier is a Boolean-proven subset of the tested carrier. The four unchanged key insertion paths were tested against the larger carrier; their zero-intersection result therefore remains conservative. Wheel group insertion was rerun at all 31 positions. Other parts, wheel annulus, hardware and body are unchanged."
+}

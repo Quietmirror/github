@@ -1,0 +1,11 @@
+# Published losslessly together in quietmirror_V0.9_ASSEMBLY_STEPS.zip.
+/quietmirror_V0.9_MECHANICAL_ASSEMBLY.step
+/quietmirror_V0.9_ATK_A1_PLUS_ESTIMATED.step
+/quietmirror_V0.9_PAW3950_CUSTOM_ESTIMATED.step
+
+# Identical large BODY STEP copies are shipped losslessly in BODY_STEP.zip.
+/placed/BODY.step
+/print/BODY.step
+
+# Superseded combined archive; publish the three separate assembly archives.
+/quietmirror_V0.9_ASSEMBLY_STEPS.zip
