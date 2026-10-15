@@ -1,0 +1,333 @@
+{
+  "variant": "PAW3950_CUSTOM",
+  "all_dimensions_estimated": true,
+  "physical": [
+    {
+      "name": "custom_mainboard_EST",
+      "kind": "pcb",
+      "size": [
+        20,
+        14,
+        1.2
+      ],
+      "center": [
+        0,
+        -10,
+        4.2
+      ],
+      "basis": "Estimated controller/charging board area, no routed PCB design.",
+      "cutouts": [],
+      "file": "exports/v07/PAW3950_CUSTOM/custom_mainboard_EST.stl",
+      "color": [
+        0.14,
+        0.48,
+        0.35
+      ],
+      "mechanical_hits": []
+    },
+    {
+      "name": "sensor_board_EST",
+      "kind": "pcb",
+      "size": [
+        18,
+        16,
+        1.2
+      ],
+      "center": [
+        0,
+        -50,
+        8.8
+      ],
+      "basis": "Separate optical daughterboard; PAW3950 package is not a board standard.",
+      "file": "exports/v07/PAW3950_CUSTOM/sensor_board_EST.stl",
+      "color": [
+        0.14,
+        0.48,
+        0.35
+      ],
+      "mechanical_hits": []
+    },
+    {
+      "name": "RF_board_EST",
+      "kind": "pcb",
+      "size": [
+        22,
+        16,
+        1.2
+      ],
+      "center": [
+        0,
+        -63,
+        7.5
+      ],
+      "basis": "Proprietary 2.4 GHz target and matched USB receiver.",
+      "file": "exports/v07/PAW3950_CUSTOM/RF_board_EST.stl",
+      "color": [
+        0.14,
+        0.48,
+        0.35
+      ],
+      "mechanical_hits": []
+    },
+    {
+      "name": "MCU_RF_EST",
+      "kind": "chip",
+      "size": [
+        7,
+        7,
+        2.6
+      ],
+      "center": [
+        0,
+        -62,
+        9.4
+      ],
+      "basis": "Example architecture class; no component or firmware selection asserted.",
+      "file": "exports/v07/PAW3950_CUSTOM/MCU_RF_EST.stl",
+      "color": [
+        0.14,
+        0.17,
+        0.2
+      ],
+      "mechanical_hits": []
+    },
+    {
+      "name": "battery_500mAh_TARGET",
+      "kind": "battery",
+      "size": [
+        20,
+        24,
+        6
+      ],
+      "center": [
+        5,
+        -55,
+        15.5
+      ],
+      "basis": "Smaller package target only; 500 mAh capacity in this envelope is NOT verified. Measure an actual cell before acceptance.",
+      "file": "exports/v07/PAW3950_CUSTOM/battery_500mAh_TARGET.stl",
+      "color": [
+        0.81,
+        0.7,
+        0.35
+      ],
+      "mechanical_hits": []
+    },
+    {
+      "name": "battery_plug_EST",
+      "kind": "connector",
+      "size": [
+        5,
+        6,
+        3
+      ],
+      "center": [
+        15.8,
+        -48,
+        10.8
+      ],
+      "basis": "Polarity, mating direction and retention unconfirmed.",
+      "file": "exports/v07/PAW3950_CUSTOM/battery_plug_EST.stl",
+      "color": [
+        0.65,
+        0.72,
+        0.77
+      ],
+      "mechanical_hits": []
+    },
+    {
+      "name": "sensor_package_EST",
+      "kind": "chip",
+      "size": [
+        8,
+        8,
+        2.4
+      ],
+      "center": [
+        0,
+        -48,
+        10.7
+      ],
+      "basis": "Sensor identity unknown on ATK; PAW3950 target for custom.",
+      "file": "exports/v07/PAW3950_CUSTOM/sensor_package_EST.stl",
+      "color": [
+        0.14,
+        0.17,
+        0.2
+      ],
+      "mechanical_hits": []
+    },
+    {
+      "name": "lens_EST",
+      "kind": "lens",
+      "size": [
+        12,
+        14,
+        2.8
+      ],
+      "center": [
+        0,
+        -48,
+        6.7
+      ],
+      "basis": "Z is a layout placeholder, NOT the lens-to-pad specification.",
+      "file": "exports/v07/PAW3950_CUSTOM/lens_EST.stl",
+      "color": [
+        0.25,
+        0.66,
+        0.78
+      ],
+      "mechanical_hits": []
+    },
+    {
+      "name": "encoder_EST",
+      "kind": "switch",
+      "size": [
+        4,
+        6,
+        7
+      ],
+      "center": [
+        -9.7,
+        -17,
+        12.4
+      ],
+      "basis": "Available compact encoder target envelope; 16.3 mm axis, actual part/shaft fit unconfirmed.",
+      "file": "exports/v07/PAW3950_CUSTOM/encoder_EST.stl",
+      "color": [
+        0.85,
+        0.22,
+        0.19
+      ],
+      "mechanical_hits": [
+        {
+          "part": "BODY",
+          "overlap_mm3": 4.489327352010539
+        },
+        {
+          "part": "AXLE",
+          "overlap_mm3": 6.461343734158961
+        },
+        {
+          "part": "left_RETAINER",
+          "overlap_mm3": 2.6050264035438926
+        },
+        {
+          "part": "left_TRAY",
+          "overlap_mm3": 4.6911148575174995
+        }
+      ]
+    },
+    {
+      "name": "side_board_EST",
+      "kind": "pcb",
+      "size": [
+        1.2,
+        10,
+        4.6
+      ],
+      "center": [
+        -16,
+        -63,
+        6.9
+      ],
+      "basis": "Separate side board is a transplant assumption; donor may integrate switches.",
+      "file": "exports/v07/PAW3950_CUSTOM/side_board_EST.stl",
+      "color": [
+        0.14,
+        0.48,
+        0.35
+      ],
+      "mechanical_hits": []
+    },
+    {
+      "name": "USB_C_EST",
+      "kind": "connector",
+      "size": [
+        9,
+        9,
+        3.2
+      ],
+      "center": [
+        0,
+        -4.5,
+        7.1
+      ],
+      "basis": "Port shell envelope; board relocation may be needed for donor.",
+      "file": "exports/v07/PAW3950_CUSTOM/USB_C_EST.stl",
+      "color": [
+        0.65,
+        0.72,
+        0.77
+      ],
+      "mechanical_hits": []
+    },
+    {
+      "name": "power_switch_body_EST",
+      "kind": "switch",
+      "size": [
+        8,
+        4,
+        3
+      ],
+      "center": [
+        0,
+        -72,
+        5.4
+      ],
+      "basis": "Bottom actuator aperture; neutral centred visualization.",
+      "file": "exports/v07/PAW3950_CUSTOM/power_switch_body_EST.stl",
+      "color": [
+        0.8,
+        0.41,
+        0.24
+      ],
+      "mechanical_hits": []
+    },
+    {
+      "name": "power_switch_tab_EST",
+      "kind": "switch",
+      "size": [
+        3,
+        2,
+        1.8
+      ],
+      "center": [
+        0,
+        -72,
+        3.1
+      ],
+      "basis": "Slider travel not represented by an off-centre outside protrusion.",
+      "file": "exports/v07/PAW3950_CUSTOM/power_switch_tab_EST.stl",
+      "color": [
+        0.8,
+        0.41,
+        0.24
+      ],
+      "mechanical_hits": []
+    }
+  ],
+  "component_intersections": [
+    {
+      "a": "power_switch_body_EST",
+      "b": "power_switch_tab_EST",
+      "overlap_mm3": 0.58261725123899,
+      "intentional": true
+    }
+  ],
+  "status": "Space-study models only. Prototype click cartridges consume space; all geometric conflicts are listed, never hidden. Real encoder axle interface and PCB mounting remain unverified.",
+  "switches": "Five 6x6x5 mm tactile examples are supplied by the mechanical assembly. No ATK switch identity or placement is inferred.",
+  "power": {
+    "capacity_target_mAh": 500,
+    "usable_fraction": 0.75,
+    "continuous_average_current_budget_mA": 30,
+    "calculated_hours": 12.5,
+    "required_hours": 12,
+    "maximum_average_current_for_12h_mA": 31.25,
+    "actual_current_measured": false,
+    "actual_capacity_measured": false
+  },
+  "optical_stack": "Not solved: sensor axis vertical, lens-to-pad distance depends on real parts and skate stack.",
+  "wiring": "V0.6 lead routes and antenna reservations are historical references, not validated routes for the new mechanisms. New wiring must clear moving parts throughout their stroke.",
+  "assembly_mounting": "Test switches have printable trays. PCB screw holes and encoder coupling are deliberately not inferred from estimated boxes."
+}
