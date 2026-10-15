@@ -1,0 +1,446 @@
+[
+  {
+    "variant": "ATK_A1_PLUS",
+    "cad_valid": true,
+    "cad_solids": 26,
+    "view_3mf_unit": "millimeter",
+    "view_3mf_objects": 26,
+    "component_meshes": [
+      {
+        "file": "antenna_keepout_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "battery_500mAh_TARGET.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "battery_harness_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "battery_plug_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "battery_swell_service_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "charge_powerpath_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "donor_antenna_region_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "donor_mainboard_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "donor_MCU_RF_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "encoder_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "front_side_switch_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "left_key_travel_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "left_switch_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "lens_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "middle_switch_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "optical_axis_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "power_switch_body_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "power_switch_tab_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "rear_side_switch_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "right_key_travel_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "right_switch_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "sensor_package_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "side_board_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "side_harness_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "USB_C_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "USB_harness_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "USB_plug_insertion_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "wheel_axle_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "wheel_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      }
+    ],
+    "unintended_physical_overlaps": [],
+    "shell_overlap_count": 0,
+    "note": "Assembly is intentionally multiple parts and has interfacing wheel/shaft/slider volumes. No single-solid assertion for electronics scenes."
+  },
+  {
+    "variant": "PAW3950_CUSTOM",
+    "cad_valid": true,
+    "cad_solids": 28,
+    "view_3mf_unit": "millimeter",
+    "view_3mf_objects": 28,
+    "component_meshes": [
+      {
+        "file": "antenna_keepout_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "battery_500mAh_TARGET.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "battery_harness_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "battery_plug_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "battery_swell_service_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "charge_powerpath_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "custom_mainboard_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "encoder_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "front_side_switch_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "left_key_travel_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "left_switch_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "lens_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "MCU_RF_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "middle_switch_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "optical_axis_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "power_switch_body_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "power_switch_tab_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "rear_side_switch_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "RF_board_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "RF_harness_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "right_key_travel_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "right_switch_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "sensor_board_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "sensor_package_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "side_board_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "side_harness_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "USB_C_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "USB_harness_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "USB_plug_insertion_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "wheel_axle_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      },
+      {
+        "file": "wheel_EST.stl",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "self_intersecting_faces": 0
+      }
+    ],
+    "unintended_physical_overlaps": [],
+    "shell_overlap_count": 0,
+    "note": "Assembly is intentionally multiple parts and has interfacing wheel/shaft/slider volumes. No single-solid assertion for electronics scenes."
+  }
+]

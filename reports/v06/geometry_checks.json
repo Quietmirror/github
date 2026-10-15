@@ -1,0 +1,3336 @@
+{
+  "version": "0.6",
+  "mirror_profile_area_mm2": 2.100407887596011e-18,
+  "symmetry": {
+    "common_body_samples": 6000,
+    "common_body_max_mirror_distance_mm": 0.018307964805471238,
+    "final_fit_samples_outside_side_key_region": 7304,
+    "final_fit_max_mirror_distance_mm": 0.01664088681372339,
+    "exception": "Two left caps, their windows, guides and FIT tacks; no bottom lip exception."
+  },
+  "base": {
+    "max_projection_outside_shell_mm": 4.503767013814502e-05,
+    "method": "All saved base STL vertices against the section at Z=1.001; no external lip permitted."
+  },
+  "hole_count": 12,
+  "through": [
+    {
+      "id": "H01",
+      "rays": 43,
+      "blocked_near_edge": 0,
+      "core_rays": 28,
+      "blocked_core": 0,
+      "note": "Underside shoulder rails may enter the first 1.2 mm inside the projected edge; central aperture must remain open."
+    },
+    {
+      "id": "H02",
+      "rays": 90,
+      "blocked_near_edge": 0,
+      "core_rays": 60,
+      "blocked_core": 0,
+      "note": "Underside shoulder rails may enter the first 1.2 mm inside the projected edge; central aperture must remain open."
+    },
+    {
+      "id": "H03",
+      "rays": 91,
+      "blocked_near_edge": 0,
+      "core_rays": 59,
+      "blocked_core": 0,
+      "note": "Underside shoulder rails may enter the first 1.2 mm inside the projected edge; central aperture must remain open."
+    },
+    {
+      "id": "H04",
+      "rays": 43,
+      "blocked_near_edge": 0,
+      "core_rays": 20,
+      "blocked_core": 0,
+      "note": "Underside shoulder rails may enter the first 1.2 mm inside the projected edge; central aperture must remain open."
+    },
+    {
+      "id": "H05",
+      "rays": 105,
+      "blocked_near_edge": 10,
+      "core_rays": 68,
+      "blocked_core": 0,
+      "note": "Underside shoulder rails may enter the first 1.2 mm inside the projected edge; central aperture must remain open."
+    },
+    {
+      "id": "H06",
+      "rays": 96,
+      "blocked_near_edge": 0,
+      "core_rays": 63,
+      "blocked_core": 0,
+      "note": "Underside shoulder rails may enter the first 1.2 mm inside the projected edge; central aperture must remain open."
+    },
+    {
+      "id": "H07",
+      "rays": 111,
+      "blocked_near_edge": 9,
+      "core_rays": 73,
+      "blocked_core": 0,
+      "note": "Underside shoulder rails may enter the first 1.2 mm inside the projected edge; central aperture must remain open."
+    },
+    {
+      "id": "H08",
+      "rays": 59,
+      "blocked_near_edge": 0,
+      "core_rays": 30,
+      "blocked_core": 0,
+      "note": "Underside shoulder rails may enter the first 1.2 mm inside the projected edge; central aperture must remain open."
+    },
+    {
+      "id": "H09",
+      "rays": 92,
+      "blocked_near_edge": 0,
+      "core_rays": 59,
+      "blocked_core": 0,
+      "note": "Underside shoulder rails may enter the first 1.2 mm inside the projected edge; central aperture must remain open."
+    },
+    {
+      "id": "H10",
+      "rays": 91,
+      "blocked_near_edge": 0,
+      "core_rays": 59,
+      "blocked_core": 0,
+      "note": "Underside shoulder rails may enter the first 1.2 mm inside the projected edge; central aperture must remain open."
+    },
+    {
+      "id": "H11",
+      "rays": 67,
+      "blocked_near_edge": 0,
+      "core_rays": 34,
+      "blocked_core": 0,
+      "note": "Underside shoulder rails may enter the first 1.2 mm inside the projected edge; central aperture must remain open."
+    },
+    {
+      "id": "H12",
+      "rays": 88,
+      "blocked_near_edge": 0,
+      "core_rays": 54,
+      "blocked_core": 0,
+      "note": "Underside shoulder rails may enter the first 1.2 mm inside the projected edge; central aperture must remain open."
+    }
+  ],
+  "perimeter_rib": {
+    "method": "Projected contour-to-nearest-aperture distances on D58.5..88.5, excluding the front key/side-key load reserve. Junction distances are expected to be larger.",
+    "target_mm": 2.4,
+    "samples": 334,
+    "min_mm": 2.3813591707080946,
+    "median_mm": 2.537754189491217,
+    "p95_mm": 4.533733122754285,
+    "max_mm": 5.542711197551754,
+    "details": [
+      {
+        "xd_mm": [
+          9.082282219334651,
+          88.4802819694332
+        ],
+        "distance_to_nearest_aperture_mm": 2.41845662872355
+      },
+      {
+        "xd_mm": [
+          9.2957317522758,
+          88.42207445365692
+        ],
+        "distance_to_nearest_aperture_mm": 2.4449283813415206
+      },
+      {
+        "xd_mm": [
+          9.508871446752833,
+          88.36274298857084
+        ],
+        "distance_to_nearest_aperture_mm": 2.4864108379064844
+      },
+      {
+        "xd_mm": [
+          9.721634928763988,
+          88.3020766647633
+        ],
+        "distance_to_nearest_aperture_mm": 2.5369370204816284
+      },
+      {
+        "xd_mm": [
+          9.933946263174398,
+          88.23984668314233
+        ],
+        "distance_to_nearest_aperture_mm": 2.602563355263574
+      },
+      {
+        "xd_mm": [
+          10.145718264346138,
+          88.17580613876692
+        ],
+        "distance_to_nearest_aperture_mm": 2.674309797243294
+      },
+      {
+        "xd_mm": [
+          10.356876640783002,
+          88.10977163560256
+        ],
+        "distance_to_nearest_aperture_mm": 2.7595358404556207
+      },
+      {
+        "xd_mm": [
+          10.567329720517899,
+          88.04152350631587
+        ],
+        "distance_to_nearest_aperture_mm": 2.8511132416413045
+      },
+      {
+        "xd_mm": [
+          10.776976462561633,
+          87.97083706974686
+        ],
+        "distance_to_nearest_aperture_mm": 2.951028265323656
+      },
+      {
+        "xd_mm": [
+          10.985702856401964,
+          87.8974780010896
+        ],
+        "distance_to_nearest_aperture_mm": 3.060677205586943
+      },
+      {
+        "xd_mm": [
+          11.193466980385733,
+          87.82143767285008
+        ],
+        "distance_to_nearest_aperture_mm": 3.172917138782756
+      },
+      {
+        "xd_mm": [
+          11.400203451775246,
+          87.7426467047838
+        ],
+        "distance_to_nearest_aperture_mm": 3.292983251251946
+      },
+      {
+        "xd_mm": [
+          11.605835703425925,
+          87.66101683774892
+        ],
+        "distance_to_nearest_aperture_mm": 3.420379933132663
+      },
+      {
+        "xd_mm": [
+          11.810253880995504,
+          87.5763926175442
+        ],
+        "distance_to_nearest_aperture_mm": 3.5490049896385187
+      },
+      {
+        "xd_mm": [
+          12.01338313583277,
+          87.48872100619812
+        ],
+        "distance_to_nearest_aperture_mm": 3.682858872048924
+      },
+      {
+        "xd_mm": [
+          12.215134027816783,
+          87.39792337727695
+        ],
+        "distance_to_nearest_aperture_mm": 3.8222470605849153
+      },
+      {
+        "xd_mm": [
+          12.415398527095855,
+          87.30389258812706
+        ],
+        "distance_to_nearest_aperture_mm": 3.964686532684946
+      },
+      {
+        "xd_mm": [
+          12.614031846206313,
+          87.20646308066296
+        ],
+        "distance_to_nearest_aperture_mm": 4.107494737187325
+      },
+      {
+        "xd_mm": [
+          12.810894212772098,
+          87.10550453079557
+        ],
+        "distance_to_nearest_aperture_mm": 4.254102211412509
+      },
+      {
+        "xd_mm": [
+          13.005865539895948,
+          87.00094228904499
+        ],
+        "distance_to_nearest_aperture_mm": 4.404027408419395
+      },
+      {
+        "xd_mm": [
+          13.198785222848272,
+          86.89264176032617
+        ],
+        "distance_to_nearest_aperture_mm": 4.556161435593963
+      },
+      {
+        "xd_mm": [
+          13.389459882646221,
+          86.78043514299085
+        ],
+        "distance_to_nearest_aperture_mm": 4.605585763104456
+      },
+      {
+        "xd_mm": [
+          13.577641528807677,
+          86.66409725125358
+        ],
+        "distance_to_nearest_aperture_mm": 4.469371542286631
+      },
+      {
+        "xd_mm": [
+          13.763164977155713,
+          86.54356819682154
+        ],
+        "distance_to_nearest_aperture_mm": 4.33607552466365
+      },
+      {
+        "xd_mm": [
+          13.945788093649357,
+          86.41868932900917
+        ],
+        "distance_to_nearest_aperture_mm": 4.201944343075173
+      },
+      {
+        "xd_mm": [
+          14.12524328130296,
+          86.28929834075457
+        ],
+        "distance_to_nearest_aperture_mm": 4.0692957130014795
+      },
+      {
+        "xd_mm": [
+          14.30112368439311,
+          86.15508960439982
+        ],
+        "distance_to_nearest_aperture_mm": 3.9396174058457087
+      },
+      {
+        "xd_mm": [
+          14.473184144073112,
+          86.0160212619382
+        ],
+        "distance_to_nearest_aperture_mm": 3.8125975921605626
+      },
+      {
+        "xd_mm": [
+          14.641129135493957,
+          85.87201075846271
+        ],
+        "distance_to_nearest_aperture_mm": 3.6837771710924994
+      },
+      {
+        "xd_mm": [
+          14.80489842097071,
+          85.72326591763304
+        ],
+        "distance_to_nearest_aperture_mm": 3.5580943259347846
+      },
+      {
+        "xd_mm": [
+          14.964453194234203,
+          85.57000715877336
+        ],
+        "distance_to_nearest_aperture_mm": 3.4367504340846913
+      },
+      {
+        "xd_mm": [
+          15.11992287986769,
+          85.41260639335582
+        ],
+        "distance_to_nearest_aperture_mm": 3.3156748327934893
+      },
+      {
+        "xd_mm": [
+          15.271482266402463,
+          85.25143649707026
+        ],
+        "distance_to_nearest_aperture_mm": 3.1981402250018145
+      },
+      {
+        "xd_mm": [
+          15.41931070295183,
+          85.08683587635169
+        ],
+        "distance_to_nearest_aperture_mm": 3.087462736224144
+      },
+      {
+        "xd_mm": [
+          15.563587735244123,
+          84.91911176058292
+        ],
+        "distance_to_nearest_aperture_mm": 2.9786697489811558
+      },
+      {
+        "xd_mm": [
+          15.704567097530242,
+          84.74860593017085
+        ],
+        "distance_to_nearest_aperture_mm": 2.8764660886313345
+      },
+      {
+        "xd_mm": [
+          15.842611740866392,
+          84.57571503703825
+        ],
+        "distance_to_nearest_aperture_mm": 2.783236117202246
+      },
+      {
+        "xd_mm": [
+          15.978050727581314,
+          84.40077433898304
+        ],
+        "distance_to_nearest_aperture_mm": 2.6937756379328937
+      },
+      {
+        "xd_mm": [
+          16.111233012112937,
+          84.22410843067104
+        ],
+        "distance_to_nearest_aperture_mm": 2.6168808072573837
+      },
+      {
+        "xd_mm": [
+          16.242512356658292,
+          84.04602335211955
+        ],
+        "distance_to_nearest_aperture_mm": 2.5466506242886897
+      },
+      {
+        "xd_mm": [
+          16.37235257694705,
+          83.8668859780769
+        ],
+        "distance_to_nearest_aperture_mm": 2.4894472117484354
+      },
+      {
+        "xd_mm": [
+          16.50117397629464,
+          83.68701416084583
+        ],
+        "distance_to_nearest_aperture_mm": 2.443260819830169
+      },
+      {
+        "xd_mm": [
+          16.629411321265906,
+          83.50672525147333
+        ],
+        "distance_to_nearest_aperture_mm": 2.4105366894383025
+      },
+      {
+        "xd_mm": [
+          16.757517062441647,
+          83.32634276160043
+        ],
+        "distance_to_nearest_aperture_mm": 2.391806431851196
+      },
+      {
+        "xd_mm": [
+          16.885974626024705,
+          83.14621078868747
+        ],
+        "distance_to_nearest_aperture_mm": 2.3853508278381006
+      },
+      {
+        "xd_mm": [
+          17.015236778577574,
+          82.9666556334795
+        ],
+        "distance_to_nearest_aperture_mm": 2.3827207642300796
+      },
+      {
+        "xd_mm": [
+          17.14558743850007,
+          82.78788911545773
+        ],
+        "distance_to_nearest_aperture_mm": 2.381434819344673
+      },
+      {
+        "xd_mm": [
+          17.276920940652598,
+          82.60984322515799
+        ],
+        "distance_to_nearest_aperture_mm": 2.3813675902382876
+      },
+      {
+        "xd_mm": [
+          17.409030756603553,
+          82.43237251156931
+        ],
+        "distance_to_nearest_aperture_mm": 2.382266533116951
+      },
+      {
+        "xd_mm": [
+          17.541712090278075,
+          82.25532858589463
+        ],
+        "distance_to_nearest_aperture_mm": 2.3838787533574077
+      },
+      {
+        "xd_mm": [
+          17.674771172044363,
+          82.07856831265124
+        ],
+        "distance_to_nearest_aperture_mm": 2.38596334760059
+      },
+      {
+        "xd_mm": [
+          17.80801019759191,
+          81.9019436059335
+        ],
+        "distance_to_nearest_aperture_mm": 2.3882732264565796
+      },
+      {
+        "xd_mm": [
+          17.941228159018255,
+          81.72530301290747
+        ],
+        "distance_to_nearest_aperture_mm": 2.390556723543768
+      },
+      {
+        "xd_mm": [
+          18.074318968727532,
+          81.54856660345983
+        ],
+        "distance_to_nearest_aperture_mm": 2.3926810168403083
+      },
+      {
+        "xd_mm": [
+          18.2072603010427,
+          81.37171772963715
+        ],
+        "distance_to_nearest_aperture_mm": 2.394618257258665
+      },
+      {
+        "xd_mm": [
+          18.340037680649992,
+          81.19474572904466
+        ],
+        "distance_to_nearest_aperture_mm": 2.396350466449094
+      },
+      {
+        "xd_mm": [
+          18.472625230621848,
+          81.01763146563866
+        ],
+        "distance_to_nearest_aperture_mm": 2.397845460522697
+      },
+      {
+        "xd_mm": [
+          18.605010769376687,
+          80.84036616273346
+        ],
+        "distance_to_nearest_aperture_mm": 2.399088226441126
+      },
+      {
+        "xd_mm": [
+          18.737176261141162,
+          80.66293674054678
+        ],
+        "distance_to_nearest_aperture_mm": 2.400056485631415
+      },
+      {
+        "xd_mm": [
+          18.869103434289052,
+          80.48533004546265
+        ],
+        "distance_to_nearest_aperture_mm": 2.400727725913828
+      },
+      {
+        "xd_mm": [
+          19.000767107710487,
+          80.30752792670206
+        ],
+        "distance_to_nearest_aperture_mm": 2.4010709083411315
+      },
+      {
+        "xd_mm": [
+          19.132152175779137,
+          80.12951984580818
+        ],
+        "distance_to_nearest_aperture_mm": 2.401067621035108
+      },
+      {
+        "xd_mm": [
+          19.26324137959423,
+          79.95129377868625
+        ],
+        "distance_to_nearest_aperture_mm": 2.400696837399963
+      },
+      {
+        "xd_mm": [
+          19.394015486254464,
+          79.77283637982681
+        ],
+        "distance_to_nearest_aperture_mm": 2.4001149069226204
+      },
+      {
+        "xd_mm": [
+          19.524449450598166,
+          79.59413022111983
+        ],
+        "distance_to_nearest_aperture_mm": 2.4032072867376555
+      },
+      {
+        "xd_mm": [
+          19.65452278315138,
+          79.41516141295882
+        ],
+        "distance_to_nearest_aperture_mm": 2.405918962527245
+      },
+      {
+        "xd_mm": [
+          19.784220631471015,
+          79.23592031916604
+        ],
+        "distance_to_nearest_aperture_mm": 2.4081668485408105
+      },
+      {
+        "xd_mm": [
+          19.913522881153337,
+          79.05639363911908
+        ],
+        "distance_to_nearest_aperture_mm": 2.409926842887209
+      },
+      {
+        "xd_mm": [
+          20.04240599249467,
+          78.87656581578335
+        ],
+        "distance_to_nearest_aperture_mm": 2.4111707442914807
+      },
+      {
+        "xd_mm": [
+          20.170841540690162,
+          78.69641807531946
+        ],
+        "distance_to_nearest_aperture_mm": 2.411864505733443
+      },
+      {
+        "xd_mm": [
+          20.29881854387531,
+          78.51594431669746
+        ],
+        "distance_to_nearest_aperture_mm": 2.4119956391444104
+      },
+      {
+        "xd_mm": [
+          20.426316100591958,
+          78.33513153652355
+        ],
+        "distance_to_nearest_aperture_mm": 2.411539572131272
+      },
+      {
+        "xd_mm": [
+          20.55331337899551,
+          78.15396701431274
+        ],
+        "distance_to_nearest_aperture_mm": 2.4104719526199334
+      },
+      {
+        "xd_mm": [
+          20.67977194268123,
+          77.9724260501282
+        ],
+        "distance_to_nearest_aperture_mm": 2.408747138424948
+      },
+      {
+        "xd_mm": [
+          20.805686166457264,
+          77.79050714686905
+        ],
+        "distance_to_nearest_aperture_mm": 2.406359673757495
+      },
+      {
+        "xd_mm": [
+          20.93103068397739,
+          77.6081952617092
+        ],
+        "distance_to_nearest_aperture_mm": 2.4032801638741392
+      },
+      {
+        "xd_mm": [
+          21.055755313118443,
+          77.42545874342615
+        ],
+        "distance_to_nearest_aperture_mm": 2.4005880946369995
+      },
+      {
+        "xd_mm": [
+          21.179771529693774,
+          77.24224073732489
+        ],
+        "distance_to_nearest_aperture_mm": 2.4055134436253316
+      },
+      {
+        "xd_mm": [
+          21.303012136377752,
+          77.05850019905516
+        ],
+        "distance_to_nearest_aperture_mm": 2.409727812604979
+      },
+      {
+        "xd_mm": [
+          21.425409892226472,
+          76.87419719835538
+        ],
+        "distance_to_nearest_aperture_mm": 2.412929030501115
+      },
+      {
+        "xd_mm": [
+          21.546890145281747,
+          76.68928817485013
+        ],
+        "distance_to_nearest_aperture_mm": 2.4150307476791446
+      },
+      {
+        "xd_mm": [
+          21.667363067628575,
+          76.50372128088561
+        ],
+        "distance_to_nearest_aperture_mm": 2.415929367933449
+      },
+      {
+        "xd_mm": [
+          21.78674350336883,
+          76.31744977819916
+        ],
+        "distance_to_nearest_aperture_mm": 2.415527988751777
+      },
+      {
+        "xd_mm": [
+          21.904971256261664,
+          76.1304446633252
+        ],
+        "distance_to_nearest_aperture_mm": 2.4137602939748533
+      },
+      {
+        "xd_mm": [
+          22.021967717325214,
+          75.94266679853446
+        ],
+        "distance_to_nearest_aperture_mm": 2.410538999471669
+      },
+      {
+        "xd_mm": [
+          22.137646603056066,
+          75.75407435596452
+        ],
+        "distance_to_nearest_aperture_mm": 2.405768911560664
+      },
+      {
+        "xd_mm": [
+          22.25189492323881,
+          75.56461196013579
+        ],
+        "distance_to_nearest_aperture_mm": 2.401106480622542
+      },
+      {
+        "xd_mm": [
+          22.364665412364232,
+          75.3742664410327
+        ],
+        "distance_to_nearest_aperture_mm": 2.406584793383714
+      },
+      {
+        "xd_mm": [
+          22.475876190789602,
+          75.18300554436406
+        ],
+        "distance_to_nearest_aperture_mm": 2.411140377592678
+      },
+      {
+        "xd_mm": [
+          22.585444798518658,
+          74.99079909276418
+        ],
+        "distance_to_nearest_aperture_mm": 2.413801274717619
+      },
+      {
+        "xd_mm": [
+          22.693238555786923,
+          74.79759172938404
+        ],
+        "distance_to_nearest_aperture_mm": 2.414424601913284
+      },
+      {
+        "xd_mm": [
+          22.799212295541363,
+          74.60338040747646
+        ],
+        "distance_to_nearest_aperture_mm": 2.412969376912956
+      },
+      {
+        "xd_mm": [
+          22.90328859458162,
+          74.40814583744927
+        ],
+        "distance_to_nearest_aperture_mm": 2.409358530812514
+      },
+      {
+        "xd_mm": [
+          23.0053840584077,
+          74.2118680818641
+        ],
+        "distance_to_nearest_aperture_mm": 2.4035094578666296
+      },
+      {
+        "xd_mm": [
+          23.105374530539667,
+          74.01450963092228
+        ],
+        "distance_to_nearest_aperture_mm": 2.4036571336471564
+      },
+      {
+        "xd_mm": [
+          23.203188321368508,
+          73.81606365832126
+        ],
+        "distance_to_nearest_aperture_mm": 2.4101965756773467
+      },
+      {
+        "xd_mm": [
+          23.298768005771056,
+          73.61653227673465
+        ],
+        "distance_to_nearest_aperture_mm": 2.41425290845615
+      },
+      {
+        "xd_mm": [
+          23.39208415791906,
+          73.41593210050168
+        ],
+        "distance_to_nearest_aperture_mm": 2.4158062668672984
+      },
+      {
+        "xd_mm": [
+          23.483222989804197,
+          73.21433300206607
+        ],
+        "distance_to_nearest_aperture_mm": 2.4149640978672684
+      },
+      {
+        "xd_mm": [
+          23.572311651721503,
+          73.01181949056578
+        ],
+        "distance_to_nearest_aperture_mm": 2.4118771675444615
+      },
+      {
+        "xd_mm": [
+          23.659534019406898,
+          72.80849517114348
+        ],
+        "distance_to_nearest_aperture_mm": 2.406755774095397
+      },
+      {
+        "xd_mm": [
+          23.745029026206286,
+          72.60443831699502
+        ],
+        "distance_to_nearest_aperture_mm": 2.400813786131209
+      },
+      {
+        "xd_mm": [
+          23.828932933986668,
+          72.39972184536211
+        ],
+        "distance_to_nearest_aperture_mm": 2.4044743504658186
+      },
+      {
+        "xd_mm": [
+          23.91135252978326,
+          72.19440319240384
+        ],
+        "distance_to_nearest_aperture_mm": 2.4077475292849484
+      },
+      {
+        "xd_mm": [
+          23.99247265659515,
+          71.98856765439218
+        ],
+        "distance_to_nearest_aperture_mm": 2.409622307327106
+      },
+      {
+        "xd_mm": [
+          24.072420661856764,
+          71.78227395490977
+        ],
+        "distance_to_nearest_aperture_mm": 2.410238622143837
+      },
+      {
+        "xd_mm": [
+          24.15128896933079,
+          71.57556496607253
+        ],
+        "distance_to_nearest_aperture_mm": 2.409698125621229
+      },
+      {
+        "xd_mm": [
+          24.229139132321574,
+          71.36847032270825
+        ],
+        "distance_to_nearest_aperture_mm": 2.4080689052311897
+      },
+      {
+        "xd_mm": [
+          24.306078459262647,
+          71.16103556136599
+        ],
+        "distance_to_nearest_aperture_mm": 2.405467462552745
+      },
+      {
+        "xd_mm": [
+          24.382198601884575,
+          70.9532987641158
+        ],
+        "distance_to_nearest_aperture_mm": 2.401993010364666
+      },
+      {
+        "xd_mm": [
+          24.457586067813313,
+          70.74529490657483
+        ],
+        "distance_to_nearest_aperture_mm": 2.4013197871545255
+      },
+      {
+        "xd_mm": [
+          24.53231892063636,
+          70.53705491970337
+        ],
+        "distance_to_nearest_aperture_mm": 2.4033075488327476
+      },
+      {
+        "xd_mm": [
+          24.606490801676934,
+          70.32861444937043
+        ],
+        "distance_to_nearest_aperture_mm": 2.4046996074583786
+      },
+      {
+        "xd_mm": [
+          24.680199491118398,
+          70.12000971858902
+        ],
+        "distance_to_nearest_aperture_mm": 2.408660347021932
+      },
+      {
+        "xd_mm": [
+          24.75353411656837,
+          69.9112731709985
+        ],
+        "distance_to_nearest_aperture_mm": 2.4240080654598835
+      },
+      {
+        "xd_mm": [
+          24.82658336817694,
+          69.70243656705821
+        ],
+        "distance_to_nearest_aperture_mm": 2.453604560969016
+      },
+      {
+        "xd_mm": [
+          24.899437323359283,
+          69.49353174500855
+        ],
+        "distance_to_nearest_aperture_mm": 2.4965680714423035
+      },
+      {
+        "xd_mm": [
+          24.97214208115914,
+          69.28457495407885
+        ],
+        "distance_to_nearest_aperture_mm": 2.5524566371009954
+      },
+      {
+        "xd_mm": [
+          25.044645836767405,
+          69.07554834148323
+        ],
+        "distance_to_nearest_aperture_mm": 2.621830825274963
+      },
+      {
+        "xd_mm": [
+          25.116884941956506,
+          68.86643012344534
+        ],
+        "distance_to_nearest_aperture_mm": 2.700966286979574
+      },
+      {
+        "xd_mm": [
+          25.18878335107094,
+          68.65719453386738
+        ],
+        "distance_to_nearest_aperture_mm": 2.794158636632478
+      },
+      {
+        "xd_mm": [
+          25.260285222665164,
+          68.4478231247634
+        ],
+        "distance_to_nearest_aperture_mm": 2.8934571504738593
+      },
+      {
+        "xd_mm": [
+          25.331326984951232,
+          68.23829516681481
+        ],
+        "distance_to_nearest_aperture_mm": 3.004832809089734
+      },
+      {
+        "xd_mm": [
+          25.40184525765944,
+          68.02859045130823
+        ],
+        "distance_to_nearest_aperture_mm": 3.1243772626595776
+      },
+      {
+        "xd_mm": [
+          25.471762373110955,
+          67.81868455235549
+        ],
+        "distance_to_nearest_aperture_mm": 3.249640509659763
+      },
+      {
+        "xd_mm": [
+          25.54102125492046,
+          67.60856058563255
+        ],
+        "distance_to_nearest_aperture_mm": 3.3842053822473916
+      },
+      {
+        "xd_mm": [
+          25.6095650432929,
+          67.39820229801695
+        ],
+        "distance_to_nearest_aperture_mm": 3.463585460653311
+      },
+      {
+        "xd_mm": [
+          25.67733264551191,
+          67.18759268659451
+        ],
+        "distance_to_nearest_aperture_mm": 3.3353197494768043
+      },
+      {
+        "xd_mm": [
+          25.744251239535206,
+          66.97671177890005
+        ],
+        "distance_to_nearest_aperture_mm": 3.2163744002497725
+      },
+      {
+        "xd_mm": [
+          25.810256204746782,
+          66.76554317164994
+        ],
+        "distance_to_nearest_aperture_mm": 3.1054455788376596
+      },
+      {
+        "xd_mm": [
+          25.875303641545703,
+          66.55407770521019
+        ],
+        "distance_to_nearest_aperture_mm": 3.0000955017678015
+      },
+      {
+        "xd_mm": [
+          25.93933685930541,
+          66.34230293571228
+        ],
+        "distance_to_nearest_aperture_mm": 2.9068028616989263
+      },
+      {
+        "xd_mm": [
+          26.002294164716844,
+          66.13020580475819
+        ],
+        "distance_to_nearest_aperture_mm": 2.8202381831623535
+      },
+      {
+        "xd_mm": [
+          26.064097742311883,
+          65.91776965965454
+        ],
+        "distance_to_nearest_aperture_mm": 2.74484979478425
+      },
+      {
+        "xd_mm": [
+          26.12472222711959,
+          65.7049941134913
+        ],
+        "distance_to_nearest_aperture_mm": 2.6806691787667978
+      },
+      {
+        "xd_mm": [
+          26.184117866976223,
+          65.49187229976147
+        ],
+        "distance_to_nearest_aperture_mm": 2.6258365665303804
+      },
+      {
+        "xd_mm": [
+          26.24223042606479,
+          65.27839701834787
+        ],
+        "distance_to_nearest_aperture_mm": 2.5852207995210743
+      },
+      {
+        "xd_mm": [
+          26.29893771375869,
+          65.06454420016648
+        ],
+        "distance_to_nearest_aperture_mm": 2.553151809184131
+      },
+      {
+        "xd_mm": [
+          26.354175282175483,
+          64.85030721005258
+        ],
+        "distance_to_nearest_aperture_mm": 2.536748501331134
+      },
+      {
+        "xd_mm": [
+          26.407854159822342,
+          64.635674468712
+        ],
+        "distance_to_nearest_aperture_mm": 2.5287603661969524
+      },
+      {
+        "xd_mm": [
+          26.459882604982194,
+          64.420635671195
+        ],
+        "distance_to_nearest_aperture_mm": 2.5368092017405934
+      },
+      {
+        "xd_mm": [
+          26.51013418941766,
+          64.20517472696557
+        ],
+        "distance_to_nearest_aperture_mm": 2.5528677643083286
+      },
+      {
+        "xd_mm": [
+          26.558532041258974,
+          63.98929001174783
+        ],
+        "distance_to_nearest_aperture_mm": 2.5846745700429365
+      },
+      {
+        "xd_mm": [
+          26.605009038826996,
+          63.772983783323156
+        ],
+        "distance_to_nearest_aperture_mm": 2.6237619800001664
+      },
+      {
+        "xd_mm": [
+          26.649480822959404,
+          63.55625640087115
+        ],
+        "distance_to_nearest_aperture_mm": 2.677717232918108
+      },
+      {
+        "xd_mm": [
+          26.69184008324152,
+          63.339106175673145
+        ],
+        "distance_to_nearest_aperture_mm": 2.7382961353179827
+      },
+      {
+        "xd_mm": [
+          26.73198599593461,
+          63.121536046402944
+        ],
+        "distance_to_nearest_aperture_mm": 2.8113733338914333
+      },
+      {
+        "xd_mm": [
+          26.769881308429376,
+          62.903562884992006
+        ],
+        "distance_to_nearest_aperture_mm": 2.8922697811837725
+      },
+      {
+        "xd_mm": [
+          26.80545092291364,
+          62.685198181368804
+        ],
+        "distance_to_nearest_aperture_mm": 2.981476456778145
+      },
+      {
+        "xd_mm": [
+          26.83861457195382,
+          62.466454978721075
+        ],
+        "distance_to_nearest_aperture_mm": 3.0809550256913365
+      },
+      {
+        "xd_mm": [
+          26.86923952527999,
+          62.24734203073708
+        ],
+        "distance_to_nearest_aperture_mm": 3.1839063415006903
+      },
+      {
+        "xd_mm": [
+          26.89732568696429,
+          62.02788954464769
+        ],
+        "distance_to_nearest_aperture_mm": 3.2959221906695295
+      },
+      {
+        "xd_mm": [
+          26.922809853920302,
+          61.80811978538065
+        ],
+        "distance_to_nearest_aperture_mm": 3.4147383080006075
+      },
+      {
+        "xd_mm": [
+          26.945632141143417,
+          61.5880574679161
+        ],
+        "distance_to_nearest_aperture_mm": 3.536193472296923
+      },
+      {
+        "xd_mm": [
+          26.965664527730393,
+          61.367723660561694
+        ],
+        "distance_to_nearest_aperture_mm": 3.6647026873188024
+      },
+      {
+        "xd_mm": [
+          26.982969704461595,
+          61.147159036369494
+        ],
+        "distance_to_nearest_aperture_mm": 3.799120468177599
+      },
+      {
+        "xd_mm": [
+          26.99778751498349,
+          60.92641309565656
+        ],
+        "distance_to_nearest_aperture_mm": 3.9348239558690183
+      },
+      {
+        "xd_mm": [
+          27.01039567075194,
+          60.70552952114376
+        ],
+        "distance_to_nearest_aperture_mm": 4.075826317077477
+      },
+      {
+        "xd_mm": [
+          27.02103110512472,
+          60.48454188145107
+        ],
+        "distance_to_nearest_aperture_mm": 4.222267487211367
+      },
+      {
+        "xd_mm": [
+          27.029971051432472,
+          60.26347905893694
+        ],
+        "distance_to_nearest_aperture_mm": 4.372907067469745
+      },
+      {
+        "xd_mm": [
+          27.037491096777913,
+          60.04236326278563
+        ],
+        "distance_to_nearest_aperture_mm": 4.524801196912383
+      },
+      {
+        "xd_mm": [
+          27.043820089763464,
+          59.82121003753256
+        ],
+        "distance_to_nearest_aperture_mm": 4.68122733472105
+      },
+      {
+        "xd_mm": [
+          27.04909839232768,
+          59.600029154539676
+        ],
+        "distance_to_nearest_aperture_mm": 4.842003050668674
+      },
+      {
+        "xd_mm": [
+          27.05342358975911,
+          59.378827554698006
+        ],
+        "distance_to_nearest_aperture_mm": 5.0067699997604045
+      },
+      {
+        "xd_mm": [
+          27.056924185196163,
+          59.15761135109081
+        ],
+        "distance_to_nearest_aperture_mm": 5.1738485517458175
+      },
+      {
+        "xd_mm": [
+          27.059705754942733,
+          58.93638490011779
+        ],
+        "distance_to_nearest_aperture_mm": 5.34227565595182
+      },
+      {
+        "xd_mm": [
+          27.06187063069328,
+          58.715151511559824
+        ],
+        "distance_to_nearest_aperture_mm": 5.51404774363047
+      },
+      {
+        "xd_mm": [
+          -27.06216695973459,
+          58.67861991619247
+        ],
+        "distance_to_nearest_aperture_mm": 5.542711197551754
+      },
+      {
+        "xd_mm": [
+          -27.06010042886025,
+          58.89985423473271
+        ],
+        "distance_to_nearest_aperture_mm": 5.370413562802228
+      },
+      {
+        "xd_mm": [
+          -27.057438207114284,
+          59.12108217011939
+        ],
+        "distance_to_nearest_aperture_mm": 5.201428972348345
+      },
+      {
+        "xd_mm": [
+          -27.054060685707253,
+          59.34230032028864
+        ],
+        "distance_to_nearest_aperture_mm": 5.034343253423871
+      },
+      {
+        "xd_mm": [
+          -27.04986551996699,
+          59.56350441775239
+        ],
+        "distance_to_nearest_aperture_mm": 4.868937189399775
+      },
+      {
+        "xd_mm": [
+          -27.044753463847673,
+          59.78468916550308
+        ],
+        "distance_to_nearest_aperture_mm": 4.707480028523295
+      },
+      {
+        "xd_mm": [
+          -27.038621230823818,
+          60.0058479498606
+        ],
+        "distance_to_nearest_aperture_mm": 4.550320985032103
+      },
+      {
+        "xd_mm": [
+          -27.03131867015353,
+          60.22697114083166
+        ],
+        "distance_to_nearest_aperture_mm": 4.397793248435371
+      },
+      {
+        "xd_mm": [
+          -27.022607505693237,
+          60.44804313916202
+        ],
+        "distance_to_nearest_aperture_mm": 4.246939514629533
+      },
+      {
+        "xd_mm": [
+          -27.012260216218955,
+          60.669044335778
+        ],
+        "distance_to_nearest_aperture_mm": 4.099627165432073
+      },
+      {
+        "xd_mm": [
+          -27.000020522531393,
+          60.88994860665334
+        ],
+        "distance_to_nearest_aperture_mm": 3.9577185588662136
+      },
+      {
+        "xd_mm": [
+          -26.98561621721906,
+          61.110722241584796
+        ],
+        "distance_to_nearest_aperture_mm": 3.8214316417566474
+      },
+      {
+        "xd_mm": [
+          -26.968702902876124,
+          61.33131752283783
+        ],
+        "distance_to_nearest_aperture_mm": 3.6865536127695693
+      },
+      {
+        "xd_mm": [
+          -26.94909583033567,
+          61.55168923812482
+        ],
+        "distance_to_nearest_aperture_mm": 3.5569138327767744
+      },
+      {
+        "xd_mm": [
+          -26.92676044403407,
+          61.77180122099928
+        ],
+        "distance_to_nearest_aperture_mm": 3.4343092452122015
+      },
+      {
+        "xd_mm": [
+          -26.90175169107905,
+          61.99162584697979
+        ],
+        "distance_to_nearest_aperture_mm": 3.3152951318415878
+      },
+      {
+        "xd_mm": [
+          -26.87406219373839,
+          62.211129031732796
+        ],
+        "distance_to_nearest_aperture_mm": 3.2017818216836704
+      },
+      {
+        "xd_mm": [
+          -26.843813179639753,
+          62.43029396882113
+        ],
+        "distance_to_nearest_aperture_mm": 3.0975376976935545
+      },
+      {
+        "xd_mm": [
+          -26.81108292963035,
+          62.64910211813029
+        ],
+        "distance_to_nearest_aperture_mm": 2.997303081267734
+      },
+      {
+        "xd_mm": [
+          -26.77594046602824,
+          62.8675360631759
+        ],
+        "distance_to_nearest_aperture_mm": 2.9062017370309734
+      },
+      {
+        "xd_mm": [
+          -26.73841742619855,
+          63.085573871577196
+        ],
+        "distance_to_nearest_aperture_mm": 2.8247239034206735
+      },
+      {
+        "xd_mm": [
+          -26.698603290416546,
+          63.30320490029711
+        ],
+        "distance_to_nearest_aperture_mm": 2.749399671554366
+      },
+      {
+        "xd_mm": [
+          -26.65660587505334,
+          63.52042514477211
+        ],
+        "distance_to_nearest_aperture_mm": 2.687411075474261
+      },
+      {
+        "xd_mm": [
+          -26.612504839501064,
+          63.73722824874139
+        ],
+        "distance_to_nearest_aperture_mm": 2.6316556551999777
+      },
+      {
+        "xd_mm": [
+          -26.566363743259238,
+          63.953606572341684
+        ],
+        "distance_to_nearest_aperture_mm": 2.5905049465147867
+      },
+      {
+        "xd_mm": [
+          -26.518247352503003,
+          64.16955424091269
+        ],
+        "distance_to_nearest_aperture_mm": 2.5570966377908078
+      },
+      {
+        "xd_mm": [
+          -26.468284995784693,
+          64.38508225912567
+        ],
+        "distance_to_nearest_aperture_mm": 2.538571358500806
+      },
+      {
+        "xd_mm": [
+          -26.41656456331242,
+          64.6001952613926
+        ],
+        "distance_to_nearest_aperture_mm": 2.5291016707331453
+      },
+      {
+        "xd_mm": [
+          -26.36317388976891,
+          64.81490000505063
+        ],
+        "distance_to_nearest_aperture_mm": 2.5344489657075817
+      },
+      {
+        "xd_mm": [
+          -26.308162630297183,
+          65.02919530888056
+        ],
+        "distance_to_nearest_aperture_mm": 2.5495096473020586
+      },
+      {
+        "xd_mm": [
+          -26.25167323596634,
+          65.24310567915344
+        ],
+        "distance_to_nearest_aperture_mm": 2.578787371277782
+      },
+      {
+        "xd_mm": [
+          -26.193800878027353,
+          65.45664610811437
+        ],
+        "distance_to_nearest_aperture_mm": 2.6183438396475576
+      },
+      {
+        "xd_mm": [
+          -26.134631846332507,
+          65.66983099747421
+        ],
+        "distance_to_nearest_aperture_mm": 2.670531209094018
+      },
+      {
+        "xd_mm": [
+          -26.07419629795531,
+          65.88266035681191
+        ],
+        "distance_to_nearest_aperture_mm": 2.733817887524444
+      },
+      {
+        "xd_mm": [
+          -26.012565977014734,
+          66.0951467869786
+        ],
+        "distance_to_nearest_aperture_mm": 2.8067919296772734
+      },
+      {
+        "xd_mm": [
+          -25.949801918986083,
+          66.30730110994769
+        ],
+        "distance_to_nearest_aperture_mm": 2.8923921533100985
+      },
+      {
+        "xd_mm": [
+          -25.885957528682134,
+          66.51913289200624
+        ],
+        "distance_to_nearest_aperture_mm": 2.98383686047632
+      },
+      {
+        "xd_mm": [
+          -25.821073045591376,
+          66.7306484652254
+        ],
+        "distance_to_nearest_aperture_mm": 3.08728070317222
+      },
+      {
+        "xd_mm": [
+          -25.755207578873797,
+          66.94186061918245
+        ],
+        "distance_to_nearest_aperture_mm": 3.197696018551075
+      },
+      {
+        "xd_mm": [
+          -25.688434899851384,
+          67.15278772675322
+        ],
+        "distance_to_nearest_aperture_mm": 3.3150011749197423
+      },
+      {
+        "xd_mm": [
+          -25.62081398432416,
+          67.36344447002607
+        ],
+        "distance_to_nearest_aperture_mm": 3.4418285527259878
+      },
+      {
+        "xd_mm": [
+          -25.552399794909846,
+          67.57384497107685
+        ],
+        "distance_to_nearest_aperture_mm": 3.407249146107695
+      },
+      {
+        "xd_mm": [
+          -25.48324357513336,
+          67.78400275773377
+        ],
+        "distance_to_nearest_aperture_mm": 3.271248651677056
+      },
+      {
+        "xd_mm": [
+          -25.41342597933282,
+          67.99394175484652
+        ],
+        "distance_to_nearest_aperture_mm": 3.144363711973253
+      },
+      {
+        "xd_mm": [
+          -25.343009414443767,
+          68.20368063053131
+        ],
+        "distance_to_nearest_aperture_mm": 3.024343276781236
+      },
+      {
+        "xd_mm": [
+          -25.272056800380515,
+          68.4132388040521
+        ],
+        "distance_to_nearest_aperture_mm": 2.911020514150992
+      },
+      {
+        "xd_mm": [
+          -25.20061964258982,
+          68.62263230995347
+        ],
+        "distance_to_nearest_aperture_mm": 2.8100057352171035
+      },
+      {
+        "xd_mm": [
+          -25.12877701781351,
+          68.83188705159613
+        ],
+        "distance_to_nearest_aperture_mm": 2.7155108456805057
+      },
+      {
+        "xd_mm": [
+          -25.056593314663306,
+          69.04102439250724
+        ],
+        "distance_to_nearest_aperture_mm": 2.6338000928875074
+      },
+      {
+        "xd_mm": [
+          -24.98413229418022,
+          69.2500658237989
+        ],
+        "distance_to_nearest_aperture_mm": 2.5633902027187334
+      },
+      {
+        "xd_mm": [
+          -24.911454587788832,
+          69.45903202591278
+        ],
+        "distance_to_nearest_aperture_mm": 2.504548072330269
+      },
+      {
+        "xd_mm": [
+          -24.838622397476996,
+          69.66794443697755
+        ],
+        "distance_to_nearest_aperture_mm": 2.4603478290851992
+      },
+      {
+        "xd_mm": [
+          -24.765611565858894,
+          69.8767944746832
+        ],
+        "distance_to_nearest_aperture_mm": 2.427546583602729
+      },
+      {
+        "xd_mm": [
+          -24.69233479547568,
+          70.08555134269689
+        ],
+        "distance_to_nearest_aperture_mm": 2.4108879160739556
+      },
+      {
+        "xd_mm": [
+          -24.61869603613377,
+          70.29418078280122
+        ],
+        "distance_to_nearest_aperture_mm": 2.404884520701872
+      },
+      {
+        "xd_mm": [
+          -24.544599300613225,
+          70.50264798285967
+        ],
+        "distance_to_nearest_aperture_mm": 2.4035722184874584
+      },
+      {
+        "xd_mm": [
+          -24.46996240777047,
+          70.71092236680501
+        ],
+        "distance_to_nearest_aperture_mm": 2.4016863916253146
+      },
+      {
+        "xd_mm": [
+          -24.394697398493815,
+          70.91897056340144
+        ],
+        "distance_to_nearest_aperture_mm": 2.401344238968315
+      },
+      {
+        "xd_mm": [
+          -24.318713381004063,
+          71.12675723219665
+        ],
+        "distance_to_nearest_aperture_mm": 2.4049636463359687
+      },
+      {
+        "xd_mm": [
+          -24.241902724690178,
+          71.33423970512243
+        ],
+        "distance_to_nearest_aperture_mm": 2.407702311027662
+      },
+      {
+        "xd_mm": [
+          -24.164198298473316,
+          71.54138903152707
+        ],
+        "distance_to_nearest_aperture_mm": 2.409487184560712
+      },
+      {
+        "xd_mm": [
+          -24.085515039867932,
+          71.74816849280374
+        ],
+        "distance_to_nearest_aperture_mm": 2.4102256939122286
+      },
+      {
+        "xd_mm": [
+          -24.00576869441015,
+          71.95454030275579
+        ],
+        "distance_to_nearest_aperture_mm": 2.409825637284606
+      },
+      {
+        "xd_mm": [
+          -23.924837126817597,
+          72.16045014832198
+        ],
+        "distance_to_nearest_aperture_mm": 2.4081535246192547
+      },
+      {
+        "xd_mm": [
+          -23.842619920983108,
+          72.36584986078907
+        ],
+        "distance_to_nearest_aperture_mm": 2.405098343533673
+      },
+      {
+        "xd_mm": [
+          -23.75898208317248,
+          72.57067506060191
+        ],
+        "distance_to_nearest_aperture_mm": 2.400841283601145
+      },
+      {
+        "xd_mm": [
+          -23.67378424835075,
+          72.77485626129175
+        ],
+        "distance_to_nearest_aperture_mm": 2.405744513980438
+      },
+      {
+        "xd_mm": [
+          -23.586852340658716,
+          72.97830515782027
+        ],
+        "distance_to_nearest_aperture_mm": 2.4111818704101955
+      },
+      {
+        "xd_mm": [
+          -23.498051502148023,
+          73.1809450109115
+        ],
+        "distance_to_nearest_aperture_mm": 2.4145830983550884
+      },
+      {
+        "xd_mm": [
+          -23.40726256808444,
+          73.38270167549959
+        ],
+        "distance_to_nearest_aperture_mm": 2.4158090009752606
+      },
+      {
+        "xd_mm": [
+          -23.314345096292094,
+          73.58348686053407
+        ],
+        "distance_to_nearest_aperture_mm": 2.4146951503771112
+      },
+      {
+        "xd_mm": [
+          -23.219152286485784,
+          73.78320344056858
+        ],
+        "distance_to_nearest_aperture_mm": 2.4110676652434044
+      },
+      {
+        "xd_mm": [
+          -23.121667140118433,
+          73.9818111352599
+        ],
+        "distance_to_nearest_aperture_mm": 2.404894350403453
+      },
+      {
+        "xd_mm": [
+          -23.022018922260145,
+          74.1793422984672
+        ],
+        "distance_to_nearest_aperture_mm": 2.4023470323864364
+      },
+      {
+        "xd_mm": [
+          -22.920290223229966,
+          74.37581025481535
+        ],
+        "distance_to_nearest_aperture_mm": 2.4085541291616623
+      },
+      {
+        "xd_mm": [
+          -22.81656042033594,
+          74.57122939947813
+        ],
+        "distance_to_nearest_aperture_mm": 2.412557511580202
+      },
+      {
+        "xd_mm": [
+          -22.71086440420902,
+          74.76559218435573
+        ],
+        "distance_to_nearest_aperture_mm": 2.414329069975827
+      },
+      {
+        "xd_mm": [
+          -22.603343460826334,
+          74.95895128014593
+        ],
+        "distance_to_nearest_aperture_mm": 2.414017912485065
+      },
+      {
+        "xd_mm": [
+          -22.494080888401328,
+          75.1513316708113
+        ],
+        "distance_to_nearest_aperture_mm": 2.411709006969005
+      },
+      {
+        "xd_mm": [
+          -22.38315969303247,
+          75.34276077704132
+        ],
+        "distance_to_nearest_aperture_mm": 2.4074882470084407
+      },
+      {
+        "xd_mm": [
+          -22.27062616610235,
+          75.5332466414832
+        ],
+        "distance_to_nearest_aperture_mm": 2.4015712717075264
+      },
+      {
+        "xd_mm": [
+          -22.156594066220045,
+          75.72283914819708
+        ],
+        "distance_to_nearest_aperture_mm": 2.404800933658613
+      },
+      {
+        "xd_mm": [
+          -22.0411547395607,
+          75.91157815979442
+        ],
+        "distance_to_nearest_aperture_mm": 2.409851789139233
+      },
+      {
+        "xd_mm": [
+          -21.924388705619734,
+          76.09949942231145
+        ],
+        "distance_to_nearest_aperture_mm": 2.4133444556725547
+      },
+      {
+        "xd_mm": [
+          -21.806356955974472,
+          76.28662841523003
+        ],
+        "distance_to_nearest_aperture_mm": 2.4153440113762477
+      },
+      {
+        "xd_mm": [
+          -21.687143918326814,
+          76.47300707876502
+        ],
+        "distance_to_nearest_aperture_mm": 2.4159441500932193
+      },
+      {
+        "xd_mm": [
+          -21.566845755756233,
+          76.6586872125848
+        ],
+        "distance_to_nearest_aperture_mm": 2.4152537696129466
+      },
+      {
+        "xd_mm": [
+          -21.445539291183294,
+          76.84371027363983
+        ],
+        "distance_to_nearest_aperture_mm": 2.4133599070445535
+      },
+      {
+        "xd_mm": [
+          -21.323293747156317,
+          77.02811432869358
+        ],
+        "distance_to_nearest_aperture_mm": 2.4103413734930186
+      },
+      {
+        "xd_mm": [
+          -21.20017408048183,
+          77.21193594426234
+        ],
+        "distance_to_nearest_aperture_mm": 2.4062725809869314
+      },
+      {
+        "xd_mm": [
+          -21.07627564911396,
+          77.39523357028182
+        ],
+        "distance_to_nearest_aperture_mm": 2.4012653488030433
+      },
+      {
+        "xd_mm": [
+          -20.95167094737362,
+          77.57805185765606
+        ],
+        "distance_to_nearest_aperture_mm": 2.402702310573529
+      },
+      {
+        "xd_mm": [
+          -20.8264331362046,
+          77.76043708655519
+        ],
+        "distance_to_nearest_aperture_mm": 2.4059112895344237
+      },
+      {
+        "xd_mm": [
+          -20.700602053978496,
+          77.94241353028362
+        ],
+        "distance_to_nearest_aperture_mm": 2.4083998592091937
+      },
+      {
+        "xd_mm": [
+          -20.57422434472055,
+          78.12401076632638
+        ],
+        "distance_to_nearest_aperture_mm": 2.410223178764264
+      },
+      {
+        "xd_mm": [
+          -20.44731988434961,
+          78.30524029451462
+        ],
+        "distance_to_nearest_aperture_mm": 2.411404114687362
+      },
+      {
+        "xd_mm": [
+          -20.31991094890665,
+          78.4861155431563
+        ],
+        "distance_to_nearest_aperture_mm": 2.411968606704416
+      },
+      {
+        "xd_mm": [
+          -20.1920082960642,
+          78.66664201982893
+        ],
+        "distance_to_nearest_aperture_mm": 2.411928616937383
+      },
+      {
+        "xd_mm": [
+          -20.063640070812312,
+          78.84683772996429
+        ],
+        "distance_to_nearest_aperture_mm": 2.411317519950884
+      },
+      {
+        "xd_mm": [
+          -19.93483131672857,
+          79.02671880374784
+        ],
+        "distance_to_nearest_aperture_mm": 2.410165075537478
+      },
+      {
+        "xd_mm": [
+          -19.805602585462164,
+          79.20629841300702
+        ],
+        "distance_to_nearest_aperture_mm": 2.4084956679710245
+      },
+      {
+        "xd_mm": [
+          -19.67596909812611,
+          79.3855860732789
+        ],
+        "distance_to_nearest_aperture_mm": 2.406327218271206
+      },
+      {
+        "xd_mm": [
+          -19.545950613105408,
+          79.56459473133968
+        ],
+        "distance_to_nearest_aperture_mm": 2.403683333285818
+      },
+      {
+        "xd_mm": [
+          -19.415573957662392,
+          79.74334269251021
+        ],
+        "distance_to_nearest_aperture_mm": 2.4005964855509347
+      },
+      {
+        "xd_mm": [
+          -19.284858852104552,
+          79.92184330902548
+        ],
+        "distance_to_nearest_aperture_mm": 2.400600169202977
+      },
+      {
+        "xd_mm": [
+          -19.153823229613554,
+          80.10010878212512
+        ],
+        "distance_to_nearest_aperture_mm": 2.401037464312083
+      },
+      {
+        "xd_mm": [
+          -19.022481063009415,
+          80.27814852366556
+        ],
+        "distance_to_nearest_aperture_mm": 2.4010940707720714
+      },
+      {
+        "xd_mm": [
+          -18.890859562948123,
+          80.4559818573287
+        ],
+        "distance_to_nearest_aperture_mm": 2.4008033569793295
+      },
+      {
+        "xd_mm": [
+          -18.75897752619771,
+          80.63362206635604
+        ],
+        "distance_to_nearest_aperture_mm": 2.4001883346058244
+      },
+      {
+        "xd_mm": [
+          -18.6268535111751,
+          80.81108238033254
+        ],
+        "distance_to_nearest_aperture_mm": 2.3992717916890998
+      },
+      {
+        "xd_mm": [
+          -18.49450019696809,
+          80.98837174810028
+        ],
+        "distance_to_nearest_aperture_mm": 2.3980692437823077
+      },
+      {
+        "xd_mm": [
+          -18.36194184045983,
+          81.16550785875218
+        ],
+        "distance_to_nearest_aperture_mm": 2.3966107120519275
+      },
+      {
+        "xd_mm": [
+          -18.229196579589185,
+          81.34250394925004
+        ],
+        "distance_to_nearest_aperture_mm": 2.3949186506126114
+      },
+      {
+        "xd_mm": [
+          -18.096282755432533,
+          81.51937349888779
+        ],
+        "distance_to_nearest_aperture_mm": 2.393015820928275
+      },
+      {
+        "xd_mm": [
+          -17.963215672458258,
+          81.69612777495546
+        ],
+        "distance_to_nearest_aperture_mm": 2.390921227683367
+      },
+      {
+        "xd_mm": [
+          -17.83001282544092,
+          81.87277976448757
+        ],
+        "distance_to_nearest_aperture_mm": 2.3886566591007914
+      },
+      {
+        "xd_mm": [
+          -17.696767004993465,
+          82.04939934602828
+        ],
+        "distance_to_nearest_aperture_mm": 2.386338269645584
+      },
+      {
+        "xd_mm": [
+          -17.563660495200942,
+          82.22612391499565
+        ],
+        "distance_to_nearest_aperture_mm": 2.384194312970962
+      },
+      {
+        "xd_mm": [
+          -17.430899427247184,
+          82.40310809167639
+        ],
+        "distance_to_nearest_aperture_mm": 2.3824824585130178
+      },
+      {
+        "xd_mm": [
+          -17.29869116200049,
+          82.58050550095395
+        ],
+        "distance_to_nearest_aperture_mm": 2.3814607739451445
+      },
+      {
+        "xd_mm": [
+          -17.167221852141324,
+          82.75845108856433
+        ],
+        "distance_to_nearest_aperture_mm": 2.3813591707080946
+      },
+      {
+        "xd_mm": [
+          -17.03668309771591,
+          82.93708029448919
+        ],
+        "distance_to_nearest_aperture_mm": 2.382412236537758
+      },
+      {
+        "xd_mm": [
+          -16.907238776439087,
+          83.11650420685635
+        ],
+        "distance_to_nearest_aperture_mm": 2.3848177930709684
+      },
+      {
+        "xd_mm": [
+          -16.77869271785895,
+          83.29657303357999
+        ],
+        "distance_to_nearest_aperture_mm": 2.3896653667827454
+      },
+      {
+        "xd_mm": [
+          -16.650559768204836,
+          83.47693618513941
+        ],
+        "distance_to_nearest_aperture_mm": 2.407014697348089
+      },
+      {
+        "xd_mm": [
+          -16.5223762807432,
+          83.65726340342613
+        ],
+        "distance_to_nearest_aperture_mm": 2.4365359999929757
+      },
+      {
+        "xd_mm": [
+          -16.393695667801705,
+          83.83723605811502
+        ],
+        "distance_to_nearest_aperture_mm": 2.481650724056813
+      },
+      {
+        "xd_mm": [
+          -16.264046013141318,
+          84.01651158754497
+        ],
+        "distance_to_nearest_aperture_mm": 2.536074943621443
+      },
+      {
+        "xd_mm": [
+          -16.13300594874816,
+          84.19477273056928
+        ],
+        "distance_to_nearest_aperture_mm": 2.6051442749261526
+      },
+      {
+        "xd_mm": [
+          -16.000175788917833,
+          84.3717032718917
+        ],
+        "distance_to_nearest_aperture_mm": 2.680130559669509
+      },
+      {
+        "xd_mm": [
+          -15.865170433845073,
+          84.54697915960136
+        ],
+        "distance_to_nearest_aperture_mm": 2.7679441998709597
+      },
+      {
+        "xd_mm": [
+          -15.727578736556794,
+          84.72023165379015
+        ],
+        "distance_to_nearest_aperture_mm": 2.860571296928552
+      },
+      {
+        "xd_mm": [
+          -15.587058065693808,
+          84.89111571971908
+        ],
+        "distance_to_nearest_aperture_mm": 2.961115157920726
+      },
+      {
+        "xd_mm": [
+          -15.44334217134993,
+          85.05931981181467
+        ],
+        "distance_to_nearest_aperture_mm": 3.0695832678469266
+      },
+      {
+        "xd_mm": [
+          -15.296163985226121,
+          85.22450216884621
+        ],
+        "distance_to_nearest_aperture_mm": 3.179387876562344
+      },
+      {
+        "xd_mm": [
+          -15.145261506537123,
+          85.38628935606147
+        ],
+        "distance_to_nearest_aperture_mm": 3.295893351926529
+      },
+      {
+        "xd_mm": [
+          -14.990387191131086,
+          85.54427690259448
+        ],
+        "distance_to_nearest_aperture_mm": 3.416979424911067
+      },
+      {
+        "xd_mm": [
+          -14.831484141941345,
+          85.69820908779683
+        ],
+        "distance_to_nearest_aperture_mm": 3.537677896552789
+      },
+      {
+        "xd_mm": [
+          -14.668463769619384,
+          85.84777312123873
+        ],
+        "distance_to_nearest_aperture_mm": 3.6627555360932953
+      },
+      {
+        "xd_mm": [
+          -14.50127320747366,
+          85.9926621265624
+        ],
+        "distance_to_nearest_aperture_mm": 3.7914898804889225
+      },
+      {
+        "xd_mm": [
+          -14.329809721992946,
+          86.13246833297595
+        ],
+        "distance_to_nearest_aperture_mm": 3.9185138290546044
+      },
+      {
+        "xd_mm": [
+          -14.154486979444354,
+          86.26740196205883
+        ],
+        "distance_to_nearest_aperture_mm": 4.047602374215753
+      },
+      {
+        "xd_mm": [
+          -13.975637752077194,
+          86.39762649034213
+        ],
+        "distance_to_nearest_aperture_mm": 4.179819341580235
+      },
+      {
+        "xd_mm": [
+          -13.793564024968484,
+          86.52330633182726
+        ],
+        "distance_to_nearest_aperture_mm": 4.314197746307067
+      },
+      {
+        "xd_mm": [
+          -13.608478503804086,
+          86.64450885843769
+        ],
+        "distance_to_nearest_aperture_mm": 4.447179562180402
+      },
+      {
+        "xd_mm": [
+          -13.420680743468333,
+          86.76146423613622
+        ],
+        "distance_to_nearest_aperture_mm": 4.582855867802804
+      },
+      {
+        "xd_mm": [
+          -13.230416040060092,
+          86.87436235433238
+        ],
+        "distance_to_nearest_aperture_mm": 4.581091023750242
+      },
+      {
+        "xd_mm": [
+          -13.03788471542428,
+          86.98335201674863
+        ],
+        "distance_to_nearest_aperture_mm": 4.429092798522213
+      },
+      {
+        "xd_mm": [
+          -12.84324063623828,
+          87.08852386067076
+        ],
+        "distance_to_nearest_aperture_mm": 4.2786718036131735
+      },
+      {
+        "xd_mm": [
+          -12.646651268009718,
+          87.19001290161873
+        ],
+        "distance_to_nearest_aperture_mm": 4.131432532070423
+      },
+      {
+        "xd_mm": [
+          -12.448298065793532,
+          87.2880097157655
+        ],
+        "distance_to_nearest_aperture_mm": 3.9879780730939745
+      },
+      {
+        "xd_mm": [
+          -12.248314541708362,
+          87.38263616762754
+        ],
+        "distance_to_nearest_aperture_mm": 3.845756473551465
+      },
+      {
+        "xd_mm": [
+          -12.046813549507563,
+          87.47398842794944
+        ],
+        "distance_to_nearest_aperture_mm": 3.705549945619656
+      },
+      {
+        "xd_mm": [
+          -11.843883307634432,
+          87.56212034845177
+        ],
+        "distance_to_nearest_aperture_mm": 3.5706876472231897
+      },
+      {
+        "xd_mm": [
+          -11.63966072300007,
+          87.64721418105609
+        ],
+        "distance_to_nearest_aperture_mm": 3.4415600988647355
+      },
+      {
+        "xd_mm": [
+          -11.434236826568133,
+          87.72936609180178
+        ],
+        "distance_to_nearest_aperture_mm": 3.313574073774587
+      },
+      {
+        "xd_mm": [
+          -11.227692881032063,
+          87.80866140555784
+        ],
+        "distance_to_nearest_aperture_mm": 3.1922098985053884
+      },
+      {
+        "xd_mm": [
+          -11.020079678124917,
+          87.8851138569828
+        ],
+        "distance_to_nearest_aperture_mm": 3.079020203706245
+      },
+      {
+        "xd_mm": [
+          -10.811493690893418,
+          87.95887020343078
+        ],
+        "distance_to_nearest_aperture_mm": 2.9685175873917844
+      },
+      {
+        "xd_mm": [
+          -10.602002491707202,
+          88.03001506510834
+        ],
+        "distance_to_nearest_aperture_mm": 2.8668305417849114
+      },
+      {
+        "xd_mm": [
+          -10.391687078089605,
+          88.09868656747032
+        ],
+        "distance_to_nearest_aperture_mm": 2.7747114085096265
+      },
+      {
+        "xd_mm": [
+          -10.180634072452245,
+          88.16505774246475
+        ],
+        "distance_to_nearest_aperture_mm": 2.6874654523939214
+      },
+      {
+        "xd_mm": [
+          -9.96894856663343,
+          88.22938329745104
+        ],
+        "distance_to_nearest_aperture_mm": 2.6137648389614045
+      },
+      {
+        "xd_mm": [
+          -9.75672262739348,
+          88.29190323437528
+        ],
+        "distance_to_nearest_aperture_mm": 2.546876050788078
+      },
+      {
+        "xd_mm": [
+          -9.544034494176078,
+          88.35283312596415
+        ],
+        "distance_to_nearest_aperture_mm": 2.49358781607948
+      },
+      {
+        "xd_mm": [
+          -9.330952691954757,
+          88.41237239855
+        ],
+        "distance_to_nearest_aperture_mm": 2.4511012969938735
+      },
+      {
+        "xd_mm": [
+          -9.117545247805797,
+          88.47073401524915
+        ],
+        "distance_to_nearest_aperture_mm": 2.421520294789972
+      }
+    ]
+  },
+  "web_normal_chords": {
+    "count": 72,
+    "minimum_mm": 1.8429419999999999,
+    "median_mm": 1.8809945,
+    "under_1_6_mm": 0,
+    "samples": [
+      {
+        "pair": [
+          "H01",
+          "H02"
+        ],
+        "xyz": [
+          -12.0,
+          -49.4320651423913,
+          27.457318829182334
+        ],
+        "normal_chord_mm": 1.881406
+      },
+      {
+        "pair": [
+          "H01",
+          "H02"
+        ],
+        "xyz": [
+          -12.0,
+          -51.86413038478261,
+          27.17808260885426
+        ],
+        "normal_chord_mm": 1.8795480000000002
+      },
+      {
+        "pair": [
+          "H01",
+          "H02"
+        ],
+        "xyz": [
+          -12.0,
+          -54.296195627173915,
+          26.80553574443168
+        ],
+        "normal_chord_mm": 1.859531
+      },
+      {
+        "pair": [
+          "H01",
+          "H05"
+        ],
+        "xyz": [
+          -15.37566456759292,
+          -58.19594111634475,
+          25.665448485439555
+        ],
+        "normal_chord_mm": 1.88572
+      },
+      {
+        "pair": [
+          "H01",
+          "H05"
+        ],
+        "xyz": [
+          -18.75132913518584,
+          -59.66362136312428,
+          24.41341730549649
+        ],
+        "normal_chord_mm": 1.852172
+      },
+      {
+        "pair": [
+          "H01",
+          "H05"
+        ],
+        "xyz": [
+          -22.126993702778762,
+          -61.13130160990381,
+          22.07703342352778
+        ],
+        "normal_chord_mm": 1.869138
+      },
+      {
+        "pair": [
+          "H02",
+          "H03"
+        ],
+        "xyz": [
+          0.0,
+          -49.42119557717391,
+          27.719281866227533
+        ],
+        "normal_chord_mm": 1.877845
+      },
+      {
+        "pair": [
+          "H02",
+          "H03"
+        ],
+        "xyz": [
+          0.0,
+          -51.842391254347824,
+          27.451342142798993
+        ],
+        "normal_chord_mm": 1.879237
+      },
+      {
+        "pair": [
+          "H02",
+          "H03"
+        ],
+        "xyz": [
+          0.0,
+          -54.263586931521736,
+          27.091557879802806
+        ],
+        "normal_chord_mm": 1.875111
+      },
+      {
+        "pair": [
+          "H02",
+          "H05"
+        ],
+        "xyz": [
+          -7.87499995734116,
+          -59.23913046074886,
+          26.123323581945854
+        ],
+        "normal_chord_mm": 1.8600070000000002
+      },
+      {
+        "pair": [
+          "H02",
+          "H05"
+        ],
+        "xyz": [
+          -9.250000000007443,
+          -58.40217391303895,
+          26.25489870226667
+        ],
+        "normal_chord_mm": 1.877351
+      },
+      {
+        "pair": [
+          "H02",
+          "H05"
+        ],
+        "xyz": [
+          -10.625000042673724,
+          -57.56521736532904,
+          26.33322070980699
+        ],
+        "normal_chord_mm": 1.88282
+      },
+      {
+        "pair": [
+          "H02",
+          "H06"
+        ],
+        "xyz": [
+          -1.6250000221374639,
+          -57.53260870720215,
+          26.516756153467057
+        ],
+        "normal_chord_mm": 1.883939
+      },
+      {
+        "pair": [
+          "H02",
+          "H06"
+        ],
+        "xyz": [
+          -3.2500000442749277,
+          -58.38043480570866,
+          26.350414715197054
+        ],
+        "normal_chord_mm": 1.880609
+      },
+      {
+        "pair": [
+          "H02",
+          "H06"
+        ],
+        "xyz": [
+          -4.875000066412392,
+          -59.22826090421516,
+          26.175293753138913
+        ],
+        "normal_chord_mm": 1.864147
+      },
+      {
+        "pair": [
+          "H03",
+          "H04"
+        ],
+        "xyz": [
+          12.0,
+          -54.29619570209445,
+          26.808566917454005
+        ],
+        "normal_chord_mm": 1.8595899999999999
+      },
+      {
+        "pair": [
+          "H03",
+          "H04"
+        ],
+        "xyz": [
+          12.0,
+          -51.86413043472963,
+          27.180115588800746
+        ],
+        "normal_chord_mm": 1.880012
+      },
+      {
+        "pair": [
+          "H03",
+          "H04"
+        ],
+        "xyz": [
+          12.0,
+          -49.43206516736482,
+          27.45786198670775
+        ],
+        "normal_chord_mm": 1.8813799999999998
+      },
+      {
+        "pair": [
+          "H03",
+          "H06"
+        ],
+        "xyz": [
+          1.6250000221374634,
+          -57.53260870720215,
+          26.516756153467057
+        ],
+        "normal_chord_mm": 1.885764
+      },
+      {
+        "pair": [
+          "H03",
+          "H06"
+        ],
+        "xyz": [
+          3.250000044274927,
+          -58.38043480570866,
+          26.350414714543547
+        ],
+        "normal_chord_mm": 1.883673
+      },
+      {
+        "pair": [
+          "H03",
+          "H06"
+        ],
+        "xyz": [
+          4.875000066412391,
+          -59.22826090421516,
+          26.175293754830637
+        ],
+        "normal_chord_mm": 1.8635970000000002
+      },
+      {
+        "pair": [
+          "H03",
+          "H07"
+        ],
+        "xyz": [
+          7.87499995734116,
+          -59.23913046074886,
+          26.123323581945854
+        ],
+        "normal_chord_mm": 1.85946
+      },
+      {
+        "pair": [
+          "H03",
+          "H07"
+        ],
+        "xyz": [
+          9.250000000007443,
+          -58.40217391303895,
+          26.25489870226667
+        ],
+        "normal_chord_mm": 1.874868
+      },
+      {
+        "pair": [
+          "H03",
+          "H07"
+        ],
+        "xyz": [
+          10.625000042673724,
+          -57.56521736532904,
+          26.336742556647078
+        ],
+        "normal_chord_mm": 1.8825399999999999
+      },
+      {
+        "pair": [
+          "H04",
+          "H07"
+        ],
+        "xyz": [
+          15.37566456759292,
+          -58.19594111634475,
+          25.66672725730107
+        ],
+        "normal_chord_mm": 1.8802679999999998
+      },
+      {
+        "pair": [
+          "H04",
+          "H07"
+        ],
+        "xyz": [
+          18.75132913518584,
+          -59.66362136312428,
+          24.41341730549649
+        ],
+        "normal_chord_mm": 1.8536219999999999
+      },
+      {
+        "pair": [
+          "H04",
+          "H07"
+        ],
+        "xyz": [
+          22.126993702778762,
+          -61.13130160990381,
+          22.076501091084737
+        ],
+        "normal_chord_mm": 1.869017
+      },
+      {
+        "pair": [
+          "H05",
+          "H06"
+        ],
+        "xyz": [
+          -6.5,
+          -61.95479244019284,
+          25.313108335021663
+        ],
+        "normal_chord_mm": 1.8610820000000001
+      },
+      {
+        "pair": [
+          "H05",
+          "H06"
+        ],
+        "xyz": [
+          -6.5,
+          -63.833498023741406,
+          24.31081513405237
+        ],
+        "normal_chord_mm": 1.857721
+      },
+      {
+        "pair": [
+          "H05",
+          "H06"
+        ],
+        "xyz": [
+          -6.5,
+          -65.71220360728998,
+          23.014359544894702
+        ],
+        "normal_chord_mm": 1.8494840000000001
+      },
+      {
+        "pair": [
+          "H05",
+          "H08"
+        ],
+        "xyz": [
+          -15.227427665083436,
+          -69.62389651587117,
+          19.158857753305323
+        ],
+        "normal_chord_mm": 2.71383
+      },
+      {
+        "pair": [
+          "H05",
+          "H08"
+        ],
+        "xyz": [
+          -18.454855421181577,
+          -68.15688389946293,
+          19.442323484198848
+        ],
+        "normal_chord_mm": 2.70381
+      },
+      {
+        "pair": [
+          "H05",
+          "H08"
+        ],
+        "xyz": [
+          -21.682283177279714,
+          -66.68987128305467,
+          18.776044507720478
+        ],
+        "normal_chord_mm": 2.722133
+      },
+      {
+        "pair": [
+          "H05",
+          "H09"
+        ],
+        "xyz": [
+          -7.874999957835435,
+          -68.4659090640771,
+          20.80621791901279
+        ],
+        "normal_chord_mm": 1.8603139999999998
+      },
+      {
+        "pair": [
+          "H05",
+          "H09"
+        ],
+        "xyz": [
+          -9.249999999985832,
+          -69.34090909090008,
+          20.041298229719633
+        ],
+        "normal_chord_mm": 1.885884
+      },
+      {
+        "pair": [
+          "H05",
+          "H09"
+        ],
+        "xyz": [
+          -10.625000042136229,
+          -70.21590911772306,
+          19.264092054138438
+        ],
+        "normal_chord_mm": 1.884011
+      },
+      {
+        "pair": [
+          "H06",
+          "H07"
+        ],
+        "xyz": [
+          6.5,
+          -65.71220360733012,
+          23.01435954486355
+        ],
+        "normal_chord_mm": 1.8494840000000001
+      },
+      {
+        "pair": [
+          "H06",
+          "H07"
+        ],
+        "xyz": [
+          6.5,
+          -63.83349802376431,
+          24.31385468967085
+        ],
+        "normal_chord_mm": 1.857807
+      },
+      {
+        "pair": [
+          "H06",
+          "H07"
+        ],
+        "xyz": [
+          6.5,
+          -61.954792440198474,
+          25.30956405752099
+        ],
+        "normal_chord_mm": 1.8613659999999999
+      },
+      {
+        "pair": [
+          "H06",
+          "H09"
+        ],
+        "xyz": [
+          -4.87500006580222,
+          -68.4772726913806,
+          20.835042342940184
+        ],
+        "normal_chord_mm": 1.8636300000000001
+      },
+      {
+        "pair": [
+          "H06",
+          "H09"
+        ],
+        "xyz": [
+          -3.2500000438681464,
+          -69.3636363397083,
+          20.125580931274925
+        ],
+        "normal_chord_mm": 1.88471
+      },
+      {
+        "pair": [
+          "H06",
+          "H09"
+        ],
+        "xyz": [
+          -1.6250000219340732,
+          -70.24999998803597,
+          19.409198255373614
+        ],
+        "normal_chord_mm": 1.891038
+      },
+      {
+        "pair": [
+          "H06",
+          "H10"
+        ],
+        "xyz": [
+          1.6250000219340732,
+          -70.24999998803597,
+          19.409198255373614
+        ],
+        "normal_chord_mm": 1.8910250000000002
+      },
+      {
+        "pair": [
+          "H06",
+          "H10"
+        ],
+        "xyz": [
+          3.2500000438681464,
+          -69.3636363397083,
+          20.125580932318627
+        ],
+        "normal_chord_mm": 1.88472
+      },
+      {
+        "pair": [
+          "H06",
+          "H10"
+        ],
+        "xyz": [
+          4.87500006580222,
+          -68.4772726913806,
+          20.83504234370619
+        ],
+        "normal_chord_mm": 1.863634
+      },
+      {
+        "pair": [
+          "H07",
+          "H10"
+        ],
+        "xyz": [
+          7.874999957835435,
+          -68.4659090640771,
+          20.80621791901279
+        ],
+        "normal_chord_mm": 1.860231
+      },
+      {
+        "pair": [
+          "H07",
+          "H10"
+        ],
+        "xyz": [
+          9.249999999985832,
+          -69.34090909090008,
+          20.041298229719633
+        ],
+        "normal_chord_mm": 1.885682
+      },
+      {
+        "pair": [
+          "H07",
+          "H10"
+        ],
+        "xyz": [
+          10.625000042136229,
+          -70.21590911772306,
+          19.264092054138438
+        ],
+        "normal_chord_mm": 1.8846829999999999
+      },
+      {
+        "pair": [
+          "H07",
+          "H11"
+        ],
+        "xyz": [
+          15.227427665083436,
+          -69.62389651587117,
+          19.159021699875584
+        ],
+        "normal_chord_mm": 2.713979
+      },
+      {
+        "pair": [
+          "H07",
+          "H11"
+        ],
+        "xyz": [
+          18.454855421181577,
+          -68.15688389946293,
+          19.448374063227586
+        ],
+        "normal_chord_mm": 2.702804
+      },
+      {
+        "pair": [
+          "H07",
+          "H11"
+        ],
+        "xyz": [
+          21.682283177279714,
+          -66.68987128305467,
+          18.76360181453693
+        ],
+        "normal_chord_mm": 2.723053
+      },
+      {
+        "pair": [
+          "H08",
+          "H09"
+        ],
+        "xyz": [
+          -12.0,
+          -74.6931818431574,
+          15.401783733770543
+        ],
+        "normal_chord_mm": 1.843062
+      },
+      {
+        "pair": [
+          "H08",
+          "H09"
+        ],
+        "xyz": [
+          -12.0,
+          -78.29545459540573,
+          11.879373751767801
+        ],
+        "normal_chord_mm": 1.89062
+      },
+      {
+        "pair": [
+          "H08",
+          "H09"
+        ],
+        "xyz": [
+          -12.0,
+          -81.89772734765404,
+          8.4187853196241
+        ],
+        "normal_chord_mm": 1.883108
+      },
+      {
+        "pair": [
+          "H08",
+          "H12"
+        ],
+        "xyz": [
+          -12.055741534853677,
+          -85.61148306970735,
+          5.267034726861574
+        ],
+        "normal_chord_mm": 2.537533
+      },
+      {
+        "pair": [
+          "H08",
+          "H12"
+        ],
+        "xyz": [
+          -12.111483123455734,
+          -85.72296624691147,
+          5.1527318384625715
+        ],
+        "normal_chord_mm": 2.7101599999999997
+      },
+      {
+        "pair": [
+          "H08",
+          "H12"
+        ],
+        "xyz": [
+          -12.167224712057793,
+          -85.83444942411558,
+          5.038737513071311
+        ],
+        "normal_chord_mm": 2.887341
+      },
+      {
+        "pair": [
+          "H09",
+          "H10"
+        ],
+        "xyz": [
+          0.0,
+          -72.72727267731004,
+          17.4011879409803
+        ],
+        "normal_chord_mm": 1.850285
+      },
+      {
+        "pair": [
+          "H09",
+          "H10"
+        ],
+        "xyz": [
+          0.0,
+          -74.318181818204,
+          16.03368191145867
+        ],
+        "normal_chord_mm": 1.8429419999999999
+      },
+      {
+        "pair": [
+          "H09",
+          "H10"
+        ],
+        "xyz": [
+          0.0,
+          -75.90909095909795,
+          14.579129259411474
+        ],
+        "normal_chord_mm": 1.86648
+      },
+      {
+        "pair": [
+          "H09",
+          "H12"
+        ],
+        "xyz": [
+          -2.9999999375962316,
+          -79.49999995839748,
+          11.100843526593486
+        ],
+        "normal_chord_mm": 1.883179
+      },
+      {
+        "pair": [
+          "H09",
+          "H12"
+        ],
+        "xyz": [
+          -5.999999958397488,
+          -81.49999997226499,
+          9.241084513714696
+        ],
+        "normal_chord_mm": 1.864452
+      },
+      {
+        "pair": [
+          "H09",
+          "H12"
+        ],
+        "xyz": [
+          -8.999999979198744,
+          -83.4999999861325,
+          7.445607376803572
+        ],
+        "normal_chord_mm": 2.044538
+      },
+      {
+        "pair": [
+          "H10",
+          "H11"
+        ],
+        "xyz": [
+          12.0,
+          -81.8977272477333,
+          8.4211355142236
+        ],
+        "normal_chord_mm": 1.883128
+      },
+      {
+        "pair": [
+          "H10",
+          "H11"
+        ],
+        "xyz": [
+          12.0,
+          -78.2954544954666,
+          11.876499561870112
+        ],
+        "normal_chord_mm": 1.890721
+      },
+      {
+        "pair": [
+          "H10",
+          "H11"
+        ],
+        "xyz": [
+          12.0,
+          -74.6931817431999,
+          15.401740771762086
+        ],
+        "normal_chord_mm": 1.8433860000000002
+      },
+      {
+        "pair": [
+          "H10",
+          "H12"
+        ],
+        "xyz": [
+          2.9999999375962316,
+          -79.49999995839748,
+          11.100843526957071
+        ],
+        "normal_chord_mm": 1.8822889999999999
+      },
+      {
+        "pair": [
+          "H10",
+          "H12"
+        ],
+        "xyz": [
+          5.999999958397488,
+          -81.49999997226499,
+          9.240620288794531
+        ],
+        "normal_chord_mm": 1.877211
+      },
+      {
+        "pair": [
+          "H10",
+          "H12"
+        ],
+        "xyz": [
+          8.999999979198744,
+          -83.4999999861325,
+          7.445699957044752
+        ],
+        "normal_chord_mm": 2.044889
+      },
+      {
+        "pair": [
+          "H11",
+          "H12"
+        ],
+        "xyz": [
+          12.055741534853677,
+          -85.61148306970735,
+          5.271905775901651
+        ],
+        "normal_chord_mm": 2.516764
+      },
+      {
+        "pair": [
+          "H11",
+          "H12"
+        ],
+        "xyz": [
+          12.111483123455734,
+          -85.72296624691147,
+          5.154851970679005
+        ],
+        "normal_chord_mm": 2.689263
+      },
+      {
+        "pair": [
+          "H11",
+          "H12"
+        ],
+        "xyz": [
+          12.167224712057793,
+          -85.83444942411558,
+          5.037226457517917
+        ],
+        "normal_chord_mm": 2.848156
+      }
+    ]
+  },
+  "limitations": "Finite mesh/section samples, not a global minimum-wall or structural test. CAD corners are polygonal approximations of R1 construction, chord tolerance approximately 0.01 mm."
+}

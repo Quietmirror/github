@@ -1,0 +1,35 @@
+{
+  "slicer": "PrusaSlicer 2.9.6",
+  "profile": "slicing/V0.6_PLA_0.4_0.20_ESTIMATE.ini",
+  "parts": [
+    {
+      "name": "SHELL",
+      "source": "exports/v06/quietmirror_fingertip_V0.6_SHELL.stl",
+      "model_g": 18.593197188828604,
+      "support_g": 14.392313374551453,
+      "adhesion_g": 0.17304012674679156,
+      "total_g": 33.16,
+      "time": "3h 50m 12s"
+    },
+    {
+      "name": "front side cap",
+      "source": "exports/v06/side_button_1_V0.6_PRINT.stl",
+      "model_g": 0.579097631843006,
+      "support_g": 0,
+      "adhesion_g": 0.042722576262202494,
+      "total_g": 0.62,
+      "time": "8m 20s"
+    },
+    {
+      "name": "rear side cap",
+      "source": "exports/v06/side_button_2_V0.6_PRINT.stl",
+      "model_g": 0.579097631843006,
+      "support_g": 0,
+      "adhesion_g": 0.042722576262202494,
+      "total_g": 0.62,
+      "time": "8m 20s"
+    }
+  ],
+  "separate_jobs": true,
+  "estimates_only": true
+}

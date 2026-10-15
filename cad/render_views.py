@@ -12,7 +12,7 @@ def actor(path,color,opacity=1):
     mapper=vtk.vtkPolyDataMapper();mapper.SetInputConnection(normal.GetOutputPort())
     a=vtk.vtkActor();a.SetMapper(mapper);a.GetProperty().SetColor(*color);a.GetProperty().SetOpacity(opacity);a.GetProperty().SetDiffuse(.7);a.GetProperty().SetAmbient(.18);a.GetProperty().SetSpecular(.12);a.GetProperty().SetSpecularPower(24)
     return a
-def render(name,paths,camera,up=(0,0,1),focus=(0,-44,13),scale=55,title='',subtitle='',env=False,version='V0.1',envfile=None):
+def render(name,paths,camera,up=(0,0,1),focus=(0,-44,13),scale=55,title='',subtitle='',env=False,version='V0.1',envfile=None,footer='固定试握件 · 非电子装配验收'):
     renderer=vtk.vtkRenderer();renderer.SetViewport(0,.07,1,.89);renderer.SetBackground(.94,.95,.96);renderer.SetBackground2(.985,.99,.995);renderer.GradientBackgroundOn()
     for path,col,opacity in paths:renderer.AddActor(actor(path,col,opacity))
     if env:
@@ -28,7 +28,7 @@ def render(name,paths,camera,up=(0,0,1),focus=(0,-44,13),scale=55,title='',subti
     writer=vtk.vtkPNGWriter();writer.SetFileName(str(OUT/name));writer.SetInputConnection(capture.GetOutputPort());writer.Write();win.Finalize()
     im=Image.open(OUT/name);draw=ImageDraw.Draw(im);draw.rectangle((0,0,1500,131),fill='#f8fafc')
     draw.text((45,20),title,font=ImageFont.truetype(FONT,31),fill='#18293e');draw.text((46,69),subtitle,font=ImageFont.truetype(FONT,20),fill='#536779')
-    draw.rectangle((0,1116,1500,1200),fill='#f8fafc');draw.text((45,1160),f'QUIETMIRROR   /   {version}   /   mm   /   固定试握件 · 非电子装配验收',font=ImageFont.truetype(FONT,19),fill='#536779');im.save(OUT/name)
+    draw.rectangle((0,1116,1500,1200),fill='#f8fafc');draw.text((45,1160),f'QUIETMIRROR   /   {version}   /   mm   /   {footer}',font=ImageFont.truetype(FONT,19),fill='#536779');im.save(OUT/name)
 
 def main():
     p=ROOT/'exports/quietmirror_fingertip_V0.1.stl';paths=[(p,(.5,.65,.7),1)]

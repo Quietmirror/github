@@ -58,9 +58,10 @@ def main():
     print(json.dumps(result,indent=2,ensure_ascii=False))
 
 if __name__=='__main__':
-    ap=argparse.ArgumentParser();ap.add_argument('--version',choices=['0.1','0.2','0.3','0.4','0.5'],default='0.1');args=ap.parse_args();VERSION=args.version
+    ap=argparse.ArgumentParser();ap.add_argument('--version',choices=['0.1','0.2','0.3','0.4','0.5','0.6'],default='0.1');args=ap.parse_args();VERSION=args.version
     if VERSION=='0.2':GCODE=ROOT/'.tools/V0.2_estimate_with_support.gcode';REPORT=ROOT/'reports/v02';VIEWS=ROOT/'views/v02'
     if VERSION=='0.3':GCODE=ROOT/'.tools/V0.3_estimate_with_support.gcode';REPORT=ROOT/'reports/v03';VIEWS=ROOT/'views/v03'
     if VERSION=='0.4':GCODE=ROOT/'.tools/V0.4_estimate_with_support.gcode';REPORT=ROOT/'reports/v04';VIEWS=ROOT/'views/v04'
     if VERSION=='0.5':GCODE=ROOT/'.tools/V0.5_estimate_with_support.gcode';REPORT=ROOT/'reports/v05';VIEWS=ROOT/'views/v05'
+    if VERSION=='0.6':GCODE=ROOT/'.tools/V0.6_estimate_with_support.gcode';REPORT=ROOT/'reports/v06';VIEWS=ROOT/'views/v06'
     main()

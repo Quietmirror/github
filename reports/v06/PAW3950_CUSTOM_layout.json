@@ -1,0 +1,896 @@
+{
+  "variant": "PAW3950_CUSTOM",
+  "all_dimensions_estimated": true,
+  "physical": [
+    {
+      "name": "custom_mainboard_EST",
+      "kind": "pcb",
+      "size": [
+        30,
+        26,
+        1.2
+      ],
+      "center": [
+        0,
+        -24,
+        8.8
+      ],
+      "basis": "Main MCU/RF and buttons; custom outline, no drill coordinates.",
+      "cutouts": [
+        {
+          "size": [
+            8.4,
+            18,
+            4
+          ],
+          "center": [
+            0,
+            -17,
+            8.8
+          ],
+          "basis": "Estimated wheel relief, not a measured donor cutout. Actual donor must already permit it; never a request to cut populated PCB."
+        }
+      ],
+      "file": "exports/v06/PAW3950_CUSTOM/custom_mainboard_EST.stl",
+      "color": [
+        0.14,
+        0.48,
+        0.35
+      ],
+      "dimensions_xyz_mm": [
+        30.0,
+        26.0,
+        1.1999999999999993
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 3.6241835447500046,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "sensor_board_EST",
+      "kind": "pcb",
+      "size": [
+        18,
+        20,
+        1.2
+      ],
+      "center": [
+        0,
+        -48,
+        8.8
+      ],
+      "basis": "Separate optical daughterboard; PAW3950 package is not a board standard.",
+      "file": "exports/v06/PAW3950_CUSTOM/sensor_board_EST.stl",
+      "color": [
+        0.14,
+        0.48,
+        0.35
+      ],
+      "dimensions_xyz_mm": [
+        18.0,
+        20.0,
+        1.1999999999999993
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 3.6089919145472775,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "RF_board_EST",
+      "kind": "pcb",
+      "size": [
+        22,
+        16,
+        1.2
+      ],
+      "center": [
+        0,
+        -63,
+        10.2
+      ],
+      "basis": "Proprietary 2.4 GHz target and matched USB receiver.",
+      "file": "exports/v06/PAW3950_CUSTOM/RF_board_EST.stl",
+      "color": [
+        0.14,
+        0.48,
+        0.35
+      ],
+      "dimensions_xyz_mm": [
+        22.0,
+        16.0,
+        1.1999999999999993
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 4.112619232373151,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "MCU_RF_EST",
+      "kind": "chip",
+      "size": [
+        7,
+        7,
+        2.6
+      ],
+      "center": [
+        0,
+        -58,
+        12.2
+      ],
+      "basis": "Example architecture class; no component or firmware selection asserted.",
+      "file": "exports/v06/PAW3950_CUSTOM/MCU_RF_EST.stl",
+      "color": [
+        0.14,
+        0.17,
+        0.2
+      ],
+      "dimensions_xyz_mm": [
+        7.000000000000001,
+        7.0,
+        2.6000000000000014
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 6.499999999999998,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "battery_500mAh_TARGET",
+      "kind": "battery",
+      "size": [
+        26,
+        30,
+        6
+      ],
+      "center": [
+        0,
+        -46,
+        17.5
+      ],
+      "basis": "Capacity and physical dimensions are independent estimates; verify real cell.",
+      "file": "exports/v06/PAW3950_CUSTOM/battery_500mAh_TARGET.stl",
+      "color": [
+        0.81,
+        0.7,
+        0.35
+      ],
+      "dimensions_xyz_mm": [
+        26.0,
+        30.0,
+        6.0
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 3.042133063127027,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "battery_plug_EST",
+      "kind": "connector",
+      "size": [
+        5,
+        6,
+        3
+      ],
+      "center": [
+        13.8,
+        -48,
+        11.2
+      ],
+      "basis": "Polarity, mating direction and retention unconfirmed.",
+      "file": "exports/v06/PAW3950_CUSTOM/battery_plug_EST.stl",
+      "color": [
+        0.65,
+        0.72,
+        0.77
+      ],
+      "dimensions_xyz_mm": [
+        5.0,
+        6.0,
+        3.0
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 5.565968020030298,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "sensor_package_EST",
+      "kind": "chip",
+      "size": [
+        8,
+        8,
+        2.4
+      ],
+      "center": [
+        0,
+        -48,
+        10.7
+      ],
+      "basis": "Sensor identity unknown on ATK; PAW3950 target for custom.",
+      "file": "exports/v06/PAW3950_CUSTOM/sensor_package_EST.stl",
+      "color": [
+        0.14,
+        0.17,
+        0.2
+      ],
+      "dimensions_xyz_mm": [
+        8.0,
+        8.0,
+        2.4000000000000004
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 5.9169248769948055,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "lens_EST",
+      "kind": "lens",
+      "size": [
+        12,
+        14,
+        2.8
+      ],
+      "center": [
+        0,
+        -48,
+        6.7
+      ],
+      "basis": "Z is a layout placeholder, NOT the lens-to-pad specification.",
+      "file": "exports/v06/PAW3950_CUSTOM/lens_EST.stl",
+      "color": [
+        0.25,
+        0.66,
+        0.78
+      ],
+      "dimensions_xyz_mm": [
+        12.0,
+        14.0,
+        2.8000000000000007
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 1.3453624047073711,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "encoder_EST",
+      "kind": "switch",
+      "size": [
+        4,
+        6,
+        7
+      ],
+      "center": [
+        -7.2,
+        -17,
+        13.2
+      ],
+      "basis": "Available compact encoder target envelope; 16.3 mm axis, actual part/shaft fit unconfirmed.",
+      "file": "exports/v06/PAW3950_CUSTOM/encoder_EST.stl",
+      "color": [
+        0.8,
+        0.41,
+        0.24
+      ],
+      "dimensions_xyz_mm": [
+        3.999999999999999,
+        6.0,
+        7.0
+      ],
+      "shell_overlap_mm3": 0.002104497528810664,
+      "shell_min_distance_mm": 0.0,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "middle_switch_EST",
+      "kind": "switch",
+      "size": [
+        5,
+        5,
+        3
+      ],
+      "center": [
+        6.7,
+        -18,
+        11
+      ],
+      "basis": "Wheel travel and lever remain to be designed.",
+      "file": "exports/v06/PAW3950_CUSTOM/middle_switch_EST.stl",
+      "color": [
+        0.8,
+        0.41,
+        0.24
+      ],
+      "dimensions_xyz_mm": [
+        4.999999999999999,
+        5.0,
+        3.0
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 4.411313183743306,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "left_switch_EST",
+      "kind": "switch",
+      "size": [
+        5,
+        12,
+        5
+      ],
+      "center": [
+        -14.2,
+        -24,
+        12
+      ],
+      "basis": "Fixed FIT key above; real actuation gap/lever unresolved.",
+      "file": "exports/v06/PAW3950_CUSTOM/left_switch_EST.stl",
+      "color": [
+        0.8,
+        0.41,
+        0.24
+      ],
+      "dimensions_xyz_mm": [
+        5.0,
+        12.0,
+        5.0
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 3.156826246722938,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "right_switch_EST",
+      "kind": "switch",
+      "size": [
+        5,
+        12,
+        5
+      ],
+      "center": [
+        14.2,
+        -24,
+        12
+      ],
+      "basis": "Fixed FIT key above; real actuation gap/lever unresolved.",
+      "file": "exports/v06/PAW3950_CUSTOM/right_switch_EST.stl",
+      "color": [
+        0.8,
+        0.41,
+        0.24
+      ],
+      "dimensions_xyz_mm": [
+        5.0,
+        12.0,
+        5.0
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 3.1568262467232646,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "side_board_EST",
+      "kind": "pcb",
+      "size": [
+        1.2,
+        24,
+        7
+      ],
+      "center": [
+        -16.4,
+        -43,
+        17.8
+      ],
+      "basis": "Separate side board is a transplant assumption; donor may integrate switches.",
+      "file": "exports/v06/PAW3950_CUSTOM/side_board_EST.stl",
+      "color": [
+        0.14,
+        0.48,
+        0.35
+      ],
+      "dimensions_xyz_mm": [
+        1.2000000000000028,
+        24.0,
+        7.0
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 1.362666728538755,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "front_side_switch_EST",
+      "kind": "switch",
+      "size": [
+        1.5,
+        5,
+        3
+      ],
+      "center": [
+        -18,
+        -33,
+        16.5
+      ],
+      "basis": "Reference plunger body; final lever and switch travel unknown.",
+      "file": "exports/v06/PAW3950_CUSTOM/front_side_switch_EST.stl",
+      "color": [
+        0.8,
+        0.41,
+        0.24
+      ],
+      "dimensions_xyz_mm": [
+        1.5,
+        5.0,
+        3.0
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 2.8814059068447815,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "rear_side_switch_EST",
+      "kind": "switch",
+      "size": [
+        1.5,
+        5,
+        3
+      ],
+      "center": [
+        -18,
+        -47,
+        18.8
+      ],
+      "basis": "Reference plunger body; final lever and switch travel unknown.",
+      "file": "exports/v06/PAW3950_CUSTOM/rear_side_switch_EST.stl",
+      "color": [
+        0.8,
+        0.41,
+        0.24
+      ],
+      "dimensions_xyz_mm": [
+        1.5,
+        5.0,
+        3.0
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 2.8814059068447815,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "USB_C_EST",
+      "kind": "connector",
+      "size": [
+        9,
+        9,
+        3.2
+      ],
+      "center": [
+        0,
+        -4.5,
+        7.1
+      ],
+      "basis": "Port shell envelope; board relocation may be needed for donor.",
+      "file": "exports/v06/PAW3950_CUSTOM/USB_C_EST.stl",
+      "color": [
+        0.65,
+        0.72,
+        0.77
+      ],
+      "dimensions_xyz_mm": [
+        9.0,
+        9.0,
+        3.1999999999999993
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 1.5999999999999996,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "charge_powerpath_EST",
+      "kind": "pcb",
+      "size": [
+        14,
+        8,
+        1.2
+      ],
+      "center": [
+        0,
+        -7.5,
+        4.3
+      ],
+      "basis": "Existing donor circuit OR new custom power path; no duplicate charger wired.",
+      "file": "exports/v06/PAW3950_CUSTOM/charge_powerpath_EST.stl",
+      "color": [
+        0.14,
+        0.48,
+        0.35
+      ],
+      "dimensions_xyz_mm": [
+        14.0,
+        8.0,
+        1.1999999999999997
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 0.49999999999999956,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "power_switch_body_EST",
+      "kind": "switch",
+      "size": [
+        8,
+        4,
+        3
+      ],
+      "center": [
+        0,
+        -72,
+        5.4
+      ],
+      "basis": "Bottom actuator aperture; neutral centred visualization.",
+      "file": "exports/v06/PAW3950_CUSTOM/power_switch_body_EST.stl",
+      "color": [
+        0.8,
+        0.41,
+        0.24
+      ],
+      "dimensions_xyz_mm": [
+        8.0,
+        4.0,
+        3.0
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 0.10000000000000053,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "power_switch_tab_EST",
+      "kind": "switch",
+      "size": [
+        3,
+        2,
+        1.8
+      ],
+      "center": [
+        0,
+        -72,
+        3.1
+      ],
+      "basis": "Slider travel not represented by an off-centre outside protrusion.",
+      "file": "exports/v06/PAW3950_CUSTOM/power_switch_tab_EST.stl",
+      "color": [
+        0.8,
+        0.41,
+        0.24
+      ],
+      "dimensions_xyz_mm": [
+        3.0,
+        2.0,
+        1.7999999999999998
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 0.5,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "wheel_EST",
+      "kind": "wheel",
+      "basis": "Estimated shape/path; final mechanical and electrical interface unknown.",
+      "file": "exports/v06/PAW3950_CUSTOM/wheel_EST.stl",
+      "color": [
+        0.2,
+        0.25,
+        0.3
+      ],
+      "dimensions_xyz_mm": [
+        5.2,
+        15.0,
+        15.0000002
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 1.6,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "wheel_axle_EST",
+      "kind": "wheel",
+      "basis": "Estimated shape/path; final mechanical and electrical interface unknown.",
+      "file": "exports/v06/PAW3950_CUSTOM/wheel_axle_EST.stl",
+      "color": [
+        0.2,
+        0.25,
+        0.3
+      ],
+      "dimensions_xyz_mm": [
+        11.5,
+        1.3999999999999986,
+        1.3999999999999986
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 0.8411112373233717,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "USB_harness_EST",
+      "kind": "wire",
+      "basis": "Estimated shape/path; final mechanical and electrical interface unknown.",
+      "file": "exports/v06/PAW3950_CUSTOM/USB_harness_EST.stl",
+      "color": [
+        0.67,
+        0.22,
+        0.19
+      ],
+      "dimensions_xyz_mm": [
+        7.199999999999999,
+        13.200000000000001,
+        1.1999999999999993
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 3.1903396771614965,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "battery_harness_EST",
+      "kind": "wire",
+      "basis": "Estimated shape/path; final mechanical and electrical interface unknown.",
+      "file": "exports/v06/PAW3950_CUSTOM/battery_harness_EST.stl",
+      "color": [
+        0.67,
+        0.22,
+        0.19
+      ],
+      "dimensions_xyz_mm": [
+        3.0,
+        1.2000000000000028,
+        1.799999999999999
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 9.266306299725343,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "side_harness_EST",
+      "kind": "wire",
+      "basis": "Estimated shape/path; final mechanical and electrical interface unknown.",
+      "file": "exports/v06/PAW3950_CUSTOM/side_harness_EST.stl",
+      "color": [
+        0.67,
+        0.22,
+        0.19
+      ],
+      "dimensions_xyz_mm": [
+        4.700000000000001,
+        1.2000000000000028,
+        4.800000000000001
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 4.900000000951718,
+      "caps_overlap_mm3": 0.0
+    },
+    {
+      "name": "RF_harness_EST",
+      "kind": "wire",
+      "basis": "Estimated shape/path; final mechanical and electrical interface unknown.",
+      "file": "exports/v06/PAW3950_CUSTOM/RF_harness_EST.stl",
+      "color": [
+        0.67,
+        0.22,
+        0.19
+      ],
+      "dimensions_xyz_mm": [
+        6.199999999999999,
+        22.200000000000003,
+        1.1999999999999993
+      ],
+      "shell_overlap_mm3": 0.0,
+      "shell_min_distance_mm": 2.0695729360603,
+      "caps_overlap_mm3": 0.0
+    }
+  ],
+  "component_overlaps": [
+    {
+      "a": "battery_500mAh_TARGET",
+      "b": "battery_harness_EST",
+      "overlap_mm3": 0.018289958865085068,
+      "intended_interface": true
+    },
+    {
+      "a": "encoder_EST",
+      "b": "wheel_axle_EST",
+      "overlap_mm3": 4.281793031272109,
+      "intended_interface": true
+    },
+    {
+      "a": "power_switch_body_EST",
+      "b": "power_switch_tab_EST",
+      "overlap_mm3": 0.58261725123899,
+      "intended_interface": true
+    },
+    {
+      "a": "wheel_EST",
+      "b": "wheel_axle_EST",
+      "overlap_mm3": 8.004778081346794,
+      "intended_interface": true
+    }
+  ],
+  "reservations": [
+    {
+      "name": "antenna_keepout_EST",
+      "kind": "reserve",
+      "size": [
+        18,
+        10,
+        4.5
+      ],
+      "center": [
+        0,
+        -67,
+        13.25
+      ],
+      "basis": "Reserve D62..72; no battery, metal or wiring; RF tuning still required.",
+      "hits": [],
+      "shell_overlap_mm3": 0.0
+    },
+    {
+      "name": "USB_plug_insertion_EST",
+      "kind": "reserve",
+      "size": [
+        12,
+        20,
+        5.6
+      ],
+      "center": [
+        0,
+        8,
+        7.1
+      ],
+      "basis": "External cable insertion; allowed to extend outside front aperture.",
+      "hits": [
+        {
+          "part": "USB_C_EST",
+          "volume_mm3": 57.10555736867873
+        }
+      ],
+      "shell_overlap_mm3": 0.0
+    },
+    {
+      "name": "battery_swell_service_EST",
+      "kind": "reserve",
+      "size": [
+        27,
+        31,
+        7
+      ],
+      "center": [
+        0,
+        -46,
+        17.5
+      ],
+      "basis": "Includes battery by intent; includes swelling/service margin, not cells to print.",
+      "hits": [
+        {
+          "part": "battery_500mAh_TARGET",
+          "volume_mm3": 4661.129622664764
+        },
+        {
+          "part": "battery_harness_EST",
+          "volume_mm3": 0.6938745348693531
+        }
+      ],
+      "shell_overlap_mm3": 0.0
+    },
+    {
+      "name": "optical_axis_EST",
+      "kind": "reserve",
+      "size": [
+        7,
+        10,
+        7
+      ],
+      "center": [
+        0,
+        -48,
+        2.8
+      ],
+      "basis": "Optical keepout and height-chain placeholder; overlaps lens by intent.",
+      "hits": [
+        {
+          "part": "lens_EST",
+          "volume_mm3": 69.69097335552333
+        }
+      ],
+      "shell_overlap_mm3": 0.0
+    },
+    {
+      "name": "left_key_travel_EST",
+      "kind": "reserve",
+      "size": [
+        3,
+        4,
+        2.6
+      ],
+      "center": [
+        -14.2,
+        -24,
+        18
+      ],
+      "basis": "Local lever/travel reservation only, not a complete clickable mechanism.",
+      "hits": [],
+      "shell_overlap_mm3": 0.0
+    },
+    {
+      "name": "right_key_travel_EST",
+      "kind": "reserve",
+      "size": [
+        3,
+        4,
+        2.6
+      ],
+      "center": [
+        14.2,
+        -24,
+        18
+      ],
+      "basis": "Local lever/travel reservation only, not a complete clickable mechanism.",
+      "hits": [],
+      "shell_overlap_mm3": 0.0
+    }
+  ],
+  "wire_paths": {
+    "USB_harness_EST": [
+      [
+        7,
+        -8,
+        7
+      ],
+      [
+        10,
+        -12,
+        7
+      ],
+      [
+        13,
+        -20,
+        7
+      ]
+    ],
+    "battery_harness_EST": [
+      [
+        12,
+        -48,
+        14
+      ],
+      [
+        13.8,
+        -48,
+        13.4
+      ]
+    ],
+    "side_harness_EST": [
+      [
+        -15.5,
+        -40,
+        13.8
+      ],
+      [
+        -12,
+        -40,
+        10.2
+      ]
+    ],
+    "RF_harness_EST": [
+      [
+        12,
+        -42,
+        7
+      ],
+      [
+        14,
+        -55,
+        7
+      ],
+      [
+        9,
+        -63,
+        7
+      ]
+    ]
+  },
+  "unresolved": "Actual donor outline/holes, functional key/scroll mechanisms, attachment scheme, optical Z stack, antenna tuning, firmware and runtime test remain open. No fitted board claim."
+}

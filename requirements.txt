@@ -1,4 +1,4 @@
-# Python 3.12 used for V0.1 through V0.5 generation and verification.
+# Python 3.12 used for V0.1 through V0.6 generation and verification.
 cadquery==2.8.0
 trimesh==5.1.1
 numpy==2.5.4
@@ -10,3 +10,4 @@ pymeshlab==2025.7.post1
 matplotlib==3.11.2
 Pillow==12.3.0
 # vtk is installed by cadquery; used only for renders.
+lxml==6.1.3

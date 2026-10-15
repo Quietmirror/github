@@ -1,73 +1,56 @@
 # Quietmirror · 右手指握鼠标
 
-**当前 V0.5：后壳从 6 孔增加到 10 孔，孔间筋收窄为 2.2 mm，孔形随轮廓调整、左右镜像排列。V0.1–V0.5 全部保留。**
+**当前 V0.6：除左侧双侧键及其接口外，外壳与底部沿中轴镜像；取消底部外伸托边，收窄后壳外围实面。本轮交付纯试握、ATK A1 Plus 主板示意、PAW3950 半组装主板示意三版。V0.1–V0.5 全部保留。**
 
-沿用 V0.4 的 Fenrir 方向外形：低前端、向后缓升主键和短低尾部。本轮只改后壳孔阵，单孔大小维持原来尺度，边缘孔分别收形，孔间筋更均匀。图为实际交付 STL 的渲染。
+![三个实际模型](views/v06/10_three_variants.png)
 
-![V0.4 与 V0.5 实际俯视比较](views/v05/10_comparison.png)
+[全部历史版本](HISTORY.md) · [整个项目 ZIP](https://github.com/Quietmirror/github/archive/refs/heads/main.zip) · [设计与验证](reports/v06/DESIGN.md) · **[功能、续航和电子方案详解](reports/v06/ELECTRONICS.md)**
 
-**[全部历史版本](HISTORY.md)** · **[一次下载整个项目 ZIP](https://github.com/Quietmirror/github/archive/refs/heads/main.zip)**
+## 三个版本下载
 
-## 当前模型下载
-
-| 文件 | 用途 |
-|---|---|
-| **[一体试握 STL](exports/v05/quietmirror_fingertip_V0.5_FIT.stl)** · [STEP](exports/v05/quietmirror_fingertip_V0.5_FIT.step) | 一个连通实体；主键、侧键与滚轮触感件固定 |
-| **[带切片配置的 3MF](exports/v05/quietmirror_fingertip_V0.5_PRINT.3mf)** | 毫米、100%比例、五脚朝下；使用前选择实际打印机 |
-| [开侧键窗口 SHELL STL](exports/v05/quietmirror_fingertip_V0.5_SHELL.stl) · [STEP](exports/v05/quietmirror_fingertip_V0.5_SHELL.step) | 配合下列独立键帽；主键和滚轮仍固定 |
-| [前侧键 STL](exports/v05/side_button_1_V0.5_PRINT.stl) · [STEP](exports/v05/side_button_1_V0.5_PRINT.step) | 内侧限位边朝下的打印部件 |
-| [后侧键 STL](exports/v05/side_button_2_V0.5_PRINT.stl) · [STEP](exports/v05/side_button_2_V0.5_PRINT.step) | 同形部件，安装高度不同 |
-| [壳体与两键帽装配 STEP](exports/v05/side_button_assembly_V0.5.step) | 三实体的装配位置，不用于叠印 |
-| [主生成器](cad/build_v05.py) · [孔形生成器](cad/vent_layout_v05.py) · [参数 JSON](cad/parameters_v05.json) | 可编辑 CadQuery 源码；[参数与复现](cad/PARAMETERS_V0.5.md) |
-| [16 个电子估计包络 STEP](exports/v05/electronic_envelopes_V0.5_ESTIMATES.step) | 估计尺寸和摆位，不参与打印，不代表装配已验证 |
-
-GitHub 文件页使用 **Download raw file** 下载。FIT 和 SHELL 是两种选择，不要叠在同一位置打印。整个项目下载包含生成器依赖的历史底部 STEP。
-
-## 孔形和细筋具体变化
-
-| 项目 | V0.4 | V0.5 |
+| 版本 | 模型 | 用途与边界 |
 |---|---|---|
-| 孔数与排列 | 6，3—3 | **10，3—4—3 交错镜像排列** |
-| 单孔面积，XY 投影 | 每孔 85.34 mm² | **80.68–99.28 mm²**；平均 90.03 |
-| 孔间筋 | 旧报告尖角基形最小 3.0 mm；实际圆角孔最小 3.4 mm | **19 对相邻孔最短平面间距均为 2.200 mm** |
-| 孔形 | 等形圆角六边孔 | 中央较完整，肩部、侧缘和尾部孔单独裁形；孔角 R1.0 |
-| 本体 PLA 切片估重，使用同一配置 | 23.345 g | **22.190 g**，减少 1.155 g /4.95% |
-| 尺寸，长×宽×高 | 约 90×62×28 mm | **90.002×61.987×28.003 mm** |
-| 底部与五脚 | V0.3 冻结底部 | **整个 Z≤6 mm 区域不变** |
+| **纯试握模具 FIT** | **[STL](exports/v06/quietmirror_fingertip_V0.6_FIT.stl)** · [STEP](exports/v06/quietmirror_fingertip_V0.6_FIT.step) · [打印 3MF](exports/v06/quietmirror_fingertip_V0.6_PRINT.3mf) | 单一可打印实体，主键/侧键/滚轮固定；“模具”指手握外形样件，并非注塑阴模 |
+| **ATK A1 Plus 替板示意** | **[彩色装配 STEP](exports/v06/quietmirror_V0.6_ATK_A1_PLUS_ESTIMATED.step)** · [多对象观察 3MF](exports/v06/quietmirror_V0.6_ATK_A1_PLUS_ESTIMATED_VIEW_ONLY.3mf) | 用户所称供体的估计空间布局；未确认型号、传感器、实板尺寸和固件能力 |
+| **PAW3950 半组装板示意** | **[彩色装配 STEP](exports/v06/quietmirror_V0.6_PAW3950_CUSTOM_ESTIMATED.step)** · [多对象观察 3MF](exports/v06/quietmirror_V0.6_PAW3950_CUSTOM_ESTIMATED_VIEW_ONLY.3mf) | 分布式主控/RF/传感器板参考布局；不是已打样或已工作的电路 |
 
-孔阵来自共享边界的分区，再对每个分区内缩 1.1 mm、做 R1.0 圆角；不是把所有孔缩小，也不是等距复制同一六边形。相邻直边因此保留一致筋距。多孔交汇节点、外围承力边框仍更宽，不能把 2.2 mm 理解为全表面任意方向都等厚。
+电子场景中的主板、电池等是独立物体，**不要整场景合并打印**。配套 [ATK 净空 STEP](exports/v06/quietmirror_V0.6_ATK_A1_PLUS_ESTIMATED_CLEARANCES.step)、[PAW3950 净空 STEP](exports/v06/quietmirror_V0.6_PAW3950_CUSTOM_ESTIMATED_CLEARANCES.step) 用于检查空间。
 
-![实际孔形与筋宽图](views/v05/14_vent_layout.png)
+[开侧键孔壳体 STL](exports/v06/quietmirror_fingertip_V0.6_SHELL.stl) / [STEP](exports/v06/quietmirror_fingertip_V0.6_SHELL.step) · [前侧键 STL](exports/v06/side_button_1_V0.6_PRINT.stl) / [STEP](exports/v06/side_button_1_V0.6_PRINT.step) · [后侧键 STL](exports/v06/side_button_2_V0.6_PRINT.stl) / [STEP](exports/v06/side_button_2_V0.6_PRINT.step)。独立键帽还没有真实点击/回位验证。
 
-**对称范围**：主壳轮廓、左右主键、滚轮中心和后壳孔阵以 X=0 镜像。沿用先前右手设计，左侧两个拇指键及冻结的右侧托边仍单侧保留，**完整 FIT 实体并非全特征镜像对称**。孔阵左右镜像差面积小于 1e-8 mm²；保存后的上壳曲面另做 5,000 点镜像距离采样，最大约 0.020 mm，属于 STL 曲面离散误差范围。
+可编辑源：[生成器](cad/build_v06.py)、[外形参数](cad/parameters_v06.json)、[逐孔生成](cad/vent_layout_v06.py)、[电子生成器](cad/electronics_v06.py)、[电子尺寸/摆位](cad/electronics_v06.json)、[复现方法](cad/PARAMETERS_V0.6.md)。
 
-## 已完成的核对
+## 外形与减重
 
-- FIT、SHELL、两个独立键帽：每件 STEP 有效且为一个实体；STL 封闭、单连通、法线一致，自相交面数 0。
-- FIT 111,548 个三角面；五脚各测 9 点，共 45 点均在 Z=0。脚贴平台 Ø8.8 mm，参考约 Ø7–7.5 mm 同厚圆点脚贴。
-- 常规壳面 869 个法向样本，最小 1.695 mm；另在细筋上检查 57 点，最小 **1.734 mm**，没有低于 1.6 mm 的样本。有限采样不是连续全表面最薄壁或强度认证；FIT 侧键固定桥仍有局部 1.2 mm 特征。
-- 保存后的 FIT / SHELL 对冻结底部做双向布尔差：**FIT：旧减新 0.000000 / 新减旧 0.000000 mm³；SHELL：旧减新 0.000000 / 新减旧 0.000000 mm³**。
-- 10 孔在上壳上的贯通射线检查通过，开孔与侧键加固座体积相交为 0；侧键配合间隙和离散装入路径均重新核对。
-- CAD 体积 17.778 cm³；STL 体积 **17.696 cm³**，差 0.459%。不把积分体积直接冒充耗材重量。
+- **外部对称**：侧键以外，包括底筋、五脚、USB-C 开口和电源开关孔均按 X=0 镜像。取消旧右侧防拖地托边，尾脚收进外壳，底筋裁齐外形投影。本轮按新要求重新设计底部，不沿用 V0.5 的 Z≤6 mm 冻结约束。
+- **12 个后壳孔**，4—3—4—1 镜像排列；外缘沿壳体轮廓，孔间直筋目标 2.2 mm，外围目标 2.4 mm。22 对相邻孔最短间距约 2.2 mm；尾部两个极短分区交汇圆角节点更宽，约 5.43 mm。侧键受力区保留局部加固，不能称“每一处都等宽”。
+- 后壳外轮廓 D58.5–88.5 mm 的投影采样：到最近孔的距离最小 **2.38 mm**，中位 **2.54 mm**；节点处更宽。前部按键/侧键受力区不纳入此项。
+- 后肩两段较陡的窄筋增加左右镜像的 **Ø2 mm 内侧补筋**，维持外表面孔间窄筋，不靠削薄关键受力处减重。内侧补筋会进入少量孔边投影：H05/H07 的边缘网格射线有 10/9 条遇到补筋，所有孔中央净开口的贯通检查通过。指肚主接触面保持完整。
+- 实际尺寸，长×宽×高：**90.312×61.970×28.002 mm**。90×62×28 mm 是名义试握参数；自由曲面末端存在离散/放样偏差，切片器按实际包围盒核对。
+- 前端中轴充电孔 **13.4×6.4 mm**；底部中心开关孔 **6×3 mm**。均为估计接口，待真实连接器/开关确认。
 
-**打印估算**：0.4 mm 喷嘴、0.2 mm 层高、4 周壁、20% gyroid、PLA 密度 1.24。五脚朝下，贴合支撑（snug）仅从热床生成，4 mm 裙边。本体 **22.190 g**，支撑 15.198 g，总耗材 **37.56 g**，约 **4h 12m 7s**。最终 3MF 无外载 INI 重切片，16 项设置一致。尚未实物打印、去支撑、称重或测试夹持刚度。
+![V0.5 与 V0.6](views/v06/11_comparison.png)
 
-**[详细设计思路](reports/v05/DESIGN.md)** · **[打印说明](slicing/V0.5_PRINTING.md)** · [孔形/筋宽/对称原始数据](reports/v05/vent_verification.json) · [几何验证](reports/v05/validation.json) · [试握反馈](reports/v05/FIT_FEEDBACK.md)
+## 已完成的验证与打印估计
 
-## 其他视图与电子边界
+FIT / SHELL / 两个独立侧键均为有效单实体，STL 封闭、单连通、法线一致，自相交面数 0。五脚 Ø8.8 mm，45 个脚底采样均在 Z=0。最终 FIT 在侧键区域之外的镜像面距离最大 **0.017 mm**，是网格离散核对，不是假定全体都对称。
 
-[斜视](views/v05/01_isometric.png) · [俯视](views/v05/02_top.png) · [左侧](views/v05/03_left_side.png) · [右侧](views/v05/05_right_side.png) · [底视](views/v05/04_bottom.png) · [尺寸](views/v05/07_dimensions.png) · [侧键分解](views/v05/11_side_buttons_exploded.png) · [侧键装入位置](views/v05/12_side_buttons_fitted.png) · [内部包络](views/v05/06_envelopes.png)
+常规壳面 **820** 个法向样本，最薄 **1.723 mm**；窄筋另取 **72** 个样本，最薄 **1.843 mm**。有限采样不等于连续最薄壁或强度认证；FIT 侧键固定桥仍有局部 1.2 mm 特征。CAD 体积 **17.014 cm³**，STL 体积 **17.003 cm³**。
 
-手长约 230 mm、张开跨度约 190 mm 来自照片 AR 近似测量。190 mm 不是掌宽或握宽，没有按手长整体缩放；掌宽、指节、实际握姿待测。90×62×28 mm /有效夹持约 53.06 mm 仍是试握假设。
+0.4 mm 喷嘴、0.2 mm 层高、4 壁、20% gyroid、PLA 1.24 g/cm³，五脚朝下、仅热床贴合支撑、4 mm 裙边：**本体 21.421 g，支撑 14.994 g，总耗材 36.59 g，约 4h 18m 38s**。最终 3MF 不加载外部 INI 重切片，16 项设置一致；未实物打印、称重或夹持强度测试。详见 [打印说明](slicing/V0.6_PRINTING.md)、[网格/壁厚数据](reports/v06/validation.json)、[对称/孔/筋/底部检查](reports/v06/geometry_checks.json)。
 
-电子目标仍为 PAW3950、2.4 GHz 无线 1000 Hz、左右键、中键/滚轮、两个拇指键。候选供体仅记为用户所称 **“ATK 蜻蜓 A1 Plus”**，型号、传感器版本、PCB 与孔位待确认。PAW3950 不代表统一主板；无线 1K 依赖主板、固件和匹配接收器。
+## 电子目标与建议
 
-16 个包络均保留尺寸依据与“估计”标注；电池、侧键板、主键机构、USB-C、天线等布局尚有待解决的干涉。光轴沿 Z，镜头高度待真实 PCB /镜头/底面/脚贴尺寸链确认。**当前是固定试握件与侧键接口原型，不是已能装电子元件的替换壳。** [电子包络、干涉和待测清单](reports/v05/ELECTRONICS.md)
+两种方案都以 **400–6400 DPI、无线 1K、低延迟、宏、LOD、左右键/滚轮中键/双侧键、电源开关与 USB-C 充电**为验收目标；Motion Sync 等可选同步增强关闭。供体若不支持这些配置，单纯换壳不能补齐。未确认 ATK A1 Plus 的传感器，更没有假定它使用 PAW3950。
+
+≥12 h 持续满性能的预算为：500 mAh ×75%÷30 mA = **12.5 h**。500 mAh 的容量与 26×30×6 mm 包络都是估计；需要真实电池、满性能持续电流和实际续航测试，**不是已达标承诺**。全部功能矩阵、镜头尺寸链、充电架构及待测清单见 [详细电子说明](reports/v06/ELECTRONICS.md)，干涉结果见 [装配检查](reports/v06/ASSEMBLY_CHECKS.md)。
+
+**推荐下一步用 FreeCAD 继续真实装配**：导入 STEP，放入实测 PCB/镜头/电池，建立固定、行程和间隙。JSON/Python 仍保留外壳参数；STEP 不自动携带完整参数历史。本轮未安装建模软件，已提供交换模型。
+
+[斜视](views/v06/01_isometric.png) · [俯视](views/v06/02_top.png) · [左侧](views/v06/03_left_side.png) · [右侧](views/v06/05_right_side.png) · [底视](views/v06/04_bottom.png) · [充电口](views/v06/06_front_charge.png) · [孔形图](views/v06/12_vent_layout.png) · [ATK 内部](views/v06/07_isometric.png) · [PAW3950 内部](views/v06/08_isometric.png) · [试握反馈](reports/v06/FIT_FEEDBACK.md)
 
 ## 来源与历史
 
-原创源码、几何采用 [CERN-OHL-P-2.0](LICENSE)。已实际检查的 olliebella、Kotinos、paw3395-pcb 文件、结构借鉴和上游许可证见 [开源参考审阅](references/REFERENCE_REVIEW.md)。未沿用 HSK Pro 板孔位。
+原创代码与几何采用 [CERN-OHL-P-2.0](LICENSE)。[开源文件审阅与借鉴](references/REFERENCE_REVIEW.md)、[Fenrir 形态参考](references/FENRIR_REFERENCE.md)、[NOTICE](NOTICE.md) 保留。没有复制商业 CAD，也没有沿用 Kotinos 的 HSK Pro 孔位。V0.5 说明归档到 [README_V0.5.md](README_V0.5.md)。
 
-Fenrir 只使用实际查看过的 [官方外形图片](references/FENRIR_REFERENCE.md) 作形态参考，未取得或复制商业 CAD /STL；本轮在原创 V0.4 外壳上调整孔阵。商业图片保留外链，许可证不由本项目覆盖。[NOTICE](NOTICE.md)
-
-V0.1–V0.4 的模型、专用源码、参数、图和验证报告全部保留。V0.4 README 另存 [README_V0.4.md](README_V0.4.md)，旧版可从 [HISTORY](HISTORY.md) 或提交历史取得。
+手长约 230 mm、张开跨度约 190 mm 仍为照片 AR 近似值；190 mm 不是掌宽或握宽，未按手长等比例放大鼠标。掌宽、指节长度、实际握姿和本轮舒适度均待测。

@@ -2,7 +2,7 @@
 from pathlib import Path
 import json,zipfile,xml.etree.ElementTree as ET,argparse,re
 ROOT=Path(__file__).resolve().parents[1]
-ap=argparse.ArgumentParser();ap.add_argument('--version',choices=['0.1','0.2','0.3','0.4','0.5'],default='0.2');v=ap.parse_args().version
+ap=argparse.ArgumentParser();ap.add_argument('--version',choices=['0.1','0.2','0.3','0.4','0.5','0.6'],default='0.2');v=ap.parse_args().version
 def footer(path):
     out={}
     for line in path.read_text(encoding='utf8').splitlines():

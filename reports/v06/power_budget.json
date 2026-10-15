@@ -1,0 +1,10 @@
+{
+  "capacity_target_mAh": 500,
+  "usable_fraction": 0.75,
+  "continuous_average_current_budget_mA": 30,
+  "calculated_hours": 12.5,
+  "required_hours": 12,
+  "maximum_average_current_for_12h_mA": 31.25,
+  "actual_current_measured": false,
+  "actual_capacity_measured": false
+}

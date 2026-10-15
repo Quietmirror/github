@@ -1,0 +1,969 @@
+{
+  "baseline_commit": "ee4740639524cfde4e8b4c8cb39321150638cf51",
+  "unchanged_previous_files": 238,
+  "verified_files": [
+    {
+      "path": ".gitattributes",
+      "unchanged": true
+    },
+    {
+      "path": ".gitignore",
+      "unchanged": true
+    },
+    {
+      "path": "LICENSE",
+      "unchanged": true
+    },
+    {
+      "path": "NOTICE.md",
+      "unchanged": true
+    },
+    {
+      "path": "README_V0.1.md",
+      "unchanged": true
+    },
+    {
+      "path": "README_V0.2.md",
+      "unchanged": true
+    },
+    {
+      "path": "README_V0.3.md",
+      "unchanged": true
+    },
+    {
+      "path": "README_V0.4.md",
+      "unchanged": true
+    },
+    {
+      "path": "cad/PARAMETERS.md",
+      "unchanged": true
+    },
+    {
+      "path": "cad/PARAMETERS_V0.2.md",
+      "unchanged": true
+    },
+    {
+      "path": "cad/PARAMETERS_V0.3.md",
+      "unchanged": true
+    },
+    {
+      "path": "cad/PARAMETERS_V0.4.md",
+      "unchanged": true
+    },
+    {
+      "path": "cad/PARAMETERS_V0.5.md",
+      "unchanged": true
+    },
+    {
+      "path": "cad/build_mouse.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/build_v02.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/build_v03.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/build_v04.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/build_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_bottom_v04.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_bottom_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_history_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_side_button_path_v03.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_side_button_path_v04.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_side_button_path_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/check_vents_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/inspect_references.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/make_diagrams.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameter_smoke_v02.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameters.json",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameters_v02.json",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameters_v03.json",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameters_v04.json",
+      "unchanged": true
+    },
+    {
+      "path": "cad/parameters_v05.json",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_comparison.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_v02.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_v03.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_v04.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/render_vents_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_mouse.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_v02.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_v03.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_v04.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/validate_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/vent_layout_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_electronics_v02.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_electronics_v03.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_electronics_v04.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_electronics_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_release_v04.py",
+      "unchanged": true
+    },
+    {
+      "path": "cad/write_release_v05.py",
+      "unchanged": true
+    },
+    {
+      "path": "exports/electronic_envelopes_ESTIMATES.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/quietmirror_fingertip_V0.1.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/quietmirror_fingertip_V0.1.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/quietmirror_fingertip_V0.1_PRINT.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v02/electronic_envelopes_V0.2_ESTIMATES.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v02/quietmirror_fingertip_V0.2.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v02/quietmirror_fingertip_V0.2.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v02/quietmirror_fingertip_V0.2_PRINT.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/electronic_envelopes_V0.3_ESTIMATES.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/quietmirror_fingertip_V0.3_FIT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/quietmirror_fingertip_V0.3_FIT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/quietmirror_fingertip_V0.3_PRINT.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/quietmirror_fingertip_V0.3_SHELL.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/quietmirror_fingertip_V0.3_SHELL.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/side_button_1_V0.3_PRINT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/side_button_1_V0.3_PRINT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/side_button_2_V0.3_PRINT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/side_button_2_V0.3_PRINT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v03/side_button_assembly_V0.3.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/electronic_envelopes_V0.4_ESTIMATES.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/quietmirror_fingertip_V0.4_FIT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/quietmirror_fingertip_V0.4_FIT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/quietmirror_fingertip_V0.4_PRINT.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/quietmirror_fingertip_V0.4_SHELL.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/quietmirror_fingertip_V0.4_SHELL.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/side_button_1_V0.4_PRINT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/side_button_1_V0.4_PRINT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/side_button_2_V0.4_PRINT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/side_button_2_V0.4_PRINT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v04/side_button_assembly_V0.4.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/electronic_envelopes_V0.5_ESTIMATES.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/quietmirror_fingertip_V0.5_FIT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/quietmirror_fingertip_V0.5_FIT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/quietmirror_fingertip_V0.5_PRINT.3mf",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/quietmirror_fingertip_V0.5_SHELL.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/quietmirror_fingertip_V0.5_SHELL.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/side_button_1_V0.5_PRINT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/side_button_1_V0.5_PRINT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/side_button_2_V0.5_PRINT.step",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/side_button_2_V0.5_PRINT.stl",
+      "unchanged": true
+    },
+    {
+      "path": "exports/v05/side_button_assembly_V0.5.step",
+      "unchanged": true
+    },
+    {
+      "path": "references/FENRIR_REFERENCE.md",
+      "unchanged": true
+    },
+    {
+      "path": "references/FINALMOUSE_MINISE_REFERENCE.md",
+      "unchanged": true
+    },
+    {
+      "path": "references/GWOLVES_REFERENCE.md",
+      "unchanged": true
+    },
+    {
+      "path": "references/REFERENCE_REVIEW.md",
+      "unchanged": true
+    },
+    {
+      "path": "references/licenses/Kotinos-GPL-3.0.txt",
+      "unchanged": true
+    },
+    {
+      "path": "references/licenses/olliebella-CERN-OHL-P-2.0.txt",
+      "unchanged": true
+    },
+    {
+      "path": "references/licenses/paw3395-pcb-CERN-OHL-P-2.0.txt",
+      "unchanged": true
+    },
+    {
+      "path": "reports/3mf_roundtrip.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/V0.1_\u8bbe\u8ba1\u4e0e\u9a8c\u8bc1\u62a5\u544a.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/cad_metrics.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/envelope_interferences.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/parameter_smoke_check.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/reference_geometry.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/slice_summary.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/slicer_model_info.txt",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/3mf_roundtrip.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/DESIGN.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/ELECTRONICS.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/FIT_FEEDBACK.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/cad_metrics.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/envelope_interferences.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/parameter_smoke_check.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/slice_summary.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/slicer_model_info.txt",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v02/validation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/3mf_roundtrip.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/DESIGN.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/ELECTRONICS.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/FIT_FEEDBACK.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/cad_metrics.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/envelope_interferences.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/separate_parts_slice.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/side_button_insertion.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/slice_summary.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/slicer_model_info.txt",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v03/validation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/3mf_roundtrip.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/DESIGN.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/ELECTRONICS.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/FIT_FEEDBACK.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/bottom_preservation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/cad_metrics.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/envelope_interferences.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/history_preservation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/separate_parts_slice.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/side_button_insertion.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/slice_summary.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/slicer_model_info.txt",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v04/validation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/3mf_roundtrip.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/DESIGN.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/ELECTRONICS.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/FIT_FEEDBACK.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/bottom_preservation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/cad_metrics.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/comparison_slice.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/envelope_interferences.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/history_preservation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/separate_parts_slice.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/side_button_insertion.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/slice_summary.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/slicer_model_info.txt",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/validation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/vent_layout.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/v05/vent_verification.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/validation.json",
+      "unchanged": true
+    },
+    {
+      "path": "reports/\u7535\u5b50\u5305\u7edc\u4e0e\u88c5\u914d\u5f85\u6d4b.md",
+      "unchanged": true
+    },
+    {
+      "path": "reports/\u8bd5\u63e1\u53cd\u9988\u8868.md",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/PLA_0.4_0.20_ESTIMATE.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/PLA_0.4_0.20_FULL.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.2_PLA_0.4_0.20_ESTIMATE.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.2_PLA_0.4_0.20_FULL.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.2_PRINTING.md",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.3_PLA_0.4_0.20_ESTIMATE.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.3_PLA_0.4_0.20_FULL.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.3_PRINTING.md",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.4_PLA_0.4_0.20_ESTIMATE.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.4_PLA_0.4_0.20_FULL.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.4_PRINTING.md",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.5_PLA_0.4_0.20_ESTIMATE.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.5_PLA_0.4_0.20_FULL.ini",
+      "unchanged": true
+    },
+    {
+      "path": "slicing/V0.5_PRINTING.md",
+      "unchanged": true
+    },
+    {
+      "path": "views/01_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/02_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/03_left_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/04_bottom.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/05_right_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/06_envelopes.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/07_dimensions.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/08_envelope_layout.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/09_slice_layers.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/history_V0.1-V0.4.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/history_V0.1-V0.5.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/ref_kotinos.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/ref_olliebella.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/01_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/02_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/03_left_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/04_bottom.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/05_right_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/06_envelopes.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/07_dimensions.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/08_envelope_layout.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/09_slice_layers.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v02/10_comparison.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/01_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/02_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/03_left_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/04_bottom.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/05_right_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/06_envelopes.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/07_dimensions.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/08_envelope_layout.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/09_slice_layers.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/10_comparison.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/11_side_buttons_exploded.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v03/12_side_buttons_fitted.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/01_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/02_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/03_left_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/04_bottom.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/05_right_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/06_envelopes.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/07_dimensions.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/08_envelope_layout.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/09_slice_layers.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/10_comparison.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/11_side_buttons_exploded.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/12_side_buttons_fitted.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v04/13_frozen_bottom.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/01_isometric.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/02_top.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/03_left_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/04_bottom.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/05_right_side.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/06_envelopes.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/07_dimensions.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/08_envelope_layout.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/09_slice_layers.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/10_comparison.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/11_side_buttons_exploded.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/12_side_buttons_fitted.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/13_frozen_bottom.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/14_vent_layout.png",
+      "unchanged": true
+    },
+    {
+      "path": "views/v05/14_vent_layout.svg",
+      "unchanged": true
+    }
+  ],
+  "allowed_shared_or_index_updates": [
+    "HISTORY.md",
+    "README.md",
+    "cad/analyze_slice.py",
+    "cad/check_3mf_roundtrip.py",
+    "cad/embed_3mf_profile.py",
+    "cad/render_views.py",
+    "requirements.txt"
+  ],
+  "readme_v05_exact_archive": true,
+  "note": "Prior models, parameters, version-specific generators, reports, images and profiles are preserved. Shared scripts add V0.6 support; no old exports overwritten."
+}

@@ -1,6 +1,6 @@
 # 所有版本与下载
 
-本仓库同时保留 **V0.1、V0.2、V0.3、V0.4、V0.5** 的模型、可编辑源码、参数、视图、切片配置和验证报告。V0.5 没有覆盖旧模型。GitHub 文件页的 **Download raw file** 可以下载原文件。
+本仓库同时保留 **V0.1、V0.2、V0.3、V0.4、V0.5、V0.6** 的模型、可编辑源码、参数、视图、切片配置和验证报告。V0.6 没有覆盖旧模型。GitHub 文件页的 **Download raw file** 可以下载原文件。
 
 **[一次下载整个项目 ZIP，包含全部历史版本](https://github.com/Quietmirror/github/archive/refs/heads/main.zip)**
 
@@ -12,7 +12,8 @@
 | V0.2 | 游狼短机身方向，连续侧壳与完整尾壳 | [STL](exports/v02/quietmirror_fingertip_V0.2.stl) | [STEP](exports/v02/quietmirror_fingertip_V0.2.step) | [3MF](exports/v02/quietmirror_fingertip_V0.2_PRINT.3mf) | [说明](README_V0.2.md) · [源码](cad/build_v02.py) · [参数](cad/parameters_v02.json) |
 | V0.3 | 侧面平顺化，10个后壳孔，侧键窗口及独立键帽 | [FIT STL](exports/v03/quietmirror_fingertip_V0.3_FIT.stl) | [FIT STEP](exports/v03/quietmirror_fingertip_V0.3_FIT.step) | [3MF](exports/v03/quietmirror_fingertip_V0.3_PRINT.3mf) | [说明](README_V0.3.md) · [源码](cad/build_v03.py) · [参数](cad/parameters_v03.json) |
 | **V0.4** | **Fenrir外形方向；低前端、后移壳背、6个较大后壳窗口；V0.3底部不变** | **[FIT STL](exports/v04/quietmirror_fingertip_V0.4_FIT.stl)** | **[FIT STEP](exports/v04/quietmirror_fingertip_V0.4_FIT.step)** | **[3MF](exports/v04/quietmirror_fingertip_V0.4_PRINT.3mf)** | [归档说明](README_V0.4.md) · [源码](cad/build_v04.py) · [参数](cad/parameters_v04.json) |
-| **V0.5** | **后壳6→10孔；2.2 mm细筋；逐孔随轮廓收形，3—4—3镜像；底部不变** | **[FIT STL](exports/v05/quietmirror_fingertip_V0.5_FIT.stl)** | **[FIT STEP](exports/v05/quietmirror_fingertip_V0.5_FIT.step)** | **[3MF](exports/v05/quietmirror_fingertip_V0.5_PRINT.3mf)** | [当前说明](README.md) · [源码](cad/build_v05.py) · [孔形源码](cad/vent_layout_v05.py) · [参数](cad/parameters_v05.json) |
+| **V0.5** | **后壳6→10孔；2.2 mm细筋；逐孔随轮廓收形，3—4—3镜像；底部不变** | **[FIT STL](exports/v05/quietmirror_fingertip_V0.5_FIT.stl)** | **[FIT STEP](exports/v05/quietmirror_fingertip_V0.5_FIT.step)** | **[3MF](exports/v05/quietmirror_fingertip_V0.5_PRINT.3mf)** | [归档说明](README_V0.5.md) · [源码](cad/build_v05.py) · [孔形源码](cad/vent_layout_v05.py) · [参数](cad/parameters_v05.json) |
+| **V0.6** | **除侧键外镜像；取消外伸底边；12孔与窄外围筋；增加充电/开关口和两种主板示意** | **[FIT STL](exports/v06/quietmirror_fingertip_V0.6_FIT.stl)** | **[FIT STEP](exports/v06/quietmirror_fingertip_V0.6_FIT.step)** | **[3MF](exports/v06/quietmirror_fingertip_V0.6_PRINT.3mf)** | [当前说明](README.md) · [源码](cad/build_v06.py) · [参数](cad/parameters_v06.json) · [电子参数](cad/electronics_v06.json) |
 
 ## 独立侧键及开孔壳体
 
@@ -39,3 +40,11 @@ V0.4沿用V0.3键帽的名义几何和打印朝向，前/后键安装高度分�
 完整提交历史见 [GitHub commits](https://github.com/Quietmirror/github/commits/main/)。版本专用源文件和参数保留在当前目录；共享帮助脚本支持选择旧版本。如需精确复现当时整个工具链文件状态，可从提交历史切换到对应版本提交。
 
 V0.5保留性检查：[历史文件对比](reports/v05/history_preservation.json)。V0.4的历史切片配置和结果保持原样；新旧版本在V0.5同一配置下的额外对比仅存入[本轮报告](reports/v05/comparison_slice.json)。
+
+## V0.6 三版与历史保留
+
+V0.6 按新要求重新设计对称底部，旧版的“底部不变”约束只适用于各自历史版本。
+
+[纯试握](exports/v06/quietmirror_fingertip_V0.6_FIT.step) · [ATK A1 Plus 示意](exports/v06/quietmirror_V0.6_ATK_A1_PLUS_ESTIMATED.step) · [PAW3950 示意](exports/v06/quietmirror_V0.6_PAW3950_CUSTOM_ESTIMATED.step) · [完整报告](reports/v06/DESIGN.md) · [打印说明](slicing/V0.6_PRINTING.md) · [所有新视图](views/v06/) · [历史文件核对](reports/v06/history_preservation.json)。
+
+新电子模型均为估计布局；V0.1–V0.5 的模型、参数、专用源码、图和报告保留原文件。共享工具只追加兼容新版本的选项。
