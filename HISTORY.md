@@ -1,6 +1,6 @@
 # 所有版本与下载
 
-本仓库同时保留 **V0.1、V0.2、V0.3、V0.4、V0.5、V0.6、V0.7** 的模型、可编辑源码、参数、视图、切片配置和验证报告。V0.7 没有覆盖旧模型。GitHub 文件页的 **Download raw file** 可以下载原文件。
+本仓库同时保留 **V0.1、V0.2、V0.3、V0.4、V0.5、V0.6、V0.7、V0.8** 的模型、可编辑源码、参数、视图、切片配置和验证报告。V0.8 没有覆盖旧模型。GitHub 文件页的 **Download raw file** 可以下载原文件。
 
 **[一次下载整个项目 ZIP，包含全部历史版本](https://github.com/Quietmirror/github/archive/refs/heads/main.zip)**
 
@@ -53,6 +53,12 @@ V0.6 按新要求重新设计对称底部，旧版的“底部不变”约束只
 
 缩小左右主键、增加镜像前孔，细长双侧键；20 个塑料件组成五键及滚轮机械试按套件。V0.6 的 Z≤5.4 mm 底部保留。另附两种电子空间示意，并明确标出未解决冲突。
 
-[当前说明](README.md) · [分件 STL/STEP](exports/v07/print/) · [打印 3MF](exports/v07/quietmirror_V0.7_PRINT_PLATE.3mf) · [机械装配 STEP](exports/v07/quietmirror_V0.7_MECHANICAL_ASSEMBLY.step) · [ATK 示意](exports/v07/quietmirror_V0.7_ATK_A1_PLUS_ESTIMATED.step) · [PAW3950 示意](exports/v07/quietmirror_V0.7_PAW3950_CUSTOM_ESTIMATED.step) · [所有视图](views/v07/) · [历史核对](reports/v07/history_preservation.json)。
+[归档说明](README_V0.7.md) · [分件 STL/STEP](exports/v07/print/) · [打印 3MF](exports/v07/quietmirror_V0.7_PRINT_PLATE.3mf) · [机械装配 STEP](exports/v07/quietmirror_V0.7_MECHANICAL_ASSEMBLY.step) · [ATK 示意](exports/v07/quietmirror_V0.7_ATK_A1_PLUS_ESTIMATED.step) · [PAW3950 示意](exports/v07/quietmirror_V0.7_PAW3950_CUSTOM_ESTIMATED.step) · [所有视图](views/v07/) · [历史核对](reports/v07/history_preservation.json)。
 
 V0.7 是机械试按设计，不是实物验证完成的产品；旧版固定触感件的说明仍按各自历史范围理解。
+
+## V0.8 平顺侧键与前端开放
+
+主键恢复23 mm原宽并保持27 mm短长度，前沿框架退开；侧键前移3 mm并贴随侧壳曲面，底框局部收边。修正内部让位，并按静止、按压、转动和顺序装入进行检查。电子示意单独替换11个试按夹具，最终安装接口待设计。
+
+[当前说明](README.md) · [分件 STL/STEP](exports/v08/print/) · [打印 3MF](exports/v08/quietmirror_V0.8_PRINT_PLATE.3mf) · [机械 STEP](exports/v08/quietmirror_V0.8_MECHANICAL_ASSEMBLY.step) · [ATK 示意](exports/v08/quietmirror_V0.8_ATK_A1_PLUS_ESTIMATED.step) · [PAW3950 示意](exports/v08/quietmirror_V0.8_PAW3950_CUSTOM_ESTIMATED.step) · [所有视图](views/v08/) · [历史核对](reports/v08/history_preservation.json)。

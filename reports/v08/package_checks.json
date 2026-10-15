@@ -1,0 +1,328 @@
+{
+  "version": "0.8",
+  "packages": [
+    {
+      "file": "quietmirror_V0.8_PRINT_PLATE.3mf",
+      "units": "millimeter",
+      "objects": 20,
+      "build_items": 20,
+      "pass": true
+    },
+    {
+      "file": "quietmirror_V0.8_MECHANICAL_VIEW_ONLY.3mf",
+      "units": "millimeter",
+      "objects": 25,
+      "build_items": 25,
+      "pass": true
+    },
+    {
+      "file": "quietmirror_V0.8_ATK_A1_PLUS_VIEW_ONLY.3mf",
+      "units": "millimeter",
+      "objects": 27,
+      "build_items": 27,
+      "pass": true
+    },
+    {
+      "file": "quietmirror_V0.8_PAW3950_CUSTOM_VIEW_ONLY.3mf",
+      "units": "millimeter",
+      "objects": 27,
+      "build_items": 27,
+      "pass": true
+    }
+  ],
+  "calibration": [
+    {
+      "file": "AXLE_TEST.stl",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "file": "CLEARANCE_COUPON.stl",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "file": "STEM_TEST.stl",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    }
+  ],
+  "default_parameter_equivalence": [
+    {
+      "part": "WHEEL",
+      "volume_difference_mm3": 2.8421709430404007e-12,
+      "bounds_max_difference_mm": 8.633094239485217e-13
+    },
+    {
+      "part": "AXLE",
+      "volume_difference_mm3": 4.263256414560601e-14,
+      "bounds_max_difference_mm": 0.0
+    },
+    {
+      "part": "AXLE_WASHER",
+      "volume_difference_mm3": 7.105427357601002e-15,
+      "bounds_max_difference_mm": 0.0
+    },
+    {
+      "part": "WHEEL_CARRIER",
+      "volume_difference_mm3": 4.0975967294798465e-06,
+      "bounds_max_difference_mm": 0.0
+    },
+    {
+      "part": "DETENT_LEAF",
+      "volume_difference_mm3": 6.536993168992922e-13,
+      "bounds_max_difference_mm": 4.440892098500626e-16
+    },
+    {
+      "part": "left_TRAY",
+      "volume_difference_mm3": 9.117684385273606e-11,
+      "bounds_max_difference_mm": 8.881784197001252e-16
+    }
+  ],
+  "mechanical_step_solids": 25,
+  "electronic_parts": [
+    {
+      "variant": "ATK_A1_PLUS",
+      "name": "donor_mainboard_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "name": "donor_MCU_RF_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "name": "donor_antenna_region_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "name": "battery_500mAh_TARGET",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "name": "battery_plug_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "name": "sensor_package_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "name": "lens_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "name": "encoder_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "name": "side_board_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "name": "USB_C_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "name": "charge_powerpath_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "name": "power_switch_body_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "ATK_A1_PLUS",
+      "name": "power_switch_tab_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "name": "custom_mainboard_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "name": "sensor_board_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "name": "RF_board_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "name": "MCU_RF_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "name": "battery_500mAh_TARGET",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "name": "battery_plug_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "name": "sensor_package_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "name": "lens_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "name": "encoder_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "name": "side_board_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "name": "USB_C_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "name": "power_switch_body_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    },
+    {
+      "variant": "PAW3950_CUSTOM",
+      "name": "power_switch_tab_EST",
+      "cad_valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "self_intersecting_faces": 0
+    }
+  ]
+}
