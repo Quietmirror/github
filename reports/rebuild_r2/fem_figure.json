@@ -1,0 +1,34 @@
+{
+  "source_step_sha256": "1ab20963dbc05caa215cd35b05348cfc8dfb6b30d8821812fb484bccb251f5bc",
+  "mesh_mm": 1.6,
+  "panels": [
+    {
+      "case": "palm_down_20N",
+      "maximum_displacement_mm": 0.9657026162352265,
+      "warp_scale": 10,
+      "source_dat_sha256": "5d3b9c551006bb4c03ab1e75b33a6598a5025c8ddbd993be372b289cfb6d6894",
+      "negative_foot_reactions": false
+    },
+    {
+      "case": "left_main_root_down_5N",
+      "maximum_displacement_mm": 0.35695166683587587,
+      "warp_scale": 10,
+      "source_dat_sha256": "a982e1367c8c395541dc0b336be3f12311046adb5ad94ede6ebdfa0f0f747ea4",
+      "negative_foot_reactions": true
+    },
+    {
+      "case": "side_1_switch_fence_inward_5N",
+      "maximum_displacement_mm": 0.2163846873365583,
+      "warp_scale": 10,
+      "source_dat_sha256": "e42f6990edc094749079e5b8cc1d7914834256a6a9dbcc9664c3cda18dfe9880",
+      "negative_foot_reactions": true
+    },
+    {
+      "case": "side_2_switch_fence_inward_5N",
+      "maximum_displacement_mm": 0.23369793923229568,
+      "warp_scale": 10,
+      "source_dat_sha256": "8709969a9428e875fec85d8d9b885711128e573689ebe54a05e4f32d3af5c5e7",
+      "negative_foot_reactions": true
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "solver": "CalculiX 2.22 ITERATIVE CHOLESKY",
+  "reference": "fem_beam_benchmark.json",
+  "comparisons": [
+    {
+      "case": "cantilever_bending",
+      "size_mm": 2.0,
+      "direct_displacement_mm": 0.6632014692615378,
+      "iterative_displacement_mm": 0.6631731431299654,
+      "relative_difference": 4.271120147525398e-05,
+      "analytic_error": 0.013233097217589251,
+      "equilibrium_pass": false,
+      "deck_sha256": "2f5b668eb032e4bc8a855b1a6e174de406a941405a454e5115e12323eb3aba18",
+      "dat_sha256": "a4e0aed69f5d61a7c768c33c085dd144f35b3c62181a7fc60b7c98bec1158dd2"
+    },
+    {
+      "case": "axial_tension",
+      "size_mm": 2.0,
+      "direct_displacement_mm": 0.016583364901723838,
+      "iterative_displacement_mm": 0.01658254489056312,
+      "relative_difference": 4.944781505900053e-05,
+      "analytic_error": 0.0050473065662127725,
+      "equilibrium_pass": false,
+      "deck_sha256": "efda4d6ac07bb0b550446c5a53f36c5229f14d7c164a493f53abc5ff98fc98d2",
+      "dat_sha256": "104039bf808cb9ee96a3045c1fe47b70cf45e803b1ab84a0176a43107dcf55c1"
+    },
+    {
+      "case": "cantilever_bending",
+      "size_mm": 1.25,
+      "direct_displacement_mm": 0.6645398036046412,
+      "iterative_displacement_mm": 0.6645344378113607,
+      "relative_difference": 8.074449794226446e-06,
+      "analytic_error": 0.011207562030511764,
+      "equilibrium_pass": false,
+      "deck_sha256": "b584ae277f7b64fed674327fb1cda6350f23dee49ad57693de717130717306ad",
+      "dat_sha256": "344a1b428bc413704d79400fa6867594766c8846127015df9f619af411925b75"
+    },
+    {
+      "case": "axial_tension",
+      "size_mm": 1.25,
+      "direct_displacement_mm": 0.01658954948904911,
+      "iterative_displacement_mm": 0.016589060357869757,
+      "relative_difference": 2.948429550031495e-05,
+      "analytic_error": 0.004656378527814531,
+      "equilibrium_pass": false,
+      "deck_sha256": "c739fd79f41cdf545bb219486e6a228a8c93cdf27fe089fc48991df432dac5e9",
+      "dat_sha256": "a88942dac337c8dd659026b5db09fb578e5b01c2f69a5e15db8f2b77841f41bf"
+    }
+  ],
+  "pass_check": false,
+  "scope": "Analytical beam crosscheck; fine BODY jobs also require force/moment balance and completed solver output.",
+  "source": "https://www.dhondt.de/ccx_2.22.pdf"
+}

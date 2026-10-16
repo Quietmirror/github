@@ -1,0 +1,10 @@
+{
+  "base_commit": "65d2ee671d70bcb294c66902392cb64b8058e74f",
+  "verified_candidate_tree": "3fe9815bed603beef819b90c3f3569f919115bfa",
+  "original_blobs": 1054,
+  "old_blobs_preserved": 1053,
+  "changed_historical_paths": [],
+  "readme_backup_matches": true,
+  "pass": true,
+  "scope": "Candidate tree before adding final FEM and this report; final publication repeats this preservation comparison."
+}

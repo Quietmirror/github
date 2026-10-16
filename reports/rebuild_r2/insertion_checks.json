@@ -1,0 +1,706 @@
+{
+  "stages": [
+    {
+      "label": "SWITCH_SIDE_REAR",
+      "parts": [
+        "SWITCH_SIDE_REAR"
+      ],
+      "fixed": [
+        "BODY"
+      ],
+      "waypoints": [
+        [
+          -3.42980353233747,
+          -80.0,
+          4.2
+        ],
+        [
+          -3.42980353233747,
+          -21.5,
+          4.2
+        ],
+        [
+          -3.42980353233747,
+          -21.5,
+          2.2
+        ],
+        [
+          -3.42980353233747,
+          0,
+          2.2
+        ],
+        [
+          0,
+          0,
+          2.2
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 155,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SIDE_REAR_KEY_SWITCH_CLAMP",
+      "parts": [
+        "SIDE_REAR_KEY_SWITCH_CLAMP"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR"
+      ],
+      "waypoints": [
+        [
+          0,
+          -85.0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SWITCH_SIDE_FRONT",
+      "parts": [
+        "SWITCH_SIDE_FRONT"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP"
+      ],
+      "waypoints": [
+        [
+          -2.711725911148161,
+          -65.0,
+          4.2
+        ],
+        [
+          -2.711725911148161,
+          -6.5,
+          4.2
+        ],
+        [
+          -2.711725911148161,
+          -6.5,
+          2.2
+        ],
+        [
+          -2.711725911148161,
+          0,
+          2.2
+        ],
+        [
+          0,
+          0,
+          2.2
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 155,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SIDE_FRONT_KEY_SWITCH_CLAMP",
+      "parts": [
+        "SIDE_FRONT_KEY_SWITCH_CLAMP"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT"
+      ],
+      "waypoints": [
+        [
+          0,
+          -70.0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SWITCH_MIDDLE",
+      "parts": [
+        "SWITCH_MIDDLE"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP"
+      ],
+      "waypoints": [
+        [
+          0,
+          -65,
+          4.0
+        ],
+        [
+          0,
+          0,
+          4.0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 62,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SWITCH_LEFT",
+      "parts": [
+        "SWITCH_LEFT"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE"
+      ],
+      "waypoints": [
+        [
+          0,
+          -9.270509831248422,
+          28.531695488854606
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SWITCH_RIGHT",
+      "parts": [
+        "SWITCH_RIGHT"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT"
+      ],
+      "waypoints": [
+        [
+          0,
+          -9.270509831248422,
+          28.531695488854606
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "WHEEL_SUBASSEMBLY",
+      "parts": [
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT"
+      ],
+      "waypoints": [
+        [
+          0,
+          -60,
+          0.4
+        ],
+        [
+          0,
+          0,
+          0.4
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 62,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "LEFT_KEY",
+      "parts": [
+        "LEFT_KEY"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR"
+      ],
+      "waypoints": [
+        [
+          0,
+          -3,
+          30
+        ],
+        [
+          0,
+          -3,
+          5
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 62,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "RIGHT_KEY",
+      "parts": [
+        "RIGHT_KEY"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "LEFT_KEY"
+      ],
+      "waypoints": [
+        [
+          0,
+          -3,
+          30
+        ],
+        [
+          0,
+          -3,
+          5
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 62,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SIDE_FRONT_KEY",
+      "parts": [
+        "SIDE_FRONT_KEY"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "LEFT_KEY",
+        "RIGHT_KEY"
+      ],
+      "waypoints": [
+        [
+          20,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SIDE_FRONT_KEY_CAPTURE_PIN",
+      "parts": [
+        "SIDE_FRONT_KEY_CAPTURE_PIN"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "LEFT_KEY",
+        "RIGHT_KEY",
+        "SIDE_FRONT_KEY"
+      ],
+      "waypoints": [
+        [
+          0,
+          0,
+          35
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SIDE_REAR_KEY",
+      "parts": [
+        "SIDE_REAR_KEY"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "LEFT_KEY",
+        "RIGHT_KEY",
+        "SIDE_FRONT_KEY",
+        "SIDE_FRONT_KEY_CAPTURE_PIN"
+      ],
+      "waypoints": [
+        [
+          20,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SIDE_REAR_KEY_CAPTURE_PIN",
+      "parts": [
+        "SIDE_REAR_KEY_CAPTURE_PIN"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "LEFT_KEY",
+        "RIGHT_KEY",
+        "SIDE_FRONT_KEY",
+        "SIDE_FRONT_KEY_CAPTURE_PIN",
+        "SIDE_REAR_KEY"
+      ],
+      "waypoints": [
+        [
+          0,
+          0,
+          35
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "LEFT_KEY_STEEL_PIN",
+      "parts": [
+        "LEFT_KEY_STEEL_PIN"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "LEFT_KEY",
+        "RIGHT_KEY",
+        "SIDE_FRONT_KEY",
+        "SIDE_FRONT_KEY_CAPTURE_PIN",
+        "SIDE_REAR_KEY",
+        "SIDE_REAR_KEY_CAPTURE_PIN"
+      ],
+      "waypoints": [
+        [
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "RIGHT_KEY_STEEL_PIN",
+      "parts": [
+        "RIGHT_KEY_STEEL_PIN"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "LEFT_KEY",
+        "RIGHT_KEY",
+        "SIDE_FRONT_KEY",
+        "SIDE_FRONT_KEY_CAPTURE_PIN",
+        "SIDE_REAR_KEY",
+        "SIDE_REAR_KEY_CAPTURE_PIN",
+        "LEFT_KEY_STEEL_PIN"
+      ],
+      "waypoints": [
+        [
+          -50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "WHEEL_CARRIER_STEEL_PIN",
+      "parts": [
+        "WHEEL_CARRIER_STEEL_PIN"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "LEFT_KEY",
+        "RIGHT_KEY",
+        "SIDE_FRONT_KEY",
+        "SIDE_FRONT_KEY_CAPTURE_PIN",
+        "SIDE_REAR_KEY",
+        "SIDE_REAR_KEY_CAPTURE_PIN",
+        "LEFT_KEY_STEEL_PIN",
+        "RIGHT_KEY_STEEL_PIN"
+      ],
+      "waypoints": [
+        [
+          -50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    }
+  ],
+  "pass_check": true,
+  "samples_per_segment": 31,
+  "scope": "Finite ordered polyhedral insertion paths against BODY and previously placed parts. Bolts/nuts/washers and USB retention are not included in this path proof; static hardware and driver-access geometry are checked separately. No claim of continuous swept clearance, assembly force, tool-handle access or printed tolerance.",
+  "inputs": {
+    "BODY": "9723a8092a99ba0a5dc3f78bfa72578cf09f63739ccacfa49e075a2e9b96ed06",
+    "LEFT_KEY": "7436059ad14fff66c03eb95dde6fdce3ad7e20c33aa7ee6f9b3997dfb3142b1f",
+    "RIGHT_KEY": "0f38bbf091f3bb53b39d376e8344ab3c412ce4fa3e4b284c6c82c3b41021bda1",
+    "SIDE_FRONT_KEY": "02c932e6ccbe69765f59b61880e943a7d7b9fb5c1cb6bd0ad7c90fc4f56e7ad0",
+    "SIDE_FRONT_KEY_SWITCH_CLAMP": "92b3d1e8ac3223c7987019a5d3266753501cd4a54572fbff22864517702d534b",
+    "SIDE_REAR_KEY": "92a421f31bb4387c854d9f676efb47b7ce55d64f1d1a25d3ae43dc862b7fb624",
+    "SIDE_REAR_KEY_SWITCH_CLAMP": "dea661a33d25f8845c57bbdf55bccd396a9a4bf7d6220b983b153b34ff36e254",
+    "WHEEL": "81de1bba93c94105a17244f609b9018ed3f2e191b71b2204ff795e7b40d0f805",
+    "WHEEL_CARRIER": "1f7430d8229cec273b563957b42bb60d429a7e39b79a77e70ada6de1d97f8acd",
+    "LEFT_KEY_STEEL_PIN": "d7dbeebd7fbc8a07213a9812ef38a09ff9dbe0f43b76b8cd3c3358b20bb24810",
+    "LEFT_KEY_M2_SWITCH_1_BOLT": "80328ad1de91fa45844cf8254a4c046084d80d8d8706d46431470c999194c549",
+    "LEFT_KEY_M2_SWITCH_1_WASHER_NUT": "c98bb4c409fc738d15fb47b62497b7acd6b35362b263b416793a4a6b22f3a41b",
+    "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD": "f5299660f65a4f1cd0f1cf122d2d0317a62fe0a1bc74a417bed46e129b2fdba2",
+    "LEFT_KEY_M2_SWITCH_1_NUT": "210280cc55e37b3e555e4387236deac0d8a05a99f03c93ce3aba096b6d38b8f0",
+    "LEFT_KEY_M2_SWITCH_2_BOLT": "0a5f42b82fb89c016b511f3af0607e7b2466cee31cf27a659e21d71392a916bb",
+    "LEFT_KEY_M2_SWITCH_2_WASHER_NUT": "2a1040e5bed2ced0339fd4d357f25d3ca7d7b2e5c1aa543a8e0005523cf12989",
+    "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD": "1338154374f37286b04bbd39eca176843ace4b61e853362d4c69848c8666d1ec",
+    "LEFT_KEY_M2_SWITCH_2_NUT": "bd9b7aa31043088a9903437df7ef3764463c534b21b1a82760c37c29cca4bf20",
+    "SWITCH_LEFT": "9abd3878e3322d5622ce5354b87998cc701b44829eb6df0822fb420e2ea74d28",
+    "RIGHT_KEY_STEEL_PIN": "6cee80a8f05c4ac07c06a74c0b58e1efb597bd382d9742d44a6377fabc70240a",
+    "RIGHT_KEY_M2_SWITCH_1_BOLT": "316f3c7baea089d5d19d3cf872fe028f02e4db37a49f146e5b2614f4c59ade00",
+    "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT": "6252a7fee61c6008b5ad54a1014866ec1fcf269d54bc8c3cd78db56dad14d93c",
+    "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD": "9b23a8cf172da1c2f9e59759b401d4238812a14c9df86f89345fbde75ed90489",
+    "RIGHT_KEY_M2_SWITCH_1_NUT": "96d016edde39c473ebe985f5645d061672a25e141f1a45481b7e9d11945bf858",
+    "RIGHT_KEY_M2_SWITCH_2_BOLT": "541cb72f2381fda53c7561678f037cf4eee302d4009d05f001e9e59eac4fbc51",
+    "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT": "debc80fa73f2ac62beb8b868e8bbb8a0f97a12b13044a2af2a38d08d1dcb040a",
+    "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD": "ec3c5c327b9c2be2e725524720e37263be13e052bfd8a6e138eee6fc3a827917",
+    "RIGHT_KEY_M2_SWITCH_2_NUT": "d3fb189d192befd274caef41ce48958598d315884a6777e37786797aec860998",
+    "SWITCH_RIGHT": "158216a78dcd48b32c3a72424861b17222bbc00018d0b838fadd96405ad86d38",
+    "SIDE_FRONT_KEY_CAPTURE_PIN": "d7772c0dec2705ba76e3329ea25d44d7ad95a68e7172fda84e4bb18a7d9ede44",
+    "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT": "e5869cbed3fb47f97c9e60dffc6c6a58b6008b3cdd1824a2ced4e2e1fe24cc81",
+    "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_NUT": "65476075a68d4d074a6c9a6210d199cc36db3dd417039240be8983c1da835b39",
+    "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_HEAD": "6ed789a16f9f3865c610538ec013d41ee2be21803d02cc2361808c31fb77552b",
+    "SIDE_FRONT_KEY_M2_SWITCH_1_NUT": "16bc9c2e113f2dafecfe394672224feba987ba6acb12f91cd81d7a76c86bc2e7",
+    "SIDE_FRONT_KEY_M2_SWITCH_2_BOLT": "0832bb9960d25acc60bf121a2eab9fa7d0a414390341de48dac66a2c1c992a6a",
+    "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_NUT": "62d2ec690b6dda2955bb8d33d4cd98119a5c1a1f67a284fe8daba734fbd6ee3e",
+    "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_HEAD": "af7221b27d1202c6162d1edf6d6c1386cd7a3ad3cc70fb8533ca8403b6219898",
+    "SIDE_FRONT_KEY_M2_SWITCH_2_NUT": "f4cd00f8fc140bbd47ff25e5fd66f991bf0b1f8607065d18159914184d43443c",
+    "SWITCH_SIDE_FRONT": "adfbdfffd782dfb8e365ff24d89f3ee192350be20b54fb3358a38b02013564b2",
+    "SIDE_REAR_KEY_CAPTURE_PIN": "22390d73cfa4b480506f5ab05186e3a937e172764bf71027a9de41ee64ff485d",
+    "SIDE_REAR_KEY_M2_SWITCH_1_BOLT": "dc0793cebb34110bf41c779fd2a54f61ef98f02048072159686e0897f204cf57",
+    "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_NUT": "1e786028296526a179538517caad91f430610ed704b4d312af83b0cd6d381f35",
+    "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_HEAD": "89db20a6f24b8117e1be66715c40b6e675294d5999df87aaa4220487ed8fa94a",
+    "SIDE_REAR_KEY_M2_SWITCH_1_NUT": "0827de5bd2d734545240ebd72a9adc8bdac769f186af2d620bf58a5edf5ddfba",
+    "SIDE_REAR_KEY_M2_SWITCH_2_BOLT": "f60e58981e12b2e1cdc09216d271516edf95db5b5e28ad6ba159a5e1e1e8b1f4",
+    "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_NUT": "2c2011b372560551f4ffad3efa53b93636964ecbd58228d7d5bfe0b9ce2f2b9c",
+    "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_HEAD": "363ad75c497b086dbb9a19ad294d7e82ff73aaa56867c1bda858eeebb8d40fc9",
+    "SIDE_REAR_KEY_M2_SWITCH_2_NUT": "e4201d2a71828bbe24a5919733dde2eedb9967872bded831fb08cd70ec265fe9",
+    "SWITCH_SIDE_REAR": "ee2f19665c4574d69ce2a87050b311b167ce2ec1aa04a3e89bf962866c38799f",
+    "ENCODER_EC10E_HOUSING": "e9cc2f2103f854eac5dad3b09f9a682ee95c61e1dc1dda6f6aaed08d6700ba3a",
+    "ENCODER_EC10E_ROTOR": "0fa8c6a09fadaaa2713b1901ff77b36bd8cbbd3008d6a0e55830015552eeddd0",
+    "WHEEL_CARRIER_STEEL_PIN": "7a6b3d0ea12c8c02c6e14d9314fb075b1648eb94be1cf75d967694b78eeb470b",
+    "SWITCH_MIDDLE": "9d42e5307696453453f26ae717a56c8b7391d17770c03e1dc098529b97b11696",
+    "WHEEL_M2_SWITCH_1_BOLT": "6fb782899247eb80e9d6fee6e471744d0d00800ef4ed510f5c7b400f37f813a6",
+    "WHEEL_M2_SWITCH_1_WASHER_NUT": "73a646f83e12da38b8f7155799b9c4ff9786ecf2813356eab945e2a3101ad267",
+    "WHEEL_M2_SWITCH_1_WASHER_HEAD": "4b4ae399bfb15258b6a20a70030cf33c93e126a495501154fe7071607b641e66",
+    "WHEEL_M2_SWITCH_1_NUT": "ef53565a1242a3a21e4d1260c81ddf5c2d8279892146e55714752e566d590085",
+    "WHEEL_M2_SWITCH_2_BOLT": "88ab4215018a3410c96a4e32728c48b31118d19327db16f1fcfe5f8f8b8caaf0",
+    "WHEEL_M2_SWITCH_2_WASHER_NUT": "5e5984bebfd1dd654eddf8821c1b7ae4c42f193800afaa5156a02b5081cb9a76",
+    "WHEEL_M2_SWITCH_2_WASHER_HEAD": "980dd0d2a2ded7791a7b1f69e9ef083975167039171ac4259faaddec53ff936d",
+    "WHEEL_M2_SWITCH_2_NUT": "1806b0b845cbd8eb7d3b9bb27fdc39533cda1bb14536a4cf43452375e5db216f",
+    "USB_C_REFERENCE": "693796a6553ba7be0052a9349f6cecff142376023f4133baee84a1612289279d",
+    "USB_ADAPTER_PCB_REFERENCE": "3051bcc44b2ea1c094d1f144917805744e547184c21406def3fa7c7c9d15e6ac"
+  }
+}

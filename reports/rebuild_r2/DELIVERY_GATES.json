@@ -1,0 +1,18 @@
+{
+  "gates": {
+    "geometry": true,
+    "meshes": true,
+    "static_and_motion": true,
+    "insertion": true,
+    "interfaces": true,
+    "native": true,
+    "slice": true,
+    "fem_equilibrium": true,
+    "fem_input_current": true,
+    "fem_displacement_p95_convergence": true,
+    "fem_peak_convergence": false
+  },
+  "physical_print_tested": false,
+  "electronics_implemented": false,
+  "strength_certificate": false
+}

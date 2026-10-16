@@ -1,0 +1,1058 @@
+{
+  "gates": {
+    "usb_plug_sampled_poses": true,
+    "sensor_reservation": true,
+    "usb_static": true,
+    "main_key_sampled_poses": true,
+    "fixed_component_dimensions": true,
+    "actual_usb_pilot_bores": true,
+    "actual_usb_pcb_holes": true,
+    "actual_sensor_mount_slots": true,
+    "reserved_usb_opening": true,
+    "unchanged_inputs": true
+  },
+  "pass_check": true,
+  "elapsed_seconds": 43.354453325271606,
+  "overlap_tolerance_mm3": 0.01,
+  "inputs": [
+    {
+      "file": "cad\\rebuild_r2\\parameters.json",
+      "bytes": 2328,
+      "sha256": "1b80721457bb4f2b11f7021d3e2d98ef9f6068510906099e9b0e38f2f33141f0"
+    },
+    {
+      "file": "reports\\rebuild_r2\\design_metadata.json",
+      "bytes": 36740,
+      "sha256": "3563cac05b0e745cfe03d560e4a7a15888195159b27555f4b7d9abf6db8adb25"
+    },
+    {
+      "file": "reports\\rebuild_r2\\cad_metrics.json",
+      "bytes": 39947,
+      "sha256": "2acdb513333d4d618dea4e723ba7257a2a4219a801d3cdbce8f38da4867d5e38"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\BODY.step",
+      "bytes": 14454921,
+      "sha256": "1ab20963dbc05caa215cd35b05348cfc8dfb6b30d8821812fb484bccb251f5bc"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\LEFT_KEY.step",
+      "bytes": 1363933,
+      "sha256": "3a2f7971bf24089731b9bb489f298e02bb33ef2562934d49f85e8224af2e7b17"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\RIGHT_KEY.step",
+      "bytes": 1378331,
+      "sha256": "ceb02a66874065d62c6ea7d85d5507d74e42dc6dd54a84dc3671618c2a3c66f9"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_FRONT_KEY.step",
+      "bytes": 111860,
+      "sha256": "435e4c055d861734e7ed787dcac52a14b8665802a042a80d55397967bae2252b"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_FRONT_KEY_SWITCH_CLAMP.step",
+      "bytes": 25587,
+      "sha256": "a7fee604f4897580884f8a152488eec5b88c7a3982b5c8db99568f1b3fb4bced"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_REAR_KEY.step",
+      "bytes": 111860,
+      "sha256": "7012c994fef177ecda222d64acf058a6649a4ef991f1a7a1fc104d1b3cd057e9"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_REAR_KEY_SWITCH_CLAMP.step",
+      "bytes": 25587,
+      "sha256": "52748ceda858c79804b11be7ca3c18cb8f292646259711cf5569f41a55086c7c"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\WHEEL.step",
+      "bytes": 33495,
+      "sha256": "aefadb8a39aecd1300398943e468867955ad7fdd7bc90ab967e8ff2b9fde8808"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\WHEEL_CARRIER.step",
+      "bytes": 487754,
+      "sha256": "20705a87bde9400ccc5571c68830d4fc05d9632408d9160358617c6392ae11c9"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\LEFT_KEY_STEEL_PIN.step",
+      "bytes": 6867,
+      "sha256": "b3713b84a9d8988655d5207e456b20e5ac298722159ede1bcf8547ad5bd4cbb9"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\LEFT_KEY_M2_SWITCH_1_BOLT.step",
+      "bytes": 12858,
+      "sha256": "8a5eef851ced31760dd0575820a5eceac509037092cbe73c92c4512e6c4edfeb"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\LEFT_KEY_M2_SWITCH_1_WASHER_NUT.step",
+      "bytes": 12557,
+      "sha256": "951b0a9d558318c12454b55de2f41da54418a541888901410b5a265d9cb85964"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\LEFT_KEY_M2_SWITCH_1_WASHER_HEAD.step",
+      "bytes": 12557,
+      "sha256": "62085026f1c077ff00c7415e921185cb9f35cda68b47a98c32f35473f1a95e4b"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\LEFT_KEY_M2_SWITCH_1_NUT.step",
+      "bytes": 30676,
+      "sha256": "edce59dc41be1fd24e56fa92ffa4d870f59c6b6efb47fcfb0235a01c9ea5331d"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\LEFT_KEY_M2_SWITCH_2_BOLT.step",
+      "bytes": 12858,
+      "sha256": "934f4808a29594f594968835d18e5c27b6f4345aa3bc6bb7ed84cb3adf031fa9"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\LEFT_KEY_M2_SWITCH_2_WASHER_NUT.step",
+      "bytes": 12560,
+      "sha256": "5dab8b2f95bf1de3376667465eacfab5c11a1c9516b9c3b24fc2aae24a407dcc"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\LEFT_KEY_M2_SWITCH_2_WASHER_HEAD.step",
+      "bytes": 12560,
+      "sha256": "561ec1e8ea78a9ec625cd05a49fe3a845981a4103abc62eca9f6320dab35ea40"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\LEFT_KEY_M2_SWITCH_2_NUT.step",
+      "bytes": 30687,
+      "sha256": "ff3f6e8411dcf54c48c1e16f5e6631cbf8b41c5f5de7eb81bbcef25550122004"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SWITCH_LEFT.step",
+      "bytes": 75483,
+      "sha256": "4506bdb12cb49058d4405146c4837acfe8f56faa3994ec90199b0c74ac7dd51c"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\RIGHT_KEY_STEEL_PIN.step",
+      "bytes": 6873,
+      "sha256": "da069a61517ecfecf268587ea7bcef7c0ea256d4c819c5f636d51eb8e671222f"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\RIGHT_KEY_M2_SWITCH_1_BOLT.step",
+      "bytes": 12870,
+      "sha256": "aa409623ecab33973c40db344d5f0a4ecdc32e179d12c72fb5c78c124c68ecfe"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\RIGHT_KEY_M2_SWITCH_1_WASHER_NUT.step",
+      "bytes": 12570,
+      "sha256": "f9403166fb56016adce451988d4d8272705e8a710a5203c1135c68e1bca96497"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD.step",
+      "bytes": 12570,
+      "sha256": "dbf89dafadda6aee4fa65366821ed553dd406b865c718b4d7ceaab2e6b7e02f9"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\RIGHT_KEY_M2_SWITCH_1_NUT.step",
+      "bytes": 30560,
+      "sha256": "044549e6711a216ccecdb004ed7c2d4c4c0e0ac6fe10cffab95ec619f807adb3"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\RIGHT_KEY_M2_SWITCH_2_BOLT.step",
+      "bytes": 12876,
+      "sha256": "6ec13314d84235b909c29d8f82ca6f62d6f413aae566d316739502b646bfb30e"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\RIGHT_KEY_M2_SWITCH_2_WASHER_NUT.step",
+      "bytes": 12576,
+      "sha256": "82acb6532ca58a5696df91a08d67f9754d6673bcc4d44af66507307c460c1071"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD.step",
+      "bytes": 12576,
+      "sha256": "b44a164b2d2b2f0526fc2932ebaef9f93db9fef1967ed6b6d32b781b792904cb"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\RIGHT_KEY_M2_SWITCH_2_NUT.step",
+      "bytes": 30576,
+      "sha256": "0f767b393109f31211cd4751ba1ee8b118626194ddb1519237dab974ae5bb93d"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SWITCH_RIGHT.step",
+      "bytes": 75578,
+      "sha256": "936f07a1b897e4dc1a99cb1a134b51671713618af5fbcde2454b7dac1643e824"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_FRONT_KEY_CAPTURE_PIN.step",
+      "bytes": 6898,
+      "sha256": "2a10edead4450462a8b760b49c08663805cdab91fa08c45d97edfc19543b188e"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_FRONT_KEY_M2_SWITCH_1_BOLT.step",
+      "bytes": 11958,
+      "sha256": "da6b6bfe3d04faa24dc571efc0a7dbcf567537d0e2ba826b6142451b7668f6e6"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_NUT.step",
+      "bytes": 11751,
+      "sha256": "f5c9c940aeaaf182abb49db32b94194477568ce1fedbf782f035c0a8400d19c2"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_HEAD.step",
+      "bytes": 11751,
+      "sha256": "68bedfdaccf95875a2f86527623b8a7ee1de562d969226f3ea44defc8293aca0"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_FRONT_KEY_M2_SWITCH_1_NUT.step",
+      "bytes": 28340,
+      "sha256": "73659bae3b2ee093f6a5bbeba5f9fe7799793159c9c974bae651b660be0f4995"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_FRONT_KEY_M2_SWITCH_2_BOLT.step",
+      "bytes": 11958,
+      "sha256": "b1890989809b6f2c52bef9b0709cfa8a5a22cb4cbcc8488ebcd4d299a490e3fc"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_NUT.step",
+      "bytes": 11751,
+      "sha256": "a43e1ab5f467e4983203fae21ec22dd84a531f9e7403453ee4f084cd0cd9d5a5"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_HEAD.step",
+      "bytes": 11751,
+      "sha256": "dce2adcc4e1c00be47797287444d4e21a46419f5fd34917c00cf80a14602e855"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_FRONT_KEY_M2_SWITCH_2_NUT.step",
+      "bytes": 28340,
+      "sha256": "d390757277e547cfeb8e3d91297fb2c0359451ab23e5b80beb0e4e774abfb663"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SWITCH_SIDE_FRONT.step",
+      "bytes": 73759,
+      "sha256": "a30a1622f035200a616a5ad148329b6a093025cbd6293e7865d5d0e911d86770"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_REAR_KEY_CAPTURE_PIN.step",
+      "bytes": 6898,
+      "sha256": "cec69ca48d1e900dde900a0902286a3b562391d55701ba3393e09d77b8018bf6"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_REAR_KEY_M2_SWITCH_1_BOLT.step",
+      "bytes": 11958,
+      "sha256": "0734a17948dbd96cd481a70f2180ed70fa8f6e6b76bf0117ff1ae513154a184d"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_REAR_KEY_M2_SWITCH_1_WASHER_NUT.step",
+      "bytes": 11751,
+      "sha256": "361956a0bdb801c2f36f3ff357af09443bde77ac5dd099842c352d8e2ac9d0fc"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_REAR_KEY_M2_SWITCH_1_WASHER_HEAD.step",
+      "bytes": 11751,
+      "sha256": "9bb998e3d1a88ca4b36a598d7f58ab660e94686fd6a96754f75e45c9ef20e07f"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_REAR_KEY_M2_SWITCH_1_NUT.step",
+      "bytes": 28346,
+      "sha256": "04e738a83af0b3948b7ac1ff30938a8780aae90fb9cf61e7a1604e56f8be6716"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_REAR_KEY_M2_SWITCH_2_BOLT.step",
+      "bytes": 11958,
+      "sha256": "3ad5ac7a801000e37a653ff788ac2a3601d0d219969ad0cfe0a320e34abf7e2c"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_REAR_KEY_M2_SWITCH_2_WASHER_NUT.step",
+      "bytes": 11751,
+      "sha256": "6fc7b18991c48a0fe67c7865ee89142e73ceef60769a9df3469cf92a4578e64c"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_REAR_KEY_M2_SWITCH_2_WASHER_HEAD.step",
+      "bytes": 11751,
+      "sha256": "45bdf1629f729867775afa61d81462c70c1fa6dd8b6b620b5412a5c8e74178de"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SIDE_REAR_KEY_M2_SWITCH_2_NUT.step",
+      "bytes": 28346,
+      "sha256": "1c9739821052824d2961091e2d1e9307914cd22c23e6bb2a154e77a4b3b831a1"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SWITCH_SIDE_REAR.step",
+      "bytes": 73759,
+      "sha256": "20334fe05df67c1653546133f0e9db08d5e25d7868bd958d4158a00c300b4efc"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\ENCODER_EC10E_HOUSING.step",
+      "bytes": 132007,
+      "sha256": "79786b0f2502f815efbd7df95a2a573d57afdb47a256126fa1654b656d5b44dc"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\ENCODER_EC10E_ROTOR.step",
+      "bytes": 28355,
+      "sha256": "9589e39030d02ced8628574d76407a58f2f36bd4fd698bfb1474b3a1c7cfdc0d"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\WHEEL_CARRIER_STEEL_PIN.step",
+      "bytes": 6769,
+      "sha256": "91cf70a5b06c5fd633dd23142382905edbba69094dcd9e968df2ab59503faafb"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\SWITCH_MIDDLE.step",
+      "bytes": 71248,
+      "sha256": "833072fdc906157824559f4b7ae4610edcc336b6eccacfece1098bd705abb43f"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\WHEEL_M2_SWITCH_1_BOLT.step",
+      "bytes": 12122,
+      "sha256": "904dc26f083f086c5d54df760b8a67d8bc23962615b9fae68cf13244ed6bb011"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\WHEEL_M2_SWITCH_1_WASHER_NUT.step",
+      "bytes": 11879,
+      "sha256": "bd74b4a77dbf52a527b9a76d57f589bac22c849502b690b062674973747f4e1a"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\WHEEL_M2_SWITCH_1_WASHER_HEAD.step",
+      "bytes": 11893,
+      "sha256": "eb9d239ddb2d7f0714275df2ea1843c7d87a9617d8bf48ee32f96957e1762260"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\WHEEL_M2_SWITCH_1_NUT.step",
+      "bytes": 29063,
+      "sha256": "1725d29329add6f6dcbcbc637e9c2d48604a01505a767458e0dda9ccddb33704"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\WHEEL_M2_SWITCH_2_BOLT.step",
+      "bytes": 12122,
+      "sha256": "35dc92037c4f5a99f09316ac3af46d59a8edf9f31ba56841869710e198ceaa1f"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\WHEEL_M2_SWITCH_2_WASHER_NUT.step",
+      "bytes": 11879,
+      "sha256": "89b6fa316313418d546fba278f562dd1c22f6fcc54158c35be7d9f7bd14b76b3"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\WHEEL_M2_SWITCH_2_WASHER_HEAD.step",
+      "bytes": 11893,
+      "sha256": "ae19b106cb3fc1cecb3b466bdc6eb2c336731fc8ca5f86200a2b770194525054"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\WHEEL_M2_SWITCH_2_NUT.step",
+      "bytes": 29063,
+      "sha256": "e4f5f927c4ad82543b87c115e37c8dfe124b334d97971bf6d1cf3b63dba053c1"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\USB_C_REFERENCE.step",
+      "bytes": 15622,
+      "sha256": "9e5201ea5411978d1f8c73602ec8c55daeeff0e3530b0149f4689ddbb52f083b"
+    },
+    {
+      "file": "exports\\rebuild_r2\\assembly\\USB_ADAPTER_PCB_REFERENCE.step",
+      "bytes": 24963,
+      "sha256": "632424ef8286674a2ed64fd2eae5f31b4fd0bccc675e4c7d4863f1bf43990d14"
+    },
+    {
+      "file": "exports\\rebuild_r2\\gauges\\USB_PLUG_GAUGE.step",
+      "bytes": 29419,
+      "sha256": "78c7296eb01195af14db9223c2e50d4db697a03fbbeda858ec0be837b6d20ff2"
+    },
+    {
+      "file": "exports\\rebuild_r2\\gauges\\SENSOR_RESERVED_VOLUME.step",
+      "bytes": 15527,
+      "sha256": "7ec6f7a3c30fc06f3079bcab3a6f9f0a944dcb8326a9081b1a5c9b71340eb2ea"
+    },
+    {
+      "file": "exports\\rebuild_r2\\gauges\\SENSOR_DOWNWARD_OPTICAL_PATH.step",
+      "bytes": 15522,
+      "sha256": "b9ad97559fcde61359d5cd8a34a83c175c8b52a129bae8a992e42fcf12c032ee"
+    }
+  ],
+  "host_scale": 1.08,
+  "usb_plug_insertion": {
+    "poses": [
+      {
+        "fraction": 0.0,
+        "translation_y_mm": -30.0,
+        "conflicts": []
+      },
+      {
+        "fraction": 0.5,
+        "translation_y_mm": -15.0,
+        "conflicts": []
+      },
+      {
+        "fraction": 1.0,
+        "translation_y_mm": -0.0,
+        "conflicts": []
+      }
+    ],
+    "pose_count": 3,
+    "path": "Translation Y -30 to 0 mm relative to seated gauge; all printed solids checked. The tip reaches the reference mating face, not a simulated hollow receptacle interior."
+  },
+  "sensor_clearance": [
+    {
+      "gauge": "SENSOR_RESERVED_VOLUME",
+      "bounds_mm": {
+        "min": [
+          -9.0,
+          57.0,
+          5.2
+        ],
+        "max": [
+          9.0,
+          75.0,
+          14.2
+        ],
+        "size": [
+          18.0,
+          18.0,
+          9.0
+        ]
+      },
+      "conflicts": []
+    },
+    {
+      "gauge": "SENSOR_DOWNWARD_OPTICAL_PATH",
+      "bounds_mm": {
+        "min": [
+          -7.0,
+          57.0,
+          -5.0
+        ],
+        "max": [
+          7.0,
+          75.0,
+          14.0
+        ],
+        "size": [
+          14.0,
+          18.0,
+          19.0
+        ]
+      },
+      "conflicts": []
+    }
+  ],
+  "usb_static": [
+    {
+      "hardware": "USB_C_REFERENCE",
+      "part": "BODY",
+      "conflict": null
+    },
+    {
+      "hardware": "USB_C_REFERENCE",
+      "part": "LEFT_KEY",
+      "conflict": null
+    },
+    {
+      "hardware": "USB_C_REFERENCE",
+      "part": "RIGHT_KEY",
+      "conflict": null
+    },
+    {
+      "hardware": "USB_C_REFERENCE",
+      "part": "SIDE_FRONT_KEY",
+      "conflict": null
+    },
+    {
+      "hardware": "USB_C_REFERENCE",
+      "part": "SIDE_FRONT_KEY_SWITCH_CLAMP",
+      "conflict": null
+    },
+    {
+      "hardware": "USB_C_REFERENCE",
+      "part": "SIDE_REAR_KEY",
+      "conflict": null
+    },
+    {
+      "hardware": "USB_C_REFERENCE",
+      "part": "SIDE_REAR_KEY_SWITCH_CLAMP",
+      "conflict": null
+    },
+    {
+      "hardware": "USB_C_REFERENCE",
+      "part": "WHEEL",
+      "conflict": null
+    },
+    {
+      "hardware": "USB_C_REFERENCE",
+      "part": "WHEEL_CARRIER",
+      "conflict": null
+    },
+    {
+      "hardware": "USB_ADAPTER_PCB_REFERENCE",
+      "part": "BODY",
+      "conflict": null
+    },
+    {
+      "hardware": "USB_ADAPTER_PCB_REFERENCE",
+      "part": "LEFT_KEY",
+      "conflict": null
+    },
+    {
+      "hardware": "USB_ADAPTER_PCB_REFERENCE",
+      "part": "RIGHT_KEY",
+      "conflict": null
+    },
+    {
+      "hardware": "USB_ADAPTER_PCB_REFERENCE",
+      "part": "SIDE_FRONT_KEY",
+      "conflict": null
+    },
+    {
+      "hardware": "USB_ADAPTER_PCB_REFERENCE",
+      "part": "SIDE_FRONT_KEY_SWITCH_CLAMP",
+      "conflict": null
+    },
+    {
+      "hardware": "USB_ADAPTER_PCB_REFERENCE",
+      "part": "SIDE_REAR_KEY",
+      "conflict": null
+    },
+    {
+      "hardware": "USB_ADAPTER_PCB_REFERENCE",
+      "part": "SIDE_REAR_KEY_SWITCH_CLAMP",
+      "conflict": null
+    },
+    {
+      "hardware": "USB_ADAPTER_PCB_REFERENCE",
+      "part": "WHEEL",
+      "conflict": null
+    },
+    {
+      "hardware": "USB_ADAPTER_PCB_REFERENCE",
+      "part": "WHEEL_CARRIER",
+      "conflict": null
+    }
+  ],
+  "pressed_main_keys": [
+    {
+      "part": "LEFT_KEY",
+      "definition": {
+        "part": "LEFT_KEY",
+        "origin": [
+          -0.0,
+          38.5,
+          14.321791392450047
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "end_deg": 2.3,
+        "pin_diameter_mm": 2.0,
+        "bore_diameter_mm": 2.35,
+        "diametral_clearance_mm": 0.3500000000000001,
+        "actuation_point": [
+          18.3,
+          24.299746484543697,
+          16.736506699943003
+        ],
+        "switch": "SWITCH_LEFT",
+        "nominal_actuator_gap_mm": 0.03,
+        "calculated_contact_travel_mm": 0.5418269344409827,
+        "stop_reference_point": [
+          23.0,
+          11.5,
+          11.889380484102869
+        ],
+        "stop_reference_z": 10.767781647835196,
+        "switch_tilt_deg": 18.0,
+        "switch_mount_holes": [
+          [
+            18.3,
+            24.926745489440933,
+            10.599913813995794
+          ],
+          [
+            18.3,
+            31.10861284535943,
+            12.608524277432952
+          ]
+        ],
+        "switch_mount": "local 18 degree tilted socket; two M2 transverse bolts through actual D2F mounting holes; nuts/washers purchased separately",
+        "kind": "rotate"
+      },
+      "poses": [
+        {
+          "fraction": 0.0,
+          "angle_deg": 0.0,
+          "conflicts": []
+        },
+        {
+          "fraction": 0.5,
+          "angle_deg": 1.15,
+          "conflicts": []
+        },
+        {
+          "fraction": 1.0,
+          "angle_deg": 2.3,
+          "conflicts": []
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "RIGHT_KEY",
+      "definition": {
+        "part": "RIGHT_KEY",
+        "origin": [
+          -0.0,
+          38.5,
+          14.321791392450033
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "end_deg": 2.3,
+        "pin_diameter_mm": 2.0,
+        "bore_diameter_mm": 2.35,
+        "diametral_clearance_mm": 0.3500000000000001,
+        "actuation_point": [
+          -18.3,
+          24.299746484543697,
+          16.736506699943288
+        ],
+        "switch": "SWITCH_RIGHT",
+        "nominal_actuator_gap_mm": 0.03,
+        "calculated_contact_travel_mm": 0.541826934440983,
+        "stop_reference_point": [
+          -23.0,
+          11.5,
+          11.889380484102867
+        ],
+        "stop_reference_z": 10.767781647835195,
+        "switch_tilt_deg": 18.0,
+        "switch_mount_holes": [
+          [
+            -18.3,
+            24.926745489440933,
+            10.599913813996078
+          ],
+          [
+            -18.3,
+            31.10861284535943,
+            12.608524277433236
+          ]
+        ],
+        "switch_mount": "local 18 degree tilted socket; two M2 transverse bolts through actual D2F mounting holes; nuts/washers purchased separately",
+        "kind": "rotate"
+      },
+      "poses": [
+        {
+          "fraction": 0.0,
+          "angle_deg": 0.0,
+          "conflicts": []
+        },
+        {
+          "fraction": 0.5,
+          "angle_deg": 1.15,
+          "conflicts": []
+        },
+        {
+          "fraction": 1.0,
+          "angle_deg": 2.3,
+          "conflicts": []
+        }
+      ],
+      "pass_check": true
+    }
+  ],
+  "fixed_component_dimensions": [
+    {
+      "part": "USB_C_REFERENCE",
+      "expected_xyz_mm": [
+        8.94,
+        7.35,
+        3.31
+      ],
+      "actual_bounds_mm": {
+        "min": [
+          -4.47,
+          10.5,
+          9.0
+        ],
+        "max": [
+          4.47,
+          17.85,
+          12.31
+        ],
+        "size": [
+          8.94,
+          7.350000000000001,
+          3.3100000000000005
+        ]
+      },
+      "dimension_error_mm": [
+        0.0,
+        1.7763568394002505e-15,
+        4.440892098500626e-16
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "USB_ADAPTER_PCB_REFERENCE",
+      "expected_xyz_mm": [
+        16.0,
+        10.0,
+        1.0
+      ],
+      "actual_bounds_mm": {
+        "min": [
+          -8.0,
+          10.0,
+          8.0
+        ],
+        "max": [
+          8.0,
+          20.0,
+          9.0
+        ],
+        "size": [
+          16.0,
+          10.0,
+          1.0
+        ]
+      },
+      "dimension_error_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "SENSOR_RESERVED_VOLUME",
+      "expected_xyz_mm": [
+        18.0,
+        18.0,
+        9.0
+      ],
+      "actual_bounds_mm": {
+        "min": [
+          -9.0,
+          57.0,
+          5.2
+        ],
+        "max": [
+          9.0,
+          75.0,
+          14.2
+        ],
+        "size": [
+          18.0,
+          18.0,
+          9.0
+        ]
+      },
+      "dimension_error_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "SENSOR_DOWNWARD_OPTICAL_PATH",
+      "expected_xyz_mm": [
+        14.0,
+        18.0,
+        19.0
+      ],
+      "actual_bounds_mm": {
+        "min": [
+          -7.0,
+          57.0,
+          -5.0
+        ],
+        "max": [
+          7.0,
+          75.0,
+          14.0
+        ],
+        "size": [
+          14.0,
+          18.0,
+          19.0
+        ]
+      },
+      "dimension_error_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass_check": true
+    },
+    {
+      "part": "USB_PLUG_GAUGE",
+      "expected_xyz_mm": [
+        14.0,
+        26.5,
+        8.0
+      ],
+      "actual_bounds_mm": {
+        "min": [
+          -7.0,
+          -16.0,
+          6.655
+        ],
+        "max": [
+          7.0,
+          10.5,
+          14.655
+        ],
+        "size": [
+          14.0,
+          26.5,
+          7.999999999999999
+        ]
+      },
+      "dimension_error_mm": [
+        0.0,
+        0.0,
+        -8.881784197001252e-16
+      ],
+      "pass_check": true
+    }
+  ],
+  "actual_usb_pilot_bores": [
+    {
+      "center_xy_mm": [
+        -6.2,
+        17.5
+      ],
+      "target_diameter_mm": 1.7,
+      "measured_diameters_mm": [
+        1.7
+      ],
+      "cylindrical_face_found": true,
+      "blocked_probe_volume_mm3": 0.0,
+      "probe_diameter_mm": 1.68,
+      "probe_z_range_mm": [
+        5.61,
+        7.99
+      ],
+      "surround_material": true,
+      "pass_check": true
+    },
+    {
+      "center_xy_mm": [
+        6.2,
+        17.5
+      ],
+      "target_diameter_mm": 1.7,
+      "measured_diameters_mm": [
+        1.7
+      ],
+      "cylindrical_face_found": true,
+      "blocked_probe_volume_mm3": 0.0,
+      "probe_diameter_mm": 1.68,
+      "probe_z_range_mm": [
+        5.61,
+        7.99
+      ],
+      "surround_material": true,
+      "pass_check": true
+    }
+  ],
+  "actual_usb_pcb_holes": [
+    {
+      "center_xy_mm": [
+        -6.2,
+        17.5
+      ],
+      "target_diameter_mm": 2.4,
+      "measured_diameters_mm": [
+        2.4
+      ],
+      "cylindrical_face_found": true,
+      "blocked_probe_volume_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "center_xy_mm": [
+        6.2,
+        17.5
+      ],
+      "target_diameter_mm": 2.4,
+      "measured_diameters_mm": [
+        2.4
+      ],
+      "cylindrical_face_found": true,
+      "blocked_probe_volume_mm3": 0.0,
+      "pass_check": true
+    }
+  ],
+  "actual_sensor_mount_slots": [
+    {
+      "center_xy_mm": [
+        -12.5,
+        55.0
+      ],
+      "target_slot_width_mm": 2.4,
+      "probe_width_mm": 2.38,
+      "cylindrical_end_faces": [
+        {
+          "center_xy_mm": [
+            -12.5,
+            53.7
+          ],
+          "target_diameter_mm": 2.4,
+          "measured_diameters_mm": [
+            2.4,
+            2.4,
+            2.4
+          ],
+          "cylindrical_face_found": true
+        },
+        {
+          "center_xy_mm": [
+            -12.5,
+            56.3
+          ],
+          "target_diameter_mm": 2.4,
+          "measured_diameters_mm": [
+            2.4
+          ],
+          "cylindrical_face_found": true
+        }
+      ],
+      "blocked_probe_volume_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "center_xy_mm": [
+        12.5,
+        55.0
+      ],
+      "target_slot_width_mm": 2.4,
+      "probe_width_mm": 2.38,
+      "cylindrical_end_faces": [
+        {
+          "center_xy_mm": [
+            12.5,
+            53.7
+          ],
+          "target_diameter_mm": 2.4,
+          "measured_diameters_mm": [
+            2.4,
+            2.4,
+            2.4
+          ],
+          "cylindrical_face_found": true
+        },
+        {
+          "center_xy_mm": [
+            12.5,
+            56.3
+          ],
+          "target_diameter_mm": 2.4,
+          "measured_diameters_mm": [
+            2.4
+          ],
+          "cylindrical_face_found": true
+        }
+      ],
+      "blocked_probe_volume_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "center_xy_mm": [
+        -12.5,
+        75.5
+      ],
+      "target_slot_width_mm": 2.4,
+      "probe_width_mm": 2.38,
+      "cylindrical_end_faces": [
+        {
+          "center_xy_mm": [
+            -12.5,
+            74.2
+          ],
+          "target_diameter_mm": 2.4,
+          "measured_diameters_mm": [
+            2.4
+          ],
+          "cylindrical_face_found": true
+        },
+        {
+          "center_xy_mm": [
+            -12.5,
+            76.8
+          ],
+          "target_diameter_mm": 2.4,
+          "measured_diameters_mm": [
+            2.4
+          ],
+          "cylindrical_face_found": true
+        }
+      ],
+      "blocked_probe_volume_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "center_xy_mm": [
+        12.5,
+        75.5
+      ],
+      "target_slot_width_mm": 2.4,
+      "probe_width_mm": 2.38,
+      "cylindrical_end_faces": [
+        {
+          "center_xy_mm": [
+            12.5,
+            74.2
+          ],
+          "target_diameter_mm": 2.4,
+          "measured_diameters_mm": [
+            2.4
+          ],
+          "cylindrical_face_found": true
+        },
+        {
+          "center_xy_mm": [
+            12.5,
+            76.8
+          ],
+          "target_diameter_mm": 2.4,
+          "measured_diameters_mm": [
+            2.4
+          ],
+          "cylindrical_face_found": true
+        }
+      ],
+      "blocked_probe_volume_mm3": 0.0,
+      "pass_check": true
+    }
+  ],
+  "reserved_usb_opening": {
+    "nominal_width_height_mm": [
+      10.2,
+      4.6
+    ],
+    "probe_xyz_mm": [
+      10.18,
+      8.8,
+      4.58
+    ],
+    "probe_bounds_mm": {
+      "min": [
+        -5.09,
+        2.5999999999999996,
+        8.364999999999998
+      ],
+      "max": [
+        5.09,
+        11.4,
+        12.945
+      ],
+      "size": [
+        10.18,
+        8.8,
+        4.580000000000002
+      ]
+    },
+    "body_overlap_mm3": 0.0,
+    "pass_check": true,
+    "meaning": "Minimum reserved rectangular passage clearance, not a claim that the sculpted outer opening is exactly rectangular."
+  },
+  "collision_findings": [],
+  "scope": "Independent exact BRep intersections against exported STEP; geometric mechanical reservations only. No verified electrical board, charging circuit, firmware, sensor lens working distance, wear life or print shrinkage inference."
+}
