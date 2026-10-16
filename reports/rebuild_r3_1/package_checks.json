@@ -1,0 +1,43 @@
+{
+  "artifacts": [
+    {
+      "path": "releases/Fenrir-MiniSE-R3.1/R3_1_PRINT_STL.zip",
+      "bytes": 3285810,
+      "sha256": "4074b17ff2a2c689ac1e8716bd5fc071dce042df3d54d265acf378838ec46f60"
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.1/R3_1_STEP.zip",
+      "bytes": 19715630,
+      "sha256": "51cd97f31da78665a70b633a149506b6919a1a95e4e64cfc538f6160179eb6a4"
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.1/R3_1_SOURCE.zip",
+      "bytes": 189475,
+      "sha256": "0d0f28f036378cb05b370313c779cef4ad3e3a6b62896fef67041d81efa9d0ab"
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.1/FENRIR_MINISE_R3_1.FCStd",
+      "bytes": 3435424,
+      "sha256": "561fa2b9d63ccd9b375b8866599976f01d16d68707c1ff7bd734140b97c49304"
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.1/FENRIR_MINISE_R3_1_PLA_PRINT_PLATE.3mf",
+      "bytes": 2121909,
+      "sha256": "e877e0a170cad0c16cc715ef5b0eb44ea5e25cf85aa3757ffc75fdc4cb8c1dea"
+    }
+  ],
+  "zip_member_readback": true,
+  "printed_parts": [
+    "BODY",
+    "LEFT_KEY",
+    "RIGHT_KEY",
+    "SIDE_FRONT_KEY",
+    "SIDE_FRONT_KEY_SWITCH_CLAMP",
+    "SIDE_REAR_KEY",
+    "SIDE_REAR_KEY_SWITCH_CLAMP",
+    "WHEEL",
+    "WHEEL_CARRIER"
+  ],
+  "history_overwritten": false,
+  "source_geometry_base": "Immutable R3_SOURCE_AND_BASE.zip at commit da06237d066d8d4a6133f03f9929cff5bdd7a50e; see ENVIRONMENT.md"
+}

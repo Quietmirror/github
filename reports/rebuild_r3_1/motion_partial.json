@@ -1,0 +1,32 @@
+[
+  {
+    "part": "LEFT_KEY",
+    "poses": 41,
+    "conflicts": [],
+    "pass_check": true
+  },
+  {
+    "part": "RIGHT_KEY",
+    "poses": 41,
+    "conflicts": [],
+    "pass_check": true
+  },
+  {
+    "part": "SIDE_FRONT_KEY",
+    "poses": 41,
+    "conflicts": [],
+    "pass_check": true
+  },
+  {
+    "part": "SIDE_REAR_KEY",
+    "poses": 41,
+    "conflicts": [],
+    "pass_check": true
+  },
+  {
+    "part": "WHEEL_CARRIER",
+    "poses": 41,
+    "conflicts": [],
+    "pass_check": true
+  }
+]

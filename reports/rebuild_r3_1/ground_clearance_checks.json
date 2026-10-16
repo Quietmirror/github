@@ -1,0 +1,511 @@
+{
+  "assumed_skate_thickness_mm": 0.5,
+  "ground_z_mm": 4.7,
+  "body_below_bonding_plane_mm": 0.2000001015903985,
+  "static": [
+    {
+      "part": "BODY",
+      "lowest_z": 4.998762607574463,
+      "clearance_mm": 0.2987626075744627
+    },
+    {
+      "part": "LEFT_KEY",
+      "lowest_z": 10.600000381469727,
+      "clearance_mm": 5.900000381469726
+    },
+    {
+      "part": "RIGHT_KEY",
+      "lowest_z": 10.600000381469727,
+      "clearance_mm": 5.900000381469726
+    },
+    {
+      "part": "SIDE_FRONT_KEY",
+      "lowest_z": 12.5,
+      "clearance_mm": 7.8
+    },
+    {
+      "part": "SIDE_FRONT_KEY_SWITCH_CLAMP",
+      "lowest_z": 17.950000762939453,
+      "clearance_mm": 13.250000762939454
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "lowest_z": 12.5,
+      "clearance_mm": 7.8
+    },
+    {
+      "part": "SIDE_REAR_KEY_SWITCH_CLAMP",
+      "lowest_z": 17.950000762939453,
+      "clearance_mm": 13.250000762939454
+    },
+    {
+      "part": "WHEEL",
+      "lowest_z": 12.75279712677002,
+      "clearance_mm": 8.05279712677002
+    },
+    {
+      "part": "WHEEL_CARRIER",
+      "lowest_z": 10.399999618530273,
+      "clearance_mm": 5.699999618530273
+    },
+    {
+      "part": "LEFT_KEY_STEEL_PIN",
+      "lowest_z": 13.32223892211914,
+      "clearance_mm": 8.622238922119141
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_1_BOLT",
+      "lowest_z": 8.700126647949219,
+      "clearance_mm": 4.000126647949219
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+      "lowest_z": 8.100193977355957,
+      "clearance_mm": 3.400193977355957
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "lowest_z": 8.100193977355957,
+      "clearance_mm": 3.400193977355957
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_1_NUT",
+      "lowest_z": 8.403542518615723,
+      "clearance_mm": 3.7035425186157225
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_2_BOLT",
+      "lowest_z": 10.708736419677734,
+      "clearance_mm": 6.008736419677734
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+      "lowest_z": 10.108803749084473,
+      "clearance_mm": 5.4088037490844725
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "lowest_z": 10.108803749084473,
+      "clearance_mm": 5.4088037490844725
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_2_NUT",
+      "lowest_z": 10.412153244018555,
+      "clearance_mm": 5.7121532440185545
+    },
+    {
+      "part": "SWITCH_LEFT",
+      "lowest_z": 5.0628180503845215,
+      "clearance_mm": 0.3628180503845213
+    },
+    {
+      "part": "RIGHT_KEY_STEEL_PIN",
+      "lowest_z": 13.32223892211914,
+      "clearance_mm": 8.622238922119141
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+      "lowest_z": 8.700126647949219,
+      "clearance_mm": 4.000126647949219
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+      "lowest_z": 8.100193977355957,
+      "clearance_mm": 3.400193977355957
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "lowest_z": 8.100193977355957,
+      "clearance_mm": 3.400193977355957
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_1_NUT",
+      "lowest_z": 8.403542518615723,
+      "clearance_mm": 3.7035425186157225
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+      "lowest_z": 10.708736419677734,
+      "clearance_mm": 6.008736419677734
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+      "lowest_z": 10.108803749084473,
+      "clearance_mm": 5.4088037490844725
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "lowest_z": 10.108803749084473,
+      "clearance_mm": 5.4088037490844725
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_2_NUT",
+      "lowest_z": 10.412153244018555,
+      "clearance_mm": 5.7121532440185545
+    },
+    {
+      "part": "SWITCH_RIGHT",
+      "lowest_z": 5.0628180503845215,
+      "clearance_mm": 0.3628180503845213
+    },
+    {
+      "part": "SIDE_FRONT_KEY_CAPTURE_PIN",
+      "lowest_z": 12.199999809265137,
+      "clearance_mm": 7.4999998092651365
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT",
+      "lowest_z": 7.849999904632568,
+      "clearance_mm": 3.149999904632568
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_NUT",
+      "lowest_z": 10.149999618530273,
+      "clearance_mm": 5.449999618530273
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "lowest_z": 19.549999237060547,
+      "clearance_mm": 14.849999237060548
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_1_NUT",
+      "lowest_z": 8.550000190734863,
+      "clearance_mm": 3.850000190734863
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_2_BOLT",
+      "lowest_z": 7.849999904632568,
+      "clearance_mm": 3.149999904632568
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_NUT",
+      "lowest_z": 10.149999618530273,
+      "clearance_mm": 5.449999618530273
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "lowest_z": 19.549999237060547,
+      "clearance_mm": 14.849999237060548
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_2_NUT",
+      "lowest_z": 8.550000190734863,
+      "clearance_mm": 3.850000190734863
+    },
+    {
+      "part": "SWITCH_SIDE_FRONT",
+      "lowest_z": 12.100000381469727,
+      "clearance_mm": 7.400000381469726
+    },
+    {
+      "part": "SIDE_REAR_KEY_CAPTURE_PIN",
+      "lowest_z": 12.199999809265137,
+      "clearance_mm": 7.4999998092651365
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_1_BOLT",
+      "lowest_z": 7.849999904632568,
+      "clearance_mm": 3.149999904632568
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_NUT",
+      "lowest_z": 10.149999618530273,
+      "clearance_mm": 5.449999618530273
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "lowest_z": 19.549999237060547,
+      "clearance_mm": 14.849999237060548
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_1_NUT",
+      "lowest_z": 8.550000190734863,
+      "clearance_mm": 3.850000190734863
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_2_BOLT",
+      "lowest_z": 7.849999904632568,
+      "clearance_mm": 3.149999904632568
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_NUT",
+      "lowest_z": 10.149999618530273,
+      "clearance_mm": 5.449999618530273
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "lowest_z": 19.549999237060547,
+      "clearance_mm": 14.849999237060548
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_2_NUT",
+      "lowest_z": 8.550000190734863,
+      "clearance_mm": 3.850000190734863
+    },
+    {
+      "part": "SWITCH_SIDE_REAR",
+      "lowest_z": 12.100000381469727,
+      "clearance_mm": 7.400000381469726
+    },
+    {
+      "part": "ENCODER_EC10E_HOUSING",
+      "lowest_z": 8.5,
+      "clearance_mm": 3.8
+    },
+    {
+      "part": "ENCODER_EC10E_ROTOR",
+      "lowest_z": 17.51066780090332,
+      "clearance_mm": 12.810667800903321
+    },
+    {
+      "part": "WHEEL_CARRIER_STEEL_PIN",
+      "lowest_z": 18.00044822692871,
+      "clearance_mm": 13.300448226928712
+    },
+    {
+      "part": "SWITCH_MIDDLE",
+      "lowest_z": 5.550000190734863,
+      "clearance_mm": 0.8500001907348631
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_1_BOLT",
+      "lowest_z": 8.649999618530273,
+      "clearance_mm": 3.9499996185302733
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+      "lowest_z": 8.050000190734863,
+      "clearance_mm": 3.350000190734863
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+      "lowest_z": 8.050000190734863,
+      "clearance_mm": 3.350000190734863
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_1_NUT",
+      "lowest_z": 8.240598678588867,
+      "clearance_mm": 3.540598678588867
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_2_BOLT",
+      "lowest_z": 8.649999618530273,
+      "clearance_mm": 3.9499996185302733
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+      "lowest_z": 8.050000190734863,
+      "clearance_mm": 3.350000190734863
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+      "lowest_z": 8.050000190734863,
+      "clearance_mm": 3.350000190734863
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_2_NUT",
+      "lowest_z": 8.240598678588867,
+      "clearance_mm": 3.540598678588867
+    },
+    {
+      "part": "USB_C_REFERENCE",
+      "lowest_z": 9.0,
+      "clearance_mm": 4.3
+    },
+    {
+      "part": "USB_ADAPTER_PCB_REFERENCE",
+      "lowest_z": 8.0,
+      "clearance_mm": 3.3
+    },
+    {
+      "part": "USB_M2x3_L",
+      "lowest_z": 6.300000190734863,
+      "clearance_mm": 1.600000190734863
+    },
+    {
+      "part": "USB_WASHER_L",
+      "lowest_z": 9.0,
+      "clearance_mm": 4.3
+    },
+    {
+      "part": "USB_M2x3_R",
+      "lowest_z": 6.300000190734863,
+      "clearance_mm": 1.600000190734863
+    },
+    {
+      "part": "USB_WASHER_R",
+      "lowest_z": 9.0,
+      "clearance_mm": 4.3
+    },
+    {
+      "part": "ENCODER_M2x3_FRONT",
+      "lowest_z": 7.300000190734863,
+      "clearance_mm": 2.600000190734863
+    },
+    {
+      "part": "ENCODER_WASHER_FRONT",
+      "lowest_z": 8.899999618530273,
+      "clearance_mm": 4.199999618530273
+    },
+    {
+      "part": "ENCODER_M2x3_REAR",
+      "lowest_z": 7.300000190734863,
+      "clearance_mm": 2.600000190734863
+    },
+    {
+      "part": "ENCODER_WASHER_REAR",
+      "lowest_z": 8.899999618530273,
+      "clearance_mm": 4.199999618530273
+    },
+    {
+      "part": "ENCODER_ADAPTER_PCB_EST",
+      "lowest_z": 9.199999809265137,
+      "clearance_mm": 4.4999998092651365
+    },
+    {
+      "part": "ANTENNA_FEED_HEADER_EST",
+      "lowest_z": 19.100000381469727,
+      "clearance_mm": 14.400000381469727
+    },
+    {
+      "part": "BATTERY_CELL_EST",
+      "lowest_z": 13.399999618530273,
+      "clearance_mm": 8.699999618530274
+    },
+    {
+      "part": "BATTERY_PLUG_EST",
+      "lowest_z": 20.799999237060547,
+      "clearance_mm": 16.099999237060548
+    },
+    {
+      "part": "CHARGE_POWERPATH_EST",
+      "lowest_z": 19.100000381469727,
+      "clearance_mm": 14.400000381469727
+    },
+    {
+      "part": "CONTROLLER_RF_PCB_EST",
+      "lowest_z": 17.899999618530273,
+      "clearance_mm": 13.199999618530274
+    },
+    {
+      "part": "MATCHED_LENS_EST",
+      "lowest_z": 7.800000190734863,
+      "clearance_mm": 3.100000190734863
+    },
+    {
+      "part": "MCU_RADIO_EST",
+      "lowest_z": 19.100000381469727,
+      "clearance_mm": 14.400000381469727
+    },
+    {
+      "part": "PAW3950_PACKAGE_EST",
+      "lowest_z": 11.800000190734863,
+      "clearance_mm": 7.100000190734863
+    },
+    {
+      "part": "POWER_SWITCH_BODY_EST",
+      "lowest_z": 7.300000190734863,
+      "clearance_mm": 2.600000190734863
+    },
+    {
+      "part": "POWER_SWITCH_PCB_EST",
+      "lowest_z": 10.300000190734863,
+      "clearance_mm": 5.600000190734863
+    },
+    {
+      "part": "POWER_SWITCH_TAB_EST",
+      "lowest_z": 5.5,
+      "clearance_mm": 0.7999999999999998
+    },
+    {
+      "part": "REGULATOR_EST",
+      "lowest_z": 19.100000381469727,
+      "clearance_mm": 14.400000381469727
+    },
+    {
+      "part": "REMOTE_ANTENNA_PCB_EST",
+      "lowest_z": 24.600000381469727,
+      "clearance_mm": 19.900000381469727
+    },
+    {
+      "part": "RF_BAT_HEADER_EST",
+      "lowest_z": 19.100000381469727,
+      "clearance_mm": 14.400000381469727
+    },
+    {
+      "part": "RF_IO_HEADER_EST",
+      "lowest_z": 19.100000381469727,
+      "clearance_mm": 14.400000381469727
+    },
+    {
+      "part": "RF_SENSOR_HEADER_EST",
+      "lowest_z": 19.100000381469727,
+      "clearance_mm": 14.400000381469727
+    },
+    {
+      "part": "RF_USB_HEADER_EST",
+      "lowest_z": 19.100000381469727,
+      "clearance_mm": 14.400000381469727
+    },
+    {
+      "part": "SENSOR_HEADER_EST",
+      "lowest_z": 15.399999618530273,
+      "clearance_mm": 10.699999618530274
+    },
+    {
+      "part": "SENSOR_PCB_EST",
+      "lowest_z": 14.199999809265137,
+      "clearance_mm": 9.499999809265137
+    },
+    {
+      "part": "SIDE_HEADER_EST",
+      "lowest_z": 16.200000762939453,
+      "clearance_mm": 11.500000762939454
+    },
+    {
+      "part": "SIDE_IO_PCB_EST",
+      "lowest_z": 13.0,
+      "clearance_mm": 8.3
+    }
+  ],
+  "motions": [
+    {
+      "part": "LEFT_KEY",
+      "poses": 41,
+      "lowest_z": 8.757174273353378,
+      "minimum_clearance_mm": 4.057174273353378
+    },
+    {
+      "part": "RIGHT_KEY",
+      "poses": 41,
+      "lowest_z": 8.757174273353378,
+      "minimum_clearance_mm": 4.057174273353378
+    },
+    {
+      "part": "SIDE_FRONT_KEY",
+      "poses": 41,
+      "lowest_z": 12.5,
+      "minimum_clearance_mm": 7.8
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "poses": 41,
+      "lowest_z": 12.5,
+      "minimum_clearance_mm": 7.8
+    },
+    {
+      "part": "WHEEL_CARRIER",
+      "poses": 41,
+      "lowest_z": 5.485324157850963,
+      "minimum_clearance_mm": 0.7853241578509627
+    }
+  ],
+  "minimum_static_clearance_mm": 0.2987626075744627,
+  "minimum_skate_thickness_for_desired_clearance_mm": 0.4512373924255373,
+  "desired_clearance_mm": 0.25,
+  "estimated_lens_bottom_to_ground_mm": 3.0999999999999996,
+  "actual_optical_working_distance_verified": false,
+  "scope": "Uncompressed 0.5mm skate example only; no bare-body ground-clearance claim. Measure the actual skate, flatness and pad compression.",
+  "pass_check": true
+}
