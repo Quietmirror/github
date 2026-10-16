@@ -1,0 +1,21 @@
+{
+  "exact_bottom_band_symmetric_difference_mm3": 0.0,
+  "byte_identical_STEP_parts": {
+    "LEFT_KEY": true,
+    "RIGHT_KEY": true,
+    "SIDE_FRONT_KEY": true,
+    "SIDE_REAR_KEY": true,
+    "WHEEL": true,
+    "LEFT_KEY_STEEL_PIN": true,
+    "RIGHT_KEY_STEEL_PIN": true,
+    "WHEEL_CARRIER_STEEL_PIN": true,
+    "SWITCH_LEFT": true,
+    "SWITCH_RIGHT": true,
+    "SWITCH_MIDDLE": true,
+    "SWITCH_SIDE_FRONT": true,
+    "SWITCH_SIDE_REAR": true,
+    "USB_C_REFERENCE": true
+  },
+  "pass_check": true,
+  "scope": "BODY Z0..5 exact Boolean comparison plus unchanged functional references. R2 FEM is not re-certified for the modified BODY."
+}

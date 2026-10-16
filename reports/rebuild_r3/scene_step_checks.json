@@ -1,0 +1,20 @@
+[
+  {
+    "file": "R3_MECHANICAL_FULL.step",
+    "solids": 72,
+    "valid": true,
+    "named_components": true
+  },
+  {
+    "file": "R3_CUSTOM_ESTIMATED_LAYOUT.step",
+    "solids": 98,
+    "valid": true,
+    "named_components": true
+  },
+  {
+    "file": "R3_ATK_UNMEASURED_BLOCKED_DIAGNOSTIC.step",
+    "solids": 73,
+    "valid": true,
+    "named_components": true
+  }
+]

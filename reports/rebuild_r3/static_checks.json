@@ -1,0 +1,81 @@
+{
+  "parts": 98,
+  "pairs": 4753,
+  "conflicts": [],
+  "allowed_local_contacts": [
+    {
+      "a": "BODY",
+      "b": "USB_M2x3_L",
+      "overlap_mm3": 1.480849097832274,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "BODY",
+      "b": "USB_M2x3_R",
+      "overlap_mm3": 1.4808550768762565,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "WHEEL_CARRIER",
+      "b": "ENCODER_M2x3_FRONT",
+      "overlap_mm3": 1.3069079613385384,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "WHEEL_CARRIER",
+      "b": "ENCODER_M2x3_REAR",
+      "overlap_mm3": 1.306907920049241,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "USB_ADAPTER_PCB_REFERENCE",
+      "b": "USB_ROUTE_EST",
+      "overlap_mm3": 0.5741630073096504,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "BATTERY_PLUG_EST",
+      "b": "BATTERY_ROUTE_EST",
+      "overlap_mm3": 0.2257994659341344,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "REMOTE_ANTENNA_PCB_EST",
+      "b": "ANTENNA_FEED_ROUTE_EST",
+      "overlap_mm3": 0.12337458249127446,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "RF_BAT_HEADER_EST",
+      "b": "BATTERY_ROUTE_EST",
+      "overlap_mm3": 0.05595035410604886,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "RF_IO_HEADER_EST",
+      "b": "SIDE_ROUTE_EST",
+      "overlap_mm3": 0.22579949399092522,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "RF_SENSOR_HEADER_EST",
+      "b": "SENSOR_ROUTE_EST",
+      "overlap_mm3": 0.22579940529595469,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "SENSOR_HEADER_EST",
+      "b": "SENSOR_ROUTE_EST",
+      "overlap_mm3": 0.2693025576612755,
+      "unallowed_mm3": 0.004079732923601767
+    },
+    {
+      "a": "SIDE_HEADER_EST",
+      "b": "SIDE_ROUTE_EST",
+      "overlap_mm3": 0.22579925397654535,
+      "unallowed_mm3": 0.0
+    }
+  ],
+  "pass_check": true,
+  "threshold_mm3": 0.01
+}

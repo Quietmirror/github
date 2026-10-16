@@ -1,0 +1,126 @@
+{
+  "strokes": [
+    {
+      "part": "LEFT_KEY",
+      "axis_projected_stroke_mm": 0.4770670798452642,
+      "old_reported_stroke_mm": 0.5418269344409827,
+      "pad_contact_offset_mm": 0.2581962492156068,
+      "PT_max_mm": 0.5,
+      "PT_headroom_mm": -0.022932920154735803,
+      "free_position_is_estimate": true
+    },
+    {
+      "part": "RIGHT_KEY",
+      "axis_projected_stroke_mm": 0.4770670798452593,
+      "old_reported_stroke_mm": 0.541826934440983,
+      "pad_contact_offset_mm": 0.2581962492156214,
+      "PT_max_mm": 0.5,
+      "PT_headroom_mm": -0.022932920154740688,
+      "free_position_is_estimate": true
+    },
+    {
+      "part": "SIDE_FRONT_KEY",
+      "axis_projected_stroke_mm": 0.5800000000000018,
+      "old_reported_stroke_mm": 0.58,
+      "pad_contact_offset_mm": 0.0,
+      "PT_max_mm": 0.5,
+      "PT_headroom_mm": 0.08000000000000185,
+      "free_position_is_estimate": true
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "axis_projected_stroke_mm": 0.5800000000000018,
+      "old_reported_stroke_mm": 0.58,
+      "pad_contact_offset_mm": 0.0,
+      "PT_max_mm": 0.5,
+      "PT_headroom_mm": 0.08000000000000185,
+      "free_position_is_estimate": true
+    },
+    {
+      "part": "WHEEL_CARRIER",
+      "axis_projected_stroke_mm": 0.5399015467541868,
+      "old_reported_stroke_mm": 0.5280077066667621,
+      "pad_contact_offset_mm": 0.17946491779782514,
+      "PT_max_mm": 0.5,
+      "PT_headroom_mm": 0.03990154675418678,
+      "free_position_is_estimate": true
+    }
+  ],
+  "additional_component_examples": {
+    "old_ATK_slab_into_R2": {
+      "size": [
+        36,
+        50,
+        1.2
+      ],
+      "center": [
+        0,
+        40,
+        5.4
+      ],
+      "collisions": {
+        "BODY": 224.21855,
+        "SWITCH_MIDDLE": 1.215
+      }
+    },
+    "encoder_pcb_uncut": {
+      "size": [
+        10,
+        16,
+        1.2
+      ],
+      "center": [
+        6.4,
+        28,
+        9.8
+      ],
+      "collisions": {
+        "LEFT_KEY_M2_SWITCH_1_BOLT": 0.05864,
+        "ENCODER_EC10E_HOUSING": 3.888
+      }
+    }
+  },
+  "donor_bounded_scan": [
+    {
+      "angle_deg": 0,
+      "center": [
+        -6.0,
+        64.0,
+        15.6
+      ],
+      "overlap_sum_mm3": 173.71334,
+      "conflicts": {
+        "BODY": 74.9951,
+        "LEFT_KEY": 1.64465,
+        "RIGHT_KEY": 37.52794,
+        "WHEEL_CARRIER": 0.44776,
+        "LEFT_KEY_STEEL_PIN": 1.11588,
+        "RIGHT_KEY_STEEL_PIN": 3.87682,
+        "SWITCH_MIDDLE": 54.10519
+      }
+    },
+    {
+      "angle_deg": 90,
+      "center": [
+        -6.0,
+        64.0,
+        15.6
+      ],
+      "overlap_sum_mm3": 239.17668999999998,
+      "conflicts": {
+        "BODY": 138.48951,
+        "WHEEL_CARRIER": 0.19858,
+        "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT": 3.79622,
+        "SIDE_FRONT_KEY_M2_SWITCH_2_BOLT": 3.79622,
+        "SWITCH_SIDE_FRONT": 40.60216,
+        "SIDE_REAR_KEY_M2_SWITCH_1_BOLT": 1.40957,
+        "SIDE_REAR_KEY_M2_SWITCH_2_BOLT": 1.40957,
+        "SWITCH_SIDE_REAR": 30.21885,
+        "SWITCH_MIDDLE": 19.25601
+      }
+    }
+  ],
+  "donor_scan_scope": "780 positions: X=-6/0/6, Y=28..64 step4, Z=5.6..17.6 step1; 0/90deg. This scan alone does not prove impossibility or actual ATK dimensions.",
+  "original_model": "R2 exported meshes, absolute chord .025 mm",
+  "threshold_mm3": 0.01
+}

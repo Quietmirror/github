@@ -1,0 +1,132 @@
+{
+  "containment": [
+    {
+      "part": "SENSOR_PCB_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "PAW3950_PACKAGE_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "MATCHED_LENS_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "CONTROLLER_RF_PCB_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "MCU_RADIO_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "CHARGE_POWERPATH_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "REGULATOR_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "BATTERY_CELL_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "BATTERY_PLUG_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "RF_BAT_HEADER_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "RF_IO_HEADER_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "RF_SENSOR_HEADER_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SENSOR_HEADER_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_IO_PCB_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_HEADER_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "REMOTE_ANTENNA_PCB_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "POWER_SWITCH_BODY_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "POWER_SWITCH_TAB_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "POWER_SWITCH_PCB_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "RF_USB_HEADER_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "ANTENNA_FEED_HEADER_EST",
+      "outside_reference_outer_mm3": 0.0,
+      "pass_check": true
+    }
+  ],
+  "reserves": [
+    {
+      "reserve": "BATTERY_SERVICE_EST",
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "reserve": "ANTENNA_KEEPOUT_EST",
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "reserve": "OPTICAL_PATH_EST",
+      "conflicts": [],
+      "pass_check": true
+    }
+  ],
+  "pass_check": true,
+  "actual_PCB_measured": false,
+  "optical_working_distance_verified": false,
+  "battery_capacity_verified": false,
+  "physical_mounting_release": false,
+  "scope": "Only the declared estimated volumes; no supplier footprint, electrical circuit, antenna tuning, capacity or physical assembly claim."
+}

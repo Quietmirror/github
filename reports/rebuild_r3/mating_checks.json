@@ -1,0 +1,57 @@
+{
+  "strokes": [
+    {
+      "part": "LEFT_KEY",
+      "along_plunger_axis_mm": 0.5860318304314883,
+      "PT_max_mm": 0.5,
+      "headroom_over_PT_max_mm": 0.08603183043148832,
+      "actuator_face_contact_offset_mm": 0.31168317956481556,
+      "free_height_assumed": true,
+      "physical_click_and_OT_not_verified": true
+    },
+    {
+      "part": "RIGHT_KEY",
+      "along_plunger_axis_mm": 0.5860318304314831,
+      "PT_max_mm": 0.5,
+      "headroom_over_PT_max_mm": 0.0860318304314831,
+      "actuator_face_contact_offset_mm": 0.31168317956482805,
+      "free_height_assumed": true,
+      "physical_click_and_OT_not_verified": true
+    },
+    {
+      "part": "SIDE_FRONT_KEY",
+      "along_plunger_axis_mm": 0.5800000000000018,
+      "PT_max_mm": 0.5,
+      "headroom_over_PT_max_mm": 0.08000000000000185,
+      "actuator_face_contact_offset_mm": 0.0,
+      "free_height_assumed": true,
+      "physical_click_and_OT_not_verified": true
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "along_plunger_axis_mm": 0.5800000000000018,
+      "PT_max_mm": 0.5,
+      "headroom_over_PT_max_mm": 0.08000000000000185,
+      "actuator_face_contact_offset_mm": 0.0,
+      "free_height_assumed": true,
+      "physical_click_and_OT_not_verified": true
+    },
+    {
+      "part": "WHEEL_CARRIER",
+      "along_plunger_axis_mm": 0.5854967719797433,
+      "PT_max_mm": 0.5,
+      "headroom_over_PT_max_mm": 0.08549677197974326,
+      "actuator_face_contact_offset_mm": 0.19527691638969383,
+      "free_height_assumed": true,
+      "physical_click_and_OT_not_verified": true
+    }
+  ],
+  "axis_projection_formula": "intersection of moved actuator plane with fixed plunger axis",
+  "manufacturer_PT_max_mm": 0.5,
+  "manufacturer_OT_min_mm": 0.25,
+  "warning": "PT maximum plus OT minimum is not a guaranteed safe total travel. Measure actual free/operating/total-travel positions and adjust the stop; no electrical click test.",
+  "sources": [
+    "https://omronfs.omron.com/en_US/ecb/products/pdf/en-d2f.pdf",
+    "https://tech.alpsalpine.com/cms.media/product_catalog_ec_03_ec10e_en_a9ede251c7.pdf"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "artifacts": [
+    {
+      "path": "releases/Fenrir-MiniSE-R3/R3_PRINT_STL.zip",
+      "bytes": 3237875,
+      "sha256": "c1b8b6c3a8f51de47cf5ad9e63eba8076704457f58c9bcc3b739b26b84b6bfc7"
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3/R3_STEP.zip",
+      "bytes": 24065058,
+      "sha256": "2d706c5114ab46bea59a3d4f63b6278ffc5aa7cfa5a9f6115b764c6e95fe0697"
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3/R3_SOURCE_AND_BASE.zip",
+      "bytes": 16564415,
+      "sha256": "da23df089ac3de5c883bdfdfede154cafcc4fb276c272e65132530f4be89ceac"
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3/FENRIR_MINISE_R3.FCStd",
+      "bytes": 3165604,
+      "sha256": "d93f6f8938553e841396078f80a95c883540771e7537d4220b622c1ac81e99d1"
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3/FENRIR_MINISE_R3_PLA_PRINT_PLATE.3mf",
+      "bytes": 2102465,
+      "sha256": "a423bd3f7a22537f3b8f45203414e6e87228172f597e4b0bc63fb7d6c27c5df4"
+    }
+  ],
+  "zip_member_readback": true,
+  "printed_parts": [
+    "BODY",
+    "LEFT_KEY",
+    "RIGHT_KEY",
+    "SIDE_FRONT_KEY",
+    "SIDE_FRONT_KEY_SWITCH_CLAMP",
+    "SIDE_REAR_KEY",
+    "SIDE_REAR_KEY_SWITCH_CLAMP",
+    "WHEEL",
+    "WHEEL_CARRIER"
+  ],
+  "history_overwritten": false,
+  "scenario_status": {
+    "mechanical": "nominal finite geometry accepted, physical trial pending",
+    "custom_PAW3950": "estimated envelopes only, not electronics manufacturing release",
+    "ATK": "intentional failure diagnostic, actual board unknown"
+  }
+}

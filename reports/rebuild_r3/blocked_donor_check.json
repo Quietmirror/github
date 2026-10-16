@@ -1,0 +1,26 @@
+{
+  "assumed_size_mm": [
+    36,
+    50,
+    1.2
+  ],
+  "assumed_center_mm": [
+    0,
+    40,
+    5.4
+  ],
+  "actual_ATK_board_measured": false,
+  "conflicts": [
+    {
+      "part": "BODY",
+      "overlap_mm3": 225.70732129910454
+    },
+    {
+      "part": "SWITCH_MIDDLE",
+      "overlap_mm3": 1.2149994578585144
+    }
+  ],
+  "fit_pass": false,
+  "diagnostic_expected_failure": true,
+  "interpretation": "The historical guessed slab does not fit this placement. 780-position R2 scan also had no clear result, but neither proves every real donor outline or orientation impossible. Do not cut a populated donor PCB."
+}
