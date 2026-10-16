@@ -1,0 +1,336 @@
+{
+  "valid": true,
+  "connected_solids": 1,
+  "reference_lower_plane_z_mm": 5.2,
+  "foot_plane_z_mm": 5.2,
+  "shortened_mm_from_R3": 5.2,
+  "datum_difference_mm": 0.0,
+  "pads": [
+    {
+      "center_xy": [
+        23.22,
+        12.0
+      ],
+      "contact_z": 5.2,
+      "diameter_mm": 8.0,
+      "land_thickness_mm": 1.6,
+      "missing_disk_mm3": 0.0,
+      "material_under_landing_mm3": 0.0,
+      "bottom_faces": [
+        {
+          "area_mm2": 0.052407839995379124,
+          "z": 5.1999999,
+          "normal": [
+            -0.0,
+            -0.0,
+            -1.0
+          ]
+        },
+        {
+          "area_mm2": 2.3434964201669763,
+          "z": 5.1999999,
+          "normal": [
+            -0.0,
+            -0.0,
+            -1.0
+          ]
+        },
+        {
+          "area_mm2": 26.68481735709593,
+          "z": 5.1999999,
+          "normal": [
+            -0.0,
+            -0.0,
+            -1.0
+          ]
+        },
+        {
+          "area_mm2": 21.237166338267052,
+          "z": 5.2,
+          "normal": [
+            -0.0,
+            -0.0,
+            -1.0
+          ]
+        }
+      ],
+      "bottom_area_mm2": 50.317887955525336,
+      "pass_check": true
+    },
+    {
+      "center_xy": [
+        -23.22,
+        12.0
+      ],
+      "contact_z": 5.2,
+      "diameter_mm": 8.0,
+      "land_thickness_mm": 1.6,
+      "missing_disk_mm3": 0.0,
+      "material_under_landing_mm3": 0.0,
+      "bottom_faces": [
+        {
+          "area_mm2": 0.052407838840657694,
+          "z": 5.1999999,
+          "normal": [
+            -0.0,
+            -0.0,
+            -1.0
+          ]
+        },
+        {
+          "area_mm2": 2.343495747384364,
+          "z": 5.1999999,
+          "normal": [
+            -0.0,
+            -0.0,
+            -1.0
+          ]
+        },
+        {
+          "area_mm2": 26.68482027133761,
+          "z": 5.1999999,
+          "normal": [
+            -0.0,
+            -0.0,
+            -1.0
+          ]
+        },
+        {
+          "area_mm2": 21.23716633826703,
+          "z": 5.2,
+          "normal": [
+            -0.0,
+            -0.0,
+            -1.0
+          ]
+        }
+      ],
+      "bottom_area_mm2": 50.31789019582966,
+      "pass_check": true
+    },
+    {
+      "center_xy": [
+        24.84,
+        62.64
+      ],
+      "contact_z": 5.2,
+      "diameter_mm": 8.0,
+      "land_thickness_mm": 1.6,
+      "missing_disk_mm3": 0.0,
+      "material_under_landing_mm3": 0.0,
+      "bottom_faces": [
+        {
+          "area_mm2": 29.028316119169638,
+          "z": 5.2,
+          "normal": [
+            -0.0,
+            -0.0,
+            -1.0
+          ]
+        },
+        {
+          "area_mm2": 21.237166338267038,
+          "z": 5.2,
+          "normal": [
+            -0.0,
+            -0.0,
+            -1.0
+          ]
+        }
+      ],
+      "bottom_area_mm2": 50.265482457436676,
+      "pass_check": true
+    },
+    {
+      "center_xy": [
+        -24.84,
+        62.64
+      ],
+      "contact_z": 5.2,
+      "diameter_mm": 8.0,
+      "land_thickness_mm": 1.6,
+      "missing_disk_mm3": 0.0,
+      "material_under_landing_mm3": 0.0,
+      "bottom_faces": [
+        {
+          "area_mm2": 29.028316119169684,
+          "z": 5.2,
+          "normal": [
+            -0.0,
+            -0.0,
+            -1.0
+          ]
+        },
+        {
+          "area_mm2": 21.237166338267023,
+          "z": 5.2,
+          "normal": [
+            -0.0,
+            -0.0,
+            -1.0
+          ]
+        }
+      ],
+      "bottom_area_mm2": 50.265482457436704,
+      "pass_check": true
+    },
+    {
+      "center_xy": [
+        -0.0,
+        83.484
+      ],
+      "contact_z": 5.2,
+      "diameter_mm": 8.0,
+      "land_thickness_mm": 1.6,
+      "missing_disk_mm3": 0.0,
+      "material_under_landing_mm3": 0.0,
+      "bottom_faces": [
+        {
+          "area_mm2": 0.05943889699070892,
+          "z": 5.2,
+          "normal": [
+            -0.0,
+            -0.0,
+            -1.0
+          ]
+        },
+        {
+          "area_mm2": 17.88869101864927,
+          "z": 5.1999999,
+          "normal": [
+            -0.0,
+            -0.0,
+            -1.0
+          ]
+        },
+        {
+          "area_mm2": 22.51933548606251,
+          "z": 5.199999899999999,
+          "normal": [
+            -0.0,
+            -0.0,
+            -1.0
+          ]
+        },
+        {
+          "area_mm2": 5.974388761211872,
+          "z": 5.199999899999999,
+          "normal": [
+            -0.0,
+            -0.0,
+            -1.0
+          ]
+        },
+        {
+          "area_mm2": 3.8830672806129813,
+          "z": 5.2,
+          "normal": [
+            -0.0,
+            -0.0,
+            -1.0
+          ]
+        }
+      ],
+      "bottom_area_mm2": 50.32492144352734,
+      "pass_check": true
+    }
+  ],
+  "five_pad_bottoms_coplanar": true,
+  "outside_side_apertures_surface_checks": [
+    {
+      "direction": "R3.1_to_R3.2",
+      "samples": 6710,
+      "maximum_distance_mm": 0.014621035556910262,
+      "p99_distance_mm": 0.001624268889588755,
+      "threshold_mm": 0.055,
+      "pass_check": true
+    },
+    {
+      "direction": "R3.2_to_R3.1",
+      "samples": 6700,
+      "maximum_distance_mm": 0.015570696833258266,
+      "p99_distance_mm": 0.0018687147149971386,
+      "threshold_mm": 0.055,
+      "pass_check": true
+    }
+  ],
+  "preservation_scope": "7000 area-weighted surface samples per direction, excluding the declared left-side aperture region X>27, Y42..71.5, Z11..19; 0.055mm threshold covers two 0.025mm chord targets. Not exact equality or exhaustive surface proof.",
+  "unchanged_parts": {
+    "LEFT_KEY": true,
+    "RIGHT_KEY": true,
+    "SIDE_FRONT_KEY_SWITCH_CLAMP": true,
+    "SIDE_REAR_KEY_SWITCH_CLAMP": true,
+    "WHEEL": true,
+    "WHEEL_CARRIER": true,
+    "LEFT_KEY_STEEL_PIN": true,
+    "LEFT_KEY_M2_SWITCH_1_BOLT": true,
+    "LEFT_KEY_M2_SWITCH_1_WASHER_NUT": true,
+    "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD": true,
+    "LEFT_KEY_M2_SWITCH_1_NUT": true,
+    "LEFT_KEY_M2_SWITCH_2_BOLT": true,
+    "LEFT_KEY_M2_SWITCH_2_WASHER_NUT": true,
+    "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD": true,
+    "LEFT_KEY_M2_SWITCH_2_NUT": true,
+    "SWITCH_LEFT": true,
+    "RIGHT_KEY_STEEL_PIN": true,
+    "RIGHT_KEY_M2_SWITCH_1_BOLT": true,
+    "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT": true,
+    "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD": true,
+    "RIGHT_KEY_M2_SWITCH_1_NUT": true,
+    "RIGHT_KEY_M2_SWITCH_2_BOLT": true,
+    "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT": true,
+    "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD": true,
+    "RIGHT_KEY_M2_SWITCH_2_NUT": true,
+    "SWITCH_RIGHT": true,
+    "SIDE_FRONT_KEY_CAPTURE_PIN": true,
+    "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT": true,
+    "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_NUT": true,
+    "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_HEAD": true,
+    "SIDE_FRONT_KEY_M2_SWITCH_1_NUT": true,
+    "SIDE_FRONT_KEY_M2_SWITCH_2_BOLT": true,
+    "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_NUT": true,
+    "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_HEAD": true,
+    "SIDE_FRONT_KEY_M2_SWITCH_2_NUT": true,
+    "SWITCH_SIDE_FRONT": true,
+    "SIDE_REAR_KEY_CAPTURE_PIN": true,
+    "SIDE_REAR_KEY_M2_SWITCH_1_BOLT": true,
+    "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_NUT": true,
+    "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_HEAD": true,
+    "SIDE_REAR_KEY_M2_SWITCH_1_NUT": true,
+    "SIDE_REAR_KEY_M2_SWITCH_2_BOLT": true,
+    "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_NUT": true,
+    "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_HEAD": true,
+    "SIDE_REAR_KEY_M2_SWITCH_2_NUT": true,
+    "SWITCH_SIDE_REAR": true,
+    "ENCODER_EC10E_HOUSING": true,
+    "ENCODER_EC10E_ROTOR": true,
+    "WHEEL_CARRIER_STEEL_PIN": true,
+    "SWITCH_MIDDLE": true,
+    "WHEEL_M2_SWITCH_1_BOLT": true,
+    "WHEEL_M2_SWITCH_1_WASHER_NUT": true,
+    "WHEEL_M2_SWITCH_1_WASHER_HEAD": true,
+    "WHEEL_M2_SWITCH_1_NUT": true,
+    "WHEEL_M2_SWITCH_2_BOLT": true,
+    "WHEEL_M2_SWITCH_2_WASHER_NUT": true,
+    "WHEEL_M2_SWITCH_2_WASHER_HEAD": true,
+    "WHEEL_M2_SWITCH_2_NUT": true,
+    "USB_C_REFERENCE": true,
+    "USB_ADAPTER_PCB_REFERENCE": true,
+    "USB_M2x3_L": true,
+    "USB_WASHER_L": true,
+    "USB_M2x3_R": true,
+    "USB_WASHER_R": true,
+    "ENCODER_M2x3_FRONT": true,
+    "ENCODER_WASHER_FRONT": true,
+    "ENCODER_M2x3_REAR": true,
+    "ENCODER_WASHER_REAR": true,
+    "ENCODER_ADAPTER_PCB_EST": true
+  },
+  "body_extents_mm": [
+    66.09600020000002,
+    88.23600020000039,
+    25.564000201589728
+  ],
+  "retained_R3_origin": true,
+  "pass_check": true
+}

@@ -1,0 +1,296 @@
+{
+  "SENSOR_PCB_EST": {
+    "size_mm": [
+      18,
+      18,
+      1.2
+    ],
+    "center_mm": [
+      4,
+      66,
+      14.8
+    ],
+    "kind": "pcb",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "PAW3950_PACKAGE_EST": {
+    "size_mm": [
+      8,
+      8,
+      2.4
+    ],
+    "center_mm": [
+      0,
+      66,
+      13
+    ],
+    "kind": "sensor",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "MATCHED_LENS_EST": {
+    "size_mm": [
+      12,
+      14,
+      4
+    ],
+    "center_mm": [
+      0,
+      66,
+      9.8
+    ],
+    "kind": "lens",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "CONTROLLER_RF_PCB_EST": {
+    "size_mm": [
+      18,
+      18,
+      1.2
+    ],
+    "center_mm": [
+      4,
+      64,
+      18.5
+    ],
+    "kind": "pcb",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "MCU_RADIO_EST": {
+    "size_mm": [
+      8,
+      8,
+      2
+    ],
+    "center_mm": [
+      3,
+      60.5,
+      20.1
+    ],
+    "kind": "chip",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "CHARGE_POWERPATH_EST": {
+    "size_mm": [
+      5,
+      5,
+      1.5
+    ],
+    "center_mm": [
+      3,
+      69,
+      19.85
+    ],
+    "kind": "chip",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "REGULATOR_EST": {
+    "size_mm": [
+      4,
+      5,
+      1.5
+    ],
+    "center_mm": [
+      -2.5,
+      69,
+      19.85
+    ],
+    "kind": "chip",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "BATTERY_CELL_EST": {
+    "size_mm": [
+      18,
+      22,
+      6
+    ],
+    "center_mm": [
+      -17,
+      57,
+      16.4
+    ],
+    "kind": "battery",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "BATTERY_PLUG_EST": {
+    "size_mm": [
+      5,
+      6,
+      3
+    ],
+    "center_mm": [
+      -18,
+      60.5,
+      22.3
+    ],
+    "kind": "connector",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "RF_BAT_HEADER_EST": {
+    "size_mm": [
+      3,
+      4,
+      2.4
+    ],
+    "center_mm": [
+      -3.2,
+      61.5,
+      20.3
+    ],
+    "kind": "connector",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "RF_IO_HEADER_EST": {
+    "size_mm": [
+      3,
+      4,
+      2.4
+    ],
+    "center_mm": [
+      11,
+      57,
+      20.3
+    ],
+    "kind": "connector",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "RF_SENSOR_HEADER_EST": {
+    "size_mm": [
+      3,
+      4,
+      2.4
+    ],
+    "center_mm": [
+      8,
+      71,
+      20.3
+    ],
+    "kind": "connector",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "SENSOR_HEADER_EST": {
+    "size_mm": [
+      3,
+      4,
+      1.5
+    ],
+    "center_mm": [
+      6.5,
+      71,
+      16.15
+    ],
+    "kind": "connector",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "SIDE_IO_PCB_EST": {
+    "size_mm": [
+      1,
+      30,
+      4.0
+    ],
+    "center_mm": [
+      14.8,
+      59.3,
+      15
+    ],
+    "kind": "pcb",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "SIDE_HEADER_EST": {
+    "size_mm": [
+      3,
+      4,
+      1.2
+    ],
+    "center_mm": [
+      12.6,
+      59,
+      16.8
+    ],
+    "kind": "connector",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "REMOTE_ANTENNA_PCB_EST": {
+    "size_mm": [
+      8,
+      4,
+      0.8
+    ],
+    "center_mm": [
+      0,
+      61.5,
+      25
+    ],
+    "kind": "antenna",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "POWER_SWITCH_BODY_EST": {
+    "size_mm": [
+      8,
+      4,
+      3
+    ],
+    "center_mm": [
+      -20,
+      71.3,
+      8.8
+    ],
+    "kind": "switch",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "POWER_SWITCH_TAB_EST": {
+    "size_mm": [
+      3,
+      2,
+      1.8
+    ],
+    "center_mm": [
+      -20,
+      71.3,
+      6.4
+    ],
+    "kind": "switch",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "POWER_SWITCH_PCB_EST": {
+    "size_mm": [
+      8,
+      3.8,
+      1.2
+    ],
+    "center_mm": [
+      -20,
+      71.3,
+      10.9
+    ],
+    "kind": "pcb",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "RF_USB_HEADER_EST": {
+    "size_mm": [
+      3,
+      3,
+      2.4
+    ],
+    "center_mm": [
+      -3.2,
+      56.5,
+      20.3
+    ],
+    "kind": "connector",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  },
+  "ANTENNA_FEED_HEADER_EST": {
+    "size_mm": [
+      3,
+      2,
+      1.5
+    ],
+    "center_mm": [
+      -3,
+      65,
+      19.85
+    ],
+    "kind": "connector",
+    "status": "ESTIMATED NOT SUPPLIER DATA"
+  }
+}

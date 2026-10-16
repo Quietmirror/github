@@ -1,0 +1,158 @@
+{
+  "slicer": "PrusaSlicer 2.9.6",
+  "objects": 9,
+  "placements": [
+    {
+      "part": "BODY",
+      "bounds": [
+        [
+          10.0,
+          10.0,
+          0.0
+        ],
+        [
+          76.09475708007812,
+          98.23600006103516,
+          25.564900773460977
+        ]
+      ]
+    },
+    {
+      "part": "LEFT_KEY",
+      "bounds": [
+        [
+          88.09475708007812,
+          10.0,
+          0.0
+        ],
+        [
+          110.79475688934326,
+          50.465017318725586,
+          15.519611830847168
+        ]
+      ]
+    },
+    {
+      "part": "RIGHT_KEY",
+      "bounds": [
+        [
+          122.79475688934326,
+          10.0,
+          0.0
+        ],
+        [
+          145.4947566986084,
+          50.465017318725586,
+          15.519611830847055
+        ]
+      ]
+    },
+    {
+      "part": "SIDE_FRONT_KEY",
+      "bounds": [
+        [
+          157.4947566986084,
+          10.0,
+          0.0
+        ],
+        [
+          165.78538703918457,
+          19.400001525878906,
+          4.599999518530268
+        ]
+      ]
+    },
+    {
+      "part": "SIDE_FRONT_KEY_SWITCH_CLAMP",
+      "bounds": [
+        [
+          177.78538703918457,
+          10.0,
+          0.0
+        ],
+        [
+          186.78538703918457,
+          24.400001525878906,
+          1.5999984264373666
+        ]
+      ]
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "bounds": [
+        [
+          198.78538703918457,
+          10.0,
+          0.0
+        ],
+        [
+          206.83804321289062,
+          20.0,
+          4.599999518530225
+        ]
+      ]
+    },
+    {
+      "part": "SIDE_REAR_KEY_SWITCH_CLAMP",
+      "bounds": [
+        [
+          10.0,
+          110.23600006103516,
+          0.0
+        ],
+        [
+          18.999999046325684,
+          124.6359977722168,
+          1.5999984264373666
+        ]
+      ]
+    },
+    {
+      "part": "WHEEL",
+      "bounds": [
+        [
+          30.999999046325684,
+          110.23600006103516,
+          0.0
+        ],
+        [
+          43.497201919555664,
+          122.7346019744873,
+          16.10000076293946
+        ]
+      ]
+    },
+    {
+      "part": "WHEEL_CARRIER",
+      "bounds": [
+        [
+          55.497201919555664,
+          110.23600006103516,
+          0.0
+        ],
+        [
+          73.4472017288208,
+          142.83551406860352,
+          11.399687194824224
+        ]
+      ]
+    }
+  ],
+  "estimated_total_filament_g": "37.69",
+  "estimated_time": "4h 54m 57s",
+  "embedded_profile_checks": {
+    "nozzle_diameter": true,
+    "layer_height": true,
+    "perimeters": true,
+    "fill_density": true,
+    "support_material_buildplate_only": true,
+    "filament_density": true,
+    "temperature": true,
+    "bed_temperature": true
+  },
+  "pass": true,
+  "plate": "exports\\rebuild_r3_2\\FENRIR_MINISE_R3_2_PLA_PRINT_PLATE.3mf",
+  "plate_sha256": "bd997aca6b0ab865ff3629811c1dad67f032a5d4c930d6269f0845078ad94fe7",
+  "scope": "Actual slice from embedded-profile 3MF without external --load. Generic PLA estimate, supports enabled; reslice for the actual printer. G-code retained only as D-drive validation evidence.",
+  "source_metrics_sha256": "cff66f174cf9fd319475835c34e78de140316dc38084dbf391955dd65c62e9cc"
+}

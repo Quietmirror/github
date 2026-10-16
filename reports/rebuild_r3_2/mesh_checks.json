@@ -1,0 +1,140 @@
+{
+  "parts": [
+    {
+      "part": "BODY",
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "self_intersecting_faces": 0,
+      "positive_volume": true,
+      "bounds_mm": [
+        66.09475708007812,
+        88.23600006103516,
+        25.564900773460977
+      ],
+      "sha256": "d6f181614e189dfb2fbb5193ac9ad11391a3b7ec2ea31b9739c9bbba3458c13a",
+      "pass_check": true
+    },
+    {
+      "part": "LEFT_KEY",
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "self_intersecting_faces": 0,
+      "positive_volume": true,
+      "bounds_mm": [
+        22.699999809265137,
+        40.465017318725586,
+        15.519611830847168
+      ],
+      "sha256": "e6fa9f48a4a3a7382e9e5fb752be58bd391d2fa6bdd23a7507d03b92b408319f",
+      "pass_check": true
+    },
+    {
+      "part": "RIGHT_KEY",
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "self_intersecting_faces": 0,
+      "positive_volume": true,
+      "bounds_mm": [
+        22.699999809265137,
+        40.465017318725586,
+        15.519611830847055
+      ],
+      "sha256": "222d31b2e8f2333d10621a76954c591091a1450dfdebf4a95b9b8c6c94cb0c18",
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_FRONT_KEY",
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "self_intersecting_faces": 0,
+      "positive_volume": true,
+      "bounds_mm": [
+        8.290630340576172,
+        9.400001525878906,
+        4.599999518530268
+      ],
+      "sha256": "e3acea1b11726d31a69914c13dedc30d746d8ea8549c8144b2cdf1cf805a9a4f",
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_FRONT_KEY_SWITCH_CLAMP",
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "self_intersecting_faces": 0,
+      "positive_volume": true,
+      "bounds_mm": [
+        9.0,
+        14.400001525878906,
+        1.5999984264373666
+      ],
+      "sha256": "29b8459e2d4ee55eae4ffa7398a824305bec1f8239b33301f4f34b12d18655f4",
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "self_intersecting_faces": 0,
+      "positive_volume": true,
+      "bounds_mm": [
+        8.052656173706055,
+        10.0,
+        4.599999518530225
+      ],
+      "sha256": "a0debac2111bc9a79460414077050f3f73a476c104a074932713ae245cd5d53a",
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_REAR_KEY_SWITCH_CLAMP",
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "self_intersecting_faces": 0,
+      "positive_volume": true,
+      "bounds_mm": [
+        8.999999046325684,
+        14.39999771118164,
+        1.5999984264373666
+      ],
+      "sha256": "5148aa29f0c1c96a6ff4ed77c7de08193de5b8b40b1c1fbb32a6826c6a3ffc93",
+      "pass_check": true
+    },
+    {
+      "part": "WHEEL",
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "self_intersecting_faces": 0,
+      "positive_volume": true,
+      "bounds_mm": [
+        12.49720287322998,
+        12.498601913452148,
+        16.10000076293946
+      ],
+      "sha256": "957f4a833a5c4a2efa279b391cb7c562efb331f56be87d0ef97ee0655c5f3283",
+      "pass_check": true
+    },
+    {
+      "part": "WHEEL_CARRIER",
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "self_intersecting_faces": 0,
+      "positive_volume": true,
+      "bounds_mm": [
+        17.949999809265137,
+        32.59951400756836,
+        11.399687194824224
+      ],
+      "sha256": "2fd7ce1168266bc84aacb5cf1cbf0729ac7348931d12df4e83b4b07a519201ca",
+      "pass_check": true
+    }
+  ],
+  "pass_check": true
+}

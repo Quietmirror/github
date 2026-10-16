@@ -1,0 +1,40 @@
+{
+  "first_layer_z_mm": 0.2,
+  "plate_foot_centers_mm": [
+    [
+      66.26737854003906,
+      22.000000030517377,
+      0.20123739238484895
+    ],
+    [
+      19.827378540039064,
+      22.000000030517377,
+      0.20123739238484895
+    ],
+    [
+      67.88737854003907,
+      72.64000003051737,
+      0.20123739238484895
+    ],
+    [
+      18.207378540039063,
+      72.64000003051737,
+      0.20123739238484895
+    ],
+    [
+      43.04737854003906,
+      93.48400003051736,
+      0.20123739238484895
+    ]
+  ],
+  "support_segments_within_3_5mm_of_center": [
+    6,
+    3,
+    41,
+    39,
+    8
+  ],
+  "pass_check": true,
+  "gcode_sha256": "5f39737191c7f19de14182df51a55876bfc2b0b36cc22f394017d38d4d22bedc",
+  "scope": "Actual first-layer support extrusion segments beneath each landing, not a quantitative full-area support or physical adhesion proof. G-code is validation-only; users must re-slice."
+}
