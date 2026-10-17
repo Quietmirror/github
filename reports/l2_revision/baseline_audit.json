@@ -1,0 +1,371 @@
+{
+  "version": "L2 Gate 1",
+  "status": "BASELINE_AND_ARITHMETIC_AUDITED",
+  "baseline_commit": "f1b1090931d717117287ea2b79c2e14ddc234937",
+  "units": "mm N MPa g",
+  "parts": [
+    {
+      "part": "BODY",
+      "valid_brep": true,
+      "solids": 1,
+      "cad_volume_mm3": 12801.728063791752,
+      "integrator_error": 7.150195531746037e-07,
+      "mesh_volume_mm3": 12795.446749252436,
+      "mesh_watertight": true,
+      "mesh_components": 1,
+      "PA12_g": 12.92974534442967,
+      "PLA_solid_g": 15.874142799101772,
+      "difference_from_R32_report_mm3": 0.0
+    },
+    {
+      "part": "LEFT_KEY",
+      "valid_brep": true,
+      "solids": 1,
+      "cad_volume_mm3": 1780.447791178631,
+      "integrator_error": 5.972167684985992e-08,
+      "mesh_volume_mm3": 1779.3722683176704,
+      "mesh_watertight": true,
+      "mesh_components": 1,
+      "PA12_g": 1.7982522690904172,
+      "PLA_solid_g": 2.2077552610615023,
+      "difference_from_R32_report_mm3": 0.0
+    },
+    {
+      "part": "RIGHT_KEY",
+      "valid_brep": true,
+      "solids": 1,
+      "cad_volume_mm3": 1780.4480159352977,
+      "integrator_error": 5.029773228547425e-08,
+      "mesh_volume_mm3": 1779.0768172023809,
+      "mesh_watertight": true,
+      "mesh_components": 1,
+      "PA12_g": 1.7982524960946507,
+      "PLA_solid_g": 2.207755539759769,
+      "difference_from_R32_report_mm3": 0.0
+    },
+    {
+      "part": "SIDE_FRONT_KEY",
+      "valid_brep": true,
+      "solids": 1,
+      "cad_volume_mm3": 167.9162244719167,
+      "integrator_error": 8.739578456278266e-08,
+      "mesh_volume_mm3": 167.68584239004994,
+      "mesh_watertight": true,
+      "mesh_components": 1,
+      "PA12_g": 0.16959538671663588,
+      "PLA_solid_g": 0.20821611834517673,
+      "difference_from_R32_report_mm3": 0.0
+    },
+    {
+      "part": "SIDE_FRONT_KEY_SWITCH_CLAMP",
+      "valid_brep": true,
+      "solids": 1,
+      "cad_volume_mm3": 192.88354105225895,
+      "integrator_error": 3.978494745764689e-16,
+      "mesh_volume_mm3": 192.89201158926198,
+      "mesh_watertight": true,
+      "mesh_components": 1,
+      "PA12_g": 0.19481237646278154,
+      "PLA_solid_g": 0.2391755909048011,
+      "difference_from_R32_report_mm3": 0.0
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "valid_brep": true,
+      "solids": 1,
+      "cad_volume_mm3": 176.71218433310182,
+      "integrator_error": 8.833108931850914e-08,
+      "mesh_volume_mm3": 176.45193585140407,
+      "mesh_watertight": true,
+      "mesh_components": 1,
+      "PA12_g": 0.17847930617643284,
+      "PLA_solid_g": 0.21912310857304626,
+      "difference_from_R32_report_mm3": 0.0
+    },
+    {
+      "part": "SIDE_REAR_KEY_SWITCH_CLAMP",
+      "valid_brep": true,
+      "solids": 1,
+      "cad_volume_mm3": 192.88354105225895,
+      "integrator_error": 4.4174370575884132e-16,
+      "mesh_volume_mm3": 192.89193359608043,
+      "mesh_watertight": true,
+      "mesh_components": 1,
+      "PA12_g": 0.19481237646278154,
+      "PLA_solid_g": 0.2391755909048011,
+      "difference_from_R32_report_mm3": 0.0
+    },
+    {
+      "part": "WHEEL",
+      "valid_brep": true,
+      "solids": 1,
+      "cad_volume_mm3": 823.761826507103,
+      "integrator_error": 5.211020790110117e-16,
+      "mesh_volume_mm3": 823.2784070056535,
+      "mesh_watertight": true,
+      "mesh_components": 1,
+      "PA12_g": 0.8319994447721741,
+      "PLA_solid_g": 1.0214646648688077,
+      "difference_from_R32_report_mm3": 0.0
+    },
+    {
+      "part": "WHEEL_CARRIER",
+      "valid_brep": true,
+      "solids": 1,
+      "cad_volume_mm3": 589.8949111950266,
+      "integrator_error": 3.544790905079201e-11,
+      "mesh_volume_mm3": 589.716027809384,
+      "mesh_watertight": true,
+      "mesh_components": 1,
+      "PA12_g": 0.5957938603069769,
+      "PLA_solid_g": 0.7314696898818329,
+      "difference_from_R32_report_mm3": 0.0
+    }
+  ],
+  "total_CAD_mm3": 18506.676099517346,
+  "total_PA12_g": 18.69174286051252,
+  "total_PLA_solid_g": 22.94827836340151,
+  "budgets": {
+    "L1": {
+      "target_g": 16.49,
+      "target_mm3": 16326.732673267326,
+      "remove_g": 2.201742860512521,
+      "remove_mm3": 2179.94342625002,
+      "remove_percent": 11.779227207131349
+    },
+    "L2": {
+      "target_g": 14.89,
+      "target_mm3": 14742.574257425742,
+      "remove_g": 3.801742860512519,
+      "remove_mm3": 3764.1018420916043,
+      "remove_percent": 20.33915664731265
+    },
+    "L3": {
+      "target_g": 12.59,
+      "target_mm3": 12465.346534653465,
+      "remove_g": 6.10174286051252,
+      "remove_mm3": 6041.329564863881,
+      "remove_percent": 32.64405521757329
+    }
+  },
+  "beam_example": [
+    {
+      "thickness_mm": 1.5,
+      "I_mm4": 0.84375,
+      "stress_MPa": 12.0,
+      "deflection_mm": 0.2541176470588235,
+      "mass_ratio": 0.8333333333333333,
+      "EI_ratio": 0.5787037037037035
+    },
+    {
+      "thickness_mm": 1.6,
+      "I_mm4": 1.0240000000000002,
+      "stress_MPa": 10.546874999999998,
+      "deflection_mm": 0.20938648897058817,
+      "mass_ratio": 0.888888888888889,
+      "EI_ratio": 0.702331961591221
+    },
+    {
+      "thickness_mm": 1.7,
+      "I_mm4": 1.2282499999999998,
+      "stress_MPa": 9.342560553633218,
+      "deflection_mm": 0.17456687539660687,
+      "mass_ratio": 0.9444444444444444,
+      "EI_ratio": 0.8424211248285322
+    },
+    {
+      "thickness_mm": 1.8,
+      "I_mm4": 1.4580000000000002,
+      "stress_MPa": 8.333333333333332,
+      "deflection_mm": 0.14705882352941174,
+      "mass_ratio": 1.0,
+      "EI_ratio": 1.0
+    },
+    {
+      "thickness_mm": 2.0,
+      "I_mm4": 2.0,
+      "stress_MPa": 6.75,
+      "deflection_mm": 0.10720588235294118,
+      "mass_ratio": 1.1111111111111112,
+      "EI_ratio": 1.3717421124828535
+    }
+  ],
+  "skeleton_gross": {
+    "bars": [
+      {
+        "length_mm": 41.17242280944856,
+        "diameter_mm": 2.6
+      },
+      {
+        "length_mm": 41.17242280944856,
+        "diameter_mm": 2.6
+      },
+      {
+        "length_mm": 29.89841467369131,
+        "diameter_mm": 2.6
+      },
+      {
+        "length_mm": 29.89841467369131,
+        "diameter_mm": 2.6
+      },
+      {
+        "length_mm": 54.0903,
+        "diameter_mm": 2.4
+      },
+      {
+        "length_mm": 51.9717,
+        "diameter_mm": 2.4
+      },
+      {
+        "length_mm": 58.3053,
+        "diameter_mm": 2.6
+      }
+    ],
+    "volume_mm3": 1544.0446213763898,
+    "PA12_g": 1.5594850675901537,
+    "limitation": "Gross ideal cylinders; junction and skin overlap NOT removed. Not net removable material."
+  },
+  "planar_proxy": {
+    "holes": [
+      {
+        "name": "ROOT_TRI_L",
+        "xy": [
+          [
+            -4.5360000000000005,
+            42.984
+          ],
+          [
+            -24.516000000000002,
+            42.984
+          ],
+          [
+            -4.5360000000000005,
+            58.104
+          ]
+        ],
+        "sharp_area_mm2": 151.04879999999997,
+        "rounded_R085_area_mm2": 148.9908473702417,
+        "note": "2D rounded contour before 3D contact-band masks; not final shell opening volume"
+      },
+      {
+        "name": "ROOT_TRI_R",
+        "xy": [
+          [
+            4.5360000000000005,
+            42.984
+          ],
+          [
+            24.516000000000002,
+            42.984
+          ],
+          [
+            4.5360000000000005,
+            58.104
+          ]
+        ],
+        "sharp_area_mm2": 151.04879999999997,
+        "rounded_R085_area_mm2": 148.9908473702416,
+        "note": "2D rounded contour before 3D contact-band masks; not final shell opening volume"
+      },
+      {
+        "name": "SHOULDER_TRI_L",
+        "xy": [
+          [
+            -27.864000000000004,
+            45.36
+          ],
+          [
+            -7.344,
+            60.696000000000005
+          ],
+          [
+            -28.512,
+            65.664
+          ]
+        ],
+        "sharp_area_mm2": 213.28790400000003,
+        "rounded_R085_area_mm2": 211.67874454271853,
+        "note": "2D rounded contour before 3D contact-band masks; not final shell opening volume"
+      },
+      {
+        "name": "SHOULDER_TRI_R",
+        "xy": [
+          [
+            27.864000000000004,
+            45.36
+          ],
+          [
+            7.344,
+            60.696000000000005
+          ],
+          [
+            28.512,
+            65.664
+          ]
+        ],
+        "sharp_area_mm2": 213.28790400000003,
+        "rounded_R085_area_mm2": 211.6787445427186,
+        "note": "2D rounded contour before 3D contact-band masks; not final shell opening volume"
+      },
+      {
+        "name": "REAR_TRAP_L",
+        "xy": [
+          [
+            -3.3480000000000003,
+            63.93600000000001
+          ],
+          [
+            -27.756,
+            70.74000000000001
+          ],
+          [
+            -20.304000000000002,
+            80.568
+          ],
+          [
+            -3.3480000000000003,
+            80.568
+          ]
+        ],
+        "sharp_area_mm2": 286.2987119999998,
+        "rounded_R085_area_mm2": 285.4722580702193,
+        "note": "2D rounded contour before 3D contact-band masks; not final shell opening volume"
+      },
+      {
+        "name": "REAR_TRAP_R",
+        "xy": [
+          [
+            3.3480000000000003,
+            63.93600000000001
+          ],
+          [
+            27.756,
+            70.74000000000001
+          ],
+          [
+            20.304000000000002,
+            80.568
+          ],
+          [
+            3.3480000000000003,
+            80.568
+          ]
+        ],
+        "sharp_area_mm2": 286.2987119999998,
+        "rounded_R085_area_mm2": 285.4722580702195,
+        "note": "2D rounded contour before 3D contact-band masks; not final shell opening volume"
+      }
+    ],
+    "sharp_union_mm2": 1301.2708319999997,
+    "R085_union_mm2": 1292.283699966359,
+    "claimed_hole_union_mm2": 1301.27,
+    "claimed_panel_mass_recomputed_g": 2.25564714,
+    "historical_fem_status": "NOT_REPRODUCIBLE_AS_SPECIFIED: exact boundary nodes, panel origin, load distribution, discretisation and P1 equal-area algorithm were not supplied. Reconstruct transparently; do not claim matching old stress/stiffness."
+  },
+  "elapsed_s": 17.596876621246338,
+  "limits": [
+    "No measured PA12 process or PLA batch properties.",
+    "No actual A1 Pro board or optical dimensions.",
+    "Volume and closed mesh do not establish strength, fatigue or physical fit."
+  ]
+}

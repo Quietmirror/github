@@ -1,0 +1,32 @@
+{
+  "adopted_spec": "cad/l2_revision/MASTER_SPEC.md",
+  "user_adoption": "2026-10-17: 新的",
+  "baseline_remote_commit": "f1b1090931d717117287ea2b79c2e14ddc234937",
+  "local_head": "f1b1090931d717117287ea2b79c2e14ddc234937",
+  "branch": "codex/l2-balanced",
+  "original_local_head": "07fcd46dc8b719804473313ddc0c5f36acd422a9",
+  "original_branch": "rebuild/fenrir-minise-r1",
+  "working_files_preserved": true,
+  "git_operation": "Fetch target repository; create new branch at R3.2; switch symbolic HEAD and reset INDEX ONLY. No checkout/reset --hard. Original index/README/status saved in sibling _support/work/l2_preflight.",
+  "remote_main_updated": false,
+  "upstream_remote_preserved": true,
+  "quietmirror_remote": "https://github.com/Quietmirror/github.git",
+  "preexisting_differences": "R2/R3 report/source CRLF differences and older V0.9 differences remain unstaged; do not stage unrelated historical files.",
+  "printer": {
+    "status": "UNCONFIRMED",
+    "assumed_bed_mm": [
+      250,
+      210
+    ],
+    "nozzle_mm": 0.4,
+    "layer_mm": 0.2
+  },
+  "solver_failure": {
+    "mesh_mm": 1.3,
+    "tool": "FreeCAD bundled CalculiX 2.22",
+    "attempts": 2,
+    "exit_code": 3221225477,
+    "actual_error": "Access violation; only version header logged. No converged solve on this mesh.",
+    "system_changes": "None; no system crash or hardware diagnosis performed."
+  }
+}

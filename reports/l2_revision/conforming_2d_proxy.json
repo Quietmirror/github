@@ -1,0 +1,192 @@
+{
+  "status": "NEW_PROXY_NOT_REPRODUCTION_OF_UNSPECIFIED_HISTORICAL_MODEL",
+  "coordinates": "X[-31,31], Y[42,83], units mm,N,MPa; front=smaller Y",
+  "method": "Same CST formulation/loads; independent conforming Gmsh triangle mesh; contours simplified by at most .002 mm. Mesh and GEO retained. Not a reproduction of historical inputs.",
+  "limit": "In-plane proxy only; does not test shell bending, whole mouse, contacts, fatigue or actual grips.",
+  "candidates": {
+    "P0_R085": [
+      {
+        "target_h_mm": 0.75,
+        "nodes": 11135,
+        "CST_elements": 21148,
+        "meshed_area_mm2": 1249.85604224397,
+        "analytic_area_mm2": 1249.7152365851275,
+        "area_discretisation_error": 0.00011267019455352134,
+        "results": [
+          {
+            "case": "rear",
+            "stiffness_N_mm": 516.5081710915069,
+            "mean_loaded_displacement_mm": 0.001936077793090393,
+            "max_vm_MPa": 0.4270060408763642,
+            "area_weighted_P99_MPa": 0.1121142298149248,
+            "free_residual_norm": 1.0202203160755638e-13,
+            "constrained_nodes": 84,
+            "loaded_nodes": 84
+          },
+          {
+            "case": "side",
+            "stiffness_N_mm": 277.6177834928676,
+            "mean_loaded_displacement_mm": 0.0036020747209290047,
+            "max_vm_MPa": 0.5293717221027958,
+            "area_weighted_P99_MPa": 0.1587343492557488,
+            "free_residual_norm": 2.956773769416449e-13,
+            "constrained_nodes": 56,
+            "loaded_nodes": 56
+          }
+        ]
+      },
+      {
+        "target_h_mm": 0.5,
+        "nodes": 15282,
+        "CST_elements": 29073,
+        "meshed_area_mm2": 1249.85604224397,
+        "analytic_area_mm2": 1249.7152365851275,
+        "area_discretisation_error": 0.00011267019455352134,
+        "results": [
+          {
+            "case": "rear",
+            "stiffness_N_mm": 508.2905664869797,
+            "mean_loaded_displacement_mm": 0.001967378633271597,
+            "max_vm_MPa": 0.4257985047250378,
+            "area_weighted_P99_MPa": 0.11755939721152553,
+            "free_residual_norm": 1.654604638978959e-13,
+            "constrained_nodes": 125,
+            "loaded_nodes": 125
+          },
+          {
+            "case": "side",
+            "stiffness_N_mm": 273.5155767623588,
+            "mean_loaded_displacement_mm": 0.003656098902435965,
+            "max_vm_MPa": 0.5336091599426181,
+            "area_weighted_P99_MPa": 0.16684018895978533,
+            "free_residual_norm": 3.6547216319519834e-13,
+            "constrained_nodes": 83,
+            "loaded_nodes": 83
+          }
+        ]
+      },
+      {
+        "target_h_mm": 0.35,
+        "nodes": 24635,
+        "CST_elements": 47306,
+        "meshed_area_mm2": 1249.85604224397,
+        "analytic_area_mm2": 1249.7152365851275,
+        "area_discretisation_error": 0.00011267019455352134,
+        "results": [
+          {
+            "case": "rear",
+            "stiffness_N_mm": 504.1963789269894,
+            "mean_loaded_displacement_mm": 0.0019833541885567684,
+            "max_vm_MPa": 0.4300544471304152,
+            "area_weighted_P99_MPa": 0.11794856900641348,
+            "free_residual_norm": 2.411821095792541e-13,
+            "constrained_nodes": 179,
+            "loaded_nodes": 179
+          },
+          {
+            "case": "side",
+            "stiffness_N_mm": 271.56632998953006,
+            "mean_loaded_displacement_mm": 0.0036823416218002944,
+            "max_vm_MPa": 0.5324648927623232,
+            "area_weighted_P99_MPa": 0.1682422458283984,
+            "free_residual_norm": 4.924403530387635e-13,
+            "constrained_nodes": 119,
+            "loaded_nodes": 119
+          }
+        ]
+      }
+    ],
+    "P1_R130_EQUAL_AREA": [
+      {
+        "target_h_mm": 0.75,
+        "nodes": 13287,
+        "CST_elements": 25411,
+        "meshed_area_mm2": 1249.9199730993419,
+        "analytic_area_mm2": 1249.7152365850698,
+        "area_discretisation_error": 0.00016382653286006743,
+        "results": [
+          {
+            "case": "rear",
+            "stiffness_N_mm": 530.1825019754386,
+            "mean_loaded_displacement_mm": 0.0018861429720408353,
+            "max_vm_MPa": 0.34698292168547146,
+            "area_weighted_P99_MPa": 0.11228776073883862,
+            "free_residual_norm": 1.166825693705082e-13,
+            "constrained_nodes": 84,
+            "loaded_nodes": 84
+          },
+          {
+            "case": "side",
+            "stiffness_N_mm": 288.4359345478191,
+            "mean_loaded_displacement_mm": 0.003466974396126126,
+            "max_vm_MPa": 0.42068976541467246,
+            "area_weighted_P99_MPa": 0.15509669856629346,
+            "free_residual_norm": 3.126514163999574e-13,
+            "constrained_nodes": 56,
+            "loaded_nodes": 56
+          }
+        ]
+      },
+      {
+        "target_h_mm": 0.5,
+        "nodes": 18923,
+        "CST_elements": 36339,
+        "meshed_area_mm2": 1249.9199730993419,
+        "analytic_area_mm2": 1249.7152365850698,
+        "area_discretisation_error": 0.00016382653286006743,
+        "results": [
+          {
+            "case": "rear",
+            "stiffness_N_mm": 522.1212544434485,
+            "mean_loaded_displacement_mm": 0.0019152639190410724,
+            "max_vm_MPa": 0.35122084462720665,
+            "area_weighted_P99_MPa": 0.11536832288601821,
+            "free_residual_norm": 1.737864296230943e-13,
+            "constrained_nodes": 125,
+            "loaded_nodes": 125
+          },
+          {
+            "case": "side",
+            "stiffness_N_mm": 284.393811587854,
+            "mean_loaded_displacement_mm": 0.0035162509142400355,
+            "max_vm_MPa": 0.4296349973457658,
+            "area_weighted_P99_MPa": 0.1628482079576169,
+            "free_residual_norm": 4.1323915323937305e-13,
+            "constrained_nodes": 83,
+            "loaded_nodes": 83
+          }
+        ]
+      },
+      {
+        "target_h_mm": 0.35,
+        "nodes": 28787,
+        "CST_elements": 55614,
+        "meshed_area_mm2": 1249.9199730993419,
+        "analytic_area_mm2": 1249.7152365850698,
+        "area_discretisation_error": 0.00016382653286006743,
+        "results": [
+          {
+            "case": "rear",
+            "stiffness_N_mm": 518.5862552481447,
+            "mean_loaded_displacement_mm": 0.0019283195223164908,
+            "max_vm_MPa": 0.3562058586643022,
+            "area_weighted_P99_MPa": 0.11470096902000187,
+            "free_residual_norm": 2.3419292523167823e-13,
+            "constrained_nodes": 179,
+            "loaded_nodes": 179
+          },
+          {
+            "case": "side",
+            "stiffness_N_mm": 282.6089911799657,
+            "mean_loaded_displacement_mm": 0.0035384578382476124,
+            "max_vm_MPa": 0.4335632664602586,
+            "area_weighted_P99_MPa": 0.16409343187185138,
+            "free_residual_norm": 5.390685513602017e-13,
+            "constrained_nodes": 119,
+            "loaded_nodes": 119
+          }
+        ]
+      }
+    ]
+  }
+}

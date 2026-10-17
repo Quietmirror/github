@@ -1,0 +1,44 @@
+{
+  "variant": "R32",
+  "priority": "A skin intersection first, B source structural members from remaining material, C residual fixed mounts. Intersections belong to earlier category.",
+  "parts": [
+    {
+      "category": "A_BODY_SKIN",
+      "mm3": 6532.022919274214,
+      "PA12_g": 6.597343148466956,
+      "PLA_solid_g": 8.099708419900026,
+      "adaptive_integration_error": 7.577790539758517e-07
+    },
+    {
+      "category": "B_BODY_SKELETON",
+      "mm3": 1875.7179905098344,
+      "PA12_g": 1.8944751704149327,
+      "PLA_solid_g": 2.3258903082321947,
+      "adaptive_integration_error": 8.905341675359077e-08
+    },
+    {
+      "category": "C_BODY_MOUNTS",
+      "mm3": 4393.980959595274,
+      "PA12_g": 4.437920769191226,
+      "PLA_solid_g": 5.448536389898139,
+      "adaptive_integration_error": 1.7564133297980578e-07
+    },
+    {
+      "category": "C_SEPARATE_MOUNTS",
+      "mm3": 975.6619932995445,
+      "PA12_g": 0.98541861323254,
+      "PLA_solid_g": 1.2098208716914352
+    },
+    {
+      "category": "D_MOVING_OTHER",
+      "mm3": 4729.28604242605,
+      "PA12_g": 4.776578902850311,
+      "PLA_solid_g": 5.864314692608302
+    }
+  ],
+  "BODY_mm3": 12801.728063791752,
+  "BODY_closure_error_mm3": -0.006194412429977092,
+  "tolerance_mm3": 0.25,
+  "whole_mm3": 18506.669905104915,
+  "whole_PA12_g": 18.691736604155967
+}
