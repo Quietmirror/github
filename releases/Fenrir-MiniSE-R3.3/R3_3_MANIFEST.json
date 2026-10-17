@@ -1,0 +1,406 @@
+{
+  "version": "r3_3",
+  "display_version": "R3.3",
+  "source_commit": "4bce8639f48f880ffa490caaed50b67829bd5343",
+  "geometry_changed": false,
+  "internal_variant_ids": [
+    "F1H",
+    "L2_H_EST",
+    "L2_D_EST",
+    "L2_BOTH_EST"
+  ],
+  "full_spec_acceptance": false,
+  "real_electronics_fit": false,
+  "printable_part_counts": {
+    "common": 9,
+    "H_EST": 11,
+    "D_EST": 11
+  },
+  "aliases": [
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/FENRIR_MINISE_R3_3.FCStd",
+      "source": "releases/Quietmirror-L2-Research/FULL_ASSEMBLY_COMMON.FCStd",
+      "bytes": 5351974,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/FENRIR_MINISE_R3_3_PLA_PRINT_PLATE.3mf",
+      "source": "releases/Quietmirror-L2-Research/COMMON_ALL_PARTS_SINGLE_PLATE.3mf",
+      "bytes": 2653947,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/R3_3_PRINT_STL.zip",
+      "source": "releases/Quietmirror-L2-Research/COMMON_ALL_PARTS_STL.zip",
+      "bytes": 4060040,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/R3_3_STEP.zip",
+      "source": "releases/Quietmirror-L2-Research/COMMON_INDIVIDUAL_STEP.zip",
+      "bytes": 7770926,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/R3_3_FULL_ASSEMBLY_STEP.zip",
+      "source": "releases/Quietmirror-L2-Research/FULL_ASSEMBLY_COMMON_STEP.zip",
+      "bytes": 7629191,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/R3_3_CAD_VIEWS.zip",
+      "source": "releases/Quietmirror-L2-Research/COMMON_ALL_CAD_VIEWS.zip",
+      "bytes": 6513884,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/FENRIR_MINISE_R3_3_H_EST.FCStd",
+      "source": "releases/Quietmirror-L2-Research/FULL_ASSEMBLY_H.FCStd",
+      "bytes": 5457276,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/FENRIR_MINISE_R3_3_H_EST_PLA_PRINT_PLATE.3mf",
+      "source": "releases/Quietmirror-L2-Research/H_ALL_PARTS_SINGLE_PLATE.3mf",
+      "bytes": 2661192,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/R3_3_H_EST_PRINT_STL.zip",
+      "source": "releases/Quietmirror-L2-Research/H_ALL_PARTS_STL.zip",
+      "bytes": 4069057,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/R3_3_H_EST_STEP.zip",
+      "source": "releases/Quietmirror-L2-Research/H_INDIVIDUAL_STEP.zip",
+      "bytes": 8100417,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/R3_3_H_EST_FULL_ASSEMBLY_STEP.zip",
+      "source": "releases/Quietmirror-L2-Research/FULL_ASSEMBLY_H_STEP.zip",
+      "bytes": 7943069,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/R3_3_H_EST_CAD_VIEWS.zip",
+      "source": "releases/Quietmirror-L2-Research/H_ALL_CAD_VIEWS.zip",
+      "bytes": 7174081,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/FENRIR_MINISE_R3_3_D_EST.FCStd",
+      "source": "releases/Quietmirror-L2-Research/FULL_ASSEMBLY_D.FCStd",
+      "bytes": 5377415,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/FENRIR_MINISE_R3_3_D_EST_PLA_PRINT_PLATE.3mf",
+      "source": "releases/Quietmirror-L2-Research/D_ALL_PARTS_SINGLE_PLATE.3mf",
+      "bytes": 2659486,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/R3_3_D_EST_PRINT_STL.zip",
+      "source": "releases/Quietmirror-L2-Research/D_ALL_PARTS_STL.zip",
+      "bytes": 4064570,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/R3_3_D_EST_STEP.zip",
+      "source": "releases/Quietmirror-L2-Research/D_INDIVIDUAL_STEP.zip",
+      "bytes": 7904944,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/R3_3_D_EST_FULL_ASSEMBLY_STEP.zip",
+      "source": "releases/Quietmirror-L2-Research/FULL_ASSEMBLY_D_STEP.zip",
+      "bytes": 7746063,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/R3_3_D_EST_CAD_VIEWS.zip",
+      "source": "releases/Quietmirror-L2-Research/D_ALL_CAD_VIEWS.zip",
+      "bytes": 7114961,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/R3_3_BOTH_ADAPTER_KITS_SINGLE_PLATE.3mf",
+      "source": "releases/Quietmirror-L2-Research/BOTH_ADAPTER_KITS_SINGLE_PLATE.3mf",
+      "bytes": 2665600,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/R3_3_VALIDATION_REPORTS.zip",
+      "source": "releases/Quietmirror-L2-Research/ALL_VALIDATION_REPORTS.zip",
+      "bytes": 1275778,
+      "byte_identical": true
+    },
+    {
+      "path": "releases/Fenrir-MiniSE-R3.3/R3_3_DESIGN_STUDIES.zip",
+      "source": "releases/Quietmirror-L2-Research/TOPOLOGY_AND_SIDE_COMPARISON_VIEWS.zip",
+      "bytes": 10592411,
+      "byte_identical": true
+    },
+    {
+      "path": "views/rebuild_r3_3/R3_3_FOUR_VIEWS.png",
+      "source": "views/l2_revision/F1H/FOUR_VIEWS.png",
+      "bytes": 799722,
+      "byte_identical": true
+    },
+    {
+      "path": "views/rebuild_r3_3/R3_3_SIDE_DETAIL.png",
+      "source": "views/l2_revision/F1H/side_detail.png",
+      "bytes": 303903,
+      "byte_identical": true
+    },
+    {
+      "path": "views/rebuild_r3_3/R3_3_PRINT_PLATE.png",
+      "source": "views/l2_revision/F1H/PRINT_PLATE.png",
+      "bytes": 78475,
+      "byte_identical": true
+    },
+    {
+      "path": "views/rebuild_r3_3/R3_3_H_EST_FOUR_VIEWS.png",
+      "source": "views/l2_revision/L2_H_EST/FOUR_VIEWS.png",
+      "bytes": 795624,
+      "byte_identical": true
+    },
+    {
+      "path": "views/rebuild_r3_3/R3_3_D_EST_FOUR_VIEWS.png",
+      "source": "views/l2_revision/L2_D_EST/FOUR_VIEWS.png",
+      "bytes": 781474,
+      "byte_identical": true
+    },
+    {
+      "path": "views/rebuild_r3_3/R3_3_MASS_PARTITIONS.png",
+      "source": "views/l2_revision/studies/A_B_C_D_EXPLAINED.png",
+      "bytes": 907648,
+      "byte_identical": true
+    },
+    {
+      "path": "views/rebuild_r3_3/R3_2_VS_R3_3.png",
+      "source": "views/l2_revision/studies/R32_F1H_COMPARISON.png",
+      "bytes": 1339498,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/print/BODY.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/COMMON_ALL_PARTS_STL.zip",
+      "member": "BODY.stl",
+      "bytes": 7726784,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/print/LEFT_KEY.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/COMMON_ALL_PARTS_STL.zip",
+      "member": "LEFT_KEY.stl",
+      "bytes": 222284,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/print/RIGHT_KEY.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/COMMON_ALL_PARTS_STL.zip",
+      "member": "RIGHT_KEY.stl",
+      "bytes": 278284,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/print/SIDE_FRONT_KEY.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/COMMON_ALL_PARTS_STL.zip",
+      "member": "SIDE_FRONT_KEY.stl",
+      "bytes": 534984,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/print/SIDE_FRONT_KEY_SWITCH_CLAMP.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/COMMON_ALL_PARTS_STL.zip",
+      "member": "SIDE_FRONT_KEY_SWITCH_CLAMP.stl",
+      "bytes": 43084,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/print/SIDE_REAR_KEY.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/COMMON_ALL_PARTS_STL.zip",
+      "member": "SIDE_REAR_KEY.stl",
+      "bytes": 565284,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/print/SIDE_REAR_KEY_SWITCH_CLAMP.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/COMMON_ALL_PARTS_STL.zip",
+      "member": "SIDE_REAR_KEY_SWITCH_CLAMP.stl",
+      "bytes": 43084,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/print/WHEEL.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/COMMON_ALL_PARTS_STL.zip",
+      "member": "WHEEL.stl",
+      "bytes": 43084,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/print/WHEEL_CARRIER.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/COMMON_ALL_PARTS_STL.zip",
+      "member": "WHEEL_CARRIER.stl",
+      "bytes": 541484,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/h/print/BODY.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/H_ALL_PARTS_STL.zip",
+      "member": "BODY.stl",
+      "bytes": 7726784,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/h/print/LEFT_KEY.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/H_ALL_PARTS_STL.zip",
+      "member": "LEFT_KEY.stl",
+      "bytes": 222284,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/h/print/RIGHT_KEY.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/H_ALL_PARTS_STL.zip",
+      "member": "RIGHT_KEY.stl",
+      "bytes": 278284,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/h/print/SIDE_FRONT_KEY.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/H_ALL_PARTS_STL.zip",
+      "member": "SIDE_FRONT_KEY.stl",
+      "bytes": 534984,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/h/print/SIDE_FRONT_KEY_SWITCH_CLAMP.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/H_ALL_PARTS_STL.zip",
+      "member": "SIDE_FRONT_KEY_SWITCH_CLAMP.stl",
+      "bytes": 43084,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/h/print/SIDE_REAR_KEY.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/H_ALL_PARTS_STL.zip",
+      "member": "SIDE_REAR_KEY.stl",
+      "bytes": 565284,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/h/print/SIDE_REAR_KEY_SWITCH_CLAMP.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/H_ALL_PARTS_STL.zip",
+      "member": "SIDE_REAR_KEY_SWITCH_CLAMP.stl",
+      "bytes": 43084,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/h/print/WHEEL.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/H_ALL_PARTS_STL.zip",
+      "member": "WHEEL.stl",
+      "bytes": 43084,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/h/print/WHEEL_CARRIER.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/H_ALL_PARTS_STL.zip",
+      "member": "WHEEL_CARRIER.stl",
+      "bytes": 541484,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/h/print/H_REMOVABLE_CARRIER_EST.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/H_ALL_PARTS_STL.zip",
+      "member": "H_REMOVABLE_CARRIER_EST.stl",
+      "bytes": 37784,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/h/print/H_SENSOR_SEAT_EST.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/H_ALL_PARTS_STL.zip",
+      "member": "H_SENSOR_SEAT_EST.stl",
+      "bytes": 2884,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/d/print/BODY.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/D_ALL_PARTS_STL.zip",
+      "member": "BODY.stl",
+      "bytes": 7726784,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/d/print/LEFT_KEY.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/D_ALL_PARTS_STL.zip",
+      "member": "LEFT_KEY.stl",
+      "bytes": 222284,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/d/print/RIGHT_KEY.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/D_ALL_PARTS_STL.zip",
+      "member": "RIGHT_KEY.stl",
+      "bytes": 278284,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/d/print/SIDE_FRONT_KEY.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/D_ALL_PARTS_STL.zip",
+      "member": "SIDE_FRONT_KEY.stl",
+      "bytes": 534984,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/d/print/SIDE_FRONT_KEY_SWITCH_CLAMP.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/D_ALL_PARTS_STL.zip",
+      "member": "SIDE_FRONT_KEY_SWITCH_CLAMP.stl",
+      "bytes": 43084,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/d/print/SIDE_REAR_KEY.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/D_ALL_PARTS_STL.zip",
+      "member": "SIDE_REAR_KEY.stl",
+      "bytes": 565284,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/d/print/SIDE_REAR_KEY_SWITCH_CLAMP.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/D_ALL_PARTS_STL.zip",
+      "member": "SIDE_REAR_KEY_SWITCH_CLAMP.stl",
+      "bytes": 43084,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/d/print/WHEEL.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/D_ALL_PARTS_STL.zip",
+      "member": "WHEEL.stl",
+      "bytes": 43084,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/d/print/WHEEL_CARRIER.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/D_ALL_PARTS_STL.zip",
+      "member": "WHEEL_CARRIER.stl",
+      "bytes": 541484,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/d/print/D_REMOVABLE_CARRIER_EST.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/D_ALL_PARTS_STL.zip",
+      "member": "D_REMOVABLE_CARRIER_EST.stl",
+      "bytes": 20884,
+      "byte_identical": true
+    },
+    {
+      "path": "exports/rebuild_r3_3/d/print/D_SENSOR_SEAT_EST.stl",
+      "source_archive": "releases/Quietmirror-L2-Research/D_ALL_PARTS_STL.zip",
+      "member": "D_SENSOR_SEAT_EST.stl",
+      "bytes": 2884,
+      "byte_identical": true
+    }
+  ]
+}

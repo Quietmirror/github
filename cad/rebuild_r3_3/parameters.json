@@ -1,0 +1,11 @@
+{
+  "version": "r3_3",
+  "display_version": "R3.3",
+  "source_commit": "4bce8639f48f880ffa490caaed50b67829bd5343",
+  "geometry_changed": false,
+  "common_geometry": "F1H",
+  "h_geometry": "L2_H_EST",
+  "d_geometry": "L2_D_EST",
+  "shared_parameter_source": "cad/l2_revision/README.md",
+  "full_spec_acceptance": false
+}

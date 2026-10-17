@@ -15,4 +15,4 @@ H为需定制紧凑板的示意：97实体静态及有限运动无未允许干�
 
 ![实际四视图](views/l2_revision/F1H/FOUR_VIEWS.png)
 
-原R3.2及此前版本继续保留；本轮只发布到codex/l2-balanced研究分支。
+原研究成果现以 [R3.3 / r3_3](releases/Fenrir-MiniSE-R3.3/README.md) 发布到 main；R3.2及此前版本、原始研究分支继续保留。

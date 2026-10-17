@@ -1,0 +1,13 @@
+{
+  "version": "r3_3",
+  "package_validation_passed": true,
+  "geometry_changed": false,
+  "byte_identical_aliases": 59,
+  "printable_part_counts": {
+    "common": 9,
+    "H_EST": 11,
+    "D_EST": 11
+  },
+  "archive_integrity_checked": true,
+  "scope": "Packaging integrity only. Inherit engineering results and all blockers from L2."
+}
