@@ -1,0 +1,2590 @@
+{
+  "stages": [
+    {
+      "label": "SWITCH_SIDE_REAR",
+      "parts": [
+        "SWITCH_SIDE_REAR"
+      ],
+      "fixed": [
+        "BODY"
+      ],
+      "waypoints": [
+        [
+          -3.6286981084620926,
+          -77.0,
+          3.6999999999999993
+        ],
+        [
+          -3.6286981084620926,
+          -18.5,
+          3.6999999999999993
+        ],
+        [
+          -3.6286981084620926,
+          -18.5,
+          1.6999999999999993
+        ],
+        [
+          -3.6286981084620926,
+          0,
+          1.6999999999999993
+        ],
+        [
+          0,
+          0,
+          1.6999999999999993
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 155,
+      "conflicts": [
+        {
+          "state": [
+            -3.6286981084620926,
+            -18.5,
+            3.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 0.7105800641753185
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -18.5,
+            3.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 0.7105800641753185
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -18.5,
+            3.633333333333333
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 0.295703381799029
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -18.5,
+            3.566666666666666
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 0.025493113371097054
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -18.5,
+            1.8333333333333326
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 0.49479020078456
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -18.5,
+            1.766666666666666
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 0.9895832327975511
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -18.5,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 1.484376264810539
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -18.5,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 1.484376264810539
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -17.883333333333333,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 1.657042672713444
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -17.266666666666666,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 1.8297090806163425
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -16.650000000000002,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 1.957746972988645
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -16.033333333333335,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 1.9605643577526457
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -15.416666666666668,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 1.9605643577526464
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -14.8,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.0167534093552972
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -14.183333333333332,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.1894198172581993
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -13.566666666666668,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.362086225161099
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -12.95,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.464752524345502
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -12.333333333333334,
+            1.6999999999999995
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.4087534118968255
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -11.716666666666667,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.4087532942772163
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -11.1,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.4087531766576076
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -10.483333333333333,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.52523038709495
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -9.866666666666667,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.6645439256562344
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -9.25,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.7552580095407087
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -8.633333333333333,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.7337693781873544
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -8.016666666666667,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.727433550031646
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -7.4,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.72743343241204
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -6.783333333333334,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.727433314792433
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -6.166666666666667,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.727433197172817
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -5.550000000000001,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.7274330795532187
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -4.9333333333333345,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.7274329619336064
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -4.316666666666668,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.7561346147827095
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -3.6999999999999993,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.9188553563107043
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -3.0833333333333326,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 3.02783600906707
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -2.466666666666666,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 3.0832252663087734
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -1.8499999999999996,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 3.0461132697493647
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -1.233333333333333,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 3.0461131521297555
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            -0.6166666666666665,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 3.046113034510151
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 3.1021109485103886
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.6286981084620926,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 3.1021109485103886
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.5077415048466896,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 3.008987574124237
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.3867849012312865,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.9133677903997706
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.2658282976158834,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.8167242517731217
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.1448716940004804,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.720482615204195
+            }
+          ]
+        },
+        {
+          "state": [
+            -3.0239150903850773,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.626086903474069
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.9029584867696743,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.535069514061829
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.7820018831542708,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.479050597409474
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.661045279538868,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.4550608923238726
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.5400886759234647,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.4549521936838086
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.419132072308062,
+            0.0,
+            1.6999999999999995
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.478703558346855
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.2981754686926585,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.534236262850145
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.1772188650772555,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.6252170631383653
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.0562622614618524,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.719589423297779
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.9353056578464494,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.815820878511711
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.8143490542310463,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.9124673994490458
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.6933924506156433,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.7437192485469546
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.5724358470002402,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.5369010515959127
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.4514792433848371,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.326003949126749
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.330522639769434,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 2.1091971628408404
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.209566036154031,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 1.8842137746736125
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.088609432538628,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 1.6478944977198746
+            }
+          ]
+        },
+        {
+          "state": [
+            -0.9676528289232249,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 1.3947273928340234
+            }
+          ]
+        },
+        {
+          "state": [
+            -0.8466962253078218,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 1.1078052673519605
+            }
+          ]
+        },
+        {
+          "state": [
+            -0.7257396216924183,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 0.8078335179070919
+            }
+          ]
+        },
+        {
+          "state": [
+            -0.6047830180770153,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 0.5078617684622233
+            }
+          ]
+        },
+        {
+          "state": [
+            -0.48382641446161223,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_REAR",
+              "fixed": "BODY",
+              "overlap_mm3": 0.20789001901735565
+            }
+          ]
+        }
+      ],
+      "pass_check": false
+    },
+    {
+      "label": "SIDE_REAR_KEY_SWITCH_CLAMP",
+      "parts": [
+        "SIDE_REAR_KEY_SWITCH_CLAMP"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR"
+      ],
+      "waypoints": [
+        [
+          0,
+          -82.0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SWITCH_SIDE_FRONT",
+      "parts": [
+        "SWITCH_SIDE_FRONT"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP"
+      ],
+      "waypoints": [
+        [
+          -2.4741653819424414,
+          -64.0,
+          3.6999999999999993
+        ],
+        [
+          -2.4741653819424414,
+          -5.5,
+          3.6999999999999993
+        ],
+        [
+          -2.4741653819424414,
+          -5.5,
+          1.6999999999999993
+        ],
+        [
+          -2.4741653819424414,
+          0,
+          1.6999999999999993
+        ],
+        [
+          0,
+          0,
+          1.6999999999999993
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 155,
+      "conflicts": [
+        {
+          "state": [
+            -2.4741653819424414,
+            -5.5,
+            3.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 0.7105800641753179
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -5.5,
+            3.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 0.7105800641753179
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -5.5,
+            3.633333333333333
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 0.29570338179902855
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -5.5,
+            3.566666666666666
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 0.025493113371096263
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -5.5,
+            1.8333333333333326
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 0.4947902520126011
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -5.5,
+            1.766666666666666
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 0.9895833352539233
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -5.5,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.484376418495242
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -5.5,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.484376418495242
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -5.316666666666666,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.535709674898808
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -5.133333333333334,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.5870429313023775
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -4.95,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.6383761877059357
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -4.766666666666667,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.6897094441095022
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -4.583333333333334,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.7410427005130682
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -4.4,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.7923759569166349
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -4.216666666666667,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.8437092133202002
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -4.033333333333333,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.895042469723767
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -3.8499999999999996,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.9422288272093295
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -3.666666666666667,
+            1.6999999999999995
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.9571650546977437
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -3.4833333333333334,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.9605370399171138
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -3.3,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.9605645413266635
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -3.1166666666666667,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.9605645413266635
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -2.933333333333333,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.960564541326664
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -2.75,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.9605645413266641
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -2.566666666666667,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.9605645413266641
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -2.3833333333333333,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.9605645413266632
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -2.2,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.962004078406408
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -2.0166666666666666,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.9707909175717169
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -1.8333333333333335,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.007420303473718
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -1.6500000000000004,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.0587535598772835
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -1.466666666666667,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.1100868162808473
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -1.2833333333333337,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.1614200726844146
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -1.0999999999999996,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.2127533290879797
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -0.9166666666666665,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.2640865854915457
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -0.7333333333333332,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.3154198418951095
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -0.5499999999999998,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.3667530982986773
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -0.3666666666666666,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.418086354702241
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            -0.1833333333333333,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.464752737810026
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.4647527378100285
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.4741653819424414,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.4647527378100285
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.39169320254436,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.4878536052958786
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.3092210231462786,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.52679334118431
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.2267488437481973,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.587463357371767
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.144276664350116,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.6506506614353067
+            }
+          ]
+        },
+        {
+          "state": [
+            -2.0618044849520345,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.7152152042971767
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.9793323055539531,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.780672665999553
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.8968601261558715,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.846562012179255
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.8143879467577906,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.912438868111474
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.731915767359709,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.808993571223394
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.6494435879616278,
+            0.0,
+            1.6999999999999995
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.6689390700848117
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.5669714085635462,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.527473631226289
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.4844992291654648,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.3840793329066243
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.4020270497673835,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.238195000948119
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.319554870369302,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 2.089174896418364
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.2370826909712207,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.9362561624504686
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.1546105115731393,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.7784924668123079
+            }
+          ]
+        },
+        {
+          "state": [
+            -1.072138332175058,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.6145885031814469
+            }
+          ]
+        },
+        {
+          "state": [
+            -0.9896661527769766,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.4424938076102327
+            }
+          ]
+        },
+        {
+          "state": [
+            -0.9071939733788953,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.257408509473928
+            }
+          ]
+        },
+        {
+          "state": [
+            -0.8247217939808139,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 1.0533091157007346
+            }
+          ]
+        },
+        {
+          "state": [
+            -0.7422496145827325,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 0.8487784757369556
+            }
+          ]
+        },
+        {
+          "state": [
+            -0.6597774351846512,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 0.6442478357731847
+            }
+          ]
+        },
+        {
+          "state": [
+            -0.5773052557865698,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 0.43971719580941104
+            }
+          ]
+        },
+        {
+          "state": [
+            -0.49483307638848817,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 0.2351865558456383
+            }
+          ]
+        },
+        {
+          "state": [
+            -0.4123608969904068,
+            0.0,
+            1.6999999999999993
+          ],
+          "conflicts": [
+            {
+              "moving": "SWITCH_SIDE_FRONT",
+              "fixed": "BODY",
+              "overlap_mm3": 0.0306559158818655
+            }
+          ]
+        }
+      ],
+      "pass_check": false
+    },
+    {
+      "label": "SIDE_FRONT_KEY_SWITCH_CLAMP",
+      "parts": [
+        "SIDE_FRONT_KEY_SWITCH_CLAMP"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT"
+      ],
+      "waypoints": [
+        [
+          0,
+          -69.0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SWITCH_MIDDLE",
+      "parts": [
+        "SWITCH_MIDDLE"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP"
+      ],
+      "waypoints": [
+        [
+          0,
+          -65,
+          4.0
+        ],
+        [
+          0,
+          0,
+          4.0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 62,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SWITCH_LEFT",
+      "parts": [
+        "SWITCH_LEFT"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE"
+      ],
+      "waypoints": [
+        [
+          0,
+          -9.270509831248422,
+          28.531695488854606
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SWITCH_RIGHT",
+      "parts": [
+        "SWITCH_RIGHT"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT"
+      ],
+      "waypoints": [
+        [
+          0,
+          -9.270509831248422,
+          28.531695488854606
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "WHEEL_SUBASSEMBLY",
+      "parts": [
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "ENCODER_ADAPTER_PCB_EST"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT"
+      ],
+      "waypoints": [
+        [
+          0,
+          -60,
+          0.4
+        ],
+        [
+          0,
+          0,
+          0.4
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 62,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "USB_SUBASSEMBLY",
+      "parts": [
+        "USB_ADAPTER_PCB_REFERENCE",
+        "USB_C_REFERENCE"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "ENCODER_ADAPTER_PCB_EST"
+      ],
+      "waypoints": [
+        [
+          0,
+          -35,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "LEFT_KEY",
+      "parts": [
+        "LEFT_KEY"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "ENCODER_ADAPTER_PCB_EST",
+        "USB_ADAPTER_PCB_REFERENCE",
+        "USB_C_REFERENCE"
+      ],
+      "waypoints": [
+        [
+          0,
+          -3,
+          30
+        ],
+        [
+          0,
+          -3,
+          5
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 62,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "RIGHT_KEY",
+      "parts": [
+        "RIGHT_KEY"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "ENCODER_ADAPTER_PCB_EST",
+        "USB_ADAPTER_PCB_REFERENCE",
+        "USB_C_REFERENCE",
+        "LEFT_KEY"
+      ],
+      "waypoints": [
+        [
+          0,
+          -3,
+          30
+        ],
+        [
+          0,
+          -3,
+          5
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 62,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SIDE_FRONT_KEY",
+      "parts": [
+        "SIDE_FRONT_KEY"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "ENCODER_ADAPTER_PCB_EST",
+        "USB_ADAPTER_PCB_REFERENCE",
+        "USB_C_REFERENCE",
+        "LEFT_KEY",
+        "RIGHT_KEY"
+      ],
+      "waypoints": [
+        [
+          20,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SIDE_FRONT_KEY_CAPTURE_PIN",
+      "parts": [
+        "SIDE_FRONT_KEY_CAPTURE_PIN"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "ENCODER_ADAPTER_PCB_EST",
+        "USB_ADAPTER_PCB_REFERENCE",
+        "USB_C_REFERENCE",
+        "LEFT_KEY",
+        "RIGHT_KEY",
+        "SIDE_FRONT_KEY"
+      ],
+      "waypoints": [
+        [
+          0,
+          0,
+          35
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SIDE_REAR_KEY",
+      "parts": [
+        "SIDE_REAR_KEY"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "ENCODER_ADAPTER_PCB_EST",
+        "USB_ADAPTER_PCB_REFERENCE",
+        "USB_C_REFERENCE",
+        "LEFT_KEY",
+        "RIGHT_KEY",
+        "SIDE_FRONT_KEY",
+        "SIDE_FRONT_KEY_CAPTURE_PIN"
+      ],
+      "waypoints": [
+        [
+          20,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 101,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "SIDE_REAR_KEY_CAPTURE_PIN",
+      "parts": [
+        "SIDE_REAR_KEY_CAPTURE_PIN"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "ENCODER_ADAPTER_PCB_EST",
+        "USB_ADAPTER_PCB_REFERENCE",
+        "USB_C_REFERENCE",
+        "LEFT_KEY",
+        "RIGHT_KEY",
+        "SIDE_FRONT_KEY",
+        "SIDE_FRONT_KEY_CAPTURE_PIN",
+        "SIDE_REAR_KEY"
+      ],
+      "waypoints": [
+        [
+          0,
+          0,
+          35
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "LEFT_KEY_STEEL_PIN",
+      "parts": [
+        "LEFT_KEY_STEEL_PIN"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "ENCODER_ADAPTER_PCB_EST",
+        "USB_ADAPTER_PCB_REFERENCE",
+        "USB_C_REFERENCE",
+        "LEFT_KEY",
+        "RIGHT_KEY",
+        "SIDE_FRONT_KEY",
+        "SIDE_FRONT_KEY_CAPTURE_PIN",
+        "SIDE_REAR_KEY",
+        "SIDE_REAR_KEY_CAPTURE_PIN"
+      ],
+      "waypoints": [
+        [
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "RIGHT_KEY_STEEL_PIN",
+      "parts": [
+        "RIGHT_KEY_STEEL_PIN"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "ENCODER_ADAPTER_PCB_EST",
+        "USB_ADAPTER_PCB_REFERENCE",
+        "USB_C_REFERENCE",
+        "LEFT_KEY",
+        "RIGHT_KEY",
+        "SIDE_FRONT_KEY",
+        "SIDE_FRONT_KEY_CAPTURE_PIN",
+        "SIDE_REAR_KEY",
+        "SIDE_REAR_KEY_CAPTURE_PIN",
+        "LEFT_KEY_STEEL_PIN"
+      ],
+      "waypoints": [
+        [
+          -50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    },
+    {
+      "label": "WHEEL_CARRIER_STEEL_PIN",
+      "parts": [
+        "WHEEL_CARRIER_STEEL_PIN"
+      ],
+      "fixed": [
+        "BODY",
+        "SWITCH_SIDE_REAR",
+        "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "SWITCH_SIDE_FRONT",
+        "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "SWITCH_MIDDLE",
+        "SWITCH_LEFT",
+        "SWITCH_RIGHT",
+        "WHEEL_CARRIER",
+        "WHEEL",
+        "ENCODER_EC10E_HOUSING",
+        "ENCODER_EC10E_ROTOR",
+        "ENCODER_ADAPTER_PCB_EST",
+        "USB_ADAPTER_PCB_REFERENCE",
+        "USB_C_REFERENCE",
+        "LEFT_KEY",
+        "RIGHT_KEY",
+        "SIDE_FRONT_KEY",
+        "SIDE_FRONT_KEY_CAPTURE_PIN",
+        "SIDE_REAR_KEY",
+        "SIDE_REAR_KEY_CAPTURE_PIN",
+        "LEFT_KEY_STEEL_PIN",
+        "RIGHT_KEY_STEEL_PIN"
+      ],
+      "waypoints": [
+        [
+          -50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poses": 31,
+      "conflicts": [],
+      "pass_check": true
+    }
+  ],
+  "pass_check": false,
+  "samples_per_segment": 31,
+  "rear_key_samples_per_segment": 101,
+  "rear_key_route": "New aligned side mechanisms: straight X insertion before capture pins. No Y-offset workaround. Finite paths only; actual tolerances unverified.",
+  "scope": "Finite ordered polyhedral insertion paths against BODY and previously placed parts. Full threaded fastener insertion and tool handles are not included; encoder PCB is inserted with the wheel group, its screws afterwards. USB PCB+connector entry is included; static hardware and driver-access geometry are checked separately. No claim of continuous swept clearance, assembly force, tool-handle access or printed tolerance.",
+  "inputs": {
+    "BODY": "15f2dc6f9e7761ed77d8edd9668141cccbda833a0ef601303790a310374398aa",
+    "LEFT_KEY": "7436059ad14fff66c03eb95dde6fdce3ad7e20c33aa7ee6f9b3997dfb3142b1f",
+    "RIGHT_KEY": "0f38bbf091f3bb53b39d376e8344ab3c412ce4fa3e4b284c6c82c3b41021bda1",
+    "SIDE_FRONT_KEY": "da7536ad2c3f2d2b606840e0229e8ca131564db5bf5042bd3b60ab1c0b33096d",
+    "SIDE_FRONT_KEY_SWITCH_CLAMP": "8b83bf0940f42f878db5f48f94bc569a4268f5a94b5f3fa60a4fffeec149cca3",
+    "SIDE_REAR_KEY": "a8e6eb5b3a3955064eb2ef8acf0bb799ace15f6e734e90087834a58f070e29cd",
+    "SIDE_REAR_KEY_SWITCH_CLAMP": "e61bdc1fc8dc0087a9753c36671938c41b7d44a950317d44a9703fc3e58c817b",
+    "WHEEL": "81de1bba93c94105a17244f609b9018ed3f2e191b71b2204ff795e7b40d0f805",
+    "WHEEL_CARRIER": "d45f94eb7110a205c9e4e5d6e7ecbed3ee979652a25db6fa2dc255347eb21354",
+    "LEFT_KEY_STEEL_PIN": "d7dbeebd7fbc8a07213a9812ef38a09ff9dbe0f43b76b8cd3c3358b20bb24810",
+    "LEFT_KEY_M2_SWITCH_1_BOLT": "80328ad1de91fa45844cf8254a4c046084d80d8d8706d46431470c999194c549",
+    "LEFT_KEY_M2_SWITCH_1_WASHER_NUT": "c98bb4c409fc738d15fb47b62497b7acd6b35362b263b416793a4a6b22f3a41b",
+    "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD": "f5299660f65a4f1cd0f1cf122d2d0317a62fe0a1bc74a417bed46e129b2fdba2",
+    "LEFT_KEY_M2_SWITCH_1_NUT": "210280cc55e37b3e555e4387236deac0d8a05a99f03c93ce3aba096b6d38b8f0",
+    "LEFT_KEY_M2_SWITCH_2_BOLT": "0a5f42b82fb89c016b511f3af0607e7b2466cee31cf27a659e21d71392a916bb",
+    "LEFT_KEY_M2_SWITCH_2_WASHER_NUT": "2a1040e5bed2ced0339fd4d357f25d3ca7d7b2e5c1aa543a8e0005523cf12989",
+    "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD": "1338154374f37286b04bbd39eca176843ace4b61e853362d4c69848c8666d1ec",
+    "LEFT_KEY_M2_SWITCH_2_NUT": "bd9b7aa31043088a9903437df7ef3764463c534b21b1a82760c37c29cca4bf20",
+    "SWITCH_LEFT": "9abd3878e3322d5622ce5354b87998cc701b44829eb6df0822fb420e2ea74d28",
+    "RIGHT_KEY_STEEL_PIN": "6cee80a8f05c4ac07c06a74c0b58e1efb597bd382d9742d44a6377fabc70240a",
+    "RIGHT_KEY_M2_SWITCH_1_BOLT": "316f3c7baea089d5d19d3cf872fe028f02e4db37a49f146e5b2614f4c59ade00",
+    "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT": "6252a7fee61c6008b5ad54a1014866ec1fcf269d54bc8c3cd78db56dad14d93c",
+    "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD": "9b23a8cf172da1c2f9e59759b401d4238812a14c9df86f89345fbde75ed90489",
+    "RIGHT_KEY_M2_SWITCH_1_NUT": "96d016edde39c473ebe985f5645d061672a25e141f1a45481b7e9d11945bf858",
+    "RIGHT_KEY_M2_SWITCH_2_BOLT": "541cb72f2381fda53c7561678f037cf4eee302d4009d05f001e9e59eac4fbc51",
+    "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT": "debc80fa73f2ac62beb8b868e8bbb8a0f97a12b13044a2af2a38d08d1dcb040a",
+    "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD": "ec3c5c327b9c2be2e725524720e37263be13e052bfd8a6e138eee6fc3a827917",
+    "RIGHT_KEY_M2_SWITCH_2_NUT": "d3fb189d192befd274caef41ce48958598d315884a6777e37786797aec860998",
+    "SWITCH_RIGHT": "158216a78dcd48b32c3a72424861b17222bbc00018d0b838fadd96405ad86d38",
+    "SIDE_FRONT_KEY_CAPTURE_PIN": "b5f3e9130bddf7389461ca22be2172ad1c8953db5c90387f2c93faff2a234f66",
+    "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT": "4136751957160e4f1286ef626c4c692211a9f402ee25261c7d54e9eeeca1c2b9",
+    "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_NUT": "73ca0b08ade5a2bee512792cf8e738d4b640b9d75205a274833335ec3e8a9eb0",
+    "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_HEAD": "c85e0e424b303be314ed74678258d3ae39ea3bf954928849d95849eaa321d080",
+    "SIDE_FRONT_KEY_M2_SWITCH_1_NUT": "baca44aa81d657653dede9258a10e2660ff27e4dcc202738f425fd56ee537c8d",
+    "SIDE_FRONT_KEY_M2_SWITCH_2_BOLT": "14bd118f6993e8171cbfc5600cb1e4b6e14544df368504248f3993eb1a19aeda",
+    "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_NUT": "ab848dc432d718bf05c21cd785d2e51846391442419cf2c6a1bc110130d06253",
+    "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_HEAD": "6db42c93c0a03798144491833946705b5f56ffe542e9abf80830fce823e4f2cc",
+    "SIDE_FRONT_KEY_M2_SWITCH_2_NUT": "1dabffbc3959cffe502ef151e76a88b93475551332c727d7a0b20d7691892c29",
+    "SWITCH_SIDE_FRONT": "c509f27d00f2435329d944ea92743b75028521057dc5ca62a8a85a74dea0b18b",
+    "SIDE_REAR_KEY_CAPTURE_PIN": "a64e6f12b7b8345b6cd43bb1b72d5c79933575988704d0579491f01ea84902a9",
+    "SIDE_REAR_KEY_M2_SWITCH_1_BOLT": "f8e335abc5d90f088eb70e42161a420b547ed842c4144427bf7838f5e7581f16",
+    "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_NUT": "3cf0d9245d86adcf9fdd931e2ea43546a71823497438a2450be332f2505f27ae",
+    "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_HEAD": "e2c7d2ada44939f4f05bddd145da844c02309f1461c8e91c215c8b750cbac4f8",
+    "SIDE_REAR_KEY_M2_SWITCH_1_NUT": "44f5585d472fc5276c40754c01a6bab8c536c6441971129ec9367ce1e2adef62",
+    "SIDE_REAR_KEY_M2_SWITCH_2_BOLT": "bb30a82c685c7ec7b64f4f0f89b77a8479adc0a6dcd118c79d0aabd7e8a89195",
+    "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_NUT": "1f0dd576689bf743cf94188a52e8013dcbaa5f1e1ad3132f15d1831d08c563ec",
+    "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_HEAD": "02ce9ccc91ad687cc78d9a94cfc0c45086f9a6964068f4840bc01d5ed4e3e8d5",
+    "SIDE_REAR_KEY_M2_SWITCH_2_NUT": "aef57f8d6855d07bc125db795a0549ef9af75b4a6bb8f33616df649d0b9332e1",
+    "SWITCH_SIDE_REAR": "1bf3ce7ad1ff86be220c4990f97eb2b01c357707a79373cfcdf5a09f92a6e424",
+    "ENCODER_EC10E_HOUSING": "e9cc2f2103f854eac5dad3b09f9a682ee95c61e1dc1dda6f6aaed08d6700ba3a",
+    "ENCODER_EC10E_ROTOR": "0fa8c6a09fadaaa2713b1901ff77b36bd8cbbd3008d6a0e55830015552eeddd0",
+    "WHEEL_CARRIER_STEEL_PIN": "7a6b3d0ea12c8c02c6e14d9314fb075b1648eb94be1cf75d967694b78eeb470b",
+    "SWITCH_MIDDLE": "9d42e5307696453453f26ae717a56c8b7391d17770c03e1dc098529b97b11696",
+    "WHEEL_M2_SWITCH_1_BOLT": "6fb782899247eb80e9d6fee6e471744d0d00800ef4ed510f5c7b400f37f813a6",
+    "WHEEL_M2_SWITCH_1_WASHER_NUT": "73a646f83e12da38b8f7155799b9c4ff9786ecf2813356eab945e2a3101ad267",
+    "WHEEL_M2_SWITCH_1_WASHER_HEAD": "4b4ae399bfb15258b6a20a70030cf33c93e126a495501154fe7071607b641e66",
+    "WHEEL_M2_SWITCH_1_NUT": "ef53565a1242a3a21e4d1260c81ddf5c2d8279892146e55714752e566d590085",
+    "WHEEL_M2_SWITCH_2_BOLT": "88ab4215018a3410c96a4e32728c48b31118d19327db16f1fcfe5f8f8b8caaf0",
+    "WHEEL_M2_SWITCH_2_WASHER_NUT": "5e5984bebfd1dd654eddf8821c1b7ae4c42f193800afaa5156a02b5081cb9a76",
+    "WHEEL_M2_SWITCH_2_WASHER_HEAD": "980dd0d2a2ded7791a7b1f69e9ef083975167039171ac4259faaddec53ff936d",
+    "WHEEL_M2_SWITCH_2_NUT": "1806b0b845cbd8eb7d3b9bb27fdc39533cda1bb14536a4cf43452375e5db216f",
+    "USB_C_REFERENCE": "693796a6553ba7be0052a9349f6cecff142376023f4133baee84a1612289279d",
+    "USB_ADAPTER_PCB_REFERENCE": "c0b9d0b258cdfc011462683529e4d35e3315605f1010f57fa3b58a79b71f6378",
+    "USB_M2x3_L": "ba73d0e255a6d077be9558b11bad4693bd26772126de733be0fc9d7410bd070c",
+    "USB_WASHER_L": "61ef7702d93a450280c84e31a57638fee84540c3f3c92caf5ff7bc794f6fe4f3",
+    "USB_M2x3_R": "8840bf105104de80f9646df94cc6b34a71180e3e5741c1139aa8895895e3e1f7",
+    "USB_WASHER_R": "fca16869e9c1e55af5cebee18ac7b06d0489de4146d89f3b7471df97dffc0b5a",
+    "ENCODER_M2x3_FRONT": "3ed76fe349ef2811c3df3b5749999e817dd9b16cdeb770c41c59a4a46abaa933",
+    "ENCODER_WASHER_FRONT": "3975ff77151d61f57bd0be5b9adb26ce7287604c15de549c3fa170f9bef4d85a",
+    "ENCODER_M2x3_REAR": "1eabb7ad9b574e42b150c57106dbd39b2a7abd4a8bc81d98d20696ce6e74bdf2",
+    "ENCODER_WASHER_REAR": "209bffa758bfe42ddced7ba9be7d94698e9e43788d664ca6a3988db751fad012",
+    "ENCODER_ADAPTER_PCB_EST": "fec4a404d9d01e3b5102df3cffa0031225426e40cb4eb3a838f926442c52363f"
+  }
+}

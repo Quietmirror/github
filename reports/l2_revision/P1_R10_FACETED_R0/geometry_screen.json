@@ -1,0 +1,15 @@
+{
+  "variant": "P1_R10",
+  "BODY_CAD_mm3": 12802.3482925539,
+  "BODY_PA12_g": 12.930371775479438,
+  "BODY_mesh_mm3": 12795.983042484882,
+  "CAD_valid": true,
+  "solids": 1,
+  "watertight": true,
+  "self_intersecting_faces": 0,
+  "mesh_components": 1,
+  "original_other_eight_parts_mm3": 5704.9480357253,
+  "total_PA12_g": 18.692369291561988,
+  "full_assembly_validation": false,
+  "geometry_screen_pass": true
+}

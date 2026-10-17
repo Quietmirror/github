@@ -1,0 +1,33 @@
+{
+  "parts": 72,
+  "pairs": 2556,
+  "conflicts": [],
+  "allowed_local_contacts": [
+    {
+      "a": "BODY",
+      "b": "USB_M2x3_L",
+      "overlap_mm3": 1.480849097832274,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "BODY",
+      "b": "USB_M2x3_R",
+      "overlap_mm3": 1.4808550768762567,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "WHEEL_CARRIER",
+      "b": "ENCODER_M2x3_FRONT",
+      "overlap_mm3": 1.3069079613385384,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "WHEEL_CARRIER",
+      "b": "ENCODER_M2x3_REAR",
+      "overlap_mm3": 1.306907920049241,
+      "unallowed_mm3": 0.0
+    }
+  ],
+  "pass_check": true,
+  "threshold_mm3": 0.01
+}

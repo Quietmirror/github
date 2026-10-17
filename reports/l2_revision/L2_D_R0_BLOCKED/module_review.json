@@ -1,0 +1,376 @@
+{
+  "variant": "L2_D_EST",
+  "reserves": [
+    {
+      "reserve": "BATTERY_SERVICE_EST",
+      "excluded_named_owners": [
+        "BATTERY_CELL_EST"
+      ],
+      "conflicts": [
+        {
+          "part": "D_REMOVABLE_CARRIER_EST",
+          "overlap_mm3": 0.054828097064289316
+        },
+        {
+          "part": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+          "overlap_mm3": 289.7999539375305
+        }
+      ],
+      "scope": "RF dielectric carrier can enter the antenna study box but must be tested with actual RF hardware; all overlaps listed without silently ignoring material."
+    },
+    {
+      "reserve": "ANTENNA_KEEPOUT_EST",
+      "excluded_named_owners": [
+        "REMOTE_ANTENNA_PCB_EST",
+        "ANTENNA_FEED_HEADER_EST"
+      ],
+      "conflicts": [],
+      "scope": "RF dielectric carrier can enter the antenna study box but must be tested with actual RF hardware; all overlaps listed without silently ignoring material."
+    },
+    {
+      "reserve": "OPTICAL_PATH_EST",
+      "excluded_named_owners": [
+        "MATCHED_LENS_EST",
+        "D_LENS_UNVERIFIED",
+        "PAW3950_PACKAGE_EST",
+        "D_SENSOR_PACKAGE_UNVERIFIED"
+      ],
+      "conflicts": [],
+      "scope": "RF dielectric carrier can enter the antenna study box but must be tested with actual RF hardware; all overlaps listed without silently ignoring material."
+    }
+  ],
+  "carrier_insertion": {
+    "path": "Translation from underside Z-45 to Z0 relative to final carrier, before new electronic parts/fasteners",
+    "samples": 91,
+    "conflicts": [
+      {
+        "dz_mm": -8.5,
+        "fixed": "BODY",
+        "overlap_mm3": 1.007436413077621
+      },
+      {
+        "dz_mm": -8.0,
+        "fixed": "BODY",
+        "overlap_mm3": 7.51309557716485
+      },
+      {
+        "dz_mm": -8.0,
+        "fixed": "SWITCH_MIDDLE",
+        "overlap_mm3": 0.2249999949708581
+      },
+      {
+        "dz_mm": -7.5,
+        "fixed": "BODY",
+        "overlap_mm3": 19.062881295211774
+      },
+      {
+        "dz_mm": -7.5,
+        "fixed": "SWITCH_MIDDLE",
+        "overlap_mm3": 0.6749999849125743
+      },
+      {
+        "dz_mm": -7.0,
+        "fixed": "BODY",
+        "overlap_mm3": 43.57659863650625
+      },
+      {
+        "dz_mm": -7.0,
+        "fixed": "SWITCH_MIDDLE",
+        "overlap_mm3": 1.1249999748542905
+      },
+      {
+        "dz_mm": -6.5,
+        "fixed": "BODY",
+        "overlap_mm3": 71.32713312945167
+      },
+      {
+        "dz_mm": -6.5,
+        "fixed": "SWITCH_MIDDLE",
+        "overlap_mm3": 1.440000311136238
+      },
+      {
+        "dz_mm": -6.0,
+        "fixed": "BODY",
+        "overlap_mm3": 98.75279533833283
+      },
+      {
+        "dz_mm": -6.0,
+        "fixed": "SWITCH_MIDDLE",
+        "overlap_mm3": 1.440000311136238
+      },
+      {
+        "dz_mm": -5.5,
+        "fixed": "BODY",
+        "overlap_mm3": 125.03738482106435
+      },
+      {
+        "dz_mm": -5.5,
+        "fixed": "SWITCH_MIDDLE",
+        "overlap_mm3": 1.440000311136238
+      },
+      {
+        "dz_mm": -5.0,
+        "fixed": "BODY",
+        "overlap_mm3": 140.59340249752964
+      },
+      {
+        "dz_mm": -5.0,
+        "fixed": "SWITCH_MIDDLE",
+        "overlap_mm3": 1.440000311136238
+      },
+      {
+        "dz_mm": -5.0,
+        "fixed": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+        "overlap_mm3": 0.08916896965598112
+      },
+      {
+        "dz_mm": -4.5,
+        "fixed": "BODY",
+        "overlap_mm3": 145.52365081519778
+      },
+      {
+        "dz_mm": -4.5,
+        "fixed": "SWITCH_MIDDLE",
+        "overlap_mm3": 4.521254703067236
+      },
+      {
+        "dz_mm": -4.5,
+        "fixed": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+        "overlap_mm3": 0.25279358693196796
+      },
+      {
+        "dz_mm": -4.5,
+        "fixed": "WHEEL_M2_SWITCH_2_NUT",
+        "overlap_mm3": 0.40373427261567146
+      },
+      {
+        "dz_mm": -4.0,
+        "fixed": "BODY",
+        "overlap_mm3": 129.26562101099677
+      },
+      {
+        "dz_mm": -4.0,
+        "fixed": "SWITCH_MIDDLE",
+        "overlap_mm3": 10.683763486929223
+      },
+      {
+        "dz_mm": -4.0,
+        "fixed": "WHEEL_M2_SWITCH_2_BOLT",
+        "overlap_mm3": 0.14277479375806043
+      },
+      {
+        "dz_mm": -4.0,
+        "fixed": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+        "overlap_mm3": 0.4605528353226941
+      },
+      {
+        "dz_mm": -4.0,
+        "fixed": "WHEEL_M2_SWITCH_2_NUT",
+        "overlap_mm3": 1.2711516202293667
+      },
+      {
+        "dz_mm": -3.5,
+        "fixed": "BODY",
+        "overlap_mm3": 112.38369109316625
+      },
+      {
+        "dz_mm": -3.5,
+        "fixed": "SWITCH_MIDDLE",
+        "overlap_mm3": 16.80641753783885
+      },
+      {
+        "dz_mm": -3.5,
+        "fixed": "WHEEL_M2_SWITCH_2_BOLT",
+        "overlap_mm3": 0.7800243150648833
+      },
+      {
+        "dz_mm": -3.5,
+        "fixed": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+        "overlap_mm3": 0.6165526810232923
+      },
+      {
+        "dz_mm": -3.5,
+        "fixed": "WHEEL_M2_SWITCH_2_NUT",
+        "overlap_mm3": 2.14005667088435
+      },
+      {
+        "dz_mm": -3.0,
+        "fixed": "BODY",
+        "overlap_mm3": 99.07223957100071
+      },
+      {
+        "dz_mm": -3.0,
+        "fixed": "SWITCH_MIDDLE",
+        "overlap_mm3": 20.86377841915318
+      },
+      {
+        "dz_mm": -3.0,
+        "fixed": "WHEEL_M2_SWITCH_2_BOLT",
+        "overlap_mm3": 1.9290488495890394
+      },
+      {
+        "dz_mm": -3.0,
+        "fixed": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+        "overlap_mm3": 0.6757006277516326
+      },
+      {
+        "dz_mm": -3.0,
+        "fixed": "WHEEL_M2_SWITCH_2_NUT",
+        "overlap_mm3": 2.68071231017571
+      },
+      {
+        "dz_mm": -2.5,
+        "fixed": "BODY",
+        "overlap_mm3": 103.60661837712512
+      },
+      {
+        "dz_mm": -2.5,
+        "fixed": "SWITCH_MIDDLE",
+        "overlap_mm3": 20.82389965557433
+      },
+      {
+        "dz_mm": -2.5,
+        "fixed": "WHEEL_M2_SWITCH_2_BOLT",
+        "overlap_mm3": 2.6841889092153806
+      },
+      {
+        "dz_mm": -2.5,
+        "fixed": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+        "overlap_mm3": 0.6951160834198837
+      },
+      {
+        "dz_mm": -2.5,
+        "fixed": "WHEEL_M2_SWITCH_2_NUT",
+        "overlap_mm3": 2.722473606721937
+      },
+      {
+        "dz_mm": -2.0,
+        "fixed": "BODY",
+        "overlap_mm3": 105.88377489520879
+      },
+      {
+        "dz_mm": -2.0,
+        "fixed": "SWITCH_MIDDLE",
+        "overlap_mm3": 20.833186079245245
+      },
+      {
+        "dz_mm": -2.0,
+        "fixed": "WHEEL_M2_SWITCH_2_BOLT",
+        "overlap_mm3": 2.9184550130303895
+      },
+      {
+        "dz_mm": -2.0,
+        "fixed": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+        "overlap_mm3": 0.681378326190423
+      },
+      {
+        "dz_mm": -2.0,
+        "fixed": "WHEEL_M2_SWITCH_2_NUT",
+        "overlap_mm3": 2.712483952145984
+      },
+      {
+        "dz_mm": -1.5,
+        "fixed": "BODY",
+        "overlap_mm3": 107.87981462933462
+      },
+      {
+        "dz_mm": -1.5,
+        "fixed": "SWITCH_MIDDLE",
+        "overlap_mm3": 21.074712573013855
+      },
+      {
+        "dz_mm": -1.5,
+        "fixed": "WHEEL_M2_SWITCH_2_BOLT",
+        "overlap_mm3": 2.5508981060990066
+      },
+      {
+        "dz_mm": -1.5,
+        "fixed": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+        "overlap_mm3": 0.6338604535368674
+      },
+      {
+        "dz_mm": -1.5,
+        "fixed": "WHEEL_M2_SWITCH_2_NUT",
+        "overlap_mm3": 2.3012197002560253
+      },
+      {
+        "dz_mm": -1.0,
+        "fixed": "BODY",
+        "overlap_mm3": 102.79181411776744
+      },
+      {
+        "dz_mm": -1.0,
+        "fixed": "SWITCH_MIDDLE",
+        "overlap_mm3": 21.160033121115674
+      },
+      {
+        "dz_mm": -1.0,
+        "fixed": "WHEEL_M2_SWITCH_2_BOLT",
+        "overlap_mm3": 2.3341535905743647
+      },
+      {
+        "dz_mm": -1.0,
+        "fixed": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+        "overlap_mm3": 0.5031388297539915
+      },
+      {
+        "dz_mm": -1.0,
+        "fixed": "WHEEL_M2_SWITCH_2_NUT",
+        "overlap_mm3": 1.4471521857576817
+      },
+      {
+        "dz_mm": -0.5,
+        "fixed": "BODY",
+        "overlap_mm3": 89.39057673671199
+      },
+      {
+        "dz_mm": -0.5,
+        "fixed": "SWITCH_MIDDLE",
+        "overlap_mm3": 21.160033121115678
+      },
+      {
+        "dz_mm": -0.5,
+        "fixed": "WHEEL_M2_SWITCH_2_BOLT",
+        "overlap_mm3": 2.0127463628897115
+      },
+      {
+        "dz_mm": -0.5,
+        "fixed": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+        "overlap_mm3": 0.2915583133463665
+      },
+      {
+        "dz_mm": -0.5,
+        "fixed": "WHEEL_M2_SWITCH_2_NUT",
+        "overlap_mm3": 0.5671504071551919
+      },
+      {
+        "dz_mm": 0.0,
+        "fixed": "BODY",
+        "overlap_mm3": 69.31523963246488
+      },
+      {
+        "dz_mm": 0.0,
+        "fixed": "SWITCH_MIDDLE",
+        "overlap_mm3": 21.16003312111568
+      },
+      {
+        "dz_mm": 0.0,
+        "fixed": "WHEEL_M2_SWITCH_2_BOLT",
+        "overlap_mm3": 1.2771332857996223
+      },
+      {
+        "dz_mm": 0.0,
+        "fixed": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+        "overlap_mm3": 0.11711654910755108
+      },
+      {
+        "dz_mm": 0.0,
+        "fixed": "WHEEL_M2_SWITCH_2_NUT",
+        "overlap_mm3": 0.027076036964592903
+      }
+    ],
+    "pass_check": false
+  },
+  "real_hardware_fit_verified": false,
+  "functions_verified": false
+}

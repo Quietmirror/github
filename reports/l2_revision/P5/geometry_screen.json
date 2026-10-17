@@ -1,0 +1,15 @@
+{
+  "variant": "P5",
+  "BODY_CAD_mm3": 12824.435755925428,
+  "BODY_PA12_g": 12.952680113484682,
+  "BODY_mesh_mm3": 12818.576627262906,
+  "CAD_valid": true,
+  "solids": 1,
+  "watertight": true,
+  "self_intersecting_faces": 0,
+  "mesh_components": 1,
+  "original_other_eight_parts_mm3": 5704.9480357253,
+  "total_PA12_g": 18.714677629567234,
+  "full_assembly_validation": false,
+  "geometry_screen_pass": true
+}

@@ -1,0 +1,181 @@
+{
+  "baseline_parts": 72,
+  "candidate_archives": 43,
+  "all_archive_members_resolved": true,
+  "all_present_local_step_bytes_equal": true,
+  "versions": [
+    {
+      "version": "B1",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "B2",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "B4",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "C1",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "F1",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "F1_P0",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "F1B",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "F1C",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "F1D",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "F1E",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "F1G",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "F1H",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "F1S",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "F1V",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "F1W",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "F2",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "F2_P0",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "F2D",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "F2E",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "failed_construction",
+      "restorable_step_files": 2
+    },
+    {
+      "version": "K12",
+      "restorable_step_files": 2
+    },
+    {
+      "version": "K14",
+      "restorable_step_files": 2
+    },
+    {
+      "version": "K14R",
+      "restorable_step_files": 2
+    },
+    {
+      "version": "K16",
+      "restorable_step_files": 2
+    },
+    {
+      "version": "L2_D_R0_BLOCKED",
+      "restorable_step_files": 89
+    },
+    {
+      "version": "L2_H_R0_BLOCKED",
+      "restorable_step_files": 104
+    },
+    {
+      "version": "L2_H_REFERENCE_BOARD_BLOCKED",
+      "restorable_step_files": 105
+    },
+    {
+      "version": "P1_R10",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "P1_R10_FACETED_R0",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "P1_R13",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "P1_R15",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "P1_R15_FACETED_R0",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "P2",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "P2_FACETED_R0",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "P3",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "P3_FACETED_R0",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "P4",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "P4_FACETED_R0",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "P5",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "P5_FACETED_R0",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "P6",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "P6_FACETED_R0",
+      "restorable_step_files": 72
+    },
+    {
+      "version": "S17",
+      "restorable_step_files": 72
+    }
+  ],
+  "scope": "Archive restoration integrity, not CAD/printing/fit acceptance."
+}

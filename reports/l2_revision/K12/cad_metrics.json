@@ -1,0 +1,74 @@
+{
+  "LEFT_KEY": {
+    "volume_mm3": 1570.1047681044708,
+    "bounds_mm": [
+      22.7000002,
+      40.465314765873806,
+      15.51961189221328
+    ],
+    "min": [
+      5.299999899999999,
+      0.6846852341261915,
+      10.599999876349116
+    ],
+    "max": [
+      28.0000001,
+      41.15,
+      26.119611768562397
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": true,
+    "mesh_cleanup": {
+      "raw_faces": 5500,
+      "final_faces": 5500,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    },
+    "print_translation": [
+      -16.65,
+      -20.917342617063095,
+      -10.599999876349116
+    ],
+    "print_rotation_y_deg": 0
+  },
+  "RIGHT_KEY": {
+    "volume_mm3": 1570.1070957667882,
+    "bounds_mm": [
+      22.700000200000005,
+      40.46531476587393,
+      15.519611872128
+    ],
+    "min": [
+      -28.0000001,
+      0.684685234126075,
+      10.5999999
+    ],
+    "max": [
+      -5.299999899999997,
+      41.15,
+      26.119611772128
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": true,
+    "mesh_cleanup": {
+      "raw_faces": 5988,
+      "final_faces": 5988,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    },
+    "print_translation": [
+      16.65,
+      -20.917342617063035,
+      -10.5999999
+    ],
+    "print_rotation_y_deg": 0
+  }
+}

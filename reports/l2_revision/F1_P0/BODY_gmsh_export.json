@@ -1,0 +1,19 @@
+{
+  "variant": "F1_P0",
+  "part": "BODY",
+  "method": "Gmsh independent CAD surface triangulation",
+  "faces": 1220356,
+  "watertight": true,
+  "winding_consistent": true,
+  "connected_components": 1,
+  "self_intersection_faces": 0,
+  "volume_relative_error": 0.00020126210011595091,
+  "sampled_CAD_distance_mm": {
+    "samples": 500,
+    "maximum": 0.005341280897723213,
+    "P99": 0.002211270867938156
+  },
+  "holes_filled": 0,
+  "components_discarded": 0,
+  "pass_check": true
+}

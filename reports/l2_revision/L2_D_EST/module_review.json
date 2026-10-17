@@ -1,0 +1,221 @@
+{
+  "variant": "L2_D_EST",
+  "reserves": [
+    {
+      "reserve": "BATTERY_SERVICE_EST",
+      "excluded_named_owners": [
+        "BATTERY_CELL_EST"
+      ],
+      "conflicts": [
+        {
+          "part": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+          "overlap_mm3": 289.7999539375305
+        }
+      ],
+      "scope": "RF dielectric carrier can enter the antenna study box but must be tested with actual RF hardware; all overlaps listed without silently ignoring material."
+    },
+    {
+      "reserve": "ANTENNA_KEEPOUT_EST",
+      "excluded_named_owners": [
+        "REMOTE_ANTENNA_PCB_EST",
+        "ANTENNA_FEED_HEADER_EST"
+      ],
+      "conflicts": [],
+      "scope": "RF dielectric carrier can enter the antenna study box but must be tested with actual RF hardware; all overlaps listed without silently ignoring material."
+    },
+    {
+      "reserve": "OPTICAL_PATH_EST",
+      "excluded_named_owners": [
+        "MATCHED_LENS_EST",
+        "D_LENS_UNVERIFIED",
+        "PAW3950_PACKAGE_EST",
+        "D_SENSOR_PACKAGE_UNVERIFIED"
+      ],
+      "conflicts": [],
+      "scope": "RF dielectric carrier can enter the antenna study box but must be tested with actual RF hardware; all overlaps listed without silently ignoring material."
+    }
+  ],
+  "carrier_insertion": {
+    "path": "Translation from underside Z-45 to Z0 relative to final carrier, before new electronic parts/fasteners",
+    "samples": 91,
+    "conflicts": [
+      {
+        "moving": "D_REMOVABLE_CARRIER_EST",
+        "dz_mm": -7.5,
+        "fixed": "BODY",
+        "overlap_mm3": 3.072027730619339
+      },
+      {
+        "moving": "D_REMOVABLE_CARRIER_EST",
+        "dz_mm": -7.0,
+        "fixed": "BODY",
+        "overlap_mm3": 13.198736979396463
+      },
+      {
+        "moving": "D_REMOVABLE_CARRIER_EST",
+        "dz_mm": -6.5,
+        "fixed": "BODY",
+        "overlap_mm3": 27.897813133581558
+      },
+      {
+        "moving": "D_REMOVABLE_CARRIER_EST",
+        "dz_mm": -6.0,
+        "fixed": "BODY",
+        "overlap_mm3": 42.999811073578435
+      },
+      {
+        "moving": "D_REMOVABLE_CARRIER_EST",
+        "dz_mm": -5.5,
+        "fixed": "BODY",
+        "overlap_mm3": 62.70713361951888
+      },
+      {
+        "moving": "D_REMOVABLE_CARRIER_EST",
+        "dz_mm": -5.0,
+        "fixed": "BODY",
+        "overlap_mm3": 84.06527615344356
+      },
+      {
+        "moving": "D_REMOVABLE_CARRIER_EST",
+        "dz_mm": -4.5,
+        "fixed": "BODY",
+        "overlap_mm3": 103.9243566065196
+      },
+      {
+        "moving": "D_REMOVABLE_CARRIER_EST",
+        "dz_mm": -4.0,
+        "fixed": "BODY",
+        "overlap_mm3": 102.19144892043398
+      },
+      {
+        "moving": "D_REMOVABLE_CARRIER_EST",
+        "dz_mm": -3.5,
+        "fixed": "BODY",
+        "overlap_mm3": 85.70242042038613
+      },
+      {
+        "moving": "D_REMOVABLE_CARRIER_EST",
+        "dz_mm": -3.0,
+        "fixed": "BODY",
+        "overlap_mm3": 69.7272066439507
+      },
+      {
+        "moving": "D_REMOVABLE_CARRIER_EST",
+        "dz_mm": -2.5,
+        "fixed": "BODY",
+        "overlap_mm3": 56.97083352527251
+      },
+      {
+        "moving": "D_REMOVABLE_CARRIER_EST",
+        "dz_mm": -2.0,
+        "fixed": "BODY",
+        "overlap_mm3": 44.98625731808612
+      },
+      {
+        "moving": "D_REMOVABLE_CARRIER_EST",
+        "dz_mm": -1.5,
+        "fixed": "BODY",
+        "overlap_mm3": 29.031370267368604
+      },
+      {
+        "moving": "D_REMOVABLE_CARRIER_EST",
+        "dz_mm": -1.0,
+        "fixed": "BODY",
+        "overlap_mm3": 14.338192838170443
+      },
+      {
+        "moving": "D_REMOVABLE_CARRIER_EST",
+        "dz_mm": -0.5,
+        "fixed": "BODY",
+        "overlap_mm3": 2.4271683136894784
+      },
+      {
+        "moving": "D_SENSOR_SEAT_EST",
+        "dz_mm": -8.5,
+        "fixed": "BODY",
+        "overlap_mm3": 1.5236805608506725
+      },
+      {
+        "moving": "D_SENSOR_SEAT_EST",
+        "dz_mm": -8.0,
+        "fixed": "BODY",
+        "overlap_mm3": 4.03121980063405
+      },
+      {
+        "moving": "D_SENSOR_SEAT_EST",
+        "dz_mm": -7.5,
+        "fixed": "BODY",
+        "overlap_mm3": 5.703405598531131
+      },
+      {
+        "moving": "D_SENSOR_SEAT_EST",
+        "dz_mm": -7.0,
+        "fixed": "BODY",
+        "overlap_mm3": 5.928634169277618
+      },
+      {
+        "moving": "D_SENSOR_SEAT_EST",
+        "dz_mm": -6.5,
+        "fixed": "BODY",
+        "overlap_mm3": 5.038249987594421
+      },
+      {
+        "moving": "D_SENSOR_SEAT_EST",
+        "dz_mm": -6.0,
+        "fixed": "BODY",
+        "overlap_mm3": 2.494796914638409
+      },
+      {
+        "moving": "D_SENSOR_SEAT_EST",
+        "dz_mm": -5.5,
+        "fixed": "BODY",
+        "overlap_mm3": 0.40644150320979666
+      },
+      {
+        "moving": "D_SENSOR_SEAT_EST",
+        "dz_mm": -3.5,
+        "fixed": "BODY",
+        "overlap_mm3": 3.7945145355961976
+      },
+      {
+        "moving": "D_SENSOR_SEAT_EST",
+        "dz_mm": -3.0,
+        "fixed": "BODY",
+        "overlap_mm3": 11.452437119516581
+      },
+      {
+        "moving": "D_SENSOR_SEAT_EST",
+        "dz_mm": -2.5,
+        "fixed": "BODY",
+        "overlap_mm3": 16.047178984806287
+      },
+      {
+        "moving": "D_SENSOR_SEAT_EST",
+        "dz_mm": -2.0,
+        "fixed": "BODY",
+        "overlap_mm3": 16.04717898480629
+      },
+      {
+        "moving": "D_SENSOR_SEAT_EST",
+        "dz_mm": -1.5,
+        "fixed": "BODY",
+        "overlap_mm3": 16.047178984806287
+      },
+      {
+        "moving": "D_SENSOR_SEAT_EST",
+        "dz_mm": -1.0,
+        "fixed": "BODY",
+        "overlap_mm3": 10.721088696222909
+      },
+      {
+        "moving": "D_SENSOR_SEAT_EST",
+        "dz_mm": -0.5,
+        "fixed": "BODY",
+        "overlap_mm3": 3.0631661123025204
+      }
+    ],
+    "pass_check": false
+  },
+  "real_hardware_fit_verified": false,
+  "functions_verified": false
+}

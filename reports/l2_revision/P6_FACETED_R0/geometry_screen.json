@@ -1,0 +1,15 @@
+{
+  "variant": "P6",
+  "BODY_CAD_mm3": 12805.677220785481,
+  "BODY_PA12_g": 12.933733992993336,
+  "BODY_mesh_mm3": 12799.452076221593,
+  "CAD_valid": true,
+  "solids": 1,
+  "watertight": true,
+  "self_intersecting_faces": 0,
+  "mesh_components": 1,
+  "original_other_eight_parts_mm3": 5704.9480357253,
+  "total_PA12_g": 18.695731509075888,
+  "full_assembly_validation": false,
+  "geometry_screen_pass": true
+}

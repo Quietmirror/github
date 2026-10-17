@@ -1,0 +1,595 @@
+{
+  "parts": 82,
+  "pairs": 3321,
+  "conflicts": [
+    {
+      "a": "BODY",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 69.86806122334221,
+      "unallowed_mm3": 69.86806122334221,
+      "exact_conflict": {
+        "part_a": "BODY",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 69.86329644832325,
+        "intersection_centroid_mm": [
+          3.9944584336900717,
+          55.42243880717079,
+          14.533255798425726
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -15.35,
+            33.0,
+            13.999999899999999
+          ],
+          "max": [
+            17.928698108462,
+            81.53289151839739,
+            15.200000100000004
+          ],
+          "size": [
+            33.278698108462,
+            48.53289151839739,
+            1.2000002000000052
+          ]
+        }
+      }
+    },
+    {
+      "a": "LEFT_KEY",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 26.076048943113886,
+      "unallowed_mm3": 26.076048943113886,
+      "exact_conflict": {
+        "part_a": "LEFT_KEY",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 26.077831109375644,
+        "intersection_centroid_mm": [
+          14.889559836522222,
+          38.17236748207082,
+          14.631545447725134
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            11.7,
+            35.3,
+            13.999999999999973
+          ],
+          "max": [
+            18.0,
+            41.15,
+            15.200000000000033
+          ],
+          "size": [
+            6.300000000000001,
+            5.850000000000001,
+            1.2000000000000597
+          ]
+        }
+      }
+    },
+    {
+      "a": "RIGHT_KEY",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 26.07604894311389,
+      "unallowed_mm3": 26.07604894311389,
+      "exact_conflict": {
+        "part_a": "RIGHT_KEY",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 26.077831109375165,
+        "intersection_centroid_mm": [
+          -14.889559836522226,
+          38.17236748207082,
+          14.631545447725138
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -18.0,
+            35.3,
+            13.999999999999973
+          ],
+          "max": [
+            -11.7,
+            41.15,
+            15.200000000000033
+          ],
+          "size": [
+            6.300000000000001,
+            5.850000000000001,
+            1.2000000000000597
+          ]
+        }
+      }
+    },
+    {
+      "a": "WHEEL_CARRIER",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 8.60317460837164,
+      "unallowed_mm3": 8.60317460837164,
+      "exact_conflict": {
+        "part_a": "WHEEL_CARRIER",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 8.60622503097885,
+        "intersection_centroid_mm": [
+          6.750519034150664,
+          35.81660899248865,
+          14.599999993305435
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            5.000328095001153,
+            33.87507180639551,
+            14.0
+          ],
+          "max": [
+            8.50070996727759,
+            37.758146186689835,
+            15.2
+          ],
+          "size": [
+            3.500381872276437,
+            3.8830743802943246,
+            1.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "LEFT_KEY_STEEL_PIN",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 22.510026349359798,
+      "unallowed_mm3": 22.510026349359798,
+      "exact_conflict": {
+        "part_a": "LEFT_KEY_STEEL_PIN",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 22.51893461229687,
+        "intersection_centroid_mm": [
+          12.700000000000015,
+          38.5,
+          14.553810815929547
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            7.3999999999999995,
+            37.5,
+            13.999999999999998
+          ],
+          "max": [
+            18.0,
+            39.5,
+            15.2
+          ],
+          "size": [
+            10.600000000000001,
+            2.0,
+            1.200000000000001
+          ]
+        }
+      }
+    },
+    {
+      "a": "SWITCH_LEFT",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 2.5778134975012934,
+      "unallowed_mm3": 2.5778134975012934,
+      "exact_conflict": {
+        "part_a": "SWITCH_LEFT",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 2.5778135013999695,
+        "intersection_centroid_mm": [
+          16.69999999999981,
+          33.42077780199633,
+          14.55280886914295
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            15.399999999999999,
+            33.0,
+            14.0
+          ],
+          "max": [
+            18.0,
+            34.02117409383037,
+            15.2
+          ],
+          "size": [
+            2.6000000000000014,
+            1.0211740938303677,
+            1.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "RIGHT_KEY_STEEL_PIN",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 22.5100263493598,
+      "unallowed_mm3": 22.5100263493598,
+      "exact_conflict": {
+        "part_a": "RIGHT_KEY_STEEL_PIN",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 22.518934612296448,
+        "intersection_centroid_mm": [
+          -12.700000000000015,
+          38.5,
+          14.55381081592954
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -18.0,
+            37.5,
+            13.999999999999998
+          ],
+          "max": [
+            -7.4,
+            39.5,
+            15.2
+          ],
+          "size": [
+            10.6,
+            2.0,
+            1.200000000000001
+          ]
+        }
+      }
+    },
+    {
+      "a": "SWITCH_RIGHT",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 2.577813497501285,
+      "unallowed_mm3": 2.577813497501285,
+      "exact_conflict": {
+        "part_a": "SWITCH_RIGHT",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 2.5778135014009957,
+        "intersection_centroid_mm": [
+          -16.699999999999807,
+          33.42077780199646,
+          14.552808869142964
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -18.0,
+            33.0,
+            14.0
+          ],
+          "max": [
+            -15.4,
+            34.02117409383037,
+            15.2
+          ],
+          "size": [
+            2.5999999999999996,
+            1.0211740938303677,
+            1.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 0.3990462463379089,
+      "unallowed_mm3": 0.3990462463379089,
+      "exact_conflict": {
+        "part_a": "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 0.39964426424958593,
+        "intersection_centroid_mm": [
+          17.867655348881858,
+          47.7,
+          14.599999999999998
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            17.674165381942,
+            46.96141957933412,
+            14.0
+          ],
+          "max": [
+            18.0,
+            48.438580420665886,
+            15.2
+          ],
+          "size": [
+            0.32583461805799985,
+            1.4771608413317665,
+            1.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "SIDE_FRONT_KEY_M2_SWITCH_2_BOLT",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 0.3990462463379092,
+      "unallowed_mm3": 0.3990462463379092,
+      "exact_conflict": {
+        "part_a": "SIDE_FRONT_KEY_M2_SWITCH_2_BOLT",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 0.3996442642496726,
+        "intersection_centroid_mm": [
+          17.867655348881865,
+          54.20000000000002,
+          14.600000000000001
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            17.674165381942,
+            53.46141957933382,
+            14.0
+          ],
+          "max": [
+            18.000000000000146,
+            54.938580420666185,
+            15.2
+          ],
+          "size": [
+            0.3258346180581455,
+            1.4771608413323634,
+            1.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "SWITCH_SIDE_FRONT",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 11.886722968547184,
+      "unallowed_mm3": 11.886722968547184,
+      "exact_conflict": {
+        "part_a": "SWITCH_SIDE_FRONT",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 11.885531204871414,
+        "intersection_centroid_mm": [
+          17.568214497113015,
+          51.003362443439464,
+          14.600000000000003
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            17.174165381942,
+            44.6,
+            14.0
+          ],
+          "max": [
+            18.000000000000146,
+            57.4,
+            15.2
+          ],
+          "size": [
+            0.8258346180581455,
+            12.799999999999997,
+            1.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "ENCODER_EC10E_HOUSING",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 0.14999995231619323,
+      "unallowed_mm3": 0.14999995231619323,
+      "exact_conflict": {
+        "part_a": "ENCODER_EC10E_HOUSING",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 0.14999999999999944,
+        "intersection_centroid_mm": [
+          5.75,
+          33.625,
+          14.100000000000001
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            5.449999999999999,
+            33.0,
+            14.0
+          ],
+          "max": [
+            6.050000000000001,
+            34.25,
+            14.2
+          ],
+          "size": [
+            0.6000000000000014,
+            1.25,
+            0.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "SWITCH_MIDDLE",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 89.08800634765282,
+      "unallowed_mm3": 89.08800634765282,
+      "exact_conflict": {
+        "part_a": "SWITCH_MIDDLE",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 89.08799999999992,
+        "intersection_centroid_mm": [
+          -0.3999999999999996,
+          43.50000000000001,
+          14.600000000000003
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -3.3000000000000003,
+            37.1,
+            14.0
+          ],
+          "max": [
+            2.5,
+            49.9,
+            15.2
+          ],
+          "size": [
+            5.800000000000001,
+            12.799999999999997,
+            1.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "D_SENSOR_SEAT_EST",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 6.497483420416605,
+      "unallowed_mm3": 6.497483420416605,
+      "exact_conflict": {
+        "part_a": "D_SENSOR_SEAT_EST",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 6.497493687703975,
+        "intersection_centroid_mm": [
+          5.858429421169704,
+          56.64054247105398,
+          14.09625989550752
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -3.25,
+            50.52679538821585,
+            13.999999999999996
+          ],
+          "max": [
+            11.400000000000006,
+            58.8,
+            14.2
+          ],
+          "size": [
+            14.650000000000006,
+            8.273204611784145,
+            0.20000000000000284
+          ]
+        }
+      }
+    },
+    {
+      "a": "D_SENSOR_PACKAGE_UNVERIFIED",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 12.79998779296875,
+      "unallowed_mm3": 12.79998779296875,
+      "exact_conflict": {
+        "part_a": "D_SENSOR_PACKAGE_UNVERIFIED",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 12.799999999999955,
+        "intersection_centroid_mm": [
+          -6.938893903907253e-17,
+          64.0,
+          14.1
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -4.0,
+            60.0,
+            14.0
+          ],
+          "max": [
+            4.0,
+            68.0,
+            14.2
+          ],
+          "size": [
+            8.0,
+            8.0,
+            0.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "BATTERY_CELL_EST",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 263.9999580383301,
+      "unallowed_mm3": 263.9999580383301,
+      "exact_conflict": {
+        "part_a": "BATTERY_CELL_EST",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 263.99999999999983,
+        "intersection_centroid_mm": [
+          -13.0,
+          56.99999999999999,
+          14.6
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -18.0,
+            46.0,
+            14.0
+          ],
+          "max": [
+            -8.0,
+            68.0,
+            15.2
+          ],
+          "size": [
+            10.0,
+            22.0,
+            1.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "SIDE_IO_PCB_EST",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 32.39999198913574,
+      "unallowed_mm3": 32.39999198913574,
+      "exact_conflict": {
+        "part_a": "SIDE_IO_PCB_EST",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 32.400000000000006,
+        "intersection_centroid_mm": [
+          13.199999999999994,
+          57.500000000000014,
+          14.549999999999999
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            12.7,
+            42.5,
+            14.0
+          ],
+          "max": [
+            13.700000000000001,
+            72.5,
+            15.2
+          ],
+          "size": [
+            1.0000000000000018,
+            30.0,
+            1.1999999999999993
+          ]
+        }
+      }
+    }
+  ],
+  "allowed_local_contacts": [
+    {
+      "a": "BODY",
+      "b": "USB_M2x3_L",
+      "overlap_mm3": 1.480849097832274,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "BODY",
+      "b": "USB_M2x3_R",
+      "overlap_mm3": 1.4808550768762567,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "WHEEL_CARRIER",
+      "b": "ENCODER_M2x3_FRONT",
+      "overlap_mm3": 1.3069079613385384,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "WHEEL_CARRIER",
+      "b": "ENCODER_M2x3_REAR",
+      "overlap_mm3": 1.306907920049241,
+      "unallowed_mm3": 0.0
+    }
+  ],
+  "pass_check": false,
+  "threshold_mm3": 0.01
+}

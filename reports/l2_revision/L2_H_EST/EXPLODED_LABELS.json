@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "part": "BODY"
+  },
+  {
+    "id": 2,
+    "part": "LEFT_KEY"
+  },
+  {
+    "id": 3,
+    "part": "RIGHT_KEY"
+  },
+  {
+    "id": 4,
+    "part": "SIDE_FRONT_KEY"
+  },
+  {
+    "id": 5,
+    "part": "SIDE_FRONT_KEY_SWITCH_CLAMP"
+  },
+  {
+    "id": 6,
+    "part": "SIDE_REAR_KEY"
+  },
+  {
+    "id": 7,
+    "part": "SIDE_REAR_KEY_SWITCH_CLAMP"
+  },
+  {
+    "id": 8,
+    "part": "WHEEL"
+  },
+  {
+    "id": 9,
+    "part": "WHEEL_CARRIER"
+  }
+]

@@ -1,0 +1,1366 @@
+{
+  "roles_grams": {
+    "Skirt/Brim": 0.6077340740786893,
+    "Support material interface": 3.534208745602744,
+    "Support material": 10.293470155217774,
+    "External perimeter": 7.174251322460159,
+    "Perimeter": 12.22130200433854,
+    "Solid infill": 2.4977099431721177,
+    "Overhang perimeter": 1.0439596202429364,
+    "Bridge infill": 0.3004032531479048,
+    "Internal infill": 0.00290956653861278,
+    "Top solid infill": 0.13852281265870187
+  },
+  "extrusion_segments_by_role": {
+    "Skirt/Brim": 2771,
+    "Support material interface": 37164,
+    "Support material": 48252,
+    "External perimeter": 55431,
+    "Perimeter": 129121,
+    "Solid infill": 22103,
+    "Overhang perimeter": 6607,
+    "Bridge infill": 937,
+    "Internal infill": 41,
+    "Top solid infill": 983
+  },
+  "net_parts_PLA_g": 23.379058522558974,
+  "support_PLA_g": 13.827678900820517,
+  "brim_PLA_g": 0.6077340740786893,
+  "positive_XY_extrusion_PLA_g": 37.81447149745818,
+  "slicer_total_PLA_g": 37.81,
+  "accounting_difference_g": 0.004471497458176543,
+  "extrusion_centerline_bounds_mm": [
+    [
+      4.546,
+      2.189,
+      0.2
+    ],
+    [
+      234.425,
+      77.404,
+      25.6
+    ]
+  ],
+  "extrusion_plus_half_width_inside_bed": true,
+  "layers": 159,
+  "labelled_object_segments": {
+    "SIDE_REAR_KEY id:8 copy 0": 5459,
+    "BODY id:0 copy 0": 217465,
+    "LEFT_KEY id:1 copy 0": 24682,
+    "WHEEL id:4 copy 0": 10652,
+    "SIDE_FRONT_KEY_SWITCH_CLAMP id:5 copy 0": 2459,
+    "SIDE_REAR_KEY_SWITCH_CLAMP id:6 copy 0": 2459,
+    "SIDE_FRONT_KEY id:7 copy 0": 2904,
+    "WHEEL_CARRIER id:3 copy 0": 12736,
+    "RIGHT_KEY id:2 copy 0": 24594
+  },
+  "short_path_samples": [
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        13.437,
+        12.366
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.05597320787662534
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        201.543,
+        57.286
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.02886173937932357
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        201.913,
+        57.458
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.003162277660169997
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        194.027,
+        51.057
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.006708203932505979
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        192.413,
+        49.658
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.10956733089747901
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        181.821,
+        50.714
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.1394632568098081
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        118.499,
+        48.632
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.0031622776601655032
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        117.281,
+        48.733
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.1284562182223955
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        116.874,
+        48.756
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.12571793825862404
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        116.835,
+        48.575
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.07473285756613202
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        115.653,
+        49.002
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.10900000000000176
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        115.022,
+        49.986
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.1089082182390239
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        113.854,
+        49.931
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.10977249200049961
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        113.318,
+        48.893
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.10900000000000176
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        113.949,
+        47.909
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.10927488274987993
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        115.116,
+        47.963
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.10840664186293711
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        130.219,
+        33.148
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.02147091055358779
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        131.653,
+        31.126
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.14354441821262115
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        131.646,
+        30.213
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.14342245291445616
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        181.822,
+        9.473
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.038832975677890326
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        182.168,
+        9.257
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.07988116173415964
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        182.537,
+        9.077
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.08431488599292394
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        182.898,
+        8.887
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.10707007051458932
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        183.258,
+        8.695
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.13368993978604735
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        183.619,
+        8.503
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.13601470508736133
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        184.019,
+        8.371
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.08904493247793537
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        184.202,
+        7.475
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.14283556979968196
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        216.514,
+        18.794
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.021377558326436306
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        216.901,
+        18.921
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.04100000000000236
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        217.288,
+        19.048
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.06041522986797501
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        217.676,
+        19.175
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.08102468759581936
+    },
+    {
+      "role": "Skirt/Brim",
+      "xy_mm": [
+        218.736,
+        19.896
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.03067572330035289
+    },
+    {
+      "role": "Support material interface",
+      "xy_mm": [
+        48.841,
+        45.649
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.1032375900532365
+    },
+    {
+      "role": "Support material interface",
+      "xy_mm": [
+        42.036,
+        56.316
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.12083873551142439
+    },
+    {
+      "role": "Support material interface",
+      "xy_mm": [
+        39.311,
+        71.571
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.09618731725128493
+    },
+    {
+      "role": "Support material interface",
+      "xy_mm": [
+        36.965,
+        71.588
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.1494021418855722
+    },
+    {
+      "role": "Support material interface",
+      "xy_mm": [
+        37.058,
+        71.681
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.1315218613006978
+    },
+    {
+      "role": "Support material interface",
+      "xy_mm": [
+        46.707,
+        38.3
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.12099999999999511
+    },
+    {
+      "role": "Support material interface",
+      "xy_mm": [
+        42.208,
+        26.544
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.14017489076150597
+    },
+    {
+      "role": "Support material interface",
+      "xy_mm": [
+        54.741,
+        35.792
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.1393592479887889
+    },
+    {
+      "role": "Support material interface",
+      "xy_mm": [
+        60.566,
+        35.314
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.06717886572427297
+    },
+    {
+      "role": "Support material interface",
+      "xy_mm": [
+        56.212,
+        38.208
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.1128937553631703
+    },
+    {
+      "role": "Support material interface",
+      "xy_mm": [
+        53.765,
+        41.118
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.09000000000000341
+    },
+    {
+      "role": "Support material interface",
+      "xy_mm": [
+        56.218,
+        43.891
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.13535139452550501
+    },
+    {
+      "role": "Support material",
+      "xy_mm": [
+        61.164,
+        51.141
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.10872442227944616
+    },
+    {
+      "role": "Support material interface",
+      "xy_mm": [
+        56.794,
+        12.444
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.10729864864014027
+    },
+    {
+      "role": "Support material",
+      "xy_mm": [
+        76.543,
+        20.252
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.1332966616236138
+    },
+    {
+      "role": "Support material",
+      "xy_mm": [
+        75.536,
+        15.589
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.14424978336205865
+    },
+    {
+      "role": "Support material",
+      "xy_mm": [
+        61.164,
+        30.954
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.10928860873851162
+    },
+    {
+      "role": "Support material",
+      "xy_mm": [
+        72.924,
+        28.089
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.13799999999999102
+    },
+    {
+      "role": "Support material interface",
+      "xy_mm": [
+        74.512,
+        26.413
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.11985407794481182
+    },
+    {
+      "role": "Support material interface",
+      "xy_mm": [
+        77.54,
+        21.16
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.11150336317798777
+    },
+    {
+      "role": "Support material interface",
+      "xy_mm": [
+        77.029,
+        21.052
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.057428216061443216
+    },
+    {
+      "role": "Support material",
+      "xy_mm": [
+        72.924,
+        54.006
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.13799999999999102
+    },
+    {
+      "role": "Support material",
+      "xy_mm": [
+        36.662,
+        10.833
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.12021647141718722
+    },
+    {
+      "role": "Support material",
+      "xy_mm": [
+        55.095,
+        36.426
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.14441952776546332
+    },
+    {
+      "role": "Support material",
+      "xy_mm": [
+        53.288,
+        40.172
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.1032375900532365
+    },
+    {
+      "role": "Support material",
+      "xy_mm": [
+        53.361,
+        41.196
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.1039471019317026
+    },
+    {
+      "role": "Support material",
+      "xy_mm": [
+        76.01,
+        23.578
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.08199999999999849
+    },
+    {
+      "role": "Support material",
+      "xy_mm": [
+        54.832,
+        38.218
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.0596405902049968
+    },
+    {
+      "role": "Support material",
+      "xy_mm": [
+        37.983,
+        26.891
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.1135341358358796
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        14.988,
+        22.805
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.0702637886823647
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.018,
+        22.868
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.06977822009767748
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.048,
+        22.932
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.07068238818828895
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.077,
+        22.995
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.06935416353760095
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.107,
+        23.058
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.06977822009767672
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.137,
+        23.122
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.0706823881882897
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.161,
+        23.056
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.07022819946431647
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.185,
+        22.99
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.0702281994643204
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.208,
+        22.924
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.06989277502002511
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.232,
+        22.859
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.06928924880527759
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.256,
+        22.793
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.0702281994643204
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.28,
+        22.727
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.07022819946431647
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        94.867,
+        33.29
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.1017889974407841
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        94.848,
+        33.39
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.10178899744078675
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        94.829,
+        33.49
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.10178899744078675
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        94.81,
+        33.59
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.1017889974407841
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        94.83,
+        48.587
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.1017889974407841
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        94.849,
+        48.687
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.10178899744077977
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        94.868,
+        48.787
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.1017889974407841
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        94.886,
+        48.887
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.10160708636704582
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.255,
+        59.348
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.06928924880527759
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.23,
+        59.282
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.07057619995437801
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.206,
+        59.216
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.07022819946431373
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.181,
+        59.151
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.0696419413859186
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.157,
+        59.085
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.07022819946431981
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.133,
+        59.019
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.0702281994643204
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.103,
+        59.083
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.07068238818828895
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.074,
+        59.147
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.0702637886823647
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.045,
+        59.211
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.0702637886823647
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.016,
+        59.274
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.06935416353760095
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        14.987,
+        59.338
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.0702637886823647
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        14.958,
+        59.402
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.0702637886823647
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        9.425,
+        38.204
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.1424113759500999
+    },
+    {
+      "role": "External perimeter",
+      "xy_mm": [
+        15.218,
+        53.678
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.11300442469213272
+    },
+    {
+      "role": "Perimeter",
+      "xy_mm": [
+        10.095,
+        53.211
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.06963476143421123
+    },
+    {
+      "role": "Perimeter",
+      "xy_mm": [
+        10.135,
+        53.269
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.07045565981523352
+    },
+    {
+      "role": "Perimeter",
+      "xy_mm": [
+        10.174,
+        53.326
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.06906518659932964
+    },
+    {
+      "role": "Perimeter",
+      "xy_mm": [
+        10.214,
+        53.383
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.06963476143421704
+    },
+    {
+      "role": "Perimeter",
+      "xy_mm": [
+        10.254,
+        53.441
+      ],
+      "z_mm": 0.2,
+      "length_mm": 0.07045565981523352
+    }
+  ],
+  "estimated_time": "4h 56m 39s",
+  "profile": {
+    "bed_shape": "0x0,250x0,250x210,0x210",
+    "nozzle_diameter": "0.4",
+    "layer_height": "0.2",
+    "perimeters": "4",
+    "fill_density": "20%",
+    "filament_density": "1.24",
+    "support_material": "1",
+    "support_material_buildplate_only": "0",
+    "temperature": "210",
+    "bed_temperature": "60"
+  },
+  "accounting": "Sum positive extrusion on XY-moving toolpath segments by slicer TYPE; retract/unretract-only E moves excluded. Footer rounded separately. Net parts excludes support and brim; no printer calibration claim.",
+  "variant": "F1E",
+  "plate": "exports\\l2_revision\\F1E\\F1E_ALL_PARTS_SINGLE_PLATE.3mf",
+  "slicer": "PrusaSlicer 2.9.6",
+  "placements": [
+    {
+      "part": "BODY",
+      "bounds": [
+        [
+          8.0,
+          8.0,
+          0.0
+        ],
+        [
+          96.23600006103516,
+          74.09475708007812,
+          25.564900773460977
+        ]
+      ],
+      "additional_rotation_z_deg": 90,
+      "print_to_plate_matrix": [
+        [
+          6.123233995736766e-17,
+          -1.0,
+          0.0,
+          52.11800003051758
+        ],
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0,
+          41.04737854003906
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0012372907949611545
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "part": "LEFT_KEY",
+      "bounds": [
+        [
+          108.23600006103516,
+          7.999999999999998,
+          0.0
+        ],
+        [
+          148.70101737976074,
+          30.699999809265137,
+          15.519611830847168
+        ]
+      ],
+      "additional_rotation_z_deg": 90,
+      "print_to_plate_matrix": [
+        [
+          6.123233995736766e-17,
+          -1.0,
+          0.0,
+          128.4683609008789
+        ],
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0,
+          19.34999942779541
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -4.814697263100243e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "part": "RIGHT_KEY",
+      "bounds": [
+        [
+          160.70101737976074,
+          8.0,
+          0.0
+        ],
+        [
+          201.16603469848633,
+          30.699999809265137,
+          15.519611830847055
+        ]
+      ],
+      "additional_rotation_z_deg": 90,
+      "print_to_plate_matrix": [
+        [
+          6.123233995736766e-17,
+          -1.0,
+          0.0,
+          180.9333782196045
+        ],
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0,
+          19.350000381469727
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -4.81469839996862e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "part": "WHEEL_CARRIER",
+      "bounds": [
+        [
+          213.16603469848633,
+          8.0,
+          0.0
+        ],
+        [
+          231.11603450775146,
+          40.59951400756836,
+          11.399687194824224
+        ]
+      ],
+      "additional_rotation_z_deg": 0,
+      "print_to_plate_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          222.14103412628174
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          24.299999237060547
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.814697322468419e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "part": "WHEEL",
+      "bounds": [
+        [
+          108.23600006103516,
+          42.69999980926514,
+          0.0
+        ],
+        [
+          120.7346019744873,
+          55.19720268249512,
+          16.10000076293946
+        ]
+      ],
+      "additional_rotation_z_deg": 90,
+      "print_to_plate_matrix": [
+        [
+          6.123233995736766e-17,
+          -1.0,
+          0.0,
+          114.48530197143555
+        ],
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0,
+          48.94720268249512
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.814697322468419e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "part": "SIDE_FRONT_KEY_SWITCH_CLAMP",
+      "bounds": [
+        [
+          132.7346019744873,
+          42.69999980926514,
+          0.0
+        ],
+        [
+          145.1346035003662,
+          51.69999980926514,
+          1.5999984264373666
+        ]
+      ],
+      "additional_rotation_z_deg": 90,
+      "print_to_plate_matrix": [
+        [
+          6.123233995736766e-17,
+          -1.0,
+          0.0,
+          138.93460273742676
+        ],
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0,
+          47.19999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -7.629394644936838e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "part": "SIDE_REAR_KEY_SWITCH_CLAMP",
+      "bounds": [
+        [
+          157.1346035003662,
+          42.69999980926514,
+          0.0
+        ],
+        [
+          169.53460121154785,
+          51.69999885559082,
+          1.5999984264373666
+        ]
+      ],
+      "additional_rotation_z_deg": 90,
+      "print_to_plate_matrix": [
+        [
+          6.123233995736766e-17,
+          -1.0,
+          0.0,
+          163.3346004486084
+        ],
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0,
+          47.19999980926514
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -7.629394644936838e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "part": "SIDE_FRONT_KEY",
+      "bounds": [
+        [
+          181.53460121154785,
+          42.69999980926514,
+          0.0
+        ],
+        [
+          191.93460273742676,
+          50.879822731018066,
+          3.5999995185302396
+        ]
+      ],
+      "additional_rotation_z_deg": 90,
+      "print_to_plate_matrix": [
+        [
+          6.123233995736766e-17,
+          -1.0,
+          0.0,
+          186.7346019744873
+        ],
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0,
+          46.79000234603882
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          9.073482942767441e-08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "bounds": [
+        [
+          203.93460273742676,
+          52.59951400756836,
+          0.0
+        ],
+        [
+          214.3346004486084,
+          60.08870887756348,
+          3.599999518530268
+        ]
+      ],
+      "additional_rotation_z_deg": 90,
+      "print_to_plate_matrix": [
+        [
+          6.123233995736766e-17,
+          -1.0,
+          0.0,
+          209.13459968566895
+        ],
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0,
+          56.34455442428589
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          9.073485784938384e-08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "objects": 9,
+  "assumed_bed_mm": [
+    250,
+    210
+  ],
+  "printer_model_confirmed": false,
+  "independently_sliced_without_load_flag": true,
+  "plate_sha256": "72aba13736d451cd52853b042bdea2e2698e2f11aec55eddfd2ef6e33fd6a544",
+  "scope": "Actual separated-parts slice with embedded profile. Requires actual printer profile and tolerance test coupons before printing; not printer-ready G-code.",
+  "pass_check": true
+}

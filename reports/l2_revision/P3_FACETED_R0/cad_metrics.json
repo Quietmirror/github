@@ -1,0 +1,2216 @@
+{
+  "BODY": {
+    "volume_mm3": 14219.699215274537,
+    "bounds_mm": [
+      66.09600020000002,
+      88.23600020000039,
+      25.564000201589963
+    ],
+    "min": [
+      -33.0480001,
+      -1e-07,
+      4.9999998984100475
+    ],
+    "max": [
+      33.04800010000001,
+      88.2360001000004,
+      30.56400010000001
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": true,
+    "mesh_cleanup": {
+      "raw_faces": 130284,
+      "final_faces": 130264,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    },
+    "print_translation": [
+      -3.552713678800501e-15,
+      -44.1180000000002,
+      -4.9999998984100475
+    ],
+    "print_rotation_y_deg": 0
+  },
+  "LEFT_KEY": {
+    "volume_mm3": 1780.4745683771605,
+    "bounds_mm": [
+      22.7000002,
+      40.46531476587379,
+      15.51961204744755
+    ],
+    "min": [
+      5.299999899999999,
+      0.6846852341262059,
+      10.599999899999998
+    ],
+    "max": [
+      28.0000001,
+      41.15,
+      26.11961194744755
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": true,
+    "mesh_cleanup": {
+      "raw_faces": 4444,
+      "final_faces": 4444,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    },
+    "print_translation": [
+      -16.65,
+      -20.917342617063102,
+      -10.599999899999998
+    ],
+    "print_rotation_y_deg": 0
+  },
+  "RIGHT_KEY": {
+    "volume_mm3": 1780.5052945844254,
+    "bounds_mm": [
+      22.700000200000016,
+      40.465314765873615,
+      15.519612047474409
+    ],
+    "min": [
+      -28.000000100000015,
+      0.6846852341263828,
+      10.599999899999903
+    ],
+    "max": [
+      -5.299999899999999,
+      41.15,
+      26.11961194747431
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": true,
+    "mesh_cleanup": {
+      "raw_faces": 5564,
+      "final_faces": 5564,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    },
+    "print_translation": [
+      16.650000000000006,
+      -20.91734261706319,
+      -10.599999899999903
+    ],
+    "print_rotation_y_deg": 0
+  },
+  "SIDE_FRONT_KEY": {
+    "volume_mm3": 167.9162483801802,
+    "bounds_mm": [
+      8.29099282910699,
+      9.400000200000243,
+      4.600000200000018
+    ],
+    "min": [
+      24.531725911148,
+      44.599999899999816,
+      12.699999899999991
+    ],
+    "max": [
+      32.82271874025499,
+      54.00000010000006,
+      17.30000010000001
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": true,
+    "mesh_cleanup": {
+      "raw_faces": 10288,
+      "final_faces": 10288,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    },
+    "print_translation": [
+      -28.677222325701496,
+      -49.29999999999994,
+      -12.699999899999991
+    ],
+    "print_rotation_y_deg": 0
+  },
+  "SIDE_FRONT_KEY_SWITCH_CLAMP": {
+    "volume_mm3": 192.8835410522584,
+    "bounds_mm": [
+      9.0,
+      14.400000000000006,
+      1.6000000000000014
+    ],
+    "min": [
+      14.41172591114816,
+      44.8,
+      17.95
+    ],
+    "max": [
+      23.41172591114816,
+      59.2,
+      19.55
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": true,
+    "mesh_cleanup": {
+      "raw_faces": 860,
+      "final_faces": 860,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    },
+    "print_translation": [
+      -18.91172591114816,
+      -52.0,
+      -17.95
+    ],
+    "print_rotation_y_deg": 0
+  },
+  "SIDE_REAR_KEY": {
+    "volume_mm3": 176.7117248162986,
+    "bounds_mm": [
+      8.053023220603283,
+      10.00000010000003,
+      4.6000002000004745
+    ],
+    "min": [
+      25.249803532337,
+      57.599999899999965,
+      12.69999989999995
+    ],
+    "max": [
+      33.302826752940284,
+      67.6,
+      17.300000100000425
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": true,
+    "mesh_cleanup": {
+      "raw_faces": 9740,
+      "final_faces": 9740,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    },
+    "print_translation": [
+      -29.276315142638644,
+      -62.59999994999998,
+      -12.69999989999995
+    ],
+    "print_rotation_y_deg": 0
+  },
+  "SIDE_REAR_KEY_SWITCH_CLAMP": {
+    "volume_mm3": 192.88354105225844,
+    "bounds_mm": [
+      9.0,
+      14.400000000000006,
+      1.6000000000000014
+    ],
+    "min": [
+      15.129803532337469,
+      59.8,
+      17.95
+    ],
+    "max": [
+      24.12980353233747,
+      74.2,
+      19.55
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": true,
+    "mesh_cleanup": {
+      "raw_faces": 860,
+      "final_faces": 860,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    },
+    "print_translation": [
+      -19.62980353233747,
+      -67.0,
+      -17.95
+    ],
+    "print_rotation_y_deg": 0
+  },
+  "WHEEL": {
+    "volume_mm3": 823.7618265071333,
+    "bounds_mm": [
+      16.1,
+      12.5,
+      12.5
+    ],
+    "min": [
+      -7.25,
+      21.75,
+      12.75
+    ],
+    "max": [
+      8.85,
+      34.25,
+      25.25
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": true,
+    "mesh_cleanup": {
+      "raw_faces": 860,
+      "final_faces": 860,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    },
+    "print_translation": [
+      -19.0,
+      -28.0,
+      8.849999999999998
+    ],
+    "print_rotation_y_deg": 90
+  },
+  "WHEEL_CARRIER": {
+    "volume_mm3": 589.8947419792012,
+    "bounds_mm": [
+      17.9500001,
+      32.6000001,
+      11.400000100000002
+    ],
+    "min": [
+      -6.8500001,
+      20.0,
+      10.4
+    ],
+    "max": [
+      11.1,
+      52.6000001,
+      21.800000100000002
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": true,
+    "mesh_cleanup": {
+      "raw_faces": 10830,
+      "final_faces": 10828,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    },
+    "print_translation": [
+      -2.12499995,
+      -36.30000005,
+      -10.4
+    ],
+    "print_rotation_y_deg": 0
+  },
+  "LEFT_KEY_STEEL_PIN": {
+    "volume_mm3": 68.48671984825745,
+    "bounds_mm": [
+      21.8,
+      2.0,
+      2.0
+    ],
+    "min": [
+      7.400000000000002,
+      37.5,
+      13.321791392450047
+    ],
+    "max": [
+      29.200000000000003,
+      39.5,
+      15.321791392450047
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 416,
+      "final_faces": 416,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "LEFT_KEY_M2_SWITCH_1_BOLT": {
+    "volume_mm3": 55.84495101021218,
+    "bounds_mm": [
+      13.600000000000001,
+      3.799999999999997,
+      3.8000000000000007
+    ],
+    "min": [
+      11.350000000000001,
+      23.02674548944093,
+      8.69991381399579
+    ],
+    "max": [
+      24.950000000000003,
+      26.826745489440928,
+      12.499913813995791
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 836,
+      "final_faces": 836,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "LEFT_KEY_M2_SWITCH_1_WASHER_NUT": {
+    "volume_mm3": 4.750088092227773,
+    "bounds_mm": [
+      0.3000000000000007,
+      5.0,
+      5.0
+    ],
+    "min": [
+      13.25,
+      22.42674548944093,
+      8.09991381399579
+    ],
+    "max": [
+      13.55,
+      27.42674548944093,
+      13.09991381399579
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD": {
+    "volume_mm3": 4.750088092227772,
+    "bounds_mm": [
+      0.3000000000000007,
+      5.0,
+      5.0
+    ],
+    "min": [
+      23.05,
+      22.42674548944093,
+      8.09991381399579
+    ],
+    "max": [
+      23.35,
+      27.42674548944093,
+      13.09991381399579
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "LEFT_KEY_M2_SWITCH_1_NUT": {
+    "volume_mm3": 17.14370209113798,
+    "bounds_mm": [
+      1.5999999999999996,
+      4.517870244726797,
+      4.392741885580442
+    ],
+    "min": [
+      11.65,
+      22.66781036707753,
+      8.40354287120557
+    ],
+    "max": [
+      13.25,
+      27.185680611804326,
+      12.796284756786012
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 444,
+      "final_faces": 444,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "LEFT_KEY_M2_SWITCH_2_BOLT": {
+    "volume_mm3": 55.84495101021218,
+    "bounds_mm": [
+      13.600000000000001,
+      3.8000000000000007,
+      3.8000000000000007
+    ],
+    "min": [
+      11.350000000000001,
+      29.20861284535943,
+      10.708524277432952
+    ],
+    "max": [
+      24.950000000000003,
+      33.00861284535943,
+      14.508524277432953
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 836,
+      "final_faces": 836,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "LEFT_KEY_M2_SWITCH_2_WASHER_NUT": {
+    "volume_mm3": 4.750088092227773,
+    "bounds_mm": [
+      0.3000000000000007,
+      5.0000000000000036,
+      5.0
+    ],
+    "min": [
+      13.25,
+      28.608612845359428,
+      10.108524277432952
+    ],
+    "max": [
+      13.55,
+      33.60861284535943,
+      15.108524277432952
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD": {
+    "volume_mm3": 4.750088092227772,
+    "bounds_mm": [
+      0.3000000000000007,
+      5.0000000000000036,
+      5.0
+    ],
+    "min": [
+      23.05,
+      28.608612845359428,
+      10.108524277432952
+    ],
+    "max": [
+      23.35,
+      33.60861284535943,
+      15.108524277432952
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "LEFT_KEY_M2_SWITCH_2_NUT": {
+    "volume_mm3": 17.143702091137992,
+    "bounds_mm": [
+      1.5999999999999996,
+      4.517870244726801,
+      4.392741885580442
+    ],
+    "min": [
+      11.65,
+      28.849677722996027,
+      10.412153334642728
+    ],
+    "max": [
+      13.25,
+      33.36754796772283,
+      14.80489522022317
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 444,
+      "final_faces": 444,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SWITCH_LEFT": {
+    "volume_mm3": 457.97607958611076,
+    "bounds_mm": [
+      5.800000000000001,
+      14.721591138039201,
+      13.289843004157142
+    ],
+    "min": [
+      15.399999999999999,
+      20.43338531705122,
+      5.062818236751408
+    ],
+    "max": [
+      21.2,
+      35.15497645509042,
+      18.35266124090855
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 3703,
+      "final_faces": 3702,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "RIGHT_KEY_STEEL_PIN": {
+    "volume_mm3": 68.48671984825745,
+    "bounds_mm": [
+      21.800000000000004,
+      2.0,
+      2.0
+    ],
+    "min": [
+      -29.200000000000003,
+      37.5,
+      13.321791392450033
+    ],
+    "max": [
+      -7.4,
+      39.5,
+      15.321791392450033
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 416,
+      "final_faces": 416,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "RIGHT_KEY_M2_SWITCH_1_BOLT": {
+    "volume_mm3": 55.84495101021218,
+    "bounds_mm": [
+      13.600000000000001,
+      3.799999999999997,
+      3.8000000000000007
+    ],
+    "min": [
+      -24.950000000000003,
+      23.02674548944093,
+      8.699913813996075
+    ],
+    "max": [
+      -11.350000000000001,
+      26.826745489440928,
+      12.499913813996075
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 836,
+      "final_faces": 836,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT": {
+    "volume_mm3": 4.750088092227773,
+    "bounds_mm": [
+      0.3000000000000007,
+      5.0,
+      5.0
+    ],
+    "min": [
+      -13.55,
+      22.42674548944093,
+      8.099913813996075
+    ],
+    "max": [
+      -13.25,
+      27.42674548944093,
+      13.099913813996075
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD": {
+    "volume_mm3": 4.750088092227772,
+    "bounds_mm": [
+      0.3000000000000007,
+      5.0,
+      5.0
+    ],
+    "min": [
+      -23.35,
+      22.42674548944093,
+      8.099913813996075
+    ],
+    "max": [
+      -23.05,
+      27.42674548944093,
+      13.099913813996075
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "RIGHT_KEY_M2_SWITCH_1_NUT": {
+    "volume_mm3": 17.143702091137968,
+    "bounds_mm": [
+      1.5999999999999996,
+      4.517870244726794,
+      4.392741885580438
+    ],
+    "min": [
+      -13.25,
+      22.667810367077532,
+      8.403542871205858
+    ],
+    "max": [
+      -11.65,
+      27.185680611804326,
+      12.796284756786296
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 444,
+      "final_faces": 444,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "RIGHT_KEY_M2_SWITCH_2_BOLT": {
+    "volume_mm3": 55.844951010212185,
+    "bounds_mm": [
+      13.600000000000001,
+      3.8000000000000007,
+      3.8000000000000007
+    ],
+    "min": [
+      -24.950000000000003,
+      29.20861284535943,
+      10.708524277433236
+    ],
+    "max": [
+      -11.350000000000001,
+      33.00861284535943,
+      14.508524277433237
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 836,
+      "final_faces": 836,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT": {
+    "volume_mm3": 4.750088092227773,
+    "bounds_mm": [
+      0.3000000000000007,
+      5.0000000000000036,
+      5.0
+    ],
+    "min": [
+      -13.55,
+      28.608612845359428,
+      10.108524277433236
+    ],
+    "max": [
+      -13.25,
+      33.60861284535943,
+      15.108524277433236
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD": {
+    "volume_mm3": 4.750088092227772,
+    "bounds_mm": [
+      0.3000000000000007,
+      5.0000000000000036,
+      5.0
+    ],
+    "min": [
+      -23.35,
+      28.608612845359428,
+      10.108524277433236
+    ],
+    "max": [
+      -23.05,
+      33.60861284535943,
+      15.108524277433236
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "RIGHT_KEY_M2_SWITCH_2_NUT": {
+    "volume_mm3": 17.14370209113797,
+    "bounds_mm": [
+      1.5999999999999996,
+      4.517870244726797,
+      4.392741885580438
+    ],
+    "min": [
+      -13.25,
+      28.84967772299603,
+      10.412153334643016
+    ],
+    "max": [
+      -11.65,
+      33.36754796772283,
+      14.804895220223454
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 444,
+      "final_faces": 444,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SWITCH_RIGHT": {
+    "volume_mm3": 457.97607958611053,
+    "bounds_mm": [
+      5.799999999999999,
+      14.721591138039201,
+      13.289843004157142
+    ],
+    "min": [
+      -21.2,
+      20.43338531705122,
+      5.062818236751692
+    ],
+    "max": [
+      -15.4,
+      35.15497645509042,
+      18.352661240908834
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 3703,
+      "final_faces": 3702,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_FRONT_KEY_CAPTURE_PIN": {
+    "volume_mm3": 9.89601685880785,
+    "bounds_mm": [
+      1.5,
+      1.5,
+      5.599999999999998
+    ],
+    "min": [
+      26.24172591114816,
+      49.25,
+      12.2
+    ],
+    "max": [
+      27.74172591114816,
+      50.75,
+      17.799999999999997
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 416,
+      "final_faces": 416,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT": {
+    "volume_mm3": 55.84495101021213,
+    "bounds_mm": [
+      3.799999999999997,
+      3.799999999999997,
+      13.600000000000003
+    ],
+    "min": [
+      17.01172591114816,
+      46.800000000000004,
+      7.85
+    ],
+    "max": [
+      20.81172591114816,
+      50.6,
+      21.450000000000003
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 836,
+      "final_faces": 836,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_NUT": {
+    "volume_mm3": 4.750088092227761,
+    "bounds_mm": [
+      5.0,
+      5.0,
+      0.3000000000000007
+    ],
+    "min": [
+      16.41172591114816,
+      46.2,
+      10.15
+    ],
+    "max": [
+      21.41172591114816,
+      51.2,
+      10.450000000000001
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_HEAD": {
+    "volume_mm3": 4.750088092227771,
+    "bounds_mm": [
+      5.0,
+      5.0,
+      0.30000000000000426
+    ],
+    "min": [
+      16.41172591114816,
+      46.2,
+      19.549999999999997
+    ],
+    "max": [
+      21.41172591114816,
+      51.2,
+      19.85
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_FRONT_KEY_M2_SWITCH_1_NUT": {
+    "volume_mm3": 17.14370209113797,
+    "bounds_mm": [
+      4.618802153517009,
+      4.0,
+      1.6000000000000014
+    ],
+    "min": [
+      16.602324834389655,
+      46.7,
+      8.55
+    ],
+    "max": [
+      21.221126987906665,
+      50.7,
+      10.150000000000002
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 444,
+      "final_faces": 444,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_FRONT_KEY_M2_SWITCH_2_BOLT": {
+    "volume_mm3": 55.84495101021212,
+    "bounds_mm": [
+      3.799999999999997,
+      3.799999999999997,
+      13.600000000000003
+    ],
+    "min": [
+      17.01172591114816,
+      53.300000000000004,
+      7.85
+    ],
+    "max": [
+      20.81172591114816,
+      57.1,
+      21.450000000000003
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 836,
+      "final_faces": 836,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_NUT": {
+    "volume_mm3": 4.750088092227761,
+    "bounds_mm": [
+      5.0,
+      5.0,
+      0.3000000000000007
+    ],
+    "min": [
+      16.41172591114816,
+      52.7,
+      10.15
+    ],
+    "max": [
+      21.41172591114816,
+      57.7,
+      10.450000000000001
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_HEAD": {
+    "volume_mm3": 4.750088092227771,
+    "bounds_mm": [
+      5.0,
+      5.0,
+      0.30000000000000426
+    ],
+    "min": [
+      16.41172591114816,
+      52.7,
+      19.549999999999997
+    ],
+    "max": [
+      21.41172591114816,
+      57.7,
+      19.85
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_FRONT_KEY_M2_SWITCH_2_NUT": {
+    "volume_mm3": 17.14370209113797,
+    "bounds_mm": [
+      4.618802153517009,
+      4.0,
+      1.6000000000000014
+    ],
+    "min": [
+      16.602324834389655,
+      53.2,
+      8.55
+    ],
+    "max": [
+      21.221126987906665,
+      57.2,
+      10.150000000000002
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 444,
+      "final_faces": 444,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SWITCH_SIDE_FRONT": {
+    "volume_mm3": 457.4524808105121,
+    "bounds_mm": [
+      10.600000000000001,
+      12.800000000000004,
+      5.799999999999999
+    ],
+    "min": [
+      13.91172591114816,
+      45.6,
+      12.1
+    ],
+    "max": [
+      24.51172591114816,
+      58.400000000000006,
+      17.9
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 1328,
+      "final_faces": 1328,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_REAR_KEY_CAPTURE_PIN": {
+    "volume_mm3": 9.896016858807855,
+    "bounds_mm": [
+      1.5,
+      1.5,
+      5.599999999999998
+    ],
+    "min": [
+      26.959803532337467,
+      64.25,
+      12.2
+    ],
+    "max": [
+      28.459803532337467,
+      65.75,
+      17.799999999999997
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 416,
+      "final_faces": 416,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_REAR_KEY_M2_SWITCH_1_BOLT": {
+    "volume_mm3": 55.84495101021212,
+    "bounds_mm": [
+      3.799999999999997,
+      3.8000000000000043,
+      13.600000000000003
+    ],
+    "min": [
+      17.72980353233747,
+      61.800000000000004,
+      7.85
+    ],
+    "max": [
+      21.529803532337468,
+      65.60000000000001,
+      21.450000000000003
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 836,
+      "final_faces": 836,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_NUT": {
+    "volume_mm3": 4.750088092227761,
+    "bounds_mm": [
+      5.0,
+      5.0,
+      0.3000000000000007
+    ],
+    "min": [
+      17.12980353233747,
+      61.2,
+      10.15
+    ],
+    "max": [
+      22.12980353233747,
+      66.2,
+      10.450000000000001
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_HEAD": {
+    "volume_mm3": 4.750088092227771,
+    "bounds_mm": [
+      5.0,
+      5.0,
+      0.30000000000000426
+    ],
+    "min": [
+      17.12980353233747,
+      61.2,
+      19.549999999999997
+    ],
+    "max": [
+      22.12980353233747,
+      66.2,
+      19.85
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_REAR_KEY_M2_SWITCH_1_NUT": {
+    "volume_mm3": 17.14370209113797,
+    "bounds_mm": [
+      4.618802153517009,
+      4.0,
+      1.6000000000000014
+    ],
+    "min": [
+      17.320402455578964,
+      61.7,
+      8.55
+    ],
+    "max": [
+      21.939204609095974,
+      65.7,
+      10.150000000000002
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 444,
+      "final_faces": 444,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_REAR_KEY_M2_SWITCH_2_BOLT": {
+    "volume_mm3": 55.84495101021212,
+    "bounds_mm": [
+      3.799999999999997,
+      3.8000000000000114,
+      13.600000000000003
+    ],
+    "min": [
+      17.72980353233747,
+      68.3,
+      7.85
+    ],
+    "max": [
+      21.529803532337468,
+      72.10000000000001,
+      21.450000000000003
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 836,
+      "final_faces": 836,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_NUT": {
+    "volume_mm3": 4.750088092227761,
+    "bounds_mm": [
+      5.0,
+      5.0,
+      0.3000000000000007
+    ],
+    "min": [
+      17.12980353233747,
+      67.7,
+      10.15
+    ],
+    "max": [
+      22.12980353233747,
+      72.7,
+      10.450000000000001
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_HEAD": {
+    "volume_mm3": 4.75008809222777,
+    "bounds_mm": [
+      5.0,
+      5.0,
+      0.30000000000000426
+    ],
+    "min": [
+      17.12980353233747,
+      67.7,
+      19.549999999999997
+    ],
+    "max": [
+      22.12980353233747,
+      72.7,
+      19.85
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SIDE_REAR_KEY_M2_SWITCH_2_NUT": {
+    "volume_mm3": 17.143702091137975,
+    "bounds_mm": [
+      4.618802153517009,
+      4.0,
+      1.6000000000000014
+    ],
+    "min": [
+      17.320402455578964,
+      68.2,
+      8.55
+    ],
+    "max": [
+      21.939204609095974,
+      72.2,
+      10.150000000000002
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 444,
+      "final_faces": 444,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SWITCH_SIDE_REAR": {
+    "volume_mm3": 457.45248081051227,
+    "bounds_mm": [
+      10.6,
+      12.800000000000004,
+      5.799999999999999
+    ],
+    "min": [
+      14.62980353233747,
+      60.6,
+      12.1
+    ],
+    "max": [
+      25.22980353233747,
+      73.4,
+      17.9
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 1328,
+      "final_faces": 1328,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "ENCODER_EC10E_HOUSING": {
+    "volume_mm3": 326.2891003499646,
+    "bounds_mm": [
+      4.450000000000001,
+      12.5,
+      14.100000000000001
+    ],
+    "min": [
+      3.5,
+      21.75,
+      8.5
+    ],
+    "max": [
+      7.950000000000001,
+      34.25,
+      22.6
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 564,
+      "final_faces": 564,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "ENCODER_EC10E_ROTOR": {
+    "volume_mm3": 19.2839786446923,
+    "bounds_mm": [
+      4.4,
+      2.979999999999997,
+      2.979999999999997
+    ],
+    "min": [
+      3.55,
+      26.51,
+      17.51
+    ],
+    "max": [
+      7.95,
+      29.49,
+      20.49
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 444,
+      "final_faces": 444,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "WHEEL_CARRIER_STEEL_PIN": {
+    "volume_mm3": 43.35397861953913,
+    "bounds_mm": [
+      13.8,
+      2.0,
+      2.0
+    ],
+    "min": [
+      -6.9,
+      49.0,
+      18.0
+    ],
+    "max": [
+      6.9,
+      51.0,
+      20.0
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 416,
+      "final_faces": 416,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "SWITCH_MIDDLE": {
+    "volume_mm3": 457.97607958611053,
+    "bounds_mm": [
+      5.800000000000001,
+      12.800000000000004,
+      11.0
+    ],
+    "min": [
+      -3.3000000000000007,
+      37.1,
+      5.550000000000001
+    ],
+    "max": [
+      2.5,
+      49.900000000000006,
+      16.55
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 3703,
+      "final_faces": 3702,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "WHEEL_M2_SWITCH_1_BOLT": {
+    "volume_mm3": 55.84495101021214,
+    "bounds_mm": [
+      13.600000000000001,
+      3.799999999999997,
+      3.8000000000000007
+    ],
+    "min": [
+      -7.050000000000001,
+      38.300000000000004,
+      8.65
+    ],
+    "max": [
+      6.55,
+      42.1,
+      12.450000000000001
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 836,
+      "final_faces": 836,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "WHEEL_M2_SWITCH_1_WASHER_NUT": {
+    "volume_mm3": 4.750088092227767,
+    "bounds_mm": [
+      0.2999999999999998,
+      5.0,
+      5.0
+    ],
+    "min": [
+      4.35,
+      37.7,
+      8.05
+    ],
+    "max": [
+      4.6499999999999995,
+      42.7,
+      13.05
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "WHEEL_M2_SWITCH_1_WASHER_HEAD": {
+    "volume_mm3": 4.750088092227767,
+    "bounds_mm": [
+      0.2999999999999998,
+      5.0,
+      5.0
+    ],
+    "min": [
+      -5.45,
+      37.7,
+      8.05
+    ],
+    "max": [
+      -5.15,
+      42.7,
+      13.05
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "WHEEL_M2_SWITCH_1_NUT": {
+    "volume_mm3": 17.143702091137968,
+    "bounds_mm": [
+      1.5999999999999996,
+      4.0,
+      4.618802153517008
+    ],
+    "min": [
+      4.65,
+      38.2,
+      8.240598923241496
+    ],
+    "max": [
+      6.25,
+      42.2,
+      12.859401076758504
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 444,
+      "final_faces": 444,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "WHEEL_M2_SWITCH_2_BOLT": {
+    "volume_mm3": 55.84495101021214,
+    "bounds_mm": [
+      13.600000000000001,
+      3.799999999999997,
+      3.8000000000000007
+    ],
+    "min": [
+      -7.050000000000001,
+      44.800000000000004,
+      8.65
+    ],
+    "max": [
+      6.55,
+      48.6,
+      12.450000000000001
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 836,
+      "final_faces": 836,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "WHEEL_M2_SWITCH_2_WASHER_NUT": {
+    "volume_mm3": 4.750088092227767,
+    "bounds_mm": [
+      0.2999999999999998,
+      5.0,
+      5.0
+    ],
+    "min": [
+      4.35,
+      44.2,
+      8.05
+    ],
+    "max": [
+      4.6499999999999995,
+      49.2,
+      13.05
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "WHEEL_M2_SWITCH_2_WASHER_HEAD": {
+    "volume_mm3": 4.750088092227767,
+    "bounds_mm": [
+      0.2999999999999998,
+      5.0,
+      5.0
+    ],
+    "min": [
+      -5.45,
+      44.2,
+      8.05
+    ],
+    "max": [
+      -5.15,
+      49.2,
+      13.05
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "WHEEL_M2_SWITCH_2_NUT": {
+    "volume_mm3": 17.143702091137968,
+    "bounds_mm": [
+      1.5999999999999996,
+      4.0,
+      4.618802153517008
+    ],
+    "min": [
+      4.65,
+      44.7,
+      8.240598923241496
+    ],
+    "max": [
+      6.25,
+      48.7,
+      12.859401076758504
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 444,
+      "final_faces": 444,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "USB_C_REFERENCE": {
+    "volume_mm3": 217.4967899999999,
+    "bounds_mm": [
+      8.94,
+      7.350000000000001,
+      3.3100000000000005
+    ],
+    "min": [
+      -4.47,
+      10.5,
+      9.0
+    ],
+    "max": [
+      4.47,
+      17.85,
+      12.31
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 12,
+      "final_faces": 12,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "USB_ADAPTER_PCB_REFERENCE": {
+    "volume_mm3": 190.95221315766136,
+    "bounds_mm": [
+      20.0,
+      10.0,
+      1.0
+    ],
+    "min": [
+      -10.0,
+      10.0,
+      8.0
+    ],
+    "max": [
+      10.0,
+      20.0,
+      9.0
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 860,
+      "final_faces": 860,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "USB_M2x3_L": {
+    "volume_mm3": 27.570617127904026,
+    "bounds_mm": [
+      3.799999999999999,
+      3.8000000000000007,
+      4.6000000000000005
+    ],
+    "min": [
+      5.9,
+      11.1,
+      6.3
+    ],
+    "max": [
+      9.7,
+      14.9,
+      10.9
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 836,
+      "final_faces": 836,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "USB_WASHER_L": {
+    "volume_mm3": 4.750088092227768,
+    "bounds_mm": [
+      5.000000000000001,
+      5.0,
+      0.3000000000000007
+    ],
+    "min": [
+      5.3,
+      10.5,
+      9.0
+    ],
+    "max": [
+      10.3,
+      15.5,
+      9.3
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "USB_M2x3_R": {
+    "volume_mm3": 27.57061712790403,
+    "bounds_mm": [
+      3.799999999999999,
+      3.8000000000000007,
+      4.6000000000000005
+    ],
+    "min": [
+      -9.7,
+      11.1,
+      6.3
+    ],
+    "max": [
+      -5.9,
+      14.9,
+      10.9
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 836,
+      "final_faces": 836,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "USB_WASHER_R": {
+    "volume_mm3": 4.750088092227768,
+    "bounds_mm": [
+      5.000000000000001,
+      5.0,
+      0.3000000000000007
+    ],
+    "min": [
+      -10.3,
+      10.5,
+      9.0
+    ],
+    "max": [
+      -5.3,
+      15.5,
+      9.3
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "ENCODER_M2x3_FRONT": {
+    "volume_mm3": 27.570617127904026,
+    "bounds_mm": [
+      3.8000000000000007,
+      3.799999999999997,
+      4.6000000000000005
+    ],
+    "min": [
+      6.6,
+      24.200000000000003,
+      7.3
+    ],
+    "max": [
+      10.4,
+      28.0,
+      11.9
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 836,
+      "final_faces": 836,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "ENCODER_WASHER_FRONT": {
+    "volume_mm3": 3.0159289474462025,
+    "bounds_mm": [
+      4.199999999999999,
+      4.200000000000003,
+      0.3000000000000007
+    ],
+    "min": [
+      6.4,
+      24.0,
+      8.9
+    ],
+    "max": [
+      10.6,
+      28.200000000000003,
+      9.200000000000001
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "ENCODER_M2x3_REAR": {
+    "volume_mm3": 27.57061712790402,
+    "bounds_mm": [
+      3.8,
+      3.799999999999997,
+      4.6000000000000005
+    ],
+    "min": [
+      -0.5999999999999999,
+      30.6,
+      7.3
+    ],
+    "max": [
+      3.2,
+      34.4,
+      11.9
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 836,
+      "final_faces": 836,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "ENCODER_WASHER_REAR": {
+    "volume_mm3": 3.015928947446203,
+    "bounds_mm": [
+      4.2,
+      4.200000000000003,
+      0.3000000000000007
+    ],
+    "min": [
+      -0.8,
+      30.4,
+      8.9
+    ],
+    "max": [
+      3.4000000000000004,
+      34.6,
+      9.200000000000001
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 840,
+      "final_faces": 840,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  },
+  "ENCODER_ADAPTER_PCB_EST": {
+    "volume_mm3": 179.99272024839527,
+    "bounds_mm": [
+      12.2,
+      15.099999999999998,
+      1.1999999999999993
+    ],
+    "min": [
+      -0.7999999999999998,
+      20.8,
+      9.200000000000001
+    ],
+    "max": [
+      11.399999999999999,
+      35.9,
+      10.4
+    ],
+    "cad_valid": true,
+    "solids": 1,
+    "printable": false,
+    "mesh_cleanup": {
+      "raw_faces": 2196,
+      "final_faces": 2196,
+      "weld_decimal_places": 6,
+      "holes_patched": 0,
+      "components_discarded": 0,
+      "absolute_chord_mm": 0.025,
+      "angular_tolerance_rad": 0.12
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "product_name": "ATK A1 Pro",
+  "status": [
+    "DONOR_ID_UNVERIFIED",
+    "PCB_GEOMETRY_UNVERIFIED",
+    "FIT_NOT_CERTIFIED"
+  ],
+  "units": "mm",
+  "verified_outline": null,
+  "board_thickness": null,
+  "mount_holes": null,
+  "sensor_identity": null,
+  "optical_center": null,
+  "lens_datum": null,
+  "component_keepouts": null,
+  "usb": null,
+  "battery": null,
+  "antenna": null,
+  "reference_gauge_only": [
+    36,
+    50,
+    1.2
+  ]
+}

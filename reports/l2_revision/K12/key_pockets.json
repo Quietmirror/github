@@ -1,0 +1,33 @@
+{
+  "candidate": "K12",
+  "parts": [
+    {
+      "part": "LEFT_KEY",
+      "remaining_vertical_skin_mm": 1.2,
+      "removed_mm3": 210.35168290478873,
+      "PA12_saving_g": 0.21245519973383664,
+      "pocket_Y_mm": [
+        7,
+        31
+      ],
+      "protected_spine_width_mm": 2.0,
+      "contact_island_radius_mm": 3.2,
+      "limit": "Nominal vertical skin, not minimum normal wall; torsion/edge-press and slicing validation required."
+    },
+    {
+      "part": "RIGHT_KEY",
+      "remaining_vertical_skin_mm": 1.2,
+      "removed_mm3": 210.35173624063395,
+      "PA12_saving_g": 0.2124552536030403,
+      "pocket_Y_mm": [
+        7,
+        31
+      ],
+      "protected_spine_width_mm": 2.0,
+      "contact_island_radius_mm": 3.2,
+      "limit": "Nominal vertical skin, not minimum normal wall; torsion/edge-press and slicing validation required."
+    }
+  ],
+  "total_saving_g": 0.42491045333687694,
+  "status": "CANDIDATE_NOT_RELEASED"
+}

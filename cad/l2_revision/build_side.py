@@ -19,13 +19,18 @@ from build_p1 import layout
 def main():
     ctypes.windll.kernel32.SetPriorityClass(ctypes.c_void_p(-1),0x4000)
     variant=sys.argv[1] if len(sys.argv)>1 else 'F1'
-    assert variant in ('F1','F2','F1S','F2S','F1_P0','F2_P0','F1B','F2B')
+    assert variant in ('F1','F2','F1S','F2S','F1_P0','F2_P0','F1B','F2B','F1C','F2C','F1D','F2D','F1V','F2V','F1W')
     style='F2' if variant.startswith('F2') else 'F1'
     out=ROOT/f'exports/l2_revision/{variant}';rp=ROOT/f'reports/l2_revision/{variant}';rp.mkdir(parents=True,exist_ok=True)
     for folder in ('assembly','print','gauges'):
         shutil.copytree(ROOT/f'exports/rebuild_r3_2/{folder}',out/folder,dirs_exist_ok=True)
-    p=json.loads((ROOT/'cad/rebuild_r2/parameters.json').read_text());p['side']['centers_y']=[49.,62.];p['side']['z']=15.5 if variant.endswith('B') else 17.5
+    corrected=variant.endswith(('B','C','D','V','W'))
+    p=json.loads((ROOT/'cad/rebuild_r2/parameters.json').read_text());p['side']['centers_y']=[49.,62.];p['side']['z']=15.5 if corrected else 17.5
     p['l2']={'skeleton':'B0'}
+    if variant.endswith('C'):p['l2']['upper_cross_tie_y']=[58.,71.]
+    if variant.endswith(('D','V','W')):
+        p['l2'].update(upper_cross_tie_path='dogleg_between_tools',side_guide_length_mm=5.4)
+    if variant.endswith(('V','W')):p['l2']['dogleg_vertical_scale']=1.4
     d=json.loads((ROOT/'reports/rebuild_r3_2/design_metadata.json').read_text())
     metrics=json.loads((ROOT/'reports/rebuild_r3_2/cad_metrics.json').read_text())
     outer=cq.importers.importStep(str(out/'gauges/MOTHER_OUTER_REFERENCE.step')).val()
@@ -64,12 +69,18 @@ def main():
                          nominal_X_offset_mm=offset,local_normal_protrusion='To be measured on final cap versus mother surface',
                          relocated_micro_switch=True,two_end_stops=True,straight_insertion='Pending exported mesh check'))
     r.build_mechanics=lambda *args:mech
-    if not (variant.endswith('_P0') or variant.endswith('B')):r.exporter.window_layout=layout
+    if not (variant.endswith('_P0') or corrected) or variant.endswith('W'):r.exporter.window_layout=layout
     if variant.endswith('S'):
         from body_builder import rebuild_body
         body=rebuild_body(r,p,d,apertures)
     else:body=r.rebuild_body(p,d,apertures)
     # Do not auto-remove unexpected cavities or disconnected material.
+    if not body.isValid() or len(body.Solids())!=1:
+        cq.exporters.export(body,str(r.exporter.CACHE/'failed_body.step'))
+        fail=[]
+        for solid in body.Solids():
+            bb=solid.BoundingBox();fail.append(dict(volume=volume(solid)[0],bounds=[bb.xmin,bb.ymin,bb.zmin,bb.xmax,bb.ymax,bb.zmax]))
+        (rp/'construction_failure.json').write_text(json.dumps(dict(parameters=p,valid=body.isValid(),components=fail),indent=2)+'\n')
     body=check(body,'BODY');r.exporter.export('BODY',body,True,metrics)
     d['candidate_scope']='Joint cap/slider/socket revision. Full clearance and force checks are pending; not final L2.'
     d['side_touch_geometry']=rows
@@ -77,10 +88,11 @@ def main():
                   'center_z_mm':p['side']['z'],'gap_mm':13-length,'edge_clearance_mm':.35,'normal_offset_limit_mm':offset,
                   'clamp_length_mm':12.4,'original_nominal_travel_mm':.6,'no_eccentric_y_offset':True,
                   'outline_slope_deg':3. if style=='F2' else 0.,'keep_boolean_face_partitions':variant.endswith('S'),
-                  'roof_hole_family':'P0_R085' if variant.endswith('_P0') or variant.endswith('B') else 'P1_R130_EQUAL_AREA'}
+                  'roof_hole_family':'P0_R085' if (variant.endswith('_P0') or corrected) and not variant.endswith('W') else 'P1_R130_EQUAL_AREA'}
     # Carry side-specific fastener coordinates and assembly instructions with
     # the actual new mechanism, instead of inherited R3.2 coordinates.
     new_meta=r.exporter.mirror_metadata(mech['metadata'])
+    d['mechanisms']['raised_cross_ties']=new_meta['raised_cross_ties']
     d['mechanisms']['fasteners']=[q for q in d['mechanisms']['fasteners'] if not str(q).startswith("{'name': 'SIDE_") and not any(str(v).startswith('SIDE_') for v in q.values() if isinstance(v,str))]+[q for q in new_meta['fasteners'] if any(str(v).startswith('SIDE_') for v in q.values() if isinstance(v,str))]
     for name,data in [('design_metadata',d),('cad_metrics',metrics),('source_parameters',p)]:
         (rp/f'{name}.json').write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\n',encoding='utf8')

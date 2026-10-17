@@ -1,0 +1,40 @@
+{
+  "candidate": "K14R",
+  "parts": [
+    {
+      "part": "LEFT_KEY",
+      "volume_mm3": 1718.908370968019,
+      "added_to_K14_mm3": 95.85497050802405,
+      "ribs": {
+        "width_mm": 1.4,
+        "overall_vertical_depth_mm": 3.0,
+        "y_range_mm": [
+          8,
+          31
+        ],
+        "x_centers_abs_mm": [
+          12.1,
+          25.3
+        ]
+      }
+    },
+    {
+      "part": "RIGHT_KEY",
+      "volume_mm3": 1718.9090499881381,
+      "added_to_K14_mm3": 95.85549513048659,
+      "ribs": {
+        "width_mm": 1.4,
+        "overall_vertical_depth_mm": 3.0,
+        "y_range_mm": [
+          8,
+          31
+        ],
+        "x_centers_abs_mm": [
+          12.1,
+          25.3
+        ]
+      }
+    }
+  ],
+  "status": "CANDIDATE_CLEARANCE_AND_FEM_PENDING"
+}

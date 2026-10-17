@@ -1,0 +1,455 @@
+{
+  "version": "P6",
+  "source_step_sha256": "c5b829bba2921f503492e9c66852e338a9fa9a05febfb7a11fbf4577f65a0b37",
+  "analysis": "Actual 3D isotropic linear elastic BODY fixture screening only",
+  "not_full_assembly_certification": true,
+  "material": {
+    "E_MPa": 1700,
+    "nu": 0.37,
+    "density_for_mass_g_cm3": 1.01,
+    "all_assumptions": true
+  },
+  "levels": [
+    {
+      "h_mm": 2.4,
+      "mesh": {
+        "nodes": 149467,
+        "elements": 76362,
+        "element_type": "C3D10",
+        "boundary_tri6": 45946,
+        "connected_components": 1,
+        "corner_tet_min_volume_mm3": 2.144623475577511e-06,
+        "corner_tet_total_volume_mm3": 12712.060972176023,
+        "corner_tet_mean_ratio_min": 0.007332521021533279,
+        "corner_tet_mean_ratio_p01": 0.30510785286652825,
+        "corner_tet_mean_ratio_definition": "12*(3V)^(2/3)/sum(six squared edge lengths); regular tetrahedron=1, degenerate=0. Corner geometry diagnostic only.",
+        "quadratic_tet_integrated_volume_mm3": 12712.060972176036,
+        "quadratic_jacobian_min_mm3": 1.2867740796703684e-05,
+        "quadratic_jacobian_min_over_max_per_element": 0.9999999949934909,
+        "quadratic_jacobian_check": "Four C3D10 integration points and centroid; all positive. This is not a formal interval proof at every point.",
+        "quadratic_boundary_area_mm2": 18200.914866542887,
+        "mesh_file_sha256": "b2fa823e8a7100c0c645ac3f947b0f8d1083179065e71a0d70c2743fab7009b0",
+        "target_max_size_mm": 2.4,
+        "meshing_seconds": 40.062000000005355,
+        "geo_sha256": "e45dcf567d05590a81edb395b9b77e19794992700171c833ff735c43e9507eeb",
+        "source_step_sha256": "c5b829bba2921f503492e9c66852e338a9fa9a05febfb7a11fbf4577f65a0b37"
+      },
+      "cases": [
+        {
+          "postprocess_version": 3,
+          "linear_solver": "DEFAULT",
+          "case": {
+            "name": "LC4_outer_back_press_5N",
+            "magnitude_N": 5,
+            "direction": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "selected_triangles": 1132,
+            "surface_area_mm2": 585.8488415300826,
+            "pressure_magnitude_MPa": 0.008534624711284432,
+            "area_centroid_mm": [
+              -0.7050970897350773,
+              58.37422588162628,
+              29.117273821034328
+            ],
+            "actual_force_sum_N": [
+              0.0,
+              0.0,
+              -5.000000000000012
+            ],
+            "selected_face_centers_bounds_mm": [
+              [
+                -23.96775654914648,
+                44.05702177266651,
+                25.157841421250474
+              ],
+              [
+                23.869761925212842,
+                70.9392404966263,
+                30.56141091625366
+              ]
+            ],
+            "distribution": "Uniform vector surface traction, integrated using 7-point quadratic-triangle shape functions; total resultant normalized to specified N.",
+            "surface_selection": "Only outward upward facets within 0.15 mm of the analytic outer crown reference; internal cross-tie tops excluded."
+          },
+          "material": {
+            "E_MPa": 1700,
+            "nu": 0.37,
+            "model": "Homogeneous isotropic linear elasticity; PA12 engineering assumption, not measured printed material."
+          },
+          "mesh": {
+            "nodes": 149467,
+            "elements": 76362,
+            "element_type": "C3D10",
+            "boundary_tri6": 45946,
+            "connected_components": 1,
+            "corner_tet_min_volume_mm3": 2.144623475577511e-06,
+            "corner_tet_total_volume_mm3": 12712.060972176023,
+            "corner_tet_mean_ratio_min": 0.007332521021533279,
+            "corner_tet_mean_ratio_p01": 0.30510785286652825,
+            "corner_tet_mean_ratio_definition": "12*(3V)^(2/3)/sum(six squared edge lengths); regular tetrahedron=1, degenerate=0. Corner geometry diagnostic only.",
+            "quadratic_tet_integrated_volume_mm3": 12712.060972176036,
+            "quadratic_jacobian_min_mm3": 1.2867740796703684e-05,
+            "quadratic_jacobian_min_over_max_per_element": 0.9999999949934909,
+            "quadratic_jacobian_check": "Four C3D10 integration points and centroid; all positive. This is not a formal interval proof at every point.",
+            "quadratic_boundary_area_mm2": 18200.914866542887,
+            "mesh_file_sha256": "b2fa823e8a7100c0c645ac3f947b0f8d1083179065e71a0d70c2743fab7009b0",
+            "target_max_size_mm": 2.4,
+            "meshing_seconds": 40.062000000005355,
+            "geo_sha256": "e45dcf567d05590a81edb395b9b77e19794992700171c833ff735c43e9507eeb",
+            "source_step_sha256": "c5b829bba2921f503492e9c66852e338a9fa9a05febfb7a11fbf4577f65a0b37"
+          },
+          "deck_sha256": "ba4cf677c49cf73ce2fb3d62b43472e3059a3d6e3c90efaf3c4247df57f4d539",
+          "dat_sha256": "128227af9b0e5a471d351e93d66881d54c8703bc6ff212570d7af8e7f49267ea",
+          "solving_seconds": 99.625,
+          "applied_force_N": [
+            0.0,
+            0.0,
+            -5.000000000000012
+          ],
+          "support_reaction_N": [
+            -1.1872895129951973e-12,
+            3.2378506734771948e-12,
+            4.999999937599003
+          ],
+          "force_balance_error_N": [
+            -1.1872895129951973e-12,
+            3.2378506734771948e-12,
+            -6.240100969279183e-08
+          ],
+          "force_balance_relative_error": 1.2480201957617854e-08,
+          "moment_balance_error_Nmm": [
+            -2.958179720735643e-06,
+            -2.3088187037778596e-06,
+            1.4688237456040618e-10
+          ],
+          "moment_balance_relative_error": 8.505663506871327e-09,
+          "equilibrium_pass": true,
+          "maximum_displacement_mm": 0.09430265862072275,
+          "maximum_displacement_node": 227,
+          "displacement_components_at_max_mm": [
+            -0.05938856,
+            -0.007863824,
+            -0.0728296
+          ],
+          "maximum_vm_stress_MPa": 6.109575796055127,
+          "p95_integration_point_vm_MPa": 0.35578262299309577,
+          "unweighted_integration_point_p95_vm_MPa": 0.3572962991284899,
+          "p95_definition": "95th percentile of integration-point von Mises stress weighted by actual C3D10 Jacobian quadrature volume; avoids overweighting locally tiny elements.",
+          "peak_stress_element": 69720,
+          "peak_stress_element_centroid_mm": [
+            -27.01000493888775,
+            13.323271697588751,
+            5.28104066901395
+          ],
+          "peak_element_distance_to_nearest_horizontal_constraint_node_mm": 3.9109450423701957,
+          "auxiliary_peak_vm_outside_3mm_horizontal_constraint_neighbourhood_MPa": 6.109575796055127,
+          "auxiliary_stress_scope": "Diagnostic only: removes element-centroid regions within 3 mm of the minimum horizontal point anchors, which can create stress singularities. The global maximum remains separately reported and is not replaced for a strength claim.",
+          "foot_reactions": [
+            {
+              "foot": 1,
+              "constrained_nodes": 375,
+              "reaction_N": [
+                -7.272561558526001e-13,
+                5.6410816218864e-12,
+                0.26506990113200024
+              ],
+              "negative_z_requires_hold_down": false
+            },
+            {
+              "foot": 2,
+              "constrained_nodes": 473,
+              "reaction_N": [
+                -1.1020922215419992e-12,
+                -2.297034887406e-12,
+                0.3218566006549999
+              ],
+              "negative_z_requires_hold_down": false
+            },
+            {
+              "foot": 3,
+              "constrained_nodes": 336,
+              "reaction_N": [
+                2.3182374663000016e-14,
+                -1.4068876496000001e-14,
+                2.036151240083999
+              ],
+              "negative_z_requires_hold_down": false
+            },
+            {
+              "foot": 4,
+              "constrained_nodes": 356,
+              "reaction_N": [
+                -8.092555926599993e-15,
+                1.2900302016800001e-14,
+                2.0742054047799994
+              ],
+              "negative_z_requires_hold_down": false
+            },
+            {
+              "foot": 5,
+              "constrained_nodes": 493,
+              "reaction_N": [
+                6.269690456630008e-13,
+                -1.0502748652400069e-13,
+                0.3027167909480001
+              ],
+              "negative_z_requires_hold_down": false
+            }
+          ],
+          "negative_foot_reactions": false,
+          "interpretation": "Bilateral Z supports model a supported/held test fixture. Negative net foot reaction indicates lift-off for a free unbonded mouse; that case is not a valid all-five-feet contact prediction. Peak stresses near constraints/load edges may be singular; p95 is a convergence diagnostic, not a strength substitute.",
+          "observation": "Work-conjugate surface displacement sum(F_i dot u_i)/sum(load magnitudes)",
+          "effective_displacement_mm": 0.04116240803753513,
+          "effective_stiffness_N_mm": 121.47005577129029,
+          "support": {
+            "foot_datum_mm": 5.2,
+            "pad_nodes": [
+              375,
+              473,
+              336,
+              356,
+              493
+            ],
+            "horizontal_anchor_xyz": [
+              [
+                23.132274024915,
+                12.032653940663,
+                5.2
+              ],
+              [
+                -23.270087831815,
+                12.182244280464,
+                5.2
+              ]
+            ],
+            "assumption": "Five bilateral Z-only pad supports; minimum three in-plane rigid-body restraints. Negative normal reactions invalidate a free, unbonded, all-feet-down contact interpretation."
+          },
+          "volume_weighted_P99_vm_MPa": 0.5767432586478997
+        },
+        {
+          "postprocess_version": 3,
+          "linear_solver": "DEFAULT",
+          "case": {
+            "name": "LC3_free_equilibrated_outer_grip_4N",
+            "components": [
+              {
+                "name": "LC3_left_outer_skin_2N",
+                "magnitude_N": 2,
+                "direction": [
+                  -1.0,
+                  0.0,
+                  0.0
+                ],
+                "selected_triangles": 69,
+                "surface_area_mm2": 55.872296573444544,
+                "pressure_magnitude_MPa": 0.03579591537589627,
+                "area_centroid_mm": [
+                  32.191136491752786,
+                  51.56692572770594,
+                  10.777633335163852
+                ],
+                "actual_force_sum_N": [
+                  -1.9999999999999991,
+                  0.0,
+                  0.0
+                ],
+                "selected_face_centers_bounds_mm": [
+                  [
+                    31.172873522739344,
+                    44.04708224692581,
+                    9.07491796054067
+                  ],
+                  [
+                    32.90769620846199,
+                    58.74122792443951,
+                    12.97118347655413
+                  ]
+                ],
+                "distribution": "Uniform vector surface traction, integrated using 7-point quadratic-triangle shape functions; total resultant normalized to specified N.",
+                "centroid_target_yz_mm": [
+                  51.5,
+                  11.0
+                ],
+                "linear_pressure_adjustment_coefficients": [
+                  1.0406406787983602,
+                  -0.004741556397046914,
+                  0.18133719240579826
+                ],
+                "adjustment_factor_range": [
+                  0.6056489503624067,
+                  1.458655577573709
+                ]
+              },
+              {
+                "name": "LC3_right_outer_skin_2N",
+                "magnitude_N": 2,
+                "direction": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "selected_triangles": 56,
+                "surface_area_mm2": 47.70092067025057,
+                "pressure_magnitude_MPa": 0.041927911912344525,
+                "area_centroid_mm": [
+                  -32.356566404890934,
+                  53.157842007518326,
+                  11.081599082861455
+                ],
+                "actual_force_sum_N": [
+                  1.9999999999999996,
+                  0.0,
+                  0.0
+                ],
+                "selected_face_centers_bounds_mm": [
+                  [
+                    -32.91626941326033,
+                    44.09808026353693,
+                    9.242092380666652
+                  ],
+                  [
+                    -31.21865959954435,
+                    58.955131293282776,
+                    12.937572296323903
+                  ]
+                ],
+                "distribution": "Uniform vector surface traction, integrated using 7-point quadratic-triangle shape functions; total resultant normalized to specified N.",
+                "centroid_target_yz_mm": [
+                  51.5,
+                  11.0
+                ],
+                "linear_pressure_adjustment_coefficients": [
+                  1.188592679529969,
+                  -0.10896852684903525,
+                  -0.0973059738395507
+                ],
+                "adjustment_factor_range": [
+                  0.2646437463704027,
+                  2.129117927172767
+                ]
+              }
+            ],
+            "support_mode": "free_rigid_modes_only",
+            "actual_force_sum_N": [
+              -6.782768791069316e-16,
+              0.0,
+              0.0
+            ],
+            "actual_moment_sum_Nmm": [
+              0.0,
+              -5.564992910933597e-15,
+              2.5646151868841116e-14
+            ],
+            "physical_scope": "Self-equilibrated opposed outer-skin normal grip in air; no desk-contact fixture and no claimed friction/weight dynamics."
+          },
+          "material": {
+            "E_MPa": 1700,
+            "nu": 0.37,
+            "model": "Homogeneous isotropic linear elasticity; PA12 engineering assumption, not measured printed material."
+          },
+          "mesh": {
+            "nodes": 149467,
+            "elements": 76362,
+            "element_type": "C3D10",
+            "boundary_tri6": 45946,
+            "connected_components": 1,
+            "corner_tet_min_volume_mm3": 2.144623475577511e-06,
+            "corner_tet_total_volume_mm3": 12712.060972176023,
+            "corner_tet_mean_ratio_min": 0.007332521021533279,
+            "corner_tet_mean_ratio_p01": 0.30510785286652825,
+            "corner_tet_mean_ratio_definition": "12*(3V)^(2/3)/sum(six squared edge lengths); regular tetrahedron=1, degenerate=0. Corner geometry diagnostic only.",
+            "quadratic_tet_integrated_volume_mm3": 12712.060972176036,
+            "quadratic_jacobian_min_mm3": 1.2867740796703684e-05,
+            "quadratic_jacobian_min_over_max_per_element": 0.9999999949934909,
+            "quadratic_jacobian_check": "Four C3D10 integration points and centroid; all positive. This is not a formal interval proof at every point.",
+            "quadratic_boundary_area_mm2": 18200.914866542887,
+            "mesh_file_sha256": "b2fa823e8a7100c0c645ac3f947b0f8d1083179065e71a0d70c2743fab7009b0",
+            "target_max_size_mm": 2.4,
+            "meshing_seconds": 40.062000000005355,
+            "geo_sha256": "e45dcf567d05590a81edb395b9b77e19794992700171c833ff735c43e9507eeb",
+            "source_step_sha256": "c5b829bba2921f503492e9c66852e338a9fa9a05febfb7a11fbf4577f65a0b37"
+          },
+          "deck_sha256": "0e13e2827f8a8542ae1ece9cf36d0a48d13534d80dfa90fe35d12c9a8fd853d4",
+          "dat_sha256": "2331150d997bc01ece88d3bc7ef6959da41848b04f2c7857a4085d2538543284",
+          "solving_seconds": 94.71899999999732,
+          "applied_force_N": [
+            -6.782768791069316e-16,
+            0.0,
+            0.0
+          ],
+          "support_reaction_N": [
+            -9.21823645e-13,
+            -2.2687821519999995e-12,
+            5.981872e-12
+          ],
+          "force_balance_error_N": [
+            -9.22501921879107e-13,
+            -2.2687821519999995e-12,
+            5.981872e-12
+          ],
+          "force_balance_relative_error": 6.4638359256318066e-12,
+          "moment_balance_error_Nmm": [
+            3.570534794895228e-10,
+            -5.335583805009152e-12,
+            -1.0903208015445694e-10
+          ],
+          "moment_balance_relative_error": 4.231469947126679e-12,
+          "equilibrium_pass": true,
+          "maximum_displacement_mm": 0.020417813196576172,
+          "maximum_displacement_node": 3287,
+          "displacement_components_at_max_mm": [
+            -0.005231878,
+            0.01955379,
+            -0.002676536
+          ],
+          "maximum_vm_stress_MPa": 1.4978237482463364,
+          "p95_integration_point_vm_MPa": 0.13280179586238974,
+          "unweighted_integration_point_p95_vm_MPa": 0.16636488995792026,
+          "p95_definition": "95th percentile of integration-point von Mises stress weighted by actual C3D10 Jacobian quadrature volume; avoids overweighting locally tiny elements.",
+          "peak_stress_element": 56269,
+          "peak_stress_element_centroid_mm": [
+            4.489591269107175,
+            47.008786374044995,
+            7.896711749705824
+          ],
+          "peak_element_distance_to_nearest_horizontal_constraint_node_mm": 39.7259576925739,
+          "auxiliary_peak_vm_outside_3mm_horizontal_constraint_neighbourhood_MPa": 1.4978237482463364,
+          "auxiliary_stress_scope": "Diagnostic only: removes element-centroid regions within 3 mm of the minimum horizontal point anchors, which can create stress singularities. The global maximum remains separately reported and is not replaced for a strength claim.",
+          "foot_reactions": [],
+          "negative_foot_reactions": false,
+          "interpretation": "Self-equilibrated free-body load; six rigid modes removed. Minimum-anchor reactions must be negligible. No desk-contact clamp or friction model.",
+          "observation": "Work-conjugate surface displacement sum(F_i dot u_i)/sum(load magnitudes)",
+          "effective_displacement_mm": 0.007896535854155916,
+          "effective_stiffness_N_mm": 506.55123637472195,
+          "support": {
+            "type": "Minimum 3-2-1 constraints remove exactly six rigid modes from a self-equilibrated free body.",
+            "nodes_xyz": [
+              [
+                23.132274024915,
+                12.032653940663,
+                5.2
+              ],
+              [
+                -23.270087831815,
+                12.182244280464,
+                5.2
+              ],
+              [
+                0.059496603723986,
+                83.566142827566,
+                5.2
+              ]
+            ],
+            "acceptance": "Support reactions should be negligible; no finite-area clamp or bilateral pad support in this load case."
+          },
+          "volume_weighted_P99_vm_MPa": 0.2690332059903601
+        }
+      ]
+    }
+  ],
+  "convergence": [],
+  "limit": "These two BODY cases do not validate side-key friction, assembly contacts, main-key eccentric bending, fatigue, impacts, RF or optics. No COMMON_SHELL_REVIEWED assertion."
+}

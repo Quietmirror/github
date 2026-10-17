@@ -238,7 +238,8 @@ def build_mechanics(p, outer, inner):
         parts[name]=check(key,name)
         hardware[name+'_CAPTURE_PIN']=cylinder(.75,5.6,(pin_x,cy,cz-2.8))
         cuts.append(box(22,10.7,5.7,(wall_x+3,cy,cz)))
-        frame=box(3.8,9.2,7.4,(wall_x+3.2,cy,cz))
+        guide_length=float(p.get('l2',{}).get('side_guide_length_mm',3.8))
+        frame=box(guide_length,9.2,7.4,(wall_x+1.3+guide_length/2,cy,cz))
         frame=frame.cut(box(7,5.85,4.05,(wall_x+3.8,cy,cz)))
         shoulders=[box(2.,1.8,3.2,(wall_x+2.8,cy+v,cz)) for v in (-4.3,4.3)]
         bridge=box(1.5,11.4,7.4,(wall_x+3.8,cy,cz)).cut(box(4,5.85,4.05,(wall_x+3.8,cy,cz)))
@@ -282,6 +283,7 @@ def build_mechanics(p, outer, inner):
              actuation_point=[wall_x+7.1,cy,cz],plunger_tip=[body_near-.6,cy,cz],
              nominal_actuator_gap_mm=.02,hard_stop_travel_mm=move,
              guide_clearance_per_side_mm=.325,capture_pin_diameter_mm=1.5,
+             guide_length_mm=guide_length,minimum_guide_engagement_mm=guide_length-max(0.,move-.3),
              capture_pin_hole_mm=1.72,capture_slot_length_mm=2.32,minimum_tongue_pin_end_web_mm=1.60,
              switch_mount_holes=side_holes,switch_mount='two M2 bolts along Z through D2F mounting holes and local suspended top/bottom rails',
              assembly='Insert key from exterior, then 1.5 mm steel capture pin along Z from open top before switch socket is filled')
@@ -316,12 +318,30 @@ def build_mechanics(p, outer, inner):
     # A raised front tie couples the middle-switch tray to both side walls.
     cross_ties=[]
     l2=p.get("l2",{})
-    for yy,zz,rr in ((54.,23.,1.2),(67.5,23.,1.2),(40.8,6.6,1.3)):
+    upper_y=l2.get('upper_cross_tie_y',[54.,67.5])
+    for yy,zz,rr in ((upper_y[0],23.,1.2),(upper_y[1],23.,1.2),(40.8,6.6,1.3)):
         probe=cq.Edge.makeLine(V(-45,yy,zz),V(45,yy,zz))
         edges=outer.intersect(probe).Vertices()
         reach=max(abs(q.X) for q in edges)-2.0
         family=l2.get('skeleton','B0')
-        if family=='B1' and yy>45:
+        if l2.get('upper_cross_tie_path')=='dogleg_between_tools' and yy>45:
+            loop_y=p['side']['centers_y'][0 if yy<60 else 1]+1.95
+            points=[(-reach,yy,zz),(-24.,yy,zz),(-22.,loop_y,zz),(-14.,loop_y,zz),(-12.,yy,zz),
+                    (12.,yy,zz),(14.,loop_y,zz),(22.,loop_y,zz),(24.,yy,zz),(reach,yy,zz)]
+            segments=[]
+            for a,b in zip(points[:-1],points[1:]):
+                radius=1.05 if a[1]==b[1]==loop_y else rr
+                segments.append(beam(a,b,radius))
+            tie=join(*segments)
+            vertical_scale=float(l2.get('dogleg_vertical_scale',1.))
+            if vertical_scale!=1.:
+                # Keep XY screw-driver clearance unchanged; put additional
+                # section depth in Z, about the existing cross-tie datum.
+                # Native circular lobes remain analytically valid. A previous
+                # affine transform of the fused trimmed BRep was invalid.
+                dz=rr*(vertical_scale-1.)
+                tie=join(tie,tie.translate((0,0,dz)),tie.translate((0,0,-dz)))
+        elif family=='B1' and yy>45:
             tie=beam((-reach,yy,zz),(reach,yy,zz),rr-.1)
             tie=tie.fuse(cq.Solid.makeSphere(rr,V(-reach,yy,zz)),cq.Solid.makeSphere(rr,V(reach,yy,zz)))
         elif family=='B2' and yy>45:
@@ -330,7 +350,8 @@ def build_mechanics(p, outer, inner):
         elif family=='B3' and yy>45:
             # Two joined V braces form a spatial diamond; match original
             # gross cylinder volume, then measure actual net BODY volume.
-            hub_upper=(0.,60.75,24.5)
+            # Forward apex avoids the explicit side-screw driver cylinders.
+            hub_upper=(0.,47.25,24.5)
             length=(V(*hub_upper)-V(reach,yy,zz)).Length
             rad=rr*math.sqrt(reach/length)
             tie=join(beam((-reach,yy,zz),hub_upper,rad),beam(hub_upper,(reach,yy,zz),rad))
@@ -339,6 +360,8 @@ def build_mechanics(p, outer, inner):
             ry=rr*.72;rz=rr/ .72
             core=cq.Workplane('YZ').ellipse(ry,rz).extrude(2*reach).val().translate((-reach,yy,zz))
             tie=join(core,beam((-reach,yy,zz),(-reach+3,yy,zz),rr*1.12),beam((reach-3,yy,zz),(reach,yy,zz),rr*1.12))
+            if yy==54.:
+                tie=join(tie,*[beam((sgn*13.,yy,zz),(sgn*23.,yy,zz),1.6) for sgn in (-1,1)])
         else:
             tie=beam((-reach,yy,zz),(reach,yy,zz),rr)
         additions.append(check(tie,'RAISED_CROSS_TIE'))
@@ -385,8 +408,19 @@ def build_mechanics(p, outer, inner):
     cuts.extend(bolt_paths)
     addition_labels=[getattr(shape,"l2_label","UNLABELLED") for shape in additions]
     for k,shape in enumerate(additions):
+        original_support=shape
         for path in pin_paths+bolt_paths+fastener_cuts:
             shape=shape.cut(path)
+        if (not shape.isValid() or len(shape.Solids())!=1) and p.get('l2',{}).get('diagnostic_dir'):
+            import json
+            from pathlib import Path
+            folder=Path(p['l2']['diagnostic_dir']);folder.mkdir(parents=True,exist_ok=True)
+            cq.exporters.export(original_support,str(folder/f'support_{k}_before.step'))
+            cq.exporters.export(shape,str(folder/f'support_{k}_after.step'))
+            rows=[]
+            for ss in shape.Solids():
+                bb=ss.BoundingBox();rows.append(dict(volume=ss.Volume(),bounds=[bb.xmin,bb.ymin,bb.zmin,bb.xmax,bb.ymax,bb.zmax]))
+            (folder/'failure.json').write_text(json.dumps(dict(index=k,label=addition_labels[k],valid=shape.isValid(),components=rows),indent=2)+'\n')
         additions[k]=check(shape.clean(),f'FIXED_SUPPORT_{k}')
     for name,shape in parts.items():check(shape,name)
     return dict(body_additions=additions,body_cuts=cuts,parts=parts,hardware=hardware,metadata=meta,terminal_cuts=terminal_cuts,addition_labels=addition_labels)

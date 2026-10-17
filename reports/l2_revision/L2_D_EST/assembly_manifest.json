@@ -1,0 +1,833 @@
+{
+  "variant": "L2_D_EST",
+  "parts": [
+    {
+      "part": "BODY",
+      "printable": true,
+      "adaptive_CAD_mm3": 13210.394857094087,
+      "PA12_g": 13.342498805665029,
+      "PLA_solid_g": 16.380889622796666,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/BODY.step",
+      "status": "Original printable geometry"
+    },
+    {
+      "part": "LEFT_KEY",
+      "printable": true,
+      "adaptive_CAD_mm3": 1780.447791178631,
+      "PA12_g": 1.7982522690904172,
+      "PLA_solid_g": 2.2077552610615023,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/LEFT_KEY.step",
+      "status": "Original printable geometry"
+    },
+    {
+      "part": "RIGHT_KEY",
+      "printable": true,
+      "adaptive_CAD_mm3": 1780.4480159352977,
+      "PA12_g": 1.7982524960946507,
+      "PLA_solid_g": 2.207755539759769,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/RIGHT_KEY.step",
+      "status": "Original printable geometry"
+    },
+    {
+      "part": "SIDE_FRONT_KEY",
+      "printable": true,
+      "adaptive_CAD_mm3": 152.4384043123658,
+      "PA12_g": 0.15396278835548946,
+      "PLA_solid_g": 0.1890236213473336,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_FRONT_KEY.step",
+      "status": "Original printable geometry"
+    },
+    {
+      "part": "SIDE_FRONT_KEY_SWITCH_CLAMP",
+      "printable": true,
+      "adaptive_CAD_mm3": 164.0835410522589,
+      "PA12_g": 0.16572437646278151,
+      "PLA_solid_g": 0.20346359090480104,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_FRONT_KEY_SWITCH_CLAMP.step",
+      "status": "Original printable geometry"
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "printable": true,
+      "adaptive_CAD_mm3": 145.84646688108242,
+      "PA12_g": 0.14730493154989324,
+      "PLA_solid_g": 0.1808496189325422,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_REAR_KEY.step",
+      "status": "Original printable geometry"
+    },
+    {
+      "part": "SIDE_REAR_KEY_SWITCH_CLAMP",
+      "printable": true,
+      "adaptive_CAD_mm3": 164.0835410522589,
+      "PA12_g": 0.16572437646278151,
+      "PLA_solid_g": 0.20346359090480104,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_REAR_KEY_SWITCH_CLAMP.step",
+      "status": "Original printable geometry"
+    },
+    {
+      "part": "WHEEL",
+      "printable": true,
+      "adaptive_CAD_mm3": 823.761826507103,
+      "PA12_g": 0.8319994447721741,
+      "PLA_solid_g": 1.0214646648688077,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/WHEEL.step",
+      "status": "Original printable geometry"
+    },
+    {
+      "part": "WHEEL_CARRIER",
+      "printable": true,
+      "adaptive_CAD_mm3": 589.8949111950266,
+      "PA12_g": 0.5957938603069769,
+      "PLA_solid_g": 0.7314696898818329,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/WHEEL_CARRIER.step",
+      "status": "Original printable geometry"
+    },
+    {
+      "part": "LEFT_KEY_STEEL_PIN",
+      "printable": false,
+      "adaptive_CAD_mm3": 68.48671984825748,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/LEFT_KEY_STEEL_PIN.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_1_BOLT",
+      "printable": false,
+      "adaptive_CAD_mm3": 55.84495101021269,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/LEFT_KEY_M2_SWITCH_1_BOLT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227675,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/LEFT_KEY_M2_SWITCH_1_WASHER_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227675,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/LEFT_KEY_M2_SWITCH_1_WASHER_HEAD.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_1_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 17.143702091130127,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/LEFT_KEY_M2_SWITCH_1_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_2_BOLT",
+      "printable": false,
+      "adaptive_CAD_mm3": 55.84495101021269,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/LEFT_KEY_M2_SWITCH_2_BOLT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.7500880922276725,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/LEFT_KEY_M2_SWITCH_2_WASHER_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227672,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/LEFT_KEY_M2_SWITCH_2_WASHER_HEAD.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_2_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 17.143702091135744,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/LEFT_KEY_M2_SWITCH_2_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SWITCH_LEFT",
+      "printable": false,
+      "adaptive_CAD_mm3": 457.976079586094,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SWITCH_LEFT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "RIGHT_KEY_STEEL_PIN",
+      "printable": false,
+      "adaptive_CAD_mm3": 68.48671984825748,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/RIGHT_KEY_STEEL_PIN.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+      "printable": false,
+      "adaptive_CAD_mm3": 55.84495101021269,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/RIGHT_KEY_M2_SWITCH_1_BOLT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227677,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/RIGHT_KEY_M2_SWITCH_1_WASHER_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227676,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_1_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 17.143702091136163,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/RIGHT_KEY_M2_SWITCH_1_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+      "printable": false,
+      "adaptive_CAD_mm3": 55.84495101021269,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/RIGHT_KEY_M2_SWITCH_2_BOLT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227672,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/RIGHT_KEY_M2_SWITCH_2_WASHER_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227672,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_2_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 17.143702091142682,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/RIGHT_KEY_M2_SWITCH_2_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SWITCH_RIGHT",
+      "printable": false,
+      "adaptive_CAD_mm3": 457.97607958615237,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SWITCH_RIGHT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_FRONT_KEY_CAPTURE_PIN",
+      "printable": false,
+      "adaptive_CAD_mm3": 9.896016858807851,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_FRONT_KEY_CAPTURE_PIN.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT",
+      "printable": false,
+      "adaptive_CAD_mm3": 55.844951010212675,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_FRONT_KEY_M2_SWITCH_1_BOLT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227645,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227672,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_HEAD.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_1_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 17.143702091138373,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_FRONT_KEY_M2_SWITCH_1_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_2_BOLT",
+      "printable": false,
+      "adaptive_CAD_mm3": 55.84495101021268,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_FRONT_KEY_M2_SWITCH_2_BOLT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227646,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.7500880922276725,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_HEAD.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_2_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 17.143702091138376,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_FRONT_KEY_M2_SWITCH_2_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SWITCH_SIDE_FRONT",
+      "printable": false,
+      "adaptive_CAD_mm3": 457.45248081051136,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SWITCH_SIDE_FRONT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_REAR_KEY_CAPTURE_PIN",
+      "printable": false,
+      "adaptive_CAD_mm3": 9.896016858807853,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_REAR_KEY_CAPTURE_PIN.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_1_BOLT",
+      "printable": false,
+      "adaptive_CAD_mm3": 55.84495101021268,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_REAR_KEY_M2_SWITCH_1_BOLT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227648,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_REAR_KEY_M2_SWITCH_1_WASHER_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227673,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_REAR_KEY_M2_SWITCH_1_WASHER_HEAD.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_1_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 17.143702091137122,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_REAR_KEY_M2_SWITCH_1_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_2_BOLT",
+      "printable": false,
+      "adaptive_CAD_mm3": 55.84495101021268,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_REAR_KEY_M2_SWITCH_2_BOLT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227646,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_REAR_KEY_M2_SWITCH_2_WASHER_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.7500880922276725,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_REAR_KEY_M2_SWITCH_2_WASHER_HEAD.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_2_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 17.143702091137133,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_REAR_KEY_M2_SWITCH_2_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SWITCH_SIDE_REAR",
+      "printable": false,
+      "adaptive_CAD_mm3": 457.45248081051164,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SWITCH_SIDE_REAR.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "ENCODER_EC10E_HOUSING",
+      "printable": false,
+      "adaptive_CAD_mm3": 326.2891003499735,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/ENCODER_EC10E_HOUSING.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "ENCODER_EC10E_ROTOR",
+      "printable": false,
+      "adaptive_CAD_mm3": 19.283978644691235,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/ENCODER_EC10E_ROTOR.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "WHEEL_CARRIER_STEEL_PIN",
+      "printable": false,
+      "adaptive_CAD_mm3": 43.353978619539134,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/WHEEL_CARRIER_STEEL_PIN.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SWITCH_MIDDLE",
+      "printable": false,
+      "adaptive_CAD_mm3": 457.9760795861204,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SWITCH_MIDDLE.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_1_BOLT",
+      "printable": false,
+      "adaptive_CAD_mm3": 55.8449510102127,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/WHEEL_M2_SWITCH_1_BOLT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227674,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/WHEEL_M2_SWITCH_1_WASHER_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227661,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/WHEEL_M2_SWITCH_1_WASHER_HEAD.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_1_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 17.143702091139975,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/WHEEL_M2_SWITCH_1_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_2_BOLT",
+      "printable": false,
+      "adaptive_CAD_mm3": 55.8449510102127,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/WHEEL_M2_SWITCH_2_BOLT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227674,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/WHEEL_M2_SWITCH_2_WASHER_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227661,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/WHEEL_M2_SWITCH_2_WASHER_HEAD.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_2_NUT",
+      "printable": false,
+      "adaptive_CAD_mm3": 17.143702091139975,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/WHEEL_M2_SWITCH_2_NUT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "USB_C_REFERENCE",
+      "printable": false,
+      "adaptive_CAD_mm3": 217.49679000000003,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/USB_C_REFERENCE.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "USB_ADAPTER_PCB_REFERENCE",
+      "printable": false,
+      "adaptive_CAD_mm3": 190.9522131576614,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/USB_ADAPTER_PCB_REFERENCE.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "USB_M2x3_L",
+      "printable": false,
+      "adaptive_CAD_mm3": 27.570617127904022,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/USB_M2x3_L.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "USB_WASHER_L",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.75008809222778,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/USB_WASHER_L.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "USB_M2x3_R",
+      "printable": false,
+      "adaptive_CAD_mm3": 27.570617127904022,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/USB_M2x3_R.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "USB_WASHER_R",
+      "printable": false,
+      "adaptive_CAD_mm3": 4.750088092227778,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/USB_WASHER_R.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "ENCODER_M2x3_FRONT",
+      "printable": false,
+      "adaptive_CAD_mm3": 27.570617127904026,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/ENCODER_M2x3_FRONT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "ENCODER_WASHER_FRONT",
+      "printable": false,
+      "adaptive_CAD_mm3": 3.0159289474461914,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/ENCODER_WASHER_FRONT.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "ENCODER_M2x3_REAR",
+      "printable": false,
+      "adaptive_CAD_mm3": 27.570617127904022,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/ENCODER_M2x3_REAR.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "ENCODER_WASHER_REAR",
+      "printable": false,
+      "adaptive_CAD_mm3": 3.0159289474461906,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/ENCODER_WASHER_REAR.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "ENCODER_ADAPTER_PCB_EST",
+      "printable": false,
+      "adaptive_CAD_mm3": 179.9927202483955,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/ENCODER_ADAPTER_PCB_EST.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "D_REMOVABLE_CARRIER_EST",
+      "printable": true,
+      "adaptive_CAD_mm3": 404.75989335962544,
+      "PA12_g": 0.4088074922932217,
+      "PLA_solid_g": 0.5019022677659355,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/D_REMOVABLE_CARRIER_EST.step",
+      "status": "Original printable geometry"
+    },
+    {
+      "part": "D_SENSOR_SEAT_EST",
+      "printable": true,
+      "adaptive_CAD_mm3": 86.25594969587024,
+      "PA12_g": 0.08711850919282894,
+      "PLA_solid_g": 0.1069573776228791,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/D_SENSOR_SEAT_EST.step",
+      "status": "Original printable geometry"
+    },
+    {
+      "part": "D_SENSOR_PACKAGE_UNVERIFIED",
+      "printable": false,
+      "adaptive_CAD_mm3": 153.5999999999999,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/D_SENSOR_PACKAGE_UNVERIFIED.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "D_LENS_UNVERIFIED",
+      "printable": false,
+      "adaptive_CAD_mm3": 672.0000000000002,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/D_LENS_UNVERIFIED.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "BATTERY_CELL_EST",
+      "printable": false,
+      "adaptive_CAD_mm3": 2375.9999999999995,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/BATTERY_CELL_EST.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "BATTERY_PLUG_EST",
+      "printable": false,
+      "adaptive_CAD_mm3": 90.0,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/BATTERY_PLUG_EST.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_IO_PCB_EST",
+      "printable": false,
+      "adaptive_CAD_mm3": 105.60000000000001,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_IO_PCB_EST.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "SIDE_HEADER_EST",
+      "printable": false,
+      "adaptive_CAD_mm3": 14.399999999999991,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/SIDE_HEADER_EST.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "REMOTE_ANTENNA_PCB_EST",
+      "printable": false,
+      "adaptive_CAD_mm3": 25.599999999999905,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/REMOTE_ANTENNA_PCB_EST.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    },
+    {
+      "part": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "printable": false,
+      "adaptive_CAD_mm3": 2159.9999999999986,
+      "PA12_g": null,
+      "PLA_solid_g": null,
+      "measured_mass_g": null,
+      "source_step": "exports/l2_revision/L2_D_EST/assembly/D_BOARD_SWEEP_GAUGE_UNVERIFIED.step",
+      "status": "Purchased hardware mechanical reference; supplier and measured fit unverified"
+    }
+  ],
+  "assembly_step": "exports/l2_revision/L2_D_EST/L2_D_EST_FULL_ASSEMBLY.step",
+  "named_unfused_components": 82,
+  "step_reimport_valid": true,
+  "printable_count": 11,
+  "PA12_total_g": 19.495439350246244,
+  "PLA_solid_total_g": 23.93499484584687,
+  "electronics_fit_certified": false,
+  "fatigue_or_click_tested": false
+}

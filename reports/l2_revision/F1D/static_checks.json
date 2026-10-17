@@ -1,0 +1,67 @@
+{
+  "parts": 72,
+  "pairs": 2556,
+  "conflicts": [
+    {
+      "a": "BODY",
+      "b": "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT",
+      "mesh_overlap_mm3": 0.3099490893505107,
+      "unallowed_mm3": 0.3099490893505107,
+      "exact_conflict": {
+        "part_a": "BODY",
+        "part_b": "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT",
+        "overlap_mm3": 0.31061290396791796,
+        "intersection_centroid_mm": [
+          18.674165367565227,
+          46.96151885157085,
+          8.619106559738166
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            17.789435203926093,
+            46.6999999,
+            8.3499999
+          ],
+          "max": [
+            19.558895559957907,
+            47.23389636792531,
+            9.000000105496719
+          ],
+          "size": [
+            1.7694603560318143,
+            0.5338964679253095,
+            0.6500002054967187
+          ]
+        }
+      }
+    }
+  ],
+  "allowed_local_contacts": [
+    {
+      "a": "BODY",
+      "b": "USB_M2x3_L",
+      "overlap_mm3": 1.480849097832274,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "BODY",
+      "b": "USB_M2x3_R",
+      "overlap_mm3": 1.4808550768762567,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "WHEEL_CARRIER",
+      "b": "ENCODER_M2x3_FRONT",
+      "overlap_mm3": 1.3069079613385384,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "WHEEL_CARRIER",
+      "b": "ENCODER_M2x3_REAR",
+      "overlap_mm3": 1.306907920049241,
+      "unallowed_mm3": 0.0
+    }
+  ],
+  "pass_check": false,
+  "threshold_mm3": 0.01
+}

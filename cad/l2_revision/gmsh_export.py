@@ -4,7 +4,7 @@ Accept an alternate tessellation only after closedness, self-intersection,
 volume and surface-distance checks. Failed candidates remain in work/.
 """
 from pathlib import Path
-import sys,json,subprocess,ctypes
+import sys,json,subprocess,ctypes,hashlib
 import numpy as np,trimesh,pymeshlab,cadquery as cq
 from audit_baseline import volume
 ROOT=Path(__file__).resolve().parents[2];SUP=ROOT.parent/'_support'
@@ -12,18 +12,19 @@ def main():
     ctypes.windll.kernel32.SetPriorityClass(ctypes.c_void_p(-1),0x4000)
     variant=sys.argv[1];name=sys.argv[2] if len(sys.argv)>2 else 'BODY'
     out=ROOT/f'exports/l2_revision/{variant}';rp=ROOT/f'reports/l2_revision/{variant}'
-    work=SUP/f'work/l2/{variant}/surface_mesh';work.mkdir(parents=True,exist_ok=True)
-    step=out/f'assembly/{name}.step';s=cq.importers.importStep(str(step)).val();cv=volume(s)[0]
+    step=out/f'assembly/{name}.step';source=hashlib.sha256(step.read_bytes()).hexdigest()
+    work=SUP/f'work/l2/{variant}/surface_mesh_h070_{source[:10]}';work.mkdir(parents=True,exist_ok=True)
+    s=cq.importers.importStep(str(step)).val();cv=volume(s)[0]
     geo=work/f'{name}.geo';stl=work/f'{name}.stl'
     geo.write_text(f'''SetFactory("OpenCASCADE");
 General.NumThreads=2;
 Merge "{step.as_posix()}";
-Mesh.MeshSizeMin=0.08;
-Mesh.MeshSizeMax=0.45;
-Mesh.MeshSizeFromCurvature=64;
+Mesh.MeshSizeMin=0.15;
+Mesh.MeshSizeMax=0.70;
+Mesh.MeshSizeFromCurvature=32;
 Mesh.MeshSizeFromPoints=0;
 Mesh.Algorithm=6;
-Mesh.MinimumCirclePoints=32;
+Mesh.MinimumCirclePoints=24;
 Mesh 2;
 Save "{stl.as_posix()}";
 ''')
@@ -42,7 +43,7 @@ Save "{stl.as_posix()}";
     centroids=m.triangles_center;idx=np.linspace(0,len(centroids)-1,min(500,len(centroids))).astype(int)
     boundary=cq.Compound.makeCompound(s.Shells())
     distances=np.array([boundary.distance(cq.Vertex.makeVertex(*p)) for p in centroids[idx]])
-    result=dict(variant=variant,part=name,method='Gmsh independent CAD surface triangulation',faces=len(m.faces),
+    result=dict(variant=variant,part=name,source_STEP_sha256=source,method='Gmsh independent CAD surface triangulation',faces=len(m.faces),
         watertight=m.is_watertight,winding_consistent=m.is_winding_consistent,
         connected_components=len(trimesh.graph.connected_components(m.face_adjacency,nodes=np.arange(len(m.faces)))),
         self_intersection_faces=ints,volume_relative_error=abs(m.volume/cv-1),

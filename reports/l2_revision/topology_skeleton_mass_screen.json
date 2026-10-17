@@ -1,0 +1,32 @@
+[
+  {
+    "variant": "C1",
+    "BODY_CAD_mm3": 12752.617722286759,
+    "BODY_PA12_g": 12.880143899509628,
+    "BODY_mesh_mm3": 12746.263122285834,
+    "CAD_valid": true,
+    "solids": 1,
+    "watertight": false,
+    "self_intersecting_faces": 3,
+    "mesh_components": 1,
+    "original_other_eight_parts_mm3": 5704.9480357253,
+    "total_PA12_g": 18.64214141559218,
+    "full_assembly_validation": false,
+    "geometry_screen_pass": false
+  },
+  {
+    "variant": "S17",
+    "BODY_CAD_mm3": 12786.499337320754,
+    "BODY_PA12_g": 12.914364330693962,
+    "BODY_mesh_mm3": 12780.054889579,
+    "CAD_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "self_intersecting_faces": 0,
+    "mesh_components": 1,
+    "original_other_eight_parts_mm3": 5704.9480357253,
+    "total_PA12_g": 18.676361846776512,
+    "full_assembly_validation": false,
+    "geometry_screen_pass": true
+  }
+]

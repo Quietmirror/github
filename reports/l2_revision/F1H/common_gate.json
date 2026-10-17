@@ -1,0 +1,85 @@
+{
+  "variant": "F1H",
+  "status": "COMMON_SHELL_REVIEWED_FOR_LAYOUT_RESEARCH",
+  "digital_geometry_reviewed": true,
+  "numerical_reviewed": true,
+  "geometry_checks": {
+    "mesh_and_volume": true,
+    "static_checks": true,
+    "motion_checks": true,
+    "insertion_checks": true,
+    "native_freecad_checks": true,
+    "slice_summary": true,
+    "toolpath_review": true,
+    "five_feet": true,
+    "cap_normals": true,
+    "direct_side_entry": true
+  },
+  "numerical_checks": {
+    "three_mesh_levels": true,
+    "last_grid_k_change_below_2_percent": true,
+    "principal_daily_BODY_stiffness_not_lower": true,
+    "independent_base_review": true,
+    "independent_extra_review": true
+  },
+  "principal_comparison": [
+    {
+      "case": "LC4_outer_back_press_5N",
+      "R32_k": 120.42231141022559,
+      "selected_k": 121.57804045447955,
+      "ratio": 1.009597299958119,
+      "R32_P99": 0.5910972249957712,
+      "selected_P99": 0.5643840719392111
+    },
+    {
+      "case": "LC3_free_equilibrated_outer_grip_4N",
+      "R32_k": 515.9819716655995,
+      "selected_k": 551.267876932382,
+      "ratio": 1.0683859266494893,
+      "R32_P99": 0.2672037849973853,
+      "selected_P99": 0.26294462142995373
+    }
+  ],
+  "secondary_fixture_comparison": [
+    {
+      "case": "LC4_sensitivity_anchor_swap",
+      "R32_k": 120.42231141022559,
+      "selected_k": 121.578040474463,
+      "ratio": 1.0095973001240637
+    },
+    {
+      "case": "LC4_sensitivity_low_poisson",
+      "R32_k": 119.69907915678704,
+      "selected_k": 120.74654830942184,
+      "ratio": 1.0087508538913885
+    },
+    {
+      "case": "LC5_rear_corner_lift_2N_rigid_grip_fixture",
+      "R32_k": 82.62403933783833,
+      "selected_k": 79.9411670066393,
+      "ratio": 0.9675291555254383
+    },
+    {
+      "case": "LC7_one_PCB_ear_service_2N",
+      "R32_k": 79.18158597063926,
+      "selected_k": 76.96974689818579,
+      "ratio": 0.9720662443756352
+    }
+  ],
+  "source_BODY_sha256": "c6e38eca9c17594738e0d3ed97a02dde5484efc4539e3a849b3a02d57ca0ed38",
+  "baseline_commit": "f1b1090931d717117287ea2b79c2e14ddc234937",
+  "actual_PA12_g": 18.999513348760193,
+  "target_PA12_g": 14.89,
+  "mass_target_met": false,
+  "full_master_spec_acceptance": false,
+  "physical_strength_certified": false,
+  "hardware_fit_certified": false,
+  "scope": "Frozen geometry for explicitly estimated H/D layout and prototype documentation only. Principal BODY daily-load screens pass; secondary rigid-grip lift/service stiffness changes are reported, not suppressed. This is not an unrestricted production release or proof that every specification gate is satisfied.",
+  "remaining": [
+    "14.89 g target not achieved",
+    "Unknown printed material anisotropy, allowable stress, fatigue, friction and actual switch overtravel",
+    "Secondary LC5/LC7 fixture losses, if present, need physical comparison; no blanket non-degradation claim",
+    "Actual PCB/optical stack/retention and electrical functionality unverified",
+    "FDM tiny fits need test coupons, reaming and measured stop adjustment"
+  ]
+}

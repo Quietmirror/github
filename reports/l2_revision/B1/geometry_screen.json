@@ -1,0 +1,15 @@
+{
+  "variant": "B1",
+  "BODY_CAD_mm3": 12735.708834943161,
+  "BODY_PA12_g": 12.863065923292593,
+  "BODY_mesh_mm3": 12729.429406969068,
+  "CAD_valid": true,
+  "solids": 1,
+  "watertight": true,
+  "self_intersecting_faces": 0,
+  "mesh_components": 1,
+  "original_other_eight_parts_mm3": 5704.9480357253,
+  "total_PA12_g": 18.625063439375147,
+  "full_assembly_validation": false,
+  "geometry_screen_pass": true
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "part": "SIDE_FRONT_KEY",
+    "poses": 101,
+    "path": "Straight inward X20 -> X0 before capture pin and switch assembly",
+    "conflicts": [],
+    "pass_check": true
+  },
+  {
+    "part": "SIDE_REAR_KEY",
+    "poses": 101,
+    "path": "Straight inward X20 -> X0 before capture pin and switch assembly",
+    "conflicts": [],
+    "pass_check": true
+  }
+]

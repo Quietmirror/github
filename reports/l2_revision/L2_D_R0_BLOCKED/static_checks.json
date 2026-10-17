@@ -1,0 +1,1189 @@
+{
+  "parts": 89,
+  "pairs": 3916,
+  "conflicts": [
+    {
+      "a": "BODY",
+      "b": "D_REMOVABLE_CARRIER_EST",
+      "mesh_overlap_mm3": 69.31523963246488,
+      "unallowed_mm3": 69.31523963246488,
+      "exact_conflict": {
+        "part_a": "BODY",
+        "part_b": "D_REMOVABLE_CARRIER_EST",
+        "overlap_mm3": 69.30308254352269,
+        "intersection_centroid_mm": [
+          -7.605400269645233,
+          62.71535968235564,
+          11.854061827002129
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -31.9040001,
+            41.37579750163049,
+            10.549999875863277
+          ],
+          "max": [
+            11.5,
+            75.7,
+            13.35000000000019
+          ],
+          "size": [
+            43.404000100000005,
+            34.324202498369516,
+            2.800000124136913
+          ]
+        }
+      }
+    },
+    {
+      "a": "BODY",
+      "b": "ADAPTER_M2x6_BUTTON_SCREW_1_EST",
+      "mesh_overlap_mm3": 5.660044676120954,
+      "unallowed_mm3": 5.660044676120954,
+      "exact_conflict": {
+        "part_a": "BODY",
+        "part_b": "ADAPTER_M2x6_BUTTON_SCREW_1_EST",
+        "overlap_mm3": 5.660093097970472,
+        "intersection_centroid_mm": [
+          -27.60865445318581,
+          43.002278052018376,
+          9.925686623102392
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -29.2310001,
+            41.0999998998587,
+            6.649999899999977
+          ],
+          "max": [
+            -26.3309999,
+            44.00000010000005,
+            13.7500001
+          ],
+          "size": [
+            2.900000200000001,
+            2.900000200141349,
+            7.100000200000022
+          ]
+        }
+      }
+    },
+    {
+      "a": "BODY",
+      "b": "ADAPTER_TOP_WASHER_1_EST",
+      "mesh_overlap_mm3": 0.15671745032001036,
+      "unallowed_mm3": 0.15671745032001036,
+      "exact_conflict": {
+        "part_a": "BODY",
+        "part_b": "ADAPTER_TOP_WASHER_1_EST",
+        "overlap_mm3": 0.15519070308937494,
+        "intersection_centroid_mm": [
+          -29.22161129877219,
+          42.816824538164234,
+          12.505177613769785
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -29.431000100000002,
+            41.66189460885085,
+            12.349999899999998
+          ],
+          "max": [
+            -28.94947885262173,
+            43.99935337555497,
+            12.650000100000002
+          ],
+          "size": [
+            0.4815212473782715,
+            2.337458766704117,
+            0.30000020000000305
+          ]
+        }
+      }
+    },
+    {
+      "a": "BODY",
+      "b": "ADAPTER_LOWER_WASHER_1_EST",
+      "mesh_overlap_mm3": 0.1847640489516176,
+      "unallowed_mm3": 0.1847640489516176,
+      "exact_conflict": {
+        "part_a": "BODY",
+        "part_b": "ADAPTER_LOWER_WASHER_1_EST",
+        "overlap_mm3": 0.1856513539394092,
+        "intersection_centroid_mm": [
+          -27.519145276760486,
+          44.65882949203203,
+          8.117231414658644
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -29.33102819907,
+            42.64292847857278,
+            7.9499999
+          ],
+          "max": [
+            -26.170181223379466,
+            45.1000001,
+            8.25000010000002
+          ],
+          "size": [
+            3.1608469756905357,
+            2.4570716214272252,
+            0.3000002000000208
+          ]
+        }
+      }
+    },
+    {
+      "a": "BODY",
+      "b": "ADAPTER_THIN_NUT_1_EST",
+      "mesh_overlap_mm3": 2.7610378913468128,
+      "unallowed_mm3": 2.7610378913468128,
+      "exact_conflict": {
+        "part_a": "BODY",
+        "part_b": "ADAPTER_THIN_NUT_1_EST",
+        "overlap_mm3": 2.7621361580323205,
+        "intersection_centroid_mm": [
+          -27.36629786060722,
+          41.73337928131107,
+          7.243055597606233
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -29.64040117675,
+            40.99999989999993,
+            6.749999899999997
+          ],
+          "max": [
+            -25.546227107246093,
+            45.00000000000007,
+            7.950000100000001
+          ],
+          "size": [
+            4.094174069503907,
+            4.000000100000143,
+            1.2000002000000043
+          ]
+        }
+      }
+    },
+    {
+      "a": "BODY",
+      "b": "ADAPTER_M2x6_BUTTON_SCREW_2_EST",
+      "mesh_overlap_mm3": 5.736801099012483,
+      "unallowed_mm3": 5.736801099012483,
+      "exact_conflict": {
+        "part_a": "BODY",
+        "part_b": "ADAPTER_M2x6_BUTTON_SCREW_2_EST",
+        "overlap_mm3": 5.7335572237299735,
+        "intersection_centroid_mm": [
+          -28.85019256884087,
+          66.02037641442554,
+          9.849022857581982
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -30.5040001,
+            64.9999999,
+            8.1999999
+          ],
+          "max": [
+            -27.603999899999998,
+            67.38651088251633,
+            13.750000100000001
+          ],
+          "size": [
+            2.900000200000001,
+            2.3865109825163273,
+            5.550000200000001
+          ]
+        }
+      }
+    },
+    {
+      "a": "BODY",
+      "b": "ADAPTER_TOP_WASHER_2_EST",
+      "mesh_overlap_mm3": 0.1458931397091384,
+      "unallowed_mm3": 0.1458931397091384,
+      "exact_conflict": {
+        "part_a": "BODY",
+        "part_b": "ADAPTER_TOP_WASHER_2_EST",
+        "overlap_mm3": 0.1404202313311127,
+        "intersection_centroid_mm": [
+          -30.465721899314815,
+          66.43821272644176,
+          12.504555527974807
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -30.704000100000002,
+            65.28062082799106,
+            12.3499999
+          ],
+          "max": [
+            -30.05837816644166,
+            67.5148545016469,
+            12.6500001
+          ],
+          "size": [
+            0.645621933558342,
+            2.2342336736558366,
+            0.3000001999999995
+          ]
+        }
+      }
+    },
+    {
+      "a": "BODY",
+      "b": "ADAPTER_LOWER_WASHER_2_EST",
+      "mesh_overlap_mm3": 0.024440591636470638,
+      "unallowed_mm3": 0.024440591636470638,
+      "exact_conflict": {
+        "part_a": "BODY",
+        "part_b": "ADAPTER_LOWER_WASHER_2_EST",
+        "overlap_mm3": 0.024591263492021235,
+        "intersection_centroid_mm": [
+          -29.98425868577822,
+          65.87673479670133,
+          8.229210618217538
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -30.676174761531243,
+            63.91822209265888,
+            8.109422778615329
+          ],
+          "max": [
+            -27.54689248671897,
+            66.58048073202899,
+            8.250000107557275
+          ],
+          "size": [
+            3.1292822748122724,
+            2.6622586393701084,
+            0.14057732894194608
+          ]
+        }
+      }
+    },
+    {
+      "a": "BODY",
+      "b": "ADAPTER_THIN_NUT_2_EST",
+      "mesh_overlap_mm3": 0.17019860916868135,
+      "unallowed_mm3": 0.17019860916868135,
+      "exact_conflict": {
+        "part_a": "BODY",
+        "part_b": "ADAPTER_THIN_NUT_2_EST",
+        "overlap_mm3": 0.16806458826603493,
+        "intersection_centroid_mm": [
+          -28.44718135708195,
+          65.32011886847162,
+          6.959845581052497
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -30.91340117675,
+            63.999999999999915,
+            6.7499999
+          ],
+          "max": [
+            -26.29459892324,
+            66.43464565336527,
+            7.9500001000000005
+          ],
+          "size": [
+            4.618802253510001,
+            2.434645653365351,
+            1.2000002000000007
+          ]
+        }
+      }
+    },
+    {
+      "a": "BODY",
+      "b": "BATTERY_PLUG_EST",
+      "mesh_overlap_mm3": 5.807717951884136,
+      "unallowed_mm3": 5.807717951884136,
+      "exact_conflict": {
+        "part_a": "BODY",
+        "part_b": "BATTERY_PLUG_EST",
+        "overlap_mm3": 5.810847608803252,
+        "intersection_centroid_mm": [
+          -17.999999999999996,
+          63.222113372223625,
+          22.802178959358454
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -20.5,
+            62.900000000000006,
+            21.57131670194943
+          ],
+          "max": [
+            -15.5,
+            63.50000000000002,
+            23.8
+          ],
+          "size": [
+            5.0,
+            0.6000000000000156,
+            2.2286832980505693
+          ]
+        }
+      }
+    },
+    {
+      "a": "BODY",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 69.86806122334221,
+      "unallowed_mm3": 69.86806122334221,
+      "exact_conflict": {
+        "part_a": "BODY",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 69.86329644832325,
+        "intersection_centroid_mm": [
+          3.9944584336900717,
+          55.42243880717079,
+          14.533255798425726
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -15.35,
+            33.0,
+            13.999999899999999
+          ],
+          "max": [
+            17.928698108462,
+            81.53289151839739,
+            15.200000100000004
+          ],
+          "size": [
+            33.278698108462,
+            48.53289151839739,
+            1.2000002000000052
+          ]
+        }
+      }
+    },
+    {
+      "a": "LEFT_KEY",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 26.076048943113886,
+      "unallowed_mm3": 26.076048943113886,
+      "exact_conflict": {
+        "part_a": "LEFT_KEY",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 26.077831109375644,
+        "intersection_centroid_mm": [
+          14.889559836522222,
+          38.17236748207082,
+          14.631545447725134
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            11.7,
+            35.3,
+            13.999999999999973
+          ],
+          "max": [
+            18.0,
+            41.15,
+            15.200000000000033
+          ],
+          "size": [
+            6.300000000000001,
+            5.850000000000001,
+            1.2000000000000597
+          ]
+        }
+      }
+    },
+    {
+      "a": "RIGHT_KEY",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 26.07604894311389,
+      "unallowed_mm3": 26.07604894311389,
+      "exact_conflict": {
+        "part_a": "RIGHT_KEY",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 26.077831109375165,
+        "intersection_centroid_mm": [
+          -14.889559836522226,
+          38.17236748207082,
+          14.631545447725138
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -18.0,
+            35.3,
+            13.999999999999973
+          ],
+          "max": [
+            -11.7,
+            41.15,
+            15.200000000000033
+          ],
+          "size": [
+            6.300000000000001,
+            5.850000000000001,
+            1.2000000000000597
+          ]
+        }
+      }
+    },
+    {
+      "a": "WHEEL_CARRIER",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 8.60317460837164,
+      "unallowed_mm3": 8.60317460837164,
+      "exact_conflict": {
+        "part_a": "WHEEL_CARRIER",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 8.60622503097885,
+        "intersection_centroid_mm": [
+          6.750519034150664,
+          35.81660899248865,
+          14.599999993305435
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            5.000328095001153,
+            33.87507180639551,
+            14.0
+          ],
+          "max": [
+            8.50070996727759,
+            37.758146186689835,
+            15.2
+          ],
+          "size": [
+            3.500381872276437,
+            3.8830743802943246,
+            1.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "LEFT_KEY_STEEL_PIN",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 22.510026349359798,
+      "unallowed_mm3": 22.510026349359798,
+      "exact_conflict": {
+        "part_a": "LEFT_KEY_STEEL_PIN",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 22.51893461229687,
+        "intersection_centroid_mm": [
+          12.700000000000015,
+          38.5,
+          14.553810815929547
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            7.3999999999999995,
+            37.5,
+            13.999999999999998
+          ],
+          "max": [
+            18.0,
+            39.5,
+            15.2
+          ],
+          "size": [
+            10.600000000000001,
+            2.0,
+            1.200000000000001
+          ]
+        }
+      }
+    },
+    {
+      "a": "SWITCH_LEFT",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 2.5778134975012934,
+      "unallowed_mm3": 2.5778134975012934,
+      "exact_conflict": {
+        "part_a": "SWITCH_LEFT",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 2.5778135013999695,
+        "intersection_centroid_mm": [
+          16.69999999999981,
+          33.42077780199633,
+          14.55280886914295
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            15.399999999999999,
+            33.0,
+            14.0
+          ],
+          "max": [
+            18.0,
+            34.02117409383037,
+            15.2
+          ],
+          "size": [
+            2.6000000000000014,
+            1.0211740938303677,
+            1.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "RIGHT_KEY_STEEL_PIN",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 22.5100263493598,
+      "unallowed_mm3": 22.5100263493598,
+      "exact_conflict": {
+        "part_a": "RIGHT_KEY_STEEL_PIN",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 22.518934612296448,
+        "intersection_centroid_mm": [
+          -12.700000000000015,
+          38.5,
+          14.55381081592954
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -18.0,
+            37.5,
+            13.999999999999998
+          ],
+          "max": [
+            -7.4,
+            39.5,
+            15.2
+          ],
+          "size": [
+            10.6,
+            2.0,
+            1.200000000000001
+          ]
+        }
+      }
+    },
+    {
+      "a": "SWITCH_RIGHT",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 2.577813497501285,
+      "unallowed_mm3": 2.577813497501285,
+      "exact_conflict": {
+        "part_a": "SWITCH_RIGHT",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 2.5778135014009957,
+        "intersection_centroid_mm": [
+          -16.699999999999807,
+          33.42077780199646,
+          14.552808869142964
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -18.0,
+            33.0,
+            14.0
+          ],
+          "max": [
+            -15.4,
+            34.02117409383037,
+            15.2
+          ],
+          "size": [
+            2.5999999999999996,
+            1.0211740938303677,
+            1.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 0.3990462463379089,
+      "unallowed_mm3": 0.3990462463379089,
+      "exact_conflict": {
+        "part_a": "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 0.39964426424958593,
+        "intersection_centroid_mm": [
+          17.867655348881858,
+          47.7,
+          14.599999999999998
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            17.674165381942,
+            46.96141957933412,
+            14.0
+          ],
+          "max": [
+            18.0,
+            48.438580420665886,
+            15.2
+          ],
+          "size": [
+            0.32583461805799985,
+            1.4771608413317665,
+            1.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "SIDE_FRONT_KEY_M2_SWITCH_2_BOLT",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 0.3990462463379092,
+      "unallowed_mm3": 0.3990462463379092,
+      "exact_conflict": {
+        "part_a": "SIDE_FRONT_KEY_M2_SWITCH_2_BOLT",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 0.3996442642496726,
+        "intersection_centroid_mm": [
+          17.867655348881865,
+          54.20000000000002,
+          14.600000000000001
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            17.674165381942,
+            53.46141957933382,
+            14.0
+          ],
+          "max": [
+            18.000000000000146,
+            54.938580420666185,
+            15.2
+          ],
+          "size": [
+            0.3258346180581455,
+            1.4771608413323634,
+            1.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "SWITCH_SIDE_FRONT",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 11.886722968547184,
+      "unallowed_mm3": 11.886722968547184,
+      "exact_conflict": {
+        "part_a": "SWITCH_SIDE_FRONT",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 11.885531204871414,
+        "intersection_centroid_mm": [
+          17.568214497113015,
+          51.003362443439464,
+          14.600000000000003
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            17.174165381942,
+            44.6,
+            14.0
+          ],
+          "max": [
+            18.000000000000146,
+            57.4,
+            15.2
+          ],
+          "size": [
+            0.8258346180581455,
+            12.799999999999997,
+            1.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "ENCODER_EC10E_HOUSING",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 0.14999995231619323,
+      "unallowed_mm3": 0.14999995231619323,
+      "exact_conflict": {
+        "part_a": "ENCODER_EC10E_HOUSING",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 0.14999999999999944,
+        "intersection_centroid_mm": [
+          5.75,
+          33.625,
+          14.100000000000001
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            5.449999999999999,
+            33.0,
+            14.0
+          ],
+          "max": [
+            6.050000000000001,
+            34.25,
+            14.2
+          ],
+          "size": [
+            0.6000000000000014,
+            1.25,
+            0.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "SWITCH_MIDDLE",
+      "b": "D_REMOVABLE_CARRIER_EST",
+      "mesh_overlap_mm3": 21.16003312111568,
+      "unallowed_mm3": 21.16003312111568,
+      "exact_conflict": {
+        "part_a": "SWITCH_MIDDLE",
+        "part_b": "D_REMOVABLE_CARRIER_EST",
+        "overlap_mm3": 21.15999999999999,
+        "intersection_centroid_mm": [
+          -0.37499999999999994,
+          48.750000000000014,
+          13.0
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -3.25,
+            47.6,
+            12.2
+          ],
+          "max": [
+            2.5,
+            49.9,
+            13.8
+          ],
+          "size": [
+            5.75,
+            2.299999999999997,
+            1.6000000000000014
+          ]
+        }
+      }
+    },
+    {
+      "a": "SWITCH_MIDDLE",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 89.08800634765282,
+      "unallowed_mm3": 89.08800634765282,
+      "exact_conflict": {
+        "part_a": "SWITCH_MIDDLE",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 89.08799999999992,
+        "intersection_centroid_mm": [
+          -0.3999999999999996,
+          43.50000000000001,
+          14.600000000000003
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -3.3000000000000003,
+            37.1,
+            14.0
+          ],
+          "max": [
+            2.5,
+            49.9,
+            15.2
+          ],
+          "size": [
+            5.800000000000001,
+            12.799999999999997,
+            1.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "WHEEL_M2_SWITCH_2_BOLT",
+      "b": "D_REMOVABLE_CARRIER_EST",
+      "mesh_overlap_mm3": 1.2771332857996225,
+      "unallowed_mm3": 1.2771332857996225,
+      "exact_conflict": {
+        "part_a": "WHEEL_M2_SWITCH_2_BOLT",
+        "part_b": "D_REMOVABLE_CARRIER_EST",
+        "overlap_mm3": 1.2781419404379344,
+        "intersection_centroid_mm": [
+          -6.825000000000001,
+          46.73132943301743,
+          11.781016241841195
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -7.050000000000001,
+            45.19999999999989,
+            11.29999999999994
+          ],
+          "max": [
+            -6.599999999999998,
+            48.445709025009776,
+            12.450000000000001
+          ],
+          "size": [
+            0.45000000000000284,
+            3.2457090250098872,
+            1.1500000000000608
+          ]
+        }
+      }
+    },
+    {
+      "a": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+      "b": "D_REMOVABLE_CARRIER_EST",
+      "mesh_overlap_mm3": 0.11711654910755118,
+      "unallowed_mm3": 0.11711654910755118,
+      "exact_conflict": {
+        "part_a": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+        "part_b": "D_REMOVABLE_CARRIER_EST",
+        "overlap_mm3": 0.11738582635393575,
+        "intersection_centroid_mm": [
+          4.5,
+          47.95246281331315,
+          12.447672460941952
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            4.35,
+            47.6,
+            12.2
+          ],
+          "max": [
+            4.65,
+            48.578163997099296,
+            12.882380757938122
+          ],
+          "size": [
+            0.3000000000000007,
+            0.9781639970992941,
+            0.6823807579381231
+          ]
+        }
+      }
+    },
+    {
+      "a": "WHEEL_M2_SWITCH_2_NUT",
+      "b": "D_REMOVABLE_CARRIER_EST",
+      "mesh_overlap_mm3": 0.027076036964592903,
+      "unallowed_mm3": 0.027076036964592903,
+      "exact_conflict": {
+        "part_a": "WHEEL_M2_SWITCH_2_NUT",
+        "part_b": "D_REMOVABLE_CARRIER_EST",
+        "overlap_mm3": 0.02707552841487168,
+        "intersection_centroid_mm": [
+          5.449999999999999,
+          47.68070538917044,
+          12.246595278162635
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            4.65,
+            47.6,
+            12.2
+          ],
+          "max": [
+            6.25,
+            47.84211616751136,
+            12.339785834487913
+          ],
+          "size": [
+            1.5999999999999996,
+            0.24211616751135523,
+            0.13978583448791326
+          ]
+        }
+      }
+    },
+    {
+      "a": "D_REMOVABLE_CARRIER_EST",
+      "b": "ADAPTER_TOP_WASHER_1_EST",
+      "mesh_overlap_mm3": 0.14915135251670156,
+      "unallowed_mm3": 0.14915135251670156,
+      "exact_conflict": {
+        "part_a": "D_REMOVABLE_CARRIER_EST",
+        "part_b": "ADAPTER_TOP_WASHER_1_EST",
+        "overlap_mm3": 0.1494285753632951,
+        "intersection_centroid_mm": [
+          -27.42079451980279,
+          44.622367240079235,
+          12.430380208295851
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -28.041298325964224,
+            44.00448430220171,
+            12.349999899998963
+          ],
+          "max": [
+            -26.789348055807743,
+            45.1000001,
+            12.550000100008411
+          ],
+          "size": [
+            1.251950270156481,
+            1.0955157977982921,
+            0.2000002000094483
+          ]
+        }
+      }
+    },
+    {
+      "a": "D_REMOVABLE_CARRIER_EST",
+      "b": "ADAPTER_M2x6_BUTTON_SCREW_2_EST",
+      "mesh_overlap_mm3": 0.49254051769896257,
+      "unallowed_mm3": 0.49254051769896257,
+      "exact_conflict": {
+        "part_a": "D_REMOVABLE_CARRIER_EST",
+        "part_b": "ADAPTER_M2x6_BUTTON_SCREW_2_EST",
+        "overlap_mm3": 0.4930289007894426,
+        "intersection_centroid_mm": [
+          -27.23074704216326,
+          66.06172198273214,
+          12.772670605444432
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -28.000660760302893,
+            64.38693335537543,
+            12.649999900000001
+          ],
+          "max": [
+            -26.7039999,
+            67.68221823002168,
+            12.957128635755167
+          ],
+          "size": [
+            1.296660860302893,
+            3.295284874646242,
+            0.30712873575516575
+          ]
+        }
+      }
+    },
+    {
+      "a": "D_REMOVABLE_CARRIER_EST",
+      "b": "ADAPTER_TOP_WASHER_2_EST",
+      "mesh_overlap_mm3": 1.070954494210693,
+      "unallowed_mm3": 1.070954494210693,
+      "exact_conflict": {
+        "part_a": "D_REMOVABLE_CARRIER_EST",
+        "part_b": "ADAPTER_TOP_WASHER_2_EST",
+        "overlap_mm3": 1.0719986901197496,
+        "intersection_centroid_mm": [
+          -27.38955038559786,
+          65.90972276856233,
+          12.488750679132433
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -29.14565195025611,
+            63.8999999,
+            12.349999899998911
+          ],
+          "max": [
+            -26.503999899999997,
+            67.9362479801571,
+            12.650000100000115
+          ],
+          "size": [
+            2.6416520502561127,
+            4.036248080157108,
+            0.30000020000120386
+          ]
+        }
+      }
+    },
+    {
+      "a": "D_REMOVABLE_CARRIER_EST",
+      "b": "D_LENS_UNVERIFIED",
+      "mesh_overlap_mm3": 2.5000000000000004,
+      "unallowed_mm3": 2.5000000000000004,
+      "exact_conflict": {
+        "part_a": "D_REMOVABLE_CARRIER_EST",
+        "part_b": "D_LENS_UNVERIFIED",
+        "overlap_mm3": 2.4999999999999996,
+        "intersection_centroid_mm": [
+          -5.5,
+          57.5,
+          11.550000000000002
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -6.0,
+            55.0,
+            11.3
+          ],
+          "max": [
+            -5.0,
+            60.0,
+            11.8
+          ],
+          "size": [
+            1.0,
+            5.0,
+            0.5
+          ]
+        }
+      }
+    },
+    {
+      "a": "D_SENSOR_PACKAGE_UNVERIFIED",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 12.79998779296875,
+      "unallowed_mm3": 12.79998779296875,
+      "exact_conflict": {
+        "part_a": "D_SENSOR_PACKAGE_UNVERIFIED",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 12.799999999999955,
+        "intersection_centroid_mm": [
+          -6.938893903907253e-17,
+          61.0,
+          14.1
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -4.0,
+            57.0,
+            14.0
+          ],
+          "max": [
+            4.0,
+            65.0,
+            14.2
+          ],
+          "size": [
+            8.0,
+            8.0,
+            0.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "BATTERY_CELL_EST",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 263.9999580383301,
+      "unallowed_mm3": 263.9999580383301,
+      "exact_conflict": {
+        "part_a": "BATTERY_CELL_EST",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 263.99999999999983,
+        "intersection_centroid_mm": [
+          -13.0,
+          56.99999999999999,
+          14.6
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            -18.0,
+            46.0,
+            14.0
+          ],
+          "max": [
+            -8.0,
+            68.0,
+            15.2
+          ],
+          "size": [
+            10.0,
+            22.0,
+            1.1999999999999993
+          ]
+        }
+      }
+    },
+    {
+      "a": "SIDE_IO_PCB_EST",
+      "b": "SIDE_HEADER_EST",
+      "mesh_overlap_mm3": 0.40000152587890436,
+      "unallowed_mm3": 0.40000152587890436,
+      "exact_conflict": {
+        "part_a": "SIDE_IO_PCB_EST",
+        "part_b": "SIDE_HEADER_EST",
+        "overlap_mm3": 0.40000000000000563,
+        "intersection_centroid_mm": [
+          12.750000000000002,
+          58.0,
+          16.999999999999996
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            12.7,
+            56.0,
+            16.5
+          ],
+          "max": [
+            12.8,
+            60.0,
+            17.5
+          ],
+          "size": [
+            0.10000000000000142,
+            4.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "a": "SIDE_IO_PCB_EST",
+      "b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+      "mesh_overlap_mm3": 32.39999198913574,
+      "unallowed_mm3": 32.39999198913574,
+      "exact_conflict": {
+        "part_a": "SIDE_IO_PCB_EST",
+        "part_b": "D_BOARD_SWEEP_GAUGE_UNVERIFIED",
+        "overlap_mm3": 32.400000000000006,
+        "intersection_centroid_mm": [
+          13.199999999999994,
+          57.500000000000014,
+          14.549999999999999
+        ],
+        "intersection_bounds_mm": {
+          "min": [
+            12.7,
+            42.5,
+            14.0
+          ],
+          "max": [
+            13.700000000000001,
+            72.5,
+            15.2
+          ],
+          "size": [
+            1.0000000000000018,
+            30.0,
+            1.1999999999999993
+          ]
+        }
+      }
+    }
+  ],
+  "allowed_local_contacts": [
+    {
+      "a": "BODY",
+      "b": "USB_M2x3_L",
+      "overlap_mm3": 1.480849097832274,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "BODY",
+      "b": "USB_M2x3_R",
+      "overlap_mm3": 1.4808550768762567,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "WHEEL_CARRIER",
+      "b": "ENCODER_M2x3_FRONT",
+      "overlap_mm3": 1.3069079613385384,
+      "unallowed_mm3": 0.0
+    },
+    {
+      "a": "WHEEL_CARRIER",
+      "b": "ENCODER_M2x3_REAR",
+      "overlap_mm3": 1.306907920049241,
+      "unallowed_mm3": 0.0
+    }
+  ],
+  "pass_check": false,
+  "threshold_mm3": 0.01
+}

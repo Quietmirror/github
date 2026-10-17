@@ -1,0 +1,15 @@
+{
+  "variant": "F1H",
+  "full_spec_acceptance": false,
+  "mesh_checked": true,
+  "real_electronics_fit": false,
+  "physical_click_or_fatigue_tested": false,
+  "printing": "Actual250x210 generic PLA slice; printer not confirmed",
+  "limitations": [
+    "14.89g unmet",
+    "H/D carrier assembly paths unresolved",
+    "H requires custom compact PCB",
+    "D identity and PCB unknown; gauge conflicts",
+    "RF/optics/power/runtime not verified"
+  ]
+}

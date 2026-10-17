@@ -22,11 +22,13 @@ def supports(mesh,centers,datum=5.2,anchor_swap=False):
 
 def cases(mesh):
     x,y,z=mesh.centers.T; nx,ny,nz=mesh.normals.T
-    top=f.selected_load(mesh,(y>44)&(y<71)&(abs(x)<24)&(z>23)&(nz>.3),[0,0,-1],5,'LC4_back_press_5N')
     sys.path.insert(0,str(ROOT/'cad/rebuild_r2'))
     from surfaces import half_width,roof_height
     p=json.loads((ROOT/'cad/rebuild_r2/parameters.json').read_text())
     w=np.array([half_width(q,p) for q in y]);h=np.array([roof_height(q,p) for q in y])
+    roof=5.+(h-5.)*np.maximum(0,1-(abs(x)/w)**3.4)**(1/3.4)
+    top=f.selected_load(mesh,(y>44)&(y<71)&(abs(x)<24)&(z>23)&(nz>.3)&(abs(z-roof)<.15),[0,0,-1],5,'LC4_outer_back_press_5N')
+    top[1]['surface_selection']='Only outward upward facets within 0.15 mm of the analytic outer crown reference; internal cross-tie tops excluded.'
     ratio=np.clip((z-5)/(h-5),0,1);expected=w*np.maximum(0,1-ratio**3.4)**(1/3.4)
     skin=abs(abs(x)-expected)<.12
     left=f.selected_load(mesh,skin&(x>27)&(y>44)&(y<59)&(z>9)&(z<13)&(nx>.7),[-1,0,0],2,'LC3_left_outer_skin_2N')
@@ -71,11 +73,15 @@ def main():
         if old['source_step_sha256']==source:report['levels']=[q for q in old['levels'] if q['h_mm'] not in args.sizes]
     for h in args.sizes:
         work=f.WORK/args.version/f'h{h:g}_{source[:10]}';mesh=f.generate_mesh(work,h,step=step)
+        if mesh.stats['nodes']>500000:
+            raise RuntimeError('Mesh exceeds bounded 500000-node screening budget. Refine CAD edge representation before solving; raw mesh retained, no pass claimed.')
         level=dict(h_mm=h,mesh=mesh.stats,cases=[])
         for loads,description in cases(mesh):
             constraints,pads,boundary=free_supports(mesh,centers) if description.get('support_mode')=='free_rigid_modes_only' else supports(mesh,centers)
             result,u=f.solve(mesh,work/description['name'],1700,.37,constraints,loads,description,pads)
             result['material']['model']='Homogeneous isotropic linear elasticity; PA12 engineering assumption, not measured printed material.'
+            if description.get('support_mode')=='free_rigid_modes_only':
+                result['interpretation']='Self-equilibrated free-body load; six rigid modes removed. Minimum-anchor reactions must be negligible. No desk-contact clamp or friction model.'
             F=sum(c['magnitude_N'] for c in description.get('components',[])) or description['magnitude_N']
             compliance=float((loads*u).sum()); delta=compliance/F
             result.update(observation='Work-conjugate surface displacement sum(F_i dot u_i)/sum(load magnitudes)',

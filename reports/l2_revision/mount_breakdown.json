@@ -1,0 +1,120 @@
+{
+  "rows": [
+    {
+      "index": 5,
+      "label": "LEFT_KEY_FIXED_BEARING",
+      "net_mm3": 77.90423447378974,
+      "PA12_g": 0.07868327681852764
+    },
+    {
+      "index": 6,
+      "label": "LEFT_KEY_FIXED_BEARING",
+      "net_mm3": 155.11770020491616,
+      "PA12_g": 0.15666887720696532
+    },
+    {
+      "index": 7,
+      "label": "LEFT_KEY_SUSPENDED_TRAY",
+      "net_mm3": 418.9760359613562,
+      "PA12_g": 0.4231657963209698
+    },
+    {
+      "index": 8,
+      "label": "LEFT_KEY_HARD_STOP",
+      "net_mm3": 10.749958701050826,
+      "PA12_g": 0.010857458288061334
+    },
+    {
+      "index": 9,
+      "label": "RIGHT_KEY_FIXED_BEARING",
+      "net_mm3": 151.21813065459042,
+      "PA12_g": 0.15273031196113634
+    },
+    {
+      "index": 10,
+      "label": "RIGHT_KEY_FIXED_BEARING",
+      "net_mm3": 74.00466501279142,
+      "PA12_g": 0.07474471166291934
+    },
+    {
+      "index": 11,
+      "label": "RIGHT_KEY_SUSPENDED_TRAY",
+      "net_mm3": 418.9760358053799,
+      "PA12_g": 0.42316579616343375
+    },
+    {
+      "index": 12,
+      "label": "RIGHT_KEY_HARD_STOP",
+      "net_mm3": 10.749958649949097,
+      "PA12_g": 0.010857458236448589
+    },
+    {
+      "index": 13,
+      "label": "SIDE_FRONT_KEY_GUIDE_AND_SUSPENDED_SOCKET",
+      "net_mm3": 475.4898094735516,
+      "PA12_g": 0.48024470756828713
+    },
+    {
+      "index": 14,
+      "label": "SIDE_REAR_KEY_GUIDE_AND_SUSPENDED_SOCKET",
+      "net_mm3": 443.23369417596035,
+      "PA12_g": 0.44766603111771996
+    },
+    {
+      "index": 15,
+      "label": "UNLABELLED",
+      "net_mm3": 122.16529320347809,
+      "PA12_g": 0.12338694613551288
+    },
+    {
+      "index": 16,
+      "label": "UNLABELLED",
+      "net_mm3": 122.16529196932558,
+      "PA12_g": 0.12338694488901884
+    },
+    {
+      "index": 17,
+      "label": "UNLABELLED",
+      "net_mm3": 557.8478290308502,
+      "PA12_g": 0.5634263073211587
+    },
+    {
+      "index": 18,
+      "label": "UNLABELLED",
+      "net_mm3": 5.038318469059249,
+      "PA12_g": 0.005088701653749842
+    },
+    {
+      "index": 19,
+      "label": "PCB_LOCAL_M2_EAR",
+      "net_mm3": 85.38126208609498,
+      "PA12_g": 0.08623507470695593
+    },
+    {
+      "index": 20,
+      "label": "PCB_LOCAL_M2_EAR",
+      "net_mm3": 36.487407001369824,
+      "PA12_g": 0.036852281071383525
+    },
+    {
+      "index": 21,
+      "label": "PCB_LOCAL_M2_EAR",
+      "net_mm3": 69.9937230965158,
+      "PA12_g": 0.07069366032748095
+    },
+    {
+      "index": 22,
+      "label": "PCB_LOCAL_M2_EAR",
+      "net_mm3": 76.76509782295022,
+      "PA12_g": 0.07753274880117973
+    },
+    {
+      "label": "RESIDUAL_INTERFACE_AND_NEW_FOOT_LANDS",
+      "net_mm3": 1081.7163701926268,
+      "PA12_g": 1.092533533894553
+    }
+  ],
+  "total_mm3": 4393.980798392617,
+  "closure_mm3": 1.7592989934200887e-05,
+  "scope": "Disjoint net allocation of C_BODY_MOUNTS to source supports, in source order. Shared intersections assigned to first support; residual contains later interface and short-foot revisions."
+}

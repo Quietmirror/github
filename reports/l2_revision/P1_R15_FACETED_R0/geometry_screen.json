@@ -1,0 +1,15 @@
+{
+  "variant": "P1_R15",
+  "BODY_CAD_mm3": 12805.415445512246,
+  "BODY_PA12_g": 12.933469599967369,
+  "BODY_mesh_mm3": 12799.151524292638,
+  "CAD_valid": true,
+  "solids": 1,
+  "watertight": true,
+  "self_intersecting_faces": 0,
+  "mesh_components": 1,
+  "original_other_eight_parts_mm3": 5704.9480357253,
+  "total_PA12_g": 18.695467116049922,
+  "full_assembly_validation": false,
+  "geometry_screen_pass": true
+}

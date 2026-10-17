@@ -15,6 +15,46 @@ from scipy.optimize import brentq
 from build_p1 import r,ROOT,HERE,original_layout
 records=[];FAMILY='P2'
 def polygons(g):return [g] if g.geom_type=='Polygon' else [p for p in g.geoms if p.geom_type=='Polygon' and p.area>2]
+def raw_cells(poly,family,offset):
+    allowed=poly.buffer(offset,join_style='mitre')
+    if family in ['P1_R10','P1_R15','P4','P6']:
+        radius={'P1_R10':1.,'P1_R15':1.5,'P4':3.8,'P6':1.3 if poly.area<200 else 2.2}[family]
+        return [(allowed,radius)]
+    if family=='P2':
+        pts=list(allowed.exterior.coords)[:-1]
+        if len(pts)==3:return [(allowed,1.1)]
+        return [(q,.85) for q in polygons(allowed.difference(LineString([pts[0],pts[2]]).buffer(.9,cap_style='square')))]
+    if family=='P3':
+        xmin,ymin,xmax,ymax=allowed.bounds;cells=[]
+        for j,y in enumerate(np.arange(math.floor(ymin/10)*10,ymax+10,10.)):
+            for x in np.arange(math.floor(xmin/11.6)*11.6,xmax+12,11.6):
+                center=[x+(5.8 if j%2 else 0),y]
+                pts=[(center[0]+6*math.cos(t),center[1]+6*math.sin(t)) for t in np.linspace(0,2*math.pi,6,endpoint=False)]
+                q=Polygon(pts).buffer(-.8,join_style='mitre').intersection(allowed)
+                if not q.is_empty:
+                    for piece in polygons(q):
+                        rounded=piece.buffer(-.65,quad_segs=10).buffer(.65,quad_segs=10)
+                        if rounded.area>2:cells.append((piece,.65))
+        return cells
+    return []
+def exact_tools(poly,family,offset):
+    if family=='P5':
+        pts=np.array(poly.exterior.coords[:-1]);center=np.array(poly.centroid.coords[0]);eig,v=np.linalg.eigh(np.cov((pts-center).T))
+        angle=np.rad2deg(np.arctan2(v[1,-1],v[0,-1]));b=affinity.rotate(poly,-angle,origin=tuple(center)).bounds
+        ellipse=cq.Workplane('XY').ellipse((b[2]-b[0])/2+offset,(b[3]-b[1])/2+offset).extrude(50).val().rotate((0,0,0),(0,0,1),angle).translate((*center,0))
+        allowed=poly.buffer(offset,join_style='mitre')
+        region=cq.Workplane('XY').polyline(list(allowed.exterior.coords)[:-1]).close().extrude(50).val()
+        return [ellipse.intersect(region)]
+    result=[]
+    for cell,radius in raw_cells(poly,family,offset):
+        eroded=cell.buffer(-radius,join_style='mitre')
+        if eroded.is_empty:continue
+        assert eroded.geom_type=='Polygon'
+        # Exact OCC offset arcs. Hundreds of tiny straight corner edges caused
+        # the first prototype to exceed two million FEM nodes at h=2.4 mm.
+        raw=cq.Workplane('XY').polyline(list(eroded.exterior.coords)[:-1]).close().offset2D(radius,kind='arc').extrude(50).val()
+        result.append(raw)
+    return result
 def make_profile(poly,family,offset):
     allowed=poly.buffer(offset,join_style='mitre')
     if family in ['P1_R10','P1_R15','P4','P6']:
@@ -47,20 +87,23 @@ def make_profile(poly,family,offset):
 def layout(p):
     result=[];s=p['host']['scale']
     for name,points,unused in original_layout(p):
-        poly=Polygon(points);target=poly.buffer(-.85,quad_segs=64).buffer(.85,quad_segs=64).area
-        lo,hi=-.3,.65;maxarea=make_profile(poly,FAMILY,hi).area
+        poly=Polygon(points);eroded_original=poly.buffer(-.85,join_style='mitre')
+        target=eroded_original.area+.85*eroded_original.length+math.pi*.85**2
+        def area(offset):return sum(t.Volume()/50 for t in exact_tools(poly,FAMILY,offset))
+        lo,hi=-.3,.65;maxarea=area(hi)
         feasible=maxarea>=target
-        off=brentq(lambda x:make_profile(poly,FAMILY,x).area-target,lo,hi,xtol=1e-7) if feasible else hi
+        off=brentq(lambda x:area(x)-target,lo,hi,xtol=1e-8) if feasible else hi
         geom=make_profile(poly,FAMILY,off);pieces=polygons(geom)
         side=-1 if name.endswith('_L') else 1
         keep=r.box(14,28,10,(-29*s,53.5*s,14.75*s)) if side<0 else r.box(14,33,8,(29*s,48*s,13*s))
-        for j,q in enumerate(pieces):
-            points2=list(q.exterior.coords)[:-1]
-            raw=cq.Workplane('XY').polyline(points2).close().extrude(50).val().translate((0,0,10.5*s))
-            result.append((name+f'_{j}',points2,raw.cut(keep)))
+        tools=exact_tools(poly,FAMILY,off)
+        for j,raw in enumerate(tools):
+            points2=list(pieces[min(j,len(pieces)-1)].exterior.coords)[:-1]
+            result.append((name+f'_{j}',points2,raw.translate((0,0,10.5*s)).cut(keep)))
         records.append(dict(bay=name,profile_count=len(pieces),original_rounded_area_mm2=target,new_area_mm2=geom.area,
             equal_projected_area_feasible=feasible,profile_growth_mm=off,maximum_allowed_growth_mm=.65,
-            area_deficit_mm2=max(0,target-geom.area),source_geometry=geom.__geo_interface__))
+            area_deficit_mm2=max(0,target-geom.area),exact_BRep_profile_area_mm2=sum(t.Volume()/50 for t in tools),
+            construction='Exact circular offset arcs or exact ellipse, not faceted approximation',source_geometry=geom.__geo_interface__))
     return result
 def main():
     global FAMILY

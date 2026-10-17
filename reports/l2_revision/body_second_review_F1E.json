@@ -1,0 +1,55 @@
+{
+  "variant": "F1E",
+  "source_sha256": "0ed8c58164d978bf8943005b972036159520d7566751cc37809650cfa6c33f3b",
+  "h_mm": 1.8,
+  "cases": [
+    {
+      "name": "LC4_outer_back_press_5N",
+      "independent_review": {
+        "method": "Independent NumPy integration of B^T sigma over all C3D10 elements, and stress compliance strain energy",
+        "reaction_sum_N": [
+          -1.213039684674981e-08,
+          1.4009263246266483e-08,
+          4.999999962495565
+        ],
+        "applied_force_N": [
+          0.0,
+          0.0,
+          -4.999999999999991
+        ],
+        "force_balance_relative_error": 8.366571511201973e-09,
+        "moment_balance_relative_error": 4.203357749631771e-09,
+        "free_nodal_residual_max_N": 7.651446431147529e-08,
+        "strain_energy_Nmm": 0.11018201544009844,
+        "external_work_Nmm": 0.2203640314051654,
+        "energy_relative_error": 2.3822785966132187e-09,
+        "pass_check": true
+      }
+    },
+    {
+      "name": "LC3_free_equilibrated_outer_grip_4N",
+      "independent_review": {
+        "method": "Independent NumPy integration of B^T sigma over all C3D10 elements, and stress compliance strain energy",
+        "reaction_sum_N": [
+          3.825432722518894e-09,
+          1.3746835985881269e-08,
+          -1.2247015171244272e-09
+        ],
+        "applied_force_N": [
+          -1.431146867680866e-17,
+          0.0,
+          0.0
+        ],
+        "force_balance_relative_error": 1.432163848286188e-08,
+        "moment_balance_relative_error": 4.094675590391672e-09,
+        "free_nodal_residual_max_N": 4.2191321083536894e-08,
+        "strain_energy_Nmm": 0.01486207563591085,
+        "external_work_Nmm": 0.029724151683487018,
+        "energy_relative_error": 1.3849522750852827e-08,
+        "pass_check": true
+      }
+    }
+  ],
+  "extra_cases": [],
+  "scope": "Independent second numerical method on stated fixtures; not independent hardware tests or printed-material certification."
+}

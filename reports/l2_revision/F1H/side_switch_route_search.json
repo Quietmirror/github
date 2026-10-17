@@ -1,0 +1,81 @@
+{
+  "routes": [
+    {
+      "part": "SWITCH_SIDE_FRONT",
+      "waypoints": [
+        [
+          -18.97416591644287,
+          10.0,
+          -35.0
+        ],
+        [
+          -18.97416591644287,
+          10.0,
+          2.0
+        ],
+        [
+          -5.0,
+          10.0,
+          2.0
+        ],
+        [
+          -5.0,
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "samples": 98,
+      "maximum_overlap_mm3": 0.0,
+      "attempts": 14
+    },
+    {
+      "part": "SWITCH_SIDE_REAR",
+      "waypoints": [
+        [
+          -20.128697872161865,
+          0.0,
+          -35.0
+        ],
+        [
+          -20.128697872161865,
+          0.0,
+          2.0
+        ],
+        [
+          -20.128697872161865,
+          0.0,
+          2.0
+        ],
+        [
+          -20.128697872161865,
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "samples": 87,
+      "maximum_overlap_mm3": 0.0,
+      "attempts": 1
+    }
+  ],
+  "scope": "Finite translation paths from open underside; no force or full swept-volume certification."
+}

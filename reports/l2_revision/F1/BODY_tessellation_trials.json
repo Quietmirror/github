@@ -1,0 +1,23 @@
+[
+  {
+    "chord_mm": 0.015,
+    "faces": 224498,
+    "watertight": false,
+    "self_intersections": 4,
+    "pass_check": false
+  },
+  {
+    "chord_mm": 0.01,
+    "faces": 250222,
+    "watertight": false,
+    "self_intersections": 12,
+    "pass_check": false
+  },
+  {
+    "chord_mm": 0.005,
+    "faces": 329560,
+    "watertight": false,
+    "self_intersections": 11,
+    "pass_check": false
+  }
+]

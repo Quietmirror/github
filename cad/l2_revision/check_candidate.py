@@ -25,6 +25,8 @@ def main():
         rows.append(row);print('MESH',n,row['pass'],round(v,3),flush=True)
     result=dict(parts=rows,total_PA12_g=sum(r['PA12_g'] for r in rows),pass_check=all(r['pass'] for r in rows))
     (rp/'mesh_and_volume.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf8')
+    if '--mesh-only' in sys.argv:
+        print('MESH ONLY',variant,result['pass_check'],result['total_PA12_g'],flush=True);return
     spec=importlib.util.spec_from_file_location('r32_validation',ROOT/'cad/rebuild_r3_2/validate.py')
     val=importlib.util.module_from_spec(spec);spec.loader.exec_module(val)
     val.OUT=out;val.RP=rp;val.HERE=ROOT/'cad/rebuild_r3_2';val.WORK=ROOT.parent/f'_support/work/l2/{variant}/validation';val.WORK.mkdir(parents=True,exist_ok=True)

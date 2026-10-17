@@ -1,0 +1,42 @@
+[
+  {
+    "candidate": "K16",
+    "stiffness_retained": [
+      0.8918670139572602,
+      0.8527061124003676,
+      0.8209533857223219,
+      0.8521173169403291
+    ],
+    "numerical_review_pass": true
+  },
+  {
+    "candidate": "K14",
+    "stiffness_retained": [
+      0.8355565732351458,
+      0.7758331779254577,
+      0.7255636664474171,
+      0.7872366067149734
+    ],
+    "numerical_review_pass": true
+  },
+  {
+    "candidate": "K12",
+    "stiffness_retained": [
+      0.774717639880071,
+      0.6966801973758102,
+      0.6273149444678692,
+      0.7241267261904629
+    ],
+    "numerical_review_pass": true
+  },
+  {
+    "candidate": "K14R",
+    "stiffness_retained": [
+      0.9946754726892915,
+      0.8865200432858805,
+      0.8667098597197803,
+      1.0621723262739082
+    ],
+    "numerical_review_pass": true
+  }
+]

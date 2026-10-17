@@ -1,0 +1,14 @@
+{
+  "description": "Four square PCB-ear corners trimmed to radius3.8, only inside mutually exclusive C_BODY_MOUNTS. Existing 2.4x4 mm slots and A/B structural material retained. New bearing stress remains to be checked.",
+  "baseline_BODY_mm3": 12801.728063791752,
+  "new_BODY_mm3": 12752.617722286759,
+  "net_removed_mm3": 49.1103415049929,
+  "PA12_saving_g": 0.049601444920042835,
+  "individual_operations_mm3": [
+    2.6102271997915523,
+    18.10341065918874,
+    14.197626615015906,
+    14.199084593978114
+  ],
+  "not_strength_accepted": true
+}

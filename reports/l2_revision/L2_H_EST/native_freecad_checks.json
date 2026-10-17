@@ -1,0 +1,688 @@
+{
+  "application": "FreeCAD 1.1.4",
+  "variant": "L2_H_EST",
+  "file": "exports/l2_revision/L2_H_EST/L2_H_EST_FULL_ASSEMBLY.FCStd",
+  "parts": [
+    {
+      "part": "BODY",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 6.002665031701326e-11,
+      "pass_check": true
+    },
+    {
+      "part": "LEFT_KEY",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 1.3642420526593924e-12,
+      "pass_check": true
+    },
+    {
+      "part": "RIGHT_KEY",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 9.094947017729282e-13,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_FRONT_KEY",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_FRONT_KEY_SWITCH_CLAMP",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 2.842170943040401e-14,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_REAR_KEY_SWITCH_CLAMP",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "WHEEL",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "WHEEL_CARRIER",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 2.2737367544323206e-13,
+      "pass_check": true
+    },
+    {
+      "part": "LEFT_KEY_STEEL_PIN",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_1_BOLT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 7.105427357601002e-15,
+      "pass_check": true
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 5.329070518200751e-15,
+      "pass_check": true
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 2.6645352591003757e-15,
+      "pass_check": true
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_1_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 3.552713678800501e-15,
+      "pass_check": true
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_2_BOLT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 5.329070518200751e-15,
+      "pass_check": true
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 3.552713678800501e-15,
+      "pass_check": true
+    },
+    {
+      "part": "LEFT_KEY_M2_SWITCH_2_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SWITCH_LEFT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "RIGHT_KEY_STEEL_PIN",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 5.329070518200751e-15,
+      "pass_check": true
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 2.6645352591003757e-15,
+      "pass_check": true
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_1_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 7.105427357601002e-15,
+      "pass_check": true
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 7.105427357601002e-15,
+      "pass_check": true
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 6.217248937900877e-15,
+      "pass_check": true
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 2.6645352591003757e-15,
+      "pass_check": true
+    },
+    {
+      "part": "RIGHT_KEY_M2_SWITCH_2_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 3.552713678800501e-15,
+      "pass_check": true
+    },
+    {
+      "part": "SWITCH_RIGHT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_FRONT_KEY_CAPTURE_PIN",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 7.105427357601002e-15,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 1.7763568394002505e-15,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 3.552713678800501e-15,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_1_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 3.552713678800501e-15,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_2_BOLT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 2.6645352591003757e-15,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_FRONT_KEY_M2_SWITCH_2_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 1.0658141036401503e-14,
+      "pass_check": true
+    },
+    {
+      "part": "SWITCH_SIDE_FRONT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_REAR_KEY_CAPTURE_PIN",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_1_BOLT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 1.7763568394002505e-15,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 3.552713678800501e-15,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_1_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 7.105427357601002e-15,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_2_BOLT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 7.105427357601002e-15,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 2.6645352591003757e-15,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_REAR_KEY_M2_SWITCH_2_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 1.0658141036401503e-14,
+      "pass_check": true
+    },
+    {
+      "part": "SWITCH_SIDE_REAR",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "ENCODER_EC10E_HOUSING",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 1.1368683772161603e-13,
+      "pass_check": true
+    },
+    {
+      "part": "ENCODER_EC10E_ROTOR",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "WHEEL_CARRIER_STEEL_PIN",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SWITCH_MIDDLE",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_1_BOLT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 4.440892098500626e-15,
+      "pass_check": true
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 3.552713678800501e-15,
+      "pass_check": true
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_1_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 3.552713678800501e-15,
+      "pass_check": true
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_2_BOLT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 4.440892098500626e-15,
+      "pass_check": true
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 3.552713678800501e-15,
+      "pass_check": true
+    },
+    {
+      "part": "WHEEL_M2_SWITCH_2_NUT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 3.552713678800501e-15,
+      "pass_check": true
+    },
+    {
+      "part": "USB_C_REFERENCE",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "USB_ADAPTER_PCB_REFERENCE",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "USB_M2x3_L",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 3.552713678800501e-15,
+      "pass_check": true
+    },
+    {
+      "part": "USB_WASHER_L",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 5.329070518200751e-15,
+      "pass_check": true
+    },
+    {
+      "part": "USB_M2x3_R",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 3.552713678800501e-15,
+      "pass_check": true
+    },
+    {
+      "part": "USB_WASHER_R",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 5.329070518200751e-15,
+      "pass_check": true
+    },
+    {
+      "part": "ENCODER_M2x3_FRONT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 3.552713678800501e-15,
+      "pass_check": true
+    },
+    {
+      "part": "ENCODER_WASHER_FRONT",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 4.440892098500626e-16,
+      "pass_check": true
+    },
+    {
+      "part": "ENCODER_M2x3_REAR",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 7.105427357601002e-15,
+      "pass_check": true
+    },
+    {
+      "part": "ENCODER_WASHER_REAR",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 4.440892098500626e-16,
+      "pass_check": true
+    },
+    {
+      "part": "ENCODER_ADAPTER_PCB_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 5.684341886080802e-14,
+      "pass_check": true
+    },
+    {
+      "part": "H_REMOVABLE_CARRIER_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 1.1368683772161603e-13,
+      "pass_check": true
+    },
+    {
+      "part": "H_SENSOR_SEAT_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 1.4210854715202004e-14,
+      "pass_check": true
+    },
+    {
+      "part": "SENSOR_PCB_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "PAW3950_PACKAGE_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "MATCHED_LENS_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "CONTROLLER_RF_PCB_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "MCU_RADIO_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "CHARGE_POWERPATH_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "REGULATOR_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "BATTERY_CELL_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "BATTERY_PLUG_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "RF_BAT_HEADER_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "RF_IO_HEADER_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "RF_SENSOR_HEADER_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SENSOR_HEADER_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_IO_PCB_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 1.4210854715202004e-14,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_HEADER_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "REMOTE_ANTENNA_PCB_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "RF_USB_HEADER_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "ANTENNA_FEED_HEADER_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "BATTERY_ROUTE_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 3.552713678800501e-15,
+      "pass_check": true
+    },
+    {
+      "part": "SIDE_ROUTE_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "SENSOR_ROUTE_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "USB_ROUTE_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    },
+    {
+      "part": "ANTENNA_FEED_ROUTE_EST",
+      "valid": true,
+      "solids": 1,
+      "save_reopen_volume_difference_mm3": 0.0,
+      "pass_check": true
+    }
+  ],
+  "pass_check": true,
+  "scope": "Actual native save/reopen and same BRep volume check. Imported parts, not sketch feature history or kinematic assembly joints. Default FreeCAD volume is used only for same-file persistence equality, never for trimmed-body mass."
+}

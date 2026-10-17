@@ -1,0 +1,23 @@
+{
+  "method": "CAD split at Y67.5 then fuse ALL pieces without unifying exterior faces",
+  "pieces_retained": 3,
+  "original_mm3": 12784.75558000114,
+  "partitioned_mm3": 12784.637961790151,
+  "difference_mm3": -0.11761821098843939,
+  "trials": [
+    {
+      "chord_mm": 0.025,
+      "watertight": false,
+      "self_intersections": 4,
+      "pass_check": false
+    },
+    {
+      "chord_mm": 0.01,
+      "watertight": false,
+      "self_intersections": 8,
+      "pass_check": false
+    }
+  ],
+  "pass_check": false,
+  "mesh_holes_patched": 0
+}

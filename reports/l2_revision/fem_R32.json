@@ -39,31 +39,31 @@
           "postprocess_version": 3,
           "linear_solver": "DEFAULT",
           "case": {
-            "name": "LC4_back_press_5N",
+            "name": "LC4_outer_back_press_5N",
             "magnitude_N": 5,
             "direction": [
               0.0,
               0.0,
               -1.0
             ],
-            "selected_triangles": 1825,
-            "surface_area_mm2": 864.1352397588423,
-            "pressure_magnitude_MPa": 0.005786131348370158,
+            "selected_triangles": 953,
+            "surface_area_mm2": 586.2626602115209,
+            "pressure_magnitude_MPa": 0.00852860047098347,
             "area_centroid_mm": [
-              -0.7247436914153677,
-              59.0361224838519,
-              27.55960522332765
+              -0.7538839407734022,
+              58.30058653651293,
+              29.102654287351726
             ],
             "actual_force_sum_N": [
               0.0,
               0.0,
-              -4.999999999999988
+              -4.999999999999989
             ],
             "selected_face_centers_bounds_mm": [
               [
-                -23.98897686092084,
+                -23.90294637608997,
                 44.01306331452577,
-                23.237676415234915
+                24.915882487540266
               ],
               [
                 23.960626216933637,
@@ -71,7 +71,8 @@
                 30.561698768576004
               ]
             ],
-            "distribution": "Uniform vector surface traction, integrated using 7-point quadratic-triangle shape functions; total resultant normalized to specified N."
+            "distribution": "Uniform vector surface traction, integrated using 7-point quadratic-triangle shape functions; total resultant normalized to specified N.",
+            "surface_selection": "Only outward upward facets within 0.15 mm of the analytic outer crown reference; internal cross-tie tops excluded."
           },
           "material": {
             "E_MPa": 1700,
@@ -100,60 +101,60 @@
             "geo_sha256": "742d99a5cbd0c2801289f543ad1315878d8c1d3c85c47201213192f5707a4187",
             "source_step_sha256": "7bf7aad969fdc065bb0e27e9d5a784f80f62c594d2ac25e6cbc7bf36d382db5d"
           },
-          "deck_sha256": "7914c75fee70c119fc5087b8634fc4c9e9be7d31d4db43c77a8130c278e1267b",
-          "dat_sha256": "f1289f24796ebe9ef3a5b88197d762dc19016590e4fca97b7ba6fc4e34d0f5f2",
-          "solving_seconds": 46.71899999999732,
+          "deck_sha256": "8008c275d7e4e8043c548b3dc04e7a4cbc0edfe83639dc53ce889de8264160e6",
+          "dat_sha256": "7d68ba24fda8e2a62b8c0bdc48838134bc37df606b0eb6bd703b3bb0c8f8117b",
+          "solving_seconds": 70.64099999998871,
           "applied_force_N": [
             0.0,
             0.0,
-            -4.999999999999988
+            -4.999999999999989
           ],
           "support_reaction_N": [
-            -3.5272305307982017e-12,
-            7.480038982762148e-12,
-            5.0000000422281
+            -2.4297924153600453e-12,
+            8.019856024022123e-12,
+            5.000000093337509
           ],
           "force_balance_error_N": [
-            -3.5272305307982017e-12,
-            7.480038982762148e-12,
-            4.2228112562270326e-08
+            -2.4297924153600453e-12,
+            8.019856024022123e-12,
+            9.333751993523265e-08
           ],
-          "force_balance_relative_error": 8.445622674413345e-09,
+          "force_balance_relative_error": 1.8667504062281032e-08,
           "moment_balance_error_Nmm": [
-            2.4315840505551023e-06,
-            2.865311709232543e-06,
-            9.782099595846173e-11
+            4.658391048906196e-06,
+            3.0863558579952155e-06,
+            -9.084847817423165e-12
           ],
-          "moment_balance_relative_error": 8.518079723441307e-09,
+          "moment_balance_relative_error": 1.2666124416259154e-08,
           "equilibrium_pass": true,
-          "maximum_displacement_mm": 0.19950464342908555,
-          "maximum_displacement_node": 7428,
+          "maximum_displacement_mm": 0.09528724594491117,
+          "maximum_displacement_node": 227,
           "displacement_components_at_max_mm": [
-            -0.01485598,
-            0.0007064402,
-            -0.1989495
+            -0.06014859,
+            -0.007919183,
+            -0.07347852
           ],
-          "maximum_vm_stress_MPa": 14.048939558436285,
-          "p95_integration_point_vm_MPa": 0.368620495597153,
-          "unweighted_integration_point_p95_vm_MPa": 0.387997146557846,
+          "maximum_vm_stress_MPa": 8.265461281401885,
+          "p95_integration_point_vm_MPa": 0.3557166701020176,
+          "unweighted_integration_point_p95_vm_MPa": 0.35136555070483305,
           "p95_definition": "95th percentile of integration-point von Mises stress weighted by actual C3D10 Jacobian quadrature volume; avoids overweighting locally tiny elements.",
-          "peak_stress_element": 73993,
+          "peak_stress_element": 68500,
           "peak_stress_element_centroid_mm": [
-            -11.73614858159125,
-            54.093342753038,
-            24.136994291311503
+            -27.008268449435498,
+            13.31301082901625,
+            5.2675191717814
           ],
-          "peak_element_distance_to_nearest_horizontal_constraint_node_mm": 47.41499428023599,
-          "auxiliary_peak_vm_outside_3mm_horizontal_constraint_neighbourhood_MPa": 14.048939558436285,
+          "peak_element_distance_to_nearest_horizontal_constraint_node_mm": 3.9060448225585396,
+          "auxiliary_peak_vm_outside_3mm_horizontal_constraint_neighbourhood_MPa": 8.265461281401885,
           "auxiliary_stress_scope": "Diagnostic only: removes element-centroid regions within 3 mm of the minimum horizontal point anchors, which can create stress singularities. The global maximum remains separately reported and is not replaced for a strength claim.",
           "foot_reactions": [
             {
               "foot": 1,
               "constrained_nodes": 375,
               "reaction_N": [
-                -2.7860715960571998e-12,
-                4.883129827585848e-12,
-                0.2164100429769999
+                -1.46961894003335e-12,
+                3.25248495855492e-12,
+                0.26615347568100006
               ],
               "negative_z_requires_hold_down": false
             },
@@ -161,9 +162,9 @@
               "foot": 2,
               "constrained_nodes": 473,
               "reaction_N": [
-                -7.828769852219985e-13,
-                2.1885828471160004e-12,
-                0.27838957942299963
+                -1.1602132749100017e-12,
+                4.099844146069999e-12,
+                0.3222032328115097
               ],
               "negative_z_requires_hold_down": false
             },
@@ -171,9 +172,9 @@
               "foot": 3,
               "constrained_nodes": 336,
               "reaction_N": [
-                -9.242441725999995e-14,
-                -2.846658688100001e-14,
-                2.136541626218
+                -7.321548085e-14,
+                -3.705099546699998e-14,
+                2.038714763149001
               ],
               "negative_z_requires_hold_down": false
             },
@@ -181,9 +182,9 @@
               "foot": 4,
               "constrained_nodes": 356,
               "reaction_N": [
-                -1.9936044069999977e-14,
-                6.377451013000021e-16,
-                2.15100998706
+                -1.714754383299999e-14,
+                -1.4833736597999975e-15,
+                2.082810249619001
               ],
               "negative_z_requires_hold_down": false
             },
@@ -191,9 +192,9 @@
               "foot": 5,
               "constrained_nodes": 493,
               "reaction_N": [
-                1.5407851181100006e-13,
-                4.3615514984000084e-13,
-                0.21764880655010063
+                2.904028242663001e-13,
+                7.060612885240008e-13,
+                0.2901183720770002
               ],
               "negative_z_requires_hold_down": false
             }
@@ -201,8 +202,8 @@
           "negative_foot_reactions": false,
           "interpretation": "Bilateral Z supports model a supported/held test fixture. Negative net foot reaction indicates lift-off for a free unbonded mouse; that case is not a valid all-five-feet contact prediction. Peak stresses near constraints/load edges may be singular; p95 is a convergence diagnostic, not a strength substitute.",
           "observation": "Work-conjugate surface displacement sum(F_i dot u_i)/sum(load magnitudes)",
-          "effective_displacement_mm": 0.05128817023933506,
-          "effective_stiffness_N_mm": 97.48836772042394,
+          "effective_displacement_mm": 0.04131252431453789,
+          "effective_stiffness_N_mm": 121.02867309515865,
           "support": {
             "foot_datum_mm": 5.2,
             "pad_nodes": [
@@ -226,7 +227,7 @@
             ],
             "assumption": "Five bilateral Z-only pad supports; minimum three in-plane rigid-body restraints. Negative normal reactions invalidate a free, unbonded, all-feet-down contact interpretation."
           },
-          "volume_weighted_P99_vm_MPa": 0.6373212992377634
+          "volume_weighted_P99_vm_MPa": 0.5819412420530591
         },
         {
           "postprocess_version": 3,
@@ -419,7 +420,7 @@
           "auxiliary_stress_scope": "Diagnostic only: removes element-centroid regions within 3 mm of the minimum horizontal point anchors, which can create stress singularities. The global maximum remains separately reported and is not replaced for a strength claim.",
           "foot_reactions": [],
           "negative_foot_reactions": false,
-          "interpretation": "Bilateral Z supports model a supported/held test fixture. Negative net foot reaction indicates lift-off for a free unbonded mouse; that case is not a valid all-five-feet contact prediction. Peak stresses near constraints/load edges may be singular; p95 is a convergence diagnostic, not a strength substitute.",
+          "interpretation": "Self-equilibrated free-body load; six rigid modes removed. Minimum-anchor reactions must be negligible. No desk-contact clamp or friction model.",
           "observation": "Work-conjugate surface displacement sum(F_i dot u_i)/sum(load magnitudes)",
           "effective_displacement_mm": 0.007735241556652421,
           "effective_stiffness_N_mm": 517.1137799258437,
@@ -477,39 +478,40 @@
           "postprocess_version": 3,
           "linear_solver": "DEFAULT",
           "case": {
-            "name": "LC4_back_press_5N",
+            "name": "LC4_outer_back_press_5N",
             "magnitude_N": 5,
             "direction": [
               0.0,
               0.0,
               -1.0
             ],
-            "selected_triangles": 2475,
-            "surface_area_mm2": 840.7139035170499,
-            "pressure_magnitude_MPa": 0.005947326408047918,
+            "selected_triangles": 1372,
+            "surface_area_mm2": 586.548917805147,
+            "pressure_magnitude_MPa": 0.008524438198112936,
             "area_centroid_mm": [
-              -0.662804967054091,
-              58.901638199991346,
-              27.67923334908021
+              -0.6575223255601894,
+              58.294650325507305,
+              29.101552220169697
             ],
             "actual_force_sum_N": [
               0.0,
               0.0,
-              -5.000000000000023
+              -4.999999999999973
             ],
             "selected_face_centers_bounds_mm": [
               [
                 -23.98169555037895,
                 44.0084141357372,
-                23.259436720701334
+                25.039348534473106
               ],
               [
-                23.96486727194055,
+                23.961006497075672,
                 70.9674082193287,
                 30.56206046343367
               ]
             ],
-            "distribution": "Uniform vector surface traction, integrated using 7-point quadratic-triangle shape functions; total resultant normalized to specified N."
+            "distribution": "Uniform vector surface traction, integrated using 7-point quadratic-triangle shape functions; total resultant normalized to specified N.",
+            "surface_selection": "Only outward upward facets within 0.15 mm of the analytic outer crown reference; internal cross-tie tops excluded."
           },
           "material": {
             "E_MPa": 1700,
@@ -538,60 +540,60 @@
             "geo_sha256": "0ede5c53f890fb233f1e6dd4a88fc982828d7dd784bb9556a5a39de466607648",
             "source_step_sha256": "7bf7aad969fdc065bb0e27e9d5a784f80f62c594d2ac25e6cbc7bf36d382db5d"
           },
-          "deck_sha256": "2ee62a53c3e3c1d0e57580a25027b317235dee045081ae96edf11437530148db",
-          "dat_sha256": "92acd05d3670ee09cdfd77c1347134588fd1108e396a9900a3be192697ab783d",
-          "solving_seconds": 96.46899999999732,
+          "deck_sha256": "c5c12ced287a62e56a847c965c6fed6119efef2c6e5c338ea5089c4bf59efe48",
+          "dat_sha256": "2003b1454e437a9aff555b50218e2013f32531a4b9d5d6af5d57ec231fdca3bd",
+          "solving_seconds": 100.40600000000268,
           "applied_force_N": [
             0.0,
             0.0,
-            -5.000000000000023
+            -4.999999999999973
           ],
           "support_reaction_N": [
-            3.909731277593283e-12,
-            1.2654908630572998e-12,
-            5.000000066981094
+            2.5145627897492008e-12,
+            4.546447736311402e-12,
+            5.000000023162695
           ],
           "force_balance_error_N": [
-            3.909731277593283e-12,
-            1.2654908630572998e-12,
-            6.698107046787527e-08
+            2.5145627897492008e-12,
+            4.546447736311402e-12,
+            2.3162721518588114e-08
           ],
-          "force_balance_relative_error": 1.3396214118787288e-08,
+          "force_balance_relative_error": 4.632544420254959e-09,
           "moment_balance_error_Nmm": [
-            3.479867757505417e-06,
-            -2.3924423926402483e-06,
-            -9.202912071647756e-11
+            -2.1286996343405917e-06,
+            -4.66962841283447e-07,
+            -3.5300942572672885e-11
           ],
-          "moment_balance_relative_error": 9.571930949892696e-09,
+          "moment_balance_relative_error": 4.939742480241127e-09,
           "equilibrium_pass": true,
-          "maximum_displacement_mm": 0.20949378831213353,
-          "maximum_displacement_node": 8334,
+          "maximum_displacement_mm": 0.09566380546456532,
+          "maximum_displacement_node": 227,
           "displacement_components_at_max_mm": [
-            -0.01564327,
-            0.001295454,
-            -0.2089049
+            -0.0603569,
+            -0.00811791,
+            -0.07377471
           ],
-          "maximum_vm_stress_MPa": 14.249101385067586,
-          "p95_integration_point_vm_MPa": 0.36973822935550354,
-          "unweighted_integration_point_p95_vm_MPa": 0.39434598422473205,
+          "maximum_vm_stress_MPa": 4.461298720493399,
+          "p95_integration_point_vm_MPa": 0.35603287236735803,
+          "unweighted_integration_point_p95_vm_MPa": 0.35357900052378255,
           "p95_definition": "95th percentile of integration-point von Mises stress weighted by actual C3D10 Jacobian quadrature volume; avoids overweighting locally tiny elements.",
-          "peak_stress_element": 109130,
+          "peak_stress_element": 98928,
           "peak_stress_element_centroid_mm": [
-            -12.9971020710185,
-            53.8454891317365,
-            24.1
+            -26.99922121387025,
+            13.308071337575,
+            5.401528829503375
           ],
-          "peak_element_distance_to_nearest_horizontal_constraint_node_mm": 46.975811369152275,
-          "auxiliary_peak_vm_outside_3mm_horizontal_constraint_neighbourhood_MPa": 14.249101385067586,
+          "peak_element_distance_to_nearest_horizontal_constraint_node_mm": 4.154636266485028,
+          "auxiliary_peak_vm_outside_3mm_horizontal_constraint_neighbourhood_MPa": 4.461298720493399,
           "auxiliary_stress_scope": "Diagnostic only: removes element-centroid regions within 3 mm of the minimum horizontal point anchors, which can create stress singularities. The global maximum remains separately reported and is not replaced for a strength claim.",
           "foot_reactions": [
             {
               "foot": 1,
               "constrained_nodes": 494,
               "reaction_N": [
-                3.064515086226281e-12,
-                -3.995819554214211e-13,
-                0.2238252381951299
+                1.3650750066202e-12,
+                2.075899756162701e-12,
+                0.2674152697756
               ],
               "negative_z_requires_hold_down": false
             },
@@ -599,9 +601,9 @@
               "foot": 2,
               "constrained_nodes": 584,
               "reaction_N": [
-                9.305653655600009e-13,
-                1.6123778517659997e-12,
-                0.28384588477969963
+                1.2805289676309987e-12,
+                2.3995077172140006e-12,
+                0.3213043602360998
               ],
               "negative_z_requires_hold_down": false
             },
@@ -609,9 +611,9 @@
               "foot": 3,
               "constrained_nodes": 464,
               "reaction_N": [
-                -6.658606126100001e-14,
-                -8.369407358800067e-16,
-                2.1312601895730006
+                -1.1152769488999997e-13,
+                6.845630998600014e-15,
+                2.0443947413619994
               ],
               "negative_z_requires_hold_down": false
             },
@@ -619,9 +621,9 @@
               "foot": 4,
               "constrained_nodes": 424,
               "reaction_N": [
-                -1.1548826299000009e-14,
-                5.2813265006000005e-15,
-                2.1400632095699996
+                -2.2261915456000012e-14,
+                2.352482897999998e-15,
+                2.073769866426998
               ],
               "negative_z_requires_hold_down": false
             },
@@ -629,9 +631,9 @@
               "foot": 5,
               "constrained_nodes": 581,
               "reaction_N": [
-                -7.214286633000109e-15,
-                4.8250580947999853e-14,
-                0.22100554486327081
+                2.7484258439999247e-15,
+                6.18421490380988e-14,
+                0.2931157853619991
               ],
               "negative_z_requires_hold_down": false
             }
@@ -639,8 +641,8 @@
           "negative_foot_reactions": false,
           "interpretation": "Bilateral Z supports model a supported/held test fixture. Negative net foot reaction indicates lift-off for a free unbonded mouse; that case is not a valid all-five-feet contact prediction. Peak stresses near constraints/load edges may be singular; p95 is a convergence diagnostic, not a strength substitute.",
           "observation": "Work-conjugate surface displacement sum(F_i dot u_i)/sum(load magnitudes)",
-          "effective_displacement_mm": 0.05091801406316861,
-          "effective_stiffness_N_mm": 98.19707410027868,
+          "effective_displacement_mm": 0.041445692900760646,
+          "effective_stiffness_N_mm": 120.63979752907535,
           "support": {
             "foot_datum_mm": 5.2,
             "pad_nodes": [
@@ -664,7 +666,7 @@
             ],
             "assumption": "Five bilateral Z-only pad supports; minimum three in-plane rigid-body restraints. Negative normal reactions invalidate a free, unbonded, all-feet-down contact interpretation."
           },
-          "volume_weighted_P99_vm_MPa": 0.634571239763483
+          "volume_weighted_P99_vm_MPa": 0.5892438045003087
         },
         {
           "postprocess_version": 3,
@@ -857,7 +859,7 @@
           "auxiliary_stress_scope": "Diagnostic only: removes element-centroid regions within 3 mm of the minimum horizontal point anchors, which can create stress singularities. The global maximum remains separately reported and is not replaced for a strength claim.",
           "foot_reactions": [],
           "negative_foot_reactions": false,
-          "interpretation": "Bilateral Z supports model a supported/held test fixture. Negative net foot reaction indicates lift-off for a free unbonded mouse; that case is not a valid all-five-feet contact prediction. Peak stresses near constraints/load edges may be singular; p95 is a convergence diagnostic, not a strength substitute.",
+          "interpretation": "Self-equilibrated free-body load; six rigid modes removed. Minimum-anchor reactions must be negligible. No desk-contact clamp or friction model.",
           "observation": "Work-conjugate surface displacement sum(F_i dot u_i)/sum(load magnitudes)",
           "effective_displacement_mm": 0.007780049878689889,
           "effective_stiffness_N_mm": 514.1355212845467,
@@ -915,31 +917,31 @@
           "postprocess_version": 3,
           "linear_solver": "DEFAULT",
           "case": {
-            "name": "LC4_back_press_5N",
+            "name": "LC4_outer_back_press_5N",
             "magnitude_N": 5,
             "direction": [
               0.0,
               0.0,
               -1.0
             ],
-            "selected_triangles": 2964,
-            "surface_area_mm2": 877.0721782365035,
-            "pressure_magnitude_MPa": 0.005700785093939833,
+            "selected_triangles": 1439,
+            "surface_area_mm2": 588.0557882459927,
+            "pressure_magnitude_MPa": 0.00850259465162925,
             "area_centroid_mm": [
-              -0.8143456415924548,
-              59.06032569277752,
-              27.50654800045558
+              -0.6459070442108894,
+              58.268126171676684,
+              29.094790286463116
             ],
             "actual_force_sum_N": [
               0.0,
               0.0,
-              -4.999999999999987
+              -5.00000000000001
             ],
             "selected_face_centers_bounds_mm": [
               [
-                -23.990210367063995,
+                -23.91009695171377,
                 44.074913348876265,
-                23.253769597258206
+                24.968945783788918
               ],
               [
                 23.991393489396163,
@@ -947,7 +949,8 @@
                 30.56104426150767
               ]
             ],
-            "distribution": "Uniform vector surface traction, integrated using 7-point quadratic-triangle shape functions; total resultant normalized to specified N."
+            "distribution": "Uniform vector surface traction, integrated using 7-point quadratic-triangle shape functions; total resultant normalized to specified N.",
+            "surface_selection": "Only outward upward facets within 0.15 mm of the analytic outer crown reference; internal cross-tie tops excluded."
           },
           "material": {
             "E_MPa": 1700,
@@ -976,60 +979,60 @@
             "geo_sha256": "1719c76a94edd60fa4768dfa03f67bf0f19f5240ae5136bfec8c0a9b094142c5",
             "source_step_sha256": "7bf7aad969fdc065bb0e27e9d5a784f80f62c594d2ac25e6cbc7bf36d382db5d"
           },
-          "deck_sha256": "5c43c2dc2ae8e94acab3d0437d4226cc14f251567751e5c8be17fc5c08cde16e",
-          "dat_sha256": "839337c73654bc274f75e53c5ac4a891b3b661edd1bfca49a0b692fcd04f4a8b",
-          "solving_seconds": 123.28100000000268,
+          "deck_sha256": "ae56eaeb7543dfffd8f4ef6288141936b3efe24a33b5f8283935797793c1df56",
+          "dat_sha256": "0a7846c83f1eaa85c5e4c16b60a63f076aa3fc961e1ffd611962d363f8a8a4db",
+          "solving_seconds": 140.09399999999732,
           "applied_force_N": [
             0.0,
             0.0,
-            -4.999999999999987
+            -5.00000000000001
           ],
           "support_reaction_N": [
-            9.662106364859526e-11,
-            3.593790594386683e-10,
-            4.9999999931219214
+            2.0881574383735753e-10,
+            5.876826194897029e-10,
+            4.999999978065636
           ],
           "force_balance_error_N": [
-            9.662106364859526e-11,
-            3.593790594386683e-10,
-            -6.878065228477226e-09
+            2.0881574383735753e-10,
+            5.876826194897029e-10,
+            -2.19343734286781e-08
           ],
-          "force_balance_relative_error": 1.3776250611177386e-09,
+          "force_balance_relative_error": 4.3886476850384e-09,
           "moment_balance_error_Nmm": [
-            -2.8830713745264802e-06,
-            -1.0923187607758678e-06,
-            -6.663596892972085e-09
+            -9.229586339642992e-08,
+            1.241802782381285e-06,
+            -1.511318331952196e-08
           ],
-          "moment_balance_relative_error": 6.988230434740487e-09,
+          "moment_balance_relative_error": 2.822702007859135e-09,
           "equilibrium_pass": true,
-          "maximum_displacement_mm": 0.22679488906928466,
-          "maximum_displacement_node": 8938,
+          "maximum_displacement_mm": 0.09611982046159419,
+          "maximum_displacement_node": 227,
           "displacement_components_at_max_mm": [
-            -0.01209339,
-            0.001152295,
-            -0.2264693
+            -0.06068825,
+            -0.00800485,
+            -0.07410721
           ],
-          "maximum_vm_stress_MPa": 16.06160208082431,
-          "p95_integration_point_vm_MPa": 0.3688049653225985,
-          "unweighted_integration_point_p95_vm_MPa": 0.3960379277958246,
+          "maximum_vm_stress_MPa": 4.236932481547106,
+          "p95_integration_point_vm_MPa": 0.3540876860668257,
+          "unweighted_integration_point_p95_vm_MPa": 0.34492216277665355,
           "p95_definition": "95th percentile of integration-point von Mises stress weighted by actual C3D10 Jacobian quadrature volume; avoids overweighting locally tiny elements.",
-          "peak_stress_element": 10188,
+          "peak_stress_element": 123289,
           "peak_stress_element_centroid_mm": [
-            -13.16577052345675,
-            54.22025111334375,
-            24.1
+            -26.99922121387025,
+            13.308071337575,
+            5.401528829503375
           ],
-          "peak_element_distance_to_nearest_horizontal_constraint_node_mm": 47.41169334174486,
-          "auxiliary_peak_vm_outside_3mm_horizontal_constraint_neighbourhood_MPa": 16.06160208082431,
+          "peak_element_distance_to_nearest_horizontal_constraint_node_mm": 3.999007840654473,
+          "auxiliary_peak_vm_outside_3mm_horizontal_constraint_neighbourhood_MPa": 4.236932481547106,
           "auxiliary_stress_scope": "Diagnostic only: removes element-centroid regions within 3 mm of the minimum horizontal point anchors, which can create stress singularities. The global maximum remains separately reported and is not replaced for a strength claim.",
           "foot_reactions": [
             {
               "foot": 1,
               "constrained_nodes": 550,
               "reaction_N": [
-                1.0903997148988909e-10,
-                -5.195140594053799e-12,
-                0.21649058405730007
+                2.3492481251589173e-10,
+                -9.524509340886308e-11,
+                0.2692500635860195
               ],
               "negative_z_requires_hold_down": false
             },
@@ -1037,9 +1040,9 @@
               "foot": 2,
               "constrained_nodes": 636,
               "reaction_N": [
-                -5.003263976699997e-13,
-                2.7862292349905986e-10,
-                0.27615447978839014
+                -7.176737801500003e-13,
+                5.41559709532281e-10,
+                0.32187805856807
               ],
               "negative_z_requires_hold_down": false
             },
@@ -1047,9 +1050,9 @@
               "foot": 3,
               "constrained_nodes": 508,
               "reaction_N": [
-                -6.086205949999858e-16,
-                9.254515252200003e-15,
-                2.1267607884200004
+                3.251736952000004e-14,
+                4.127330205999997e-15,
+                2.044866552562
               ],
               "negative_z_requires_hold_down": false
             },
@@ -1057,9 +1060,9 @@
               "foot": 4,
               "constrained_nodes": 504,
               "reaction_N": [
-                -1.3259752892000012e-14,
-                -2.018959990100007e-15,
-                2.161060059161999
+                -1.3124102287999988e-14,
+                2.2095703117999972e-15,
+                2.072198462455999
               ],
               "negative_z_requires_hold_down": false
             },
@@ -1067,9 +1070,9 @@
               "foot": 5,
               "constrained_nodes": 669,
               "reaction_N": [
-                -1.1904713070136824e-11,
-                8.594404097840033e-11,
-                0.2195340816942298
+                -2.5410788165616007e-11,
+                1.4136166646576783e-10,
+                0.2918068408935496
               ],
               "negative_z_requires_hold_down": false
             }
@@ -1077,8 +1080,8 @@
           "negative_foot_reactions": false,
           "interpretation": "Bilateral Z supports model a supported/held test fixture. Negative net foot reaction indicates lift-off for a free unbonded mouse; that case is not a valid all-five-feet contact prediction. Peak stresses near constraints/load edges may be singular; p95 is a convergence diagnostic, not a strength substitute.",
           "observation": "Work-conjugate surface displacement sum(F_i dot u_i)/sum(load magnitudes)",
-          "effective_displacement_mm": 0.052831464500451564,
-          "effective_stiffness_N_mm": 94.64057162294382,
+          "effective_displacement_mm": 0.041520545000728395,
+          "effective_stiffness_N_mm": 120.42231141022559,
           "support": {
             "foot_datum_mm": 5.2,
             "pad_nodes": [
@@ -1102,7 +1105,7 @@
             ],
             "assumption": "Five bilateral Z-only pad supports; minimum three in-plane rigid-body restraints. Negative normal reactions invalidate a free, unbonded, all-feet-down contact interpretation."
           },
-          "volume_weighted_P99_vm_MPa": 0.6474004176948217
+          "volume_weighted_P99_vm_MPa": 0.5910972249957712
         },
         {
           "postprocess_version": 3,
@@ -1295,7 +1298,7 @@
           "auxiliary_stress_scope": "Diagnostic only: removes element-centroid regions within 3 mm of the minimum horizontal point anchors, which can create stress singularities. The global maximum remains separately reported and is not replaced for a strength claim.",
           "foot_reactions": [],
           "negative_foot_reactions": false,
-          "interpretation": "Bilateral Z supports model a supported/held test fixture. Negative net foot reaction indicates lift-off for a free unbonded mouse; that case is not a valid all-five-feet contact prediction. Peak stresses near constraints/load edges may be singular; p95 is a convergence diagnostic, not a strength substitute.",
+          "interpretation": "Self-equilibrated free-body load; six rigid modes removed. Minimum-anchor reactions must be negligible. No desk-contact clamp or friction model.",
           "observation": "Work-conjugate surface displacement sum(F_i dot u_i)/sum(load magnitudes)",
           "effective_displacement_mm": 0.007752208836072168,
           "effective_stiffness_N_mm": 515.9819716655995,
@@ -1331,9 +1334,9 @@
       "fine_h": 2.0,
       "cases": [
         {
-          "name": "LC4_back_press_5N",
-          "stiffness_relative_change": 0.007217184283220268,
-          "P99_relative_change": 0.0043337285114046775
+          "name": "LC4_outer_back_press_5N",
+          "stiffness_relative_change": 0.0032234434576996485,
+          "P99_relative_change": 0.01239310857658027
         },
         {
           "name": "LC3_free_equilibrated_outer_grip_4N",
@@ -1347,9 +1350,9 @@
       "fine_h": 1.8,
       "cases": [
         {
-          "name": "LC4_back_press_5N",
-          "stiffness_relative_change": 0.03757904687541691,
-          "P99_relative_change": 0.019816449882777643
+          "name": "LC4_outer_back_press_5N",
+          "stiffness_relative_change": 0.0018060284369469937,
+          "P99_relative_change": 0.0031355594597416436
         },
         {
           "name": "LC3_free_equilibrated_outer_grip_4N",

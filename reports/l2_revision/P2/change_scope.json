@@ -1,0 +1,54 @@
+{
+  "base": "R3.1",
+  "modified": [
+    "BODY",
+    "SIDE_FRONT_KEY",
+    "SIDE_REAR_KEY"
+  ],
+  "side_keys": [
+    {
+      "part": "SIDE_FRONT_KEY",
+      "old_touch_center_y": 50.0,
+      "new_touch_center_y": 49.3,
+      "forward_mm": 0.7000000000000028,
+      "length_y_mm": 9.4,
+      "height_z_mm": 4.6,
+      "wall_reference_x": 31.63172591114816,
+      "cap_back_plane_x": 30.18172591114816,
+      "mechanism_center_y": 50.0,
+      "outward_offset_x_mm": 0.45
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "old_touch_center_y": 65.0,
+      "new_touch_center_y": 62.3,
+      "forward_mm": 2.700000000000003,
+      "length_y_mm": 9.4,
+      "height_z_mm": 4.6,
+      "wall_reference_x": 32.34980353233747,
+      "cap_back_plane_x": 30.89980353233747,
+      "mechanism_center_y": 65.0,
+      "outward_offset_x_mm": 0.45
+    }
+  ],
+  "old_touch_gap_y_mm": 5.0,
+  "new_touch_gap_y_mm": 3.5999999999999996,
+  "unchanged_switch_slider_pin_interfaces": true,
+  "side_stop_lands_per_key": 1,
+  "filled_closed_cavities": [
+    {
+      "volume_mm3": 0.20292803505610607,
+      "bounds_mm": [
+        29.299803432337466,
+        69.5999999,
+        12.149999900000001,
+        29.702605380471756,
+        70.35000009999999,
+        13.589084995147385
+      ],
+      "action": "Fill sealed CAD cavity at obsolete rear aperture corner"
+    }
+  ],
+  "unchanged_foot_datum": true,
+  "geometry": "Exact mother shell outer surface translated +0.45mm in X; rounded YZ footprint and 0.25mm contact-edge fillet; concealed original slider/actuator and offset load path."
+}

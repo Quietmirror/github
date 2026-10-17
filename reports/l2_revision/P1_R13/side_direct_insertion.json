@@ -1,0 +1,145 @@
+[
+  {
+    "part": "SIDE_FRONT_KEY",
+    "poses": 101,
+    "path": "Straight inward X20 -> X0 before capture pin and switch assembly",
+    "conflicts": [],
+    "pass_check": true
+  },
+  {
+    "part": "SIDE_REAR_KEY",
+    "poses": 101,
+    "path": "Straight inward X20 -> X0 before capture pin and switch assembly",
+    "conflicts": [
+      {
+        "offset_X_mm": 6.6,
+        "volume_mm3": 0.041709276032598795
+      },
+      {
+        "offset_X_mm": 6.399999999999999,
+        "volume_mm3": 0.15818438128527912
+      },
+      {
+        "offset_X_mm": 6.199999999999999,
+        "volume_mm3": 0.33240639578835346
+      },
+      {
+        "offset_X_mm": 6.0,
+        "volume_mm3": 0.535896605443995
+      },
+      {
+        "offset_X_mm": 5.799999999999999,
+        "volume_mm3": 0.7399055658444537
+      },
+      {
+        "offset_X_mm": 5.6,
+        "volume_mm3": 0.9439150125765516
+      },
+      {
+        "offset_X_mm": 5.399999999999999,
+        "volume_mm3": 0.943915012576553
+      },
+      {
+        "offset_X_mm": 5.199999999999999,
+        "volume_mm3": 0.9439150125765469
+      },
+      {
+        "offset_X_mm": 5.0,
+        "volume_mm3": 0.9439150125765455
+      },
+      {
+        "offset_X_mm": 4.799999999999999,
+        "volume_mm3": 0.9439150125765455
+      },
+      {
+        "offset_X_mm": 4.6,
+        "volume_mm3": 0.9439150125765455
+      },
+      {
+        "offset_X_mm": 4.399999999999999,
+        "volume_mm3": 0.9439150125765455
+      },
+      {
+        "offset_X_mm": 4.199999999999999,
+        "volume_mm3": 0.9439150125765455
+      },
+      {
+        "offset_X_mm": 4.0,
+        "volume_mm3": 0.9439150125765455
+      },
+      {
+        "offset_X_mm": 3.8000000000000007,
+        "volume_mm3": 0.9439150125765535
+      },
+      {
+        "offset_X_mm": 3.599999999999998,
+        "volume_mm3": 0.9439150125765535
+      },
+      {
+        "offset_X_mm": 3.3999999999999986,
+        "volume_mm3": 0.9439150125765535
+      },
+      {
+        "offset_X_mm": 3.1999999999999993,
+        "volume_mm3": 0.9439150125765535
+      },
+      {
+        "offset_X_mm": 3.0,
+        "volume_mm3": 0.9439150125765535
+      },
+      {
+        "offset_X_mm": 2.8000000000000007,
+        "volume_mm3": 0.9439150125765535
+      },
+      {
+        "offset_X_mm": 2.599999999999998,
+        "volume_mm3": 0.9439150125765535
+      },
+      {
+        "offset_X_mm": 2.3999999999999986,
+        "volume_mm3": 0.9439150125765535
+      },
+      {
+        "offset_X_mm": 2.1999999999999993,
+        "volume_mm3": 0.9439150125765535
+      },
+      {
+        "offset_X_mm": 2.0,
+        "volume_mm3": 0.9439150125765502
+      },
+      {
+        "offset_X_mm": 1.8000000000000007,
+        "volume_mm3": 0.9439150125765482
+      },
+      {
+        "offset_X_mm": 1.5999999999999979,
+        "volume_mm3": 0.9439150125765519
+      },
+      {
+        "offset_X_mm": 1.3999999999999986,
+        "volume_mm3": 0.9341070456120202
+      },
+      {
+        "offset_X_mm": 1.1999999999999993,
+        "volume_mm3": 0.8523088681742506
+      },
+      {
+        "offset_X_mm": 1.0,
+        "volume_mm3": 0.7050947512313351
+      },
+      {
+        "offset_X_mm": 0.7999999999999972,
+        "volume_mm3": 0.5100219152386627
+      },
+      {
+        "offset_X_mm": 0.5999999999999979,
+        "volume_mm3": 0.30601323136947
+      },
+      {
+        "offset_X_mm": 0.3999999999999986,
+        "volume_mm3": 0.10200388652512672
+      }
+    ],
+    "pass_check": false
+  }
+]

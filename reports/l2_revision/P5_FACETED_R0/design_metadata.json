@@ -1,0 +1,2741 @@
+{
+  "parameters": {
+    "version": "P5",
+    "coordinates": "Keep the R3 assembly origin. Printed parts are separately placed on the print bed; no assembly-wide scaling or translation.",
+    "host": {
+      "length": 81.7,
+      "width": 61.2,
+      "height": 28.3,
+      "scale": 1.08,
+      "skin": 1.8,
+      "base_open_band": 5.0
+    },
+    "feet": {
+      "diameter": 8.0,
+      "height": 1.6,
+      "stem_diameter": 5.2,
+      "centers": [
+        [
+          -23.22,
+          12.0
+        ],
+        [
+          23.22,
+          12.0
+        ],
+        [
+          -24.84,
+          62.64
+        ],
+        [
+          24.84,
+          62.64
+        ],
+        [
+          0.0,
+          83.484
+        ]
+      ],
+      "contact_z": 5.2
+    },
+    "main": {
+      "root_y": 38.0,
+      "gutter_half": 4.2,
+      "cap_outer": 28.0,
+      "pin_diameter": 2.0,
+      "pin_hole": 2.35,
+      "travel_deg": 2.8,
+      "skin": 2.0,
+      "switch_x": 18.3
+    },
+    "side": {
+      "x": -28.0,
+      "centers_y": [
+        50.0,
+        65.0
+      ],
+      "z": 15.0,
+      "width_y": 10.0,
+      "height_z": 5.0,
+      "travel": 0.6
+    },
+    "hardware": {
+      "screw_nominal": 2.0,
+      "screw_clearance": 2.4,
+      "pilot": 1.7,
+      "wheel_diameter": 12.5,
+      "wheel_width": 6.5,
+      "wheel_axle": 2.0,
+      "switch_body": [
+        12.8,
+        5.8,
+        6.5
+      ]
+    },
+    "status": "independent reference reconstruction; commercial micro-switch envelope and generic component mounting; not verified original Fenrir PCB replacement",
+    "fixed_interfaces": {
+      "usb_port_opening_mm": [
+        10.2,
+        4.6
+      ],
+      "usb_plug_keepout_mm": [
+        14.0,
+        26.5,
+        8.0
+      ],
+      "sensor_optical_clearance_mm": [
+        18.0,
+        18.0
+      ],
+      "sensor_mount_slots_mm": [
+        2.4,
+        5.0
+      ],
+      "side_key_touch_mm": [
+        10.0,
+        5.0
+      ],
+      "foot_diameter_mm": 8.0,
+      "note": "Absolute dimensions locked during host scaling; generic reservation, donor hardware dimensions require measurement."
+    },
+    "provenance": {
+      "source_repository": "ht1580/Quietmirror-mouse",
+      "source_commit": "07fcd46dc8b719804473313ddc0c5f36acd422a9",
+      "source_branch": "rebuild/fenrir-minise-r1",
+      "revision": "R2 continues unaccepted R1; reference outer dimensions enlarged 8%, locked hardware dimensions unchanged."
+    }
+  },
+  "surface": {
+    "identification": "G-Wolves Fenrir Pro 8K reference reconstruction",
+    "provenance": "Original parameterised loft from public manufacturer photographs and nominal dimensions; no factory CAD or third-party scan used.",
+    "original_factory_cad": false,
+    "original_pcb_fit_verified": false,
+    "nominal_overall_mm": {
+      "length": 88.236,
+      "width": 66.096,
+      "height": 30.564000000000004
+    },
+    "outer_bounds_mm": {
+      "xmin": -33.04800010000001,
+      "xmax": 33.0480001,
+      "ymin": -1e-07,
+      "ymax": 88.2360001000004,
+      "zmin": 4.999999899999998,
+      "zmax": 30.56400010000001,
+      "width": 66.09600020000002,
+      "length": 88.23600020000039,
+      "height": 25.56400020000001
+    },
+    "dimension_error_mm": {
+      "length": 2.000003860302968e-07,
+      "width": 2.000000165480742e-07,
+      "crown_height": 1.0000000472132342e-07
+    },
+    "nominal_skin_mm": 1.8,
+    "open_below_z_mm": 5.0,
+    "inner_method": "Slope-compensated transverse cavity; steep end roots retain extra material; final measured thickness required.",
+    "crown_station_yz_mm": [
+      [
+        0.0,
+        10.584000000000001
+      ],
+      [
+        6.48,
+        13.716
+      ],
+      [
+        10.8,
+        15.552000000000001
+      ],
+      [
+        16.200000000000003,
+        17.604000000000003
+      ],
+      [
+        21.6,
+        19.656
+      ],
+      [
+        27.0,
+        21.8484
+      ],
+      [
+        32.400000000000006,
+        24.6348
+      ],
+      [
+        37.800000000000004,
+        26.3412
+      ],
+      [
+        43.2,
+        27.864000000000004
+      ],
+      [
+        48.6,
+        29.0304
+      ],
+      [
+        54.0,
+        30.024000000000004
+      ],
+      [
+        59.400000000000006,
+        30.564000000000004
+      ],
+      [
+        64.80000000000001,
+        29.754
+      ],
+      [
+        70.2,
+        27.5076
+      ],
+      [
+        73.44,
+        25.1748
+      ],
+      [
+        75.60000000000001,
+        23.0148
+      ],
+      [
+        77.76,
+        19.7748
+      ],
+      [
+        79.92,
+        14.385600000000002
+      ],
+      [
+        81.0,
+        9.72
+      ],
+      [
+        82.08000000000001,
+        7.992000000000001
+      ],
+      [
+        84.24000000000001,
+        7.344
+      ],
+      [
+        86.4,
+        7.344
+      ],
+      [
+        88.236,
+        7.344
+      ]
+    ],
+    "width_station_y_halfwidth_mm": [
+      [
+        0.0,
+        0.9720000000000001
+      ],
+      [
+        0.54,
+        10.8
+      ],
+      [
+        1.62,
+        18.36
+      ],
+      [
+        3.24,
+        22.68
+      ],
+      [
+        6.48,
+        26.352
+      ],
+      [
+        10.8,
+        28.188000000000002
+      ],
+      [
+        19.44,
+        29.808000000000003
+      ],
+      [
+        32.400000000000006,
+        30.564000000000004
+      ],
+      [
+        45.36,
+        31.536
+      ],
+      [
+        57.24,
+        32.886
+      ],
+      [
+        62.64,
+        33.048
+      ],
+      [
+        68.04,
+        32.184000000000005
+      ],
+      [
+        75.60000000000001,
+        30.564000000000004
+      ],
+      [
+        79.92,
+        28.080000000000002
+      ],
+      [
+        83.16000000000001,
+        23.76
+      ],
+      [
+        85.32000000000001,
+        19.656
+      ],
+      [
+        86.94000000000001,
+        12.96
+      ],
+      [
+        88.236,
+        0.9720000000000001
+      ]
+    ],
+    "reference_dimension_discrepancy": "Current G-Wolves text width 61.2 mm; its uploaded EloShapes graphic says 60.2 mm. Text nominal dimensions used, image fit is qualitative.",
+    "reference_profile_adjustments": "Centre crown moved to Y55 to follow the official side graphic. Wheel bump is not incorporated into the skin. At Y78..81.7 the tail is raised to Z6.8 so the Z5 open-bottom datum retains at least 1.8 mm of tail material; this differs from the original low tail by approximately 1.5..2.6 mm.",
+    "minimum_foot_plane_z_mm": 0.0,
+    "shell_one_solid": true,
+    "shell_volume_mm3": 15433.452673890151
+  },
+  "mechanisms": {
+    "feet": [
+      {
+        "index": 1,
+        "center": [
+          23.22,
+          12.0
+        ],
+        "diameter_mm": 8.0,
+        "contact_z": 5.2,
+        "pad_top_z": 6.800000000000001,
+        "stem_diameter_mm": 5.2,
+        "upper_connection": [
+          25.854277552855336,
+          10.0,
+          6.8
+        ],
+        "load_path": "Shortened disk and retained upper stem/brace, joined to BODY"
+      },
+      {
+        "index": 2,
+        "center": [
+          -23.22,
+          12.0
+        ],
+        "diameter_mm": 8.0,
+        "contact_z": 5.2,
+        "pad_top_z": 6.800000000000001,
+        "stem_diameter_mm": 5.2,
+        "upper_connection": [
+          -25.854277552855336,
+          10.0,
+          6.8
+        ],
+        "load_path": "Shortened disk and retained upper stem/brace, joined to BODY"
+      },
+      {
+        "index": 3,
+        "center": [
+          24.84,
+          62.64
+        ],
+        "diameter_mm": 8.0,
+        "contact_z": 5.2,
+        "pad_top_z": 6.800000000000001,
+        "stem_diameter_mm": 5.2,
+        "upper_connection": [
+          30.948,
+          62.64,
+          11.2
+        ],
+        "load_path": "Shortened disk and retained upper stem/brace, joined to BODY"
+      },
+      {
+        "index": 4,
+        "center": [
+          -24.84,
+          62.64
+        ],
+        "diameter_mm": 8.0,
+        "contact_z": 5.2,
+        "pad_top_z": 6.800000000000001,
+        "stem_diameter_mm": 5.2,
+        "upper_connection": [
+          -30.948,
+          62.64,
+          11.2
+        ],
+        "load_path": "Shortened disk and retained upper stem/brace, joined to BODY"
+      },
+      {
+        "index": 5,
+        "center": [
+          -0.0,
+          83.484
+        ],
+        "diameter_mm": 8.0,
+        "contact_z": 5.2,
+        "pad_top_z": 6.800000000000001,
+        "stem_diameter_mm": 5.2,
+        "upper_connection": [
+          -0.0,
+          75.816,
+          20.550550628285354
+        ],
+        "load_path": "Shortened disk and retained upper stem/brace, joined to BODY"
+      }
+    ],
+    "main_hinges": [
+      {
+        "part": "LEFT_KEY",
+        "origin": [
+          -0.0,
+          38.5,
+          14.321791392450047
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "end_deg": 2.8,
+        "pin_diameter_mm": 2.0,
+        "bore_diameter_mm": 2.35,
+        "diametral_clearance_mm": 0.3500000000000001,
+        "actuation_point": [
+          18.3,
+          24.299746484543697,
+          16.736506699943003
+        ],
+        "switch": "SWITCH_LEFT",
+        "nominal_actuator_gap_mm": 0.03,
+        "calculated_contact_travel_mm": 0.5860318304314883,
+        "stop_reference_point": [
+          23.0,
+          11.5,
+          11.889380484102869
+        ],
+        "stop_reference_z": 10.767781647835196,
+        "switch_tilt_deg": 18.0,
+        "switch_mount_holes": [
+          [
+            18.3,
+            24.926745489440933,
+            10.599913813995794
+          ],
+          [
+            18.3,
+            31.10861284535943,
+            12.608524277432952
+          ]
+        ],
+        "switch_mount": "local 18 degree tilted socket; two M2 transverse bolts through actual D2F mounting holes; nuts/washers purchased separately",
+        "kind": "rotate",
+        "stroke_method": "Plane/axis intersection, not vertical displacement; see mating_checks.json.",
+        "travel_evidence": "Estimated free plunger height; exact moved actuator-plane/fixed-axis intersection. Actual PT/OP/OT still require measurement."
+      },
+      {
+        "part": "RIGHT_KEY",
+        "origin": [
+          -0.0,
+          38.5,
+          14.321791392450033
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "end_deg": 2.8,
+        "pin_diameter_mm": 2.0,
+        "bore_diameter_mm": 2.35,
+        "diametral_clearance_mm": 0.3500000000000001,
+        "actuation_point": [
+          -18.3,
+          24.299746484543697,
+          16.736506699943288
+        ],
+        "switch": "SWITCH_RIGHT",
+        "nominal_actuator_gap_mm": 0.03,
+        "calculated_contact_travel_mm": 0.5860318304314831,
+        "stop_reference_point": [
+          -23.0,
+          11.5,
+          11.889380484102867
+        ],
+        "stop_reference_z": 10.767781647835195,
+        "switch_tilt_deg": 18.0,
+        "switch_mount_holes": [
+          [
+            -18.3,
+            24.926745489440933,
+            10.599913813996078
+          ],
+          [
+            -18.3,
+            31.10861284535943,
+            12.608524277433236
+          ]
+        ],
+        "switch_mount": "local 18 degree tilted socket; two M2 transverse bolts through actual D2F mounting holes; nuts/washers purchased separately",
+        "kind": "rotate",
+        "stroke_method": "Plane/axis intersection, not vertical displacement; see mating_checks.json.",
+        "travel_evidence": "Estimated free plunger height; exact moved actuator-plane/fixed-axis intersection. Actual PT/OP/OT still require measurement."
+      }
+    ],
+    "side_motions": [
+      {
+        "part": "SIDE_FRONT_KEY",
+        "kind": "translate",
+        "end_vector": [
+          -0.6,
+          0.0,
+          0.0
+        ],
+        "switch": "SWITCH_SIDE_FRONT",
+        "actuation_point": [
+          24.531725911148158,
+          50.0,
+          15.0
+        ],
+        "plunger_tip": [
+          24.51172591114816,
+          50.0,
+          15.0
+        ],
+        "nominal_actuator_gap_mm": 0.02,
+        "hard_stop_travel_mm": 0.6,
+        "guide_clearance_per_side_mm": 0.325,
+        "capture_pin_diameter_mm": 1.5,
+        "capture_pin_hole_mm": 1.72,
+        "capture_slot_length_mm": 2.32,
+        "minimum_tongue_pin_end_web_mm": 1.6,
+        "switch_mount_holes": [
+          [
+            18.91172591114816,
+            48.7,
+            15.0
+          ],
+          [
+            18.91172591114816,
+            55.2,
+            15.0
+          ]
+        ],
+        "switch_mount": "two M2 bolts along Z through D2F mounting holes and local suspended top/bottom rails",
+        "assembly": "Insert key from exterior, then 1.5 mm steel capture pin along Z from open top before switch socket is filled",
+        "stop_revision": "One retained forward compression land; original slider/pin and 0.60mm seating plane. Rear cap land removed with obsolete external cap."
+      },
+      {
+        "part": "SIDE_REAR_KEY",
+        "kind": "translate",
+        "end_vector": [
+          -0.6,
+          0.0,
+          0.0
+        ],
+        "switch": "SWITCH_SIDE_REAR",
+        "actuation_point": [
+          25.249803532337467,
+          65.0,
+          15.0
+        ],
+        "plunger_tip": [
+          25.22980353233747,
+          65.0,
+          15.0
+        ],
+        "nominal_actuator_gap_mm": 0.02,
+        "hard_stop_travel_mm": 0.6,
+        "guide_clearance_per_side_mm": 0.325,
+        "capture_pin_diameter_mm": 1.5,
+        "capture_pin_hole_mm": 1.72,
+        "capture_slot_length_mm": 2.32,
+        "minimum_tongue_pin_end_web_mm": 1.6,
+        "switch_mount_holes": [
+          [
+            19.62980353233747,
+            63.7,
+            15.0
+          ],
+          [
+            19.62980353233747,
+            70.2,
+            15.0
+          ]
+        ],
+        "switch_mount": "two M2 bolts along Z through D2F mounting holes and local suspended top/bottom rails",
+        "assembly": "Offset Y -0.30mm, insert from +X to the seat, then return Y +0.30mm before fitting the capture pin. Finite route only; print tolerance must be checked.",
+        "stop_revision": "One retained forward compression land; original slider/pin and 0.60mm seating plane. Rear cap land removed with obsolete external cap."
+      }
+    ],
+    "motions": [
+      {
+        "part": "LEFT_KEY",
+        "origin": [
+          -0.0,
+          38.5,
+          14.321791392450047
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "end_deg": 2.8,
+        "pin_diameter_mm": 2.0,
+        "bore_diameter_mm": 2.35,
+        "diametral_clearance_mm": 0.3500000000000001,
+        "actuation_point": [
+          18.3,
+          24.299746484543697,
+          16.736506699943003
+        ],
+        "switch": "SWITCH_LEFT",
+        "nominal_actuator_gap_mm": 0.03,
+        "calculated_contact_travel_mm": 0.5860318304314883,
+        "stop_reference_point": [
+          23.0,
+          11.5,
+          11.889380484102869
+        ],
+        "stop_reference_z": 10.767781647835196,
+        "switch_tilt_deg": 18.0,
+        "switch_mount_holes": [
+          [
+            18.3,
+            24.926745489440933,
+            10.599913813995794
+          ],
+          [
+            18.3,
+            31.10861284535943,
+            12.608524277432952
+          ]
+        ],
+        "switch_mount": "local 18 degree tilted socket; two M2 transverse bolts through actual D2F mounting holes; nuts/washers purchased separately",
+        "kind": "rotate",
+        "stroke_method": "Plane/axis intersection, not vertical displacement; see mating_checks.json.",
+        "travel_evidence": "Estimated free plunger height; exact moved actuator-plane/fixed-axis intersection. Actual PT/OP/OT still require measurement."
+      },
+      {
+        "part": "RIGHT_KEY",
+        "origin": [
+          -0.0,
+          38.5,
+          14.321791392450033
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "end_deg": 2.8,
+        "pin_diameter_mm": 2.0,
+        "bore_diameter_mm": 2.35,
+        "diametral_clearance_mm": 0.3500000000000001,
+        "actuation_point": [
+          -18.3,
+          24.299746484543697,
+          16.736506699943288
+        ],
+        "switch": "SWITCH_RIGHT",
+        "nominal_actuator_gap_mm": 0.03,
+        "calculated_contact_travel_mm": 0.5860318304314831,
+        "stop_reference_point": [
+          -23.0,
+          11.5,
+          11.889380484102867
+        ],
+        "stop_reference_z": 10.767781647835195,
+        "switch_tilt_deg": 18.0,
+        "switch_mount_holes": [
+          [
+            -18.3,
+            24.926745489440933,
+            10.599913813996078
+          ],
+          [
+            -18.3,
+            31.10861284535943,
+            12.608524277433236
+          ]
+        ],
+        "switch_mount": "local 18 degree tilted socket; two M2 transverse bolts through actual D2F mounting holes; nuts/washers purchased separately",
+        "kind": "rotate",
+        "stroke_method": "Plane/axis intersection, not vertical displacement; see mating_checks.json.",
+        "travel_evidence": "Estimated free plunger height; exact moved actuator-plane/fixed-axis intersection. Actual PT/OP/OT still require measurement."
+      },
+      {
+        "part": "SIDE_FRONT_KEY",
+        "kind": "translate",
+        "end_vector": [
+          -0.6,
+          0.0,
+          0.0
+        ],
+        "switch": "SWITCH_SIDE_FRONT",
+        "actuation_point": [
+          24.531725911148158,
+          50.0,
+          15.0
+        ],
+        "plunger_tip": [
+          24.51172591114816,
+          50.0,
+          15.0
+        ],
+        "nominal_actuator_gap_mm": 0.02,
+        "hard_stop_travel_mm": 0.6,
+        "guide_clearance_per_side_mm": 0.325,
+        "capture_pin_diameter_mm": 1.5,
+        "capture_pin_hole_mm": 1.72,
+        "capture_slot_length_mm": 2.32,
+        "minimum_tongue_pin_end_web_mm": 1.6,
+        "switch_mount_holes": [
+          [
+            18.91172591114816,
+            48.7,
+            15.0
+          ],
+          [
+            18.91172591114816,
+            55.2,
+            15.0
+          ]
+        ],
+        "switch_mount": "two M2 bolts along Z through D2F mounting holes and local suspended top/bottom rails",
+        "assembly": "Install switch and removable clamp first; insert side cap from exterior, then capture pin from above.",
+        "calculated_contact_travel_mm": 0.5800000000000018,
+        "travel_evidence": "Estimated free plunger height; exact moved actuator-plane/fixed-axis intersection. Actual PT/OP/OT still require measurement.",
+        "stop_revision": "One retained forward compression land; original slider/pin and 0.60mm seating plane. Rear cap land removed with obsolete external cap."
+      },
+      {
+        "part": "SIDE_REAR_KEY",
+        "kind": "translate",
+        "end_vector": [
+          -0.6,
+          0.0,
+          0.0
+        ],
+        "switch": "SWITCH_SIDE_REAR",
+        "actuation_point": [
+          25.249803532337467,
+          65.0,
+          15.0
+        ],
+        "plunger_tip": [
+          25.22980353233747,
+          65.0,
+          15.0
+        ],
+        "nominal_actuator_gap_mm": 0.02,
+        "hard_stop_travel_mm": 0.6,
+        "guide_clearance_per_side_mm": 0.325,
+        "capture_pin_diameter_mm": 1.5,
+        "capture_pin_hole_mm": 1.72,
+        "capture_slot_length_mm": 2.32,
+        "minimum_tongue_pin_end_web_mm": 1.6,
+        "switch_mount_holes": [
+          [
+            19.62980353233747,
+            63.7,
+            15.0
+          ],
+          [
+            19.62980353233747,
+            70.2,
+            15.0
+          ]
+        ],
+        "switch_mount": "two M2 bolts along Z through D2F mounting holes and local suspended top/bottom rails",
+        "assembly": "Offset Y -0.30mm, insert from +X to the seat, then return Y +0.30mm before fitting the capture pin. Finite route only; print tolerance must be checked.",
+        "calculated_contact_travel_mm": 0.5800000000000018,
+        "travel_evidence": "Estimated free plunger height; exact moved actuator-plane/fixed-axis intersection. Actual PT/OP/OT still require measurement.",
+        "stop_revision": "One retained forward compression land; original slider/pin and 0.60mm seating plane. Rear cap land removed with obsolete external cap."
+      },
+      {
+        "part": "WHEEL_CARRIER",
+        "kind": "rotate",
+        "origin": [
+          -0.0,
+          50.0,
+          19.0
+        ],
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "end_deg": 4.1,
+        "moving_children": [
+          "WHEEL"
+        ],
+        "moving_hardware": [
+          "ENCODER_EC10E_HOUSING",
+          "ENCODER_EC10E_ROTOR",
+          "ENCODER_M2x3_FRONT",
+          "ENCODER_WASHER_FRONT",
+          "ENCODER_M2x3_REAR",
+          "ENCODER_WASHER_REAR",
+          "ENCODER_ADAPTER_PCB_EST"
+        ],
+        "switch": "SWITCH_MIDDLE",
+        "actuation_point": [
+          -0.4,
+          41.5,
+          16.58
+        ],
+        "nominal_actuator_gap_mm": 0.03,
+        "switch_mount_holes": [
+          [
+            -0.4,
+            40.2,
+            10.55
+          ],
+          [
+            -0.4,
+            46.7,
+            10.55
+          ]
+        ],
+        "calculated_contact_travel_mm": 0.5854967719797433,
+        "assembly": "M2 switch fixing before carrier; steel hinge along X at Y50 Z19. Open rear-centre switch seat.",
+        "travel_evidence": "Estimated free plunger height; exact moved actuator-plane/fixed-axis intersection. Actual PT/OP/OT still require measurement."
+      }
+    ],
+    "printed_interfaces": [],
+    "installation": [
+      {
+        "step": 1,
+        "parts": [
+          "BODY"
+        ],
+        "action": "Inspect five pads and raised supports; no removable bottom plate is required."
+      },
+      {
+        "step": 2,
+        "parts": [
+          "SWITCH_SIDE_REAR",
+          "SIDE_REAR_KEY_SWITCH_CLAMP",
+          "SWITCH_SIDE_FRONT",
+          "SIDE_FRONT_KEY_SWITCH_CLAMP"
+        ],
+        "action": "Rear switch first. Enter through the open nose, temporarily inboard and raised; follow the staged routes in insertion_checks.json. Lower into the open socket, slide its removable clamp from the front, then fit its M2 hardware."
+      },
+      {
+        "step": 3,
+        "parts": [
+          "SWITCH_MIDDLE",
+          "SWITCH_LEFT",
+          "SWITCH_RIGHT"
+        ],
+        "action": "Middle switch enters from the nose 4 mm raised, then lowers its terminals through the tray. Main switches descend along the 18 degree tilted socket normal. Fit two M2 x 12 bolts, two washers and one nut per bolt."
+      },
+      {
+        "step": 4,
+        "parts": [
+          "WHEEL",
+          "WHEEL_CARRIER",
+          "ENCODER_EC10E_HOUSING",
+          "WHEEL_CARRIER_STEEL_PIN"
+        ],
+        "action": "Preassemble encoder and wheel outside body. Slide from the open nose 0.4 mm above its final level, lower, then insert the 2 mm hinge pin from the right-hand side; the left-side clamps obstruct the opposite insertion direction."
+      },
+      {
+        "step": 5,
+        "parts": [
+          "LEFT_KEY",
+          "RIGHT_KEY",
+          "SIDE_FRONT_KEY",
+          "SIDE_REAR_KEY"
+        ],
+        "action": "Main keys enter from above 3 mm forward, lower to 5 mm above the final height, then move diagonally rearward/down into the hinge. Fit hinge pins from each outer side. Side keys enter from the exterior, followed by vertical 1.5 mm capture pins. Retain pin ends using a removable adhesive spot outside all bearings; no permanent clip grooves are designed."
+      },
+      {
+        "step": 6,
+        "parts": [
+          "BODY"
+        ],
+        "action": "Fit measured electronic board/adaptors to four local M2 slots; keep sensor downward view unobstructed and set measured lens height. Electronics and adaptor are not included as verified donor parts."
+      },
+      {
+        "step": 7,
+        "parts": [
+          "BODY"
+        ],
+        "action": "Affix five PTFE pads after confirming coplanarity; calibrate key stops and test return motion before powering."
+      }
+    ],
+    "hardware_limitations": [
+      "Original Fenrir Pro PCB, sensor lens, battery and charging circuit have not been measured or verified.",
+      "Alps EC10E1220505 geometry and pin pattern use its public outline drawing, not formal supply specifications or a measured sample.",
+      "Integral PLA 1.67 mm AF encoder hex drive needs a torsion/fit coupon; a machined metal drive shaft is advised if long-term durability is required.",
+      "Five D2F sockets use explicit M2 bolts, washers and nuts. Actual switch travel, wire exit and printed fits must still be calibrated on the purchased components.",
+      "No universal claim of safe switch overtravel: supplied gaps/stops are geometric starting values; shim contact height to actual PT/OP before use."
+    ],
+    "wheel": {
+      "part": "WHEEL",
+      "axis_origin": [
+        0,
+        28.0,
+        19.0
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "axle_diameter_mm": 2.0,
+      "bearing_hole_mm": 2.35,
+      "hex_af_mm": 1.67,
+      "encoder_hex_af_min_mm": 1.73,
+      "minimum_z_mm": 12.75,
+      "wheel_crown_z_mm": 25.25,
+      "encoder": {
+        "model": "Alps EC10E1220505",
+        "mount_height_mm": 7.0,
+        "body_width_mm": 9.8,
+        "body_thickness_mm": 4.4,
+        "above_axis_mm": 3.6,
+        "three_terminal_pitch_mm": 2.5,
+        "designed_clearance_hole_mm": 1.25,
+        "source": "https://tech.alpsalpine.com/cms.media/product_catalog_ec_03_ec10e_en_a9ede251c7.pdf"
+      },
+      "installation": "Preassemble on bench; insert integral hex driver along X into encoder rotor, then fit rear click hinge. Pin dimensions are not scaled.",
+      "encoder_board": {
+        "outline_bbox_mm": [
+          12.2,
+          15.1,
+          1.2
+        ],
+        "bottom_z_mm": 9.2,
+        "top_z_mm": 10.4,
+        "mount_centers_mm": [
+          [
+            8.5,
+            26.1
+          ],
+          [
+            1.3,
+            32.5
+          ]
+        ],
+        "solder_tail_below_board_mm": 0.7,
+        "source": "Proposed custom adapter with edge relief; not a purchased PCB."
+      }
+    },
+    "fasteners": [
+      {
+        "prefix": "LEFT_KEY_M2_SWITCH_1",
+        "center_mm": [
+          18.3,
+          24.926745489440933,
+          10.599913813995794
+        ],
+        "outward_axis": [
+          1,
+          0,
+          0
+        ],
+        "screw": "generic M2 x 12 pan head",
+        "head_envelope_mm": [
+          3.8,
+          1.6
+        ],
+        "nut_af_height_mm": [
+          4.0,
+          1.6
+        ],
+        "washer_od_id_thickness_mm": [
+          5.0,
+          2.2,
+          0.3
+        ],
+        "printed_stack_mm": 9.5,
+        "nominal_thread_protrusion_mm": 0.3000000000000007,
+        "tilt_about_x_deg": 18.0
+      },
+      {
+        "prefix": "LEFT_KEY_M2_SWITCH_2",
+        "center_mm": [
+          18.3,
+          31.10861284535943,
+          12.608524277432952
+        ],
+        "outward_axis": [
+          1,
+          0,
+          0
+        ],
+        "screw": "generic M2 x 12 pan head",
+        "head_envelope_mm": [
+          3.8,
+          1.6
+        ],
+        "nut_af_height_mm": [
+          4.0,
+          1.6
+        ],
+        "washer_od_id_thickness_mm": [
+          5.0,
+          2.2,
+          0.3
+        ],
+        "printed_stack_mm": 9.5,
+        "nominal_thread_protrusion_mm": 0.3000000000000007,
+        "tilt_about_x_deg": 18.0
+      },
+      {
+        "prefix": "RIGHT_KEY_M2_SWITCH_1",
+        "center_mm": [
+          -18.3,
+          24.926745489440933,
+          10.599913813996078
+        ],
+        "outward_axis": [
+          -1,
+          0,
+          0
+        ],
+        "screw": "generic M2 x 12 pan head",
+        "head_envelope_mm": [
+          3.8,
+          1.6
+        ],
+        "nut_af_height_mm": [
+          4.0,
+          1.6
+        ],
+        "washer_od_id_thickness_mm": [
+          5.0,
+          2.2,
+          0.3
+        ],
+        "printed_stack_mm": 9.5,
+        "nominal_thread_protrusion_mm": 0.3000000000000007,
+        "tilt_about_x_deg": 18.0
+      },
+      {
+        "prefix": "RIGHT_KEY_M2_SWITCH_2",
+        "center_mm": [
+          -18.3,
+          31.10861284535943,
+          12.608524277433236
+        ],
+        "outward_axis": [
+          -1,
+          0,
+          0
+        ],
+        "screw": "generic M2 x 12 pan head",
+        "head_envelope_mm": [
+          3.8,
+          1.6
+        ],
+        "nut_af_height_mm": [
+          4.0,
+          1.6
+        ],
+        "washer_od_id_thickness_mm": [
+          5.0,
+          2.2,
+          0.3
+        ],
+        "printed_stack_mm": 9.5,
+        "nominal_thread_protrusion_mm": 0.3000000000000007,
+        "tilt_about_x_deg": 18.0
+      },
+      {
+        "prefix": "SIDE_FRONT_KEY_M2_SWITCH_1",
+        "center_mm": [
+          18.91172591114816,
+          48.7,
+          15.0
+        ],
+        "outward_axis": [
+          0,
+          0,
+          1
+        ],
+        "screw": "generic M2 x 12 pan head",
+        "head_envelope_mm": [
+          3.8,
+          1.6
+        ],
+        "nut_af_height_mm": [
+          4.0,
+          1.6
+        ],
+        "washer_od_id_thickness_mm": [
+          5.0,
+          2.2,
+          0.3
+        ],
+        "printed_stack_mm": 9.1,
+        "nominal_thread_protrusion_mm": 0.7000000000000011
+      },
+      {
+        "prefix": "SIDE_FRONT_KEY_M2_SWITCH_2",
+        "center_mm": [
+          18.91172591114816,
+          55.2,
+          15.0
+        ],
+        "outward_axis": [
+          0,
+          0,
+          1
+        ],
+        "screw": "generic M2 x 12 pan head",
+        "head_envelope_mm": [
+          3.8,
+          1.6
+        ],
+        "nut_af_height_mm": [
+          4.0,
+          1.6
+        ],
+        "washer_od_id_thickness_mm": [
+          5.0,
+          2.2,
+          0.3
+        ],
+        "printed_stack_mm": 9.1,
+        "nominal_thread_protrusion_mm": 0.7000000000000011
+      },
+      {
+        "prefix": "SIDE_REAR_KEY_M2_SWITCH_1",
+        "center_mm": [
+          19.62980353233747,
+          63.7,
+          15.0
+        ],
+        "outward_axis": [
+          0,
+          0,
+          1
+        ],
+        "screw": "generic M2 x 12 pan head",
+        "head_envelope_mm": [
+          3.8,
+          1.6
+        ],
+        "nut_af_height_mm": [
+          4.0,
+          1.6
+        ],
+        "washer_od_id_thickness_mm": [
+          5.0,
+          2.2,
+          0.3
+        ],
+        "printed_stack_mm": 9.1,
+        "nominal_thread_protrusion_mm": 0.7000000000000011
+      },
+      {
+        "prefix": "SIDE_REAR_KEY_M2_SWITCH_2",
+        "center_mm": [
+          19.62980353233747,
+          70.2,
+          15.0
+        ],
+        "outward_axis": [
+          0,
+          0,
+          1
+        ],
+        "screw": "generic M2 x 12 pan head",
+        "head_envelope_mm": [
+          3.8,
+          1.6
+        ],
+        "nut_af_height_mm": [
+          4.0,
+          1.6
+        ],
+        "washer_od_id_thickness_mm": [
+          5.0,
+          2.2,
+          0.3
+        ],
+        "printed_stack_mm": 9.1,
+        "nominal_thread_protrusion_mm": 0.7000000000000011
+      },
+      {
+        "prefix": "WHEEL_M2_SWITCH_1",
+        "center_mm": [
+          -0.4,
+          40.2,
+          10.55
+        ],
+        "outward_axis": [
+          -1,
+          0,
+          0
+        ],
+        "screw": "generic M2 x 12 pan head",
+        "head_envelope_mm": [
+          3.8,
+          1.6
+        ],
+        "nut_af_height_mm": [
+          4.0,
+          1.6
+        ],
+        "washer_od_id_thickness_mm": [
+          5.0,
+          2.2,
+          0.3
+        ],
+        "printed_stack_mm": 9.5,
+        "nominal_thread_protrusion_mm": 0.3000000000000007
+      },
+      {
+        "prefix": "WHEEL_M2_SWITCH_2",
+        "center_mm": [
+          -0.4,
+          46.7,
+          10.55
+        ],
+        "outward_axis": [
+          -1,
+          0,
+          0
+        ],
+        "screw": "generic M2 x 12 pan head",
+        "head_envelope_mm": [
+          3.8,
+          1.6
+        ],
+        "nut_af_height_mm": [
+          4.0,
+          1.6
+        ],
+        "washer_od_id_thickness_mm": [
+          5.0,
+          2.2,
+          0.3
+        ],
+        "printed_stack_mm": 9.5,
+        "nominal_thread_protrusion_mm": 0.3000000000000007
+      }
+    ],
+    "raised_cross_ties": [
+      {
+        "center_yz_mm": [
+          54.0,
+          23.0
+        ],
+        "diameter_mm": 2.4,
+        "span_mm": 54.09030350030767
+      },
+      {
+        "center_yz_mm": [
+          67.5,
+          23.0
+        ],
+        "diameter_mm": 2.4,
+        "span_mm": 51.971666374975854
+      },
+      {
+        "center_yz_mm": [
+          40.8,
+          6.6
+        ],
+        "diameter_mm": 2.6,
+        "span_mm": 58.30534855116679
+      }
+    ],
+    "raised_diagonal_ties": [
+      {
+        "start": [
+          -23.22,
+          12.0,
+          6.5
+        ],
+        "end": [
+          0.0,
+          46.0,
+          6.5
+        ],
+        "diameter_mm": 2.6
+      },
+      {
+        "start": [
+          23.22,
+          12.0,
+          6.5
+        ],
+        "end": [
+          0.0,
+          46.0,
+          6.5
+        ],
+        "diameter_mm": 2.6
+      },
+      {
+        "start": [
+          -24.84,
+          62.64,
+          6.5
+        ],
+        "end": [
+          0.0,
+          46.0,
+          6.5
+        ],
+        "diameter_mm": 2.6
+      },
+      {
+        "start": [
+          24.84,
+          62.64,
+          6.5
+        ],
+        "end": [
+          0.0,
+          46.0,
+          6.5
+        ],
+        "diameter_mm": 2.6
+      }
+    ],
+    "generic_electronics_mounts": {
+      "ears": [
+        {
+          "center": [
+            27.331028099073382,
+            43.0,
+            9.5
+          ],
+          "slot_width_mm": 2.4,
+          "slot_length_mm": 4.0
+        },
+        {
+          "center": [
+            -27.331028099073382,
+            43.0,
+            9.5
+          ],
+          "slot_width_mm": 2.4,
+          "slot_length_mm": 4.0
+        },
+        {
+          "center": [
+            28.60429589691332,
+            66.0,
+            9.5
+          ],
+          "slot_width_mm": 2.4,
+          "slot_length_mm": 4.0
+        },
+        {
+          "center": [
+            -28.60429589691332,
+            66.0,
+            9.5
+          ],
+          "slot_width_mm": 2.4,
+          "slot_length_mm": 4.0
+        }
+      ],
+      "status": "Four generic local slotted M2 attachment ears; board adaptor, sensor carrier, battery retention and charging PCB remain donor-specific and require measurement. No bottom plate supplied."
+    },
+    "hardware_reference": {
+      "switch": "Omron D2F pin-plunger envelope, conservative 12.8 x 5.8 x 6.5 mm",
+      "source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-d2f.pdf",
+      "pretravel_max_mm": 0.5,
+      "overtravel_min_mm": 0.25,
+      "important": "The shell uses generic envelope positioning. Exact free position, operating point, terminals, PCB holes and retention must be calibrated to the purchased switch. Do not infer Fenrir PCB compatibility."
+    },
+    "open_bottom": "Five shortened pad lands at the reserved lower datum; R3 frame outside local pad prisms is unchanged. Apply measured skates for ground clearance."
+  },
+  "windows": [
+    {
+      "name": "ROOT_TRI_L",
+      "xy": [
+        [
+          -4.5360000000000005,
+          42.984
+        ],
+        [
+          -24.516000000000002,
+          42.984
+        ],
+        [
+          -4.5360000000000005,
+          58.104
+        ]
+      ],
+      "removed_volume_mm3": 289.3418929838808,
+      "lower_cut_z": 11.34
+    },
+    {
+      "name": "ROOT_TRI_R",
+      "xy": [
+        [
+          4.5360000000000005,
+          42.984
+        ],
+        [
+          24.516000000000002,
+          42.984
+        ],
+        [
+          4.5360000000000005,
+          58.104
+        ]
+      ],
+      "removed_volume_mm3": 292.12578584626317,
+      "lower_cut_z": 11.34
+    },
+    {
+      "name": "SHOULDER_TRI_L",
+      "xy": [
+        [
+          -27.864000000000004,
+          45.36
+        ],
+        [
+          -7.344,
+          60.696000000000005
+        ],
+        [
+          -28.512,
+          65.664
+        ]
+      ],
+      "removed_volume_mm3": 476.22344942010386,
+      "lower_cut_z": 11.34
+    },
+    {
+      "name": "SHOULDER_TRI_R",
+      "xy": [
+        [
+          27.864000000000004,
+          45.36
+        ],
+        [
+          7.344,
+          60.696000000000005
+        ],
+        [
+          28.512,
+          65.664
+        ]
+      ],
+      "removed_volume_mm3": 540.1919159930821,
+      "lower_cut_z": 11.34
+    },
+    {
+      "name": "REAR_TRAP_L",
+      "xy": [
+        [
+          -3.3480000000000003,
+          63.93600000000001
+        ],
+        [
+          -27.756,
+          70.74000000000001
+        ],
+        [
+          -20.304000000000002,
+          80.568
+        ],
+        [
+          -3.3480000000000003,
+          80.568
+        ]
+      ],
+      "removed_volume_mm3": 795.7263114387752,
+      "lower_cut_z": 11.34
+    },
+    {
+      "name": "REAR_TRAP_R",
+      "xy": [
+        [
+          3.3480000000000003,
+          63.93600000000001
+        ],
+        [
+          27.756,
+          70.74000000000001
+        ],
+        [
+          20.304000000000002,
+          80.568
+        ],
+        [
+          3.3480000000000003,
+          80.568
+        ]
+      ],
+      "removed_volume_mm3": 813.9535379403524,
+      "lower_cut_z": 11.34
+    }
+  ],
+  "interfaces": {
+    "usb": {
+      "connector": "GCT USB4105 dimensional envelope; not a complete charger",
+      "source": "https://gct.co/files/drawings/usb4105.pdf",
+      "connector_width_depth_height_mm": [
+        8.94,
+        7.35,
+        3.31
+      ],
+      "port_opening_width_height_mm": [
+        10.2,
+        4.6
+      ],
+      "face_y_mm": 10.5,
+      "axis_z_mm": 10.655,
+      "adapter_pcb_width_depth_thickness_mm": [
+        20,
+        10,
+        1
+      ],
+      "adapter_holes_mm": [
+        [
+          7.8,
+          13
+        ],
+        [
+          -7.8,
+          13
+        ]
+      ],
+      "mount": "R3 custom adapter only: M2x3 with 0.3mm washers; nominal 1.7mm pilot engagement. Purchased PCB must match or use a redesigned adapter.",
+      "plug_body_gauge_mm": [
+        14,
+        20,
+        8
+      ],
+      "electrical_status": "Mechanical reservation only. No charging circuit, battery or firmware has been designed or verified."
+    },
+    "sensor": {
+      "reserved_center": [
+        0,
+        66.0,
+        9.7
+      ],
+      "reserved_size_mm": [
+        18.0,
+        18.0,
+        9.0
+      ],
+      "downward_optical_path_mm": [
+        14.0,
+        18.0
+      ],
+      "mount_slots": [
+        [
+          12.5,
+          55.0,
+          12.8
+        ],
+        [
+          -12.5,
+          55.0,
+          12.8
+        ],
+        [
+          12.5,
+          75.5,
+          12.8
+        ],
+        [
+          -12.5,
+          75.5,
+          12.8
+        ]
+      ],
+      "slot_width_mm": 2.4,
+      "status": "Generic sensor reservation and adjustable M2 adapter tabs, not measured Fenrir sensor/PCB holes. Actual lens working distance and board adapter must be measured.",
+      "load_route": "Four local tabs into raised side attachments; no lower sensor plate or ring."
+    }
+  },
+  "elapsed_s": 80.33489632606506,
+  "provenance": "Independent reconstruction from public official dimensions/multiview. No manufacturer CAD or restricted scan incorporated.",
+  "key_priority": "MiniSE-like separate solid keys, central gutter and large triangulated/trapezoidal exoskeleton; independent host dimensions.",
+  "thread_engagements": [
+    {
+      "screw": "USB_M2x3_L",
+      "host": "BODY",
+      "center": [
+        7.8,
+        13.0,
+        7.15
+      ],
+      "diameter_mm": 2.02,
+      "height_mm": 1.71,
+      "reason": "Intended M2 engagement in the 1.7mm printed pilot; all other intersections remain failures."
+    },
+    {
+      "screw": "USB_M2x3_R",
+      "host": "BODY",
+      "center": [
+        -7.8,
+        13.0,
+        7.15
+      ],
+      "diameter_mm": 2.02,
+      "height_mm": 1.71,
+      "reason": "Intended M2 engagement in the 1.7mm printed pilot; all other intersections remain failures."
+    },
+    {
+      "screw": "ENCODER_M2x3_FRONT",
+      "host": "WHEEL_CARRIER",
+      "center": [
+        8.5,
+        26.1,
+        11.15
+      ],
+      "diameter_mm": 2.02,
+      "height_mm": 1.51,
+      "reason": "Intended M2 engagement in printed pilot; the washer and PCB seat are not excluded."
+    },
+    {
+      "screw": "ENCODER_M2x3_REAR",
+      "host": "WHEEL_CARRIER",
+      "center": [
+        1.3,
+        32.5,
+        11.15
+      ],
+      "diameter_mm": 2.02,
+      "height_mm": 1.51,
+      "reason": "Intended M2 engagement in printed pilot; the washer and PCB seat are not excluded."
+    }
+  ],
+  "r3_scope": "Mechanical corrections + explicitly estimated electronic scenarios. No actual donor PCB fit or electrical function claim.",
+  "r3_1_scope": {
+    "version": "R3.1",
+    "units": "mm",
+    "base": "R3",
+    "target": "Bottom face of SENSOR_RESERVED_VOLUME (generic lens/sensor reservation)",
+    "foot_contact_z_mm": 5.2,
+    "foot_diameter_mm": 8.0,
+    "foot_land_thickness_mm": 1.6,
+    "edit_radius_mm": 4.01,
+    "example_skate_thickness_mm": 0.5,
+    "desired_ground_clearance_mm": 0.25,
+    "coordinates": "Keep the R3 assembly origin. Printed parts are separately placed on the print bed; no assembly-wide scaling or translation.",
+    "optics": "Align to the reserved lower datum, not a measured optical surface. The existing estimated lens bottom remains Z7.8; real working distance is unverified."
+  },
+  "r3_2_filled_pockets": [
+    {
+      "volume_mm3": 0.20292803505610607,
+      "bounds_mm": [
+        29.299803432337466,
+        69.5999999,
+        12.149999900000001,
+        29.702605380471756,
+        70.35000009999999,
+        13.589084995147385
+      ],
+      "action": "Fill sealed CAD cavity at obsolete rear aperture corner"
+    }
+  ],
+  "r3_2_scope": {
+    "version": "P5",
+    "units": "mm",
+    "base": "R3.1",
+    "side_keys": {
+      "touch_centers_y": [
+        49.3,
+        62.3
+      ],
+      "mechanism_centers_y": [
+        50.0,
+        65.0
+      ],
+      "z": 15.0,
+      "touch_length_y_mm": 9.4,
+      "touch_height_z_mm": 4.6,
+      "outline_corner_radius_mm": 0.65,
+      "outer_edge_radius_mm": 0.25,
+      "outward_x_offset_mm": 0.45,
+      "back_plane_inset_mm": 1.45,
+      "edge_clearance_mm": 0.3,
+      "travel_mm": 0.6,
+      "note": "Outer touch surfaces inherit the mother shell curvature with rounded contact edges. Keep the original slider, forward stop, capture pin, switch position and electrical terminals for each key. Remove obsolete rear cap lands. Forward is decreasing Y."
+    },
+    "foot_contact_z_mm": 5.2,
+    "foot_diameter_mm": 8.0,
+    "foot_land_thickness_mm": 1.6,
+    "example_skate_thickness_mm": 0.5,
+    "desired_ground_clearance_mm": 0.25,
+    "candidate_only": true
+  },
+  "side_touch_geometry": [
+    {
+      "part": "SIDE_FRONT_KEY",
+      "old_touch_center_y": 50.0,
+      "new_touch_center_y": 49.3,
+      "forward_mm": 0.7000000000000028,
+      "length_y_mm": 9.4,
+      "height_z_mm": 4.6,
+      "wall_reference_x": 31.63172591114816,
+      "cap_back_plane_x": 30.18172591114816,
+      "mechanism_center_y": 50.0,
+      "outward_offset_x_mm": 0.45
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "old_touch_center_y": 65.0,
+      "new_touch_center_y": 62.3,
+      "forward_mm": 2.700000000000003,
+      "length_y_mm": 9.4,
+      "height_z_mm": 4.6,
+      "wall_reference_x": 32.34980353233747,
+      "cap_back_plane_x": 30.89980353233747,
+      "mechanism_center_y": 65.0,
+      "outward_offset_x_mm": 0.45
+    }
+  ],
+  "candidate_scope": "Single-variable topology screening. Original R3.2 mechanisms. Not L2 accepted.",
+  "topology_profiles": [
+    {
+      "bay": "ROOT_TRI_L",
+      "profile_count": 1,
+      "original_rounded_area_mm2": 148.99102459820435,
+      "new_area_mm2": 148.99102348827165,
+      "equal_projected_area_feasible": true,
+      "profile_growth_mm": 0.06571712630293876,
+      "maximum_allowed_growth_mm": 0.65,
+      "area_deficit_mm2": 1.109932696863325e-06,
+      "source_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -22.43637621257284,
+              42.952248596442224
+            ],
+            [
+              -22.468112857759888,
+              43.17797025221343
+            ],
+            [
+              -22.487779042163194,
+              43.40888115801835
+            ],
+            [
+              -22.495353706739948,
+              43.644734048675396
+            ],
+            [
+              -22.490828740349567,
+              43.885276367001744
+            ],
+            [
+              -22.474208988439383,
+              44.13025053425804
+            ],
+            [
+              -22.445512247856072,
+              44.37939422597006
+            ],
+            [
+              -22.404769247788206,
+              44.6324406528323
+            ],
+            [
+              -22.39706504193018,
+              44.66993194088182
+            ],
+            [
+              -6.853800094796699,
+              56.43240271168553
+            ],
+            [
+              -6.575127440041655,
+              56.462517140345135
+            ],
+            [
+              -6.240221751503846,
+              56.49020686485076
+            ],
+            [
+              -5.910622834443217,
+              56.50883076299019
+            ],
+            [
+              -5.586683631635793,
+              56.51836889182677
+            ],
+            [
+              -5.268751025293568,
+              56.51881103769317
+            ],
+            [
+              -4.957165465614892,
+              56.51015672712868
+            ],
+            [
+              -4.652260606221432,
+              56.4924152273857
+            ],
+            [
+              -4.4702828736970615,
+              56.47603790247974
+            ],
+            [
+              -4.4702828736970615,
+              44.749434208695625
+            ],
+            [
+              -4.576496347385486,
+              44.657234263212644
+            ],
+            [
+              -4.879665390736285,
+              44.403822882935856
+            ],
+            [
+              -5.18959812339358,
+              44.15428807899151
+            ],
+            [
+              -5.505962661624302,
+              43.90889705949787
+            ],
+            [
+              -5.8284202343568765,
+              43.66791259530507
+            ],
+            [
+              -6.156625545945715,
+              43.43159273861328
+            ],
+            [
+              -6.490227145922482,
+              43.20019054664429
+            ],
+            [
+              -6.828867805338163,
+              42.97395381066115
+            ],
+            [
+              -6.915417953019479,
+              42.918282873697066
+            ],
+            [
+              -22.4296270137681,
+              42.918282873697066
+            ],
+            [
+              -22.43637621257284,
+              42.952248596442224
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "bay": "ROOT_TRI_R",
+      "profile_count": 1,
+      "original_rounded_area_mm2": 148.99102459820438,
+      "new_area_mm2": 148.99102348827157,
+      "equal_projected_area_feasible": true,
+      "profile_growth_mm": 0.06571712630293781,
+      "maximum_allowed_growth_mm": 0.65,
+      "area_deficit_mm2": 1.1099328105501627e-06,
+      "source_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.652260606221432,
+              56.4924152273857
+            ],
+            [
+              4.957165465614864,
+              56.51015672712863
+            ],
+            [
+              5.26875102529354,
+              56.51881103769318
+            ],
+            [
+              5.5866836316357364,
+              56.518368891826725
+            ],
+            [
+              5.910622834443217,
+              56.50883076299019
+            ],
+            [
+              6.2402217515038245,
+              56.49020686485078
+            ],
+            [
+              6.575127440041655,
+              56.462517140345135
+            ],
+            [
+              6.8538000947967,
+              56.43240271168553
+            ],
+            [
+              22.397065041930162,
+              44.66993194088183
+            ],
+            [
+              22.404769247788185,
+              44.632440652832315
+            ],
+            [
+              22.445512247856072,
+              44.37939422597006
+            ],
+            [
+              22.474208988439358,
+              44.13025053425805
+            ],
+            [
+              22.490828740349542,
+              43.88527636700176
+            ],
+            [
+              22.49535370673992,
+              43.644734048675346
+            ],
+            [
+              22.48777904216318,
+              43.40888115801836
+            ],
+            [
+              22.468112857759877,
+              43.177970252213434
+            ],
+            [
+              22.436376212572824,
+              42.95224859644223
+            ],
+            [
+              22.429627013768084,
+              42.918282873697066
+            ],
+            [
+              6.915417953019478,
+              42.918282873697066
+            ],
+            [
+              6.828867805338184,
+              42.973953810661136
+            ],
+            [
+              6.4902271459225105,
+              43.20019054664428
+            ],
+            [
+              6.156625545945687,
+              43.4315927386133
+            ],
+            [
+              5.828420234356855,
+              43.66791259530508
+            ],
+            [
+              5.505962661624281,
+              43.90889705949788
+            ],
+            [
+              5.18959812339358,
+              44.15428807899151
+            ],
+            [
+              4.879665390736257,
+              44.403822882935806
+            ],
+            [
+              4.576496347385458,
+              44.657234263212594
+            ],
+            [
+              4.470282873697062,
+              44.749434208695575
+            ],
+            [
+              4.470282873697062,
+              56.47603790247974
+            ],
+            [
+              4.652260606221432,
+              56.4924152273857
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "bay": "SHOULDER_TRI_L",
+      "profile_count": 1,
+      "original_rounded_area_mm2": 211.67892178512625,
+      "new_area_mm2": 211.6789210394596,
+      "equal_projected_area_feasible": true,
+      "profile_growth_mm": 0.12054348938459428,
+      "maximum_allowed_growth_mm": 0.65,
+      "area_deficit_mm2": 7.456666537564161e-07,
+      "source_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -28.29446689544274,
+              63.1099835513136
+            ],
+            [
+              -27.9762107313187,
+              63.37868818536512
+            ],
+            [
+              -27.650741264019942,
+              63.64081935835047
+            ],
+            [
+              -27.318407014404023,
+              63.89609637364376
+            ],
+            [
+              -26.97956385430968,
+              64.14424587422326
+            ],
+            [
+              -26.63457462547968,
+              64.38500213538802
+            ],
+            [
+              -26.283808751021397,
+              64.61810734930347
+            ],
+            [
+              -25.927641839818833,
+              64.84331190106784
+            ],
+            [
+              -25.56645528432162,
+              65.06037463600634
+            ],
+            [
+              -25.521566347284455,
+              65.0859823629346
+            ],
+            [
+              -9.364362483751597,
+              61.29398553781975
+            ],
+            [
+              -9.352665154162253,
+              61.19587260786636
+            ],
+            [
+              -9.329086907417306,
+              60.88710248392842
+            ],
+            [
+              -9.318263164747705,
+              60.574426951300666
+            ],
+            [
+              -9.32020551648823,
+              60.2581808307752
+            ],
+            [
+              -9.334911882720057,
+              59.93870276661909
+            ],
+            [
+              -9.362366515497776,
+              59.61633486394524
+            ],
+            [
+              -9.402540015713,
+              59.291422322378345
+            ],
+            [
+              -9.454799159430113,
+              58.96796612117606
+            ],
+            [
+              -25.370886890044307,
+              47.07278476461177
+            ],
+            [
+              -25.67686050391646,
+              47.08462819754338
+            ],
+            [
+              -26.036560447751803,
+              47.10960976435449
+            ],
+            [
+              -26.391124114518973,
+              47.14543920676859
+            ],
+            [
+              -26.74017182856278,
+              47.19207815772126
+            ],
+            [
+              -27.083329820848178,
+              47.24947667505554
+            ],
+            [
+              -27.42023062920203,
+              47.31757329500155
+            ],
+            [
+              -27.750513491800184,
+              47.396295097992976
+            ],
+            [
+              -28.052251727461847,
+              47.47960171633506
+            ],
+            [
+              -28.544043987677302,
+              62.889092536419405
+            ],
+            [
+              -28.29446689544274,
+              63.1099835513136
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "bay": "SHOULDER_TRI_R",
+      "profile_count": 1,
+      "original_rounded_area_mm2": 211.67892178512636,
+      "new_area_mm2": 211.6789210394596,
+      "equal_projected_area_feasible": true,
+      "profile_growth_mm": 0.12054348938459657,
+      "maximum_allowed_growth_mm": 0.65,
+      "area_deficit_mm2": 7.456667674432538e-07,
+      "source_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.566455284321577,
+              65.06037463600637
+            ],
+            [
+              25.927641839818833,
+              64.84331190106784
+            ],
+            [
+              26.283808751021347,
+              64.6181073493035
+            ],
+            [
+              26.63457462547968,
+              64.38500213538802
+            ],
+            [
+              26.97956385430968,
+              64.14424587422326
+            ],
+            [
+              27.318407014404052,
+              63.89609637364381
+            ],
+            [
+              27.650741264019942,
+              63.64081935835047
+            ],
+            [
+              27.976210731318737,
+              63.37868818536517
+            ],
+            [
+              28.29446689544278,
+              63.10998355131357
+            ],
+            [
+              28.544043987677306,
+              62.889092536419405
+            ],
+            [
+              28.05225172746185,
+              47.479601716335026
+            ],
+            [
+              27.75051349180025,
+              47.396295097993075
+            ],
+            [
+              27.42023062920203,
+              47.31757329500155
+            ],
+            [
+              27.083329820848235,
+              47.249476675055504
+            ],
+            [
+              26.74017182856278,
+              47.19207815772126
+            ],
+            [
+              26.391124114519016,
+              47.145439206768565
+            ],
+            [
+              26.03656044775186,
+              47.10960976435458
+            ],
+            [
+              25.676860503916515,
+              47.08462819754348
+            ],
+            [
+              25.37088689004421,
+              47.07278476461183
+            ],
+            [
+              9.454799159430165,
+              58.96796612117602
+            ],
+            [
+              9.40254001571305,
+              59.29142232237832
+            ],
+            [
+              9.362366515497818,
+              59.616334863945085
+            ],
+            [
+              9.334911882720107,
+              59.93870276661906
+            ],
+            [
+              9.320205516488336,
+              60.258180830775274
+            ],
+            [
+              9.318263164747705,
+              60.574426951300666
+            ],
+            [
+              9.329086907417306,
+              60.88710248392842
+            ],
+            [
+              9.352665154162239,
+              61.195872607866235
+            ],
+            [
+              9.364362483751599,
+              61.29398553781975
+            ],
+            [
+              25.52156634728446,
+              65.0859823629346
+            ],
+            [
+              25.566455284321577,
+              65.06037463600637
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "bay": "REAR_TRAP_L",
+      "profile_count": 1,
+      "original_rounded_area_mm2": 285.4724353241059,
+      "new_area_mm2": 285.4724355518821,
+      "equal_projected_area_feasible": true,
+      "profile_growth_mm": 0.2981019166842192,
+      "maximum_allowed_growth_mm": 0.65,
+      "area_deficit_mm2": 0,
+      "source_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.00163498386256,
+              80.85965858232177
+            ],
+            [
+              -7.621416108139986,
+              80.71564264508746
+            ],
+            [
+              -7.247094791491271,
+              80.56375168152093
+            ],
+            [
+              -6.879071866557988,
+              80.40414834027052
+            ],
+            [
+              -6.5177414215061,
+              80.23700352859157
+            ],
+            [
+              -6.1634903780265535,
+              80.06249622933507
+            ],
+            [
+              -5.816698077009676,
+              79.88081330928806
+            ],
+            [
+              -5.477735872337615,
+              79.69214931907189
+            ],
+            [
+              -5.146966733229233,
+              79.49670628481272
+            ],
+            [
+              -4.824744855563484,
+              79.2946934918072
+            ],
+            [
+              -4.511415282597856,
+              79.08632726041355
+            ],
+            [
+              -4.2073135354870494,
+              78.87183071441179
+            ],
+            [
+              -3.912765253998815,
+              78.65143354207548
+            ],
+            [
+              -3.6280858478105937,
+              78.4253717502176
+            ],
+            [
+              -3.353580158760982,
+              78.19388741146675
+            ],
+            [
+              -3.0895421344174245,
+              77.95722840505094
+            ],
+            [
+              -3.049898083315781,
+              77.91941676672249
+            ],
+            [
+              -3.049898083315781,
+              67.36766152264734
+            ],
+            [
+              -3.150158088977461,
+              67.28771379864298
+            ],
+            [
+              -3.4166625970307525,
+              67.0902266440549
+            ],
+            [
+              -3.693567219535197,
+              66.89945489986779
+            ],
+            [
+              -3.9805754400852624,
+              66.71560284924395
+            ],
+            [
+              -4.277379923089621,
+              66.53886736556424
+            ],
+            [
+              -4.583662842873727,
+              66.36943770161108
+            ],
+            [
+              -4.899096224015548,
+              66.20749528691266
+            ],
+            [
+              -5.223342292549791,
+              66.05321353346262
+            ],
+            [
+              -5.556053837664786,
+              65.90675765002703
+            ],
+            [
+              -5.8968745835045056,
+              65.7682844652342
+            ],
+            [
+              -6.2454395706777515,
+              65.6379422596385
+            ],
+            [
+              -6.601375547065542,
+              65.51587060693879
+            ],
+            [
+              -6.964301367509197,
+              65.40220022451814
+            ],
+            [
+              -7.3338284019499085,
+              65.29705283346921
+            ],
+            [
+              -7.709560951583494,
+              65.20054102825203
+            ],
+            [
+              -8.091096672584762,
+              65.11276815612496
+            ],
+            [
+              -8.430891552758725,
+              65.04344458971222
+            ],
+            [
+              -23.708778591349517,
+              69.30232460489461
+            ],
+            [
+              -23.89481018893849,
+              69.50418743513725
+            ],
+            [
+              -24.11426672671309,
+              69.75895960075293
+            ],
+            [
+              -24.32195986601831,
+              70.0175894306751
+            ],
+            [
+              -24.51766720383842,
+              70.27979997760431
+            ],
+            [
+              -24.70117917185408,
+              70.54531045991918
+            ],
+            [
+              -24.87229926085361,
+              70.81383656234475
+            ],
+            [
+              -25.0308442311595,
+              71.08509074040478
+            ],
+            [
+              -25.176644308846466,
+              71.35878252833119
+            ],
+            [
+              -25.309543367539426,
+              71.63461885010238
+            ],
+            [
+              -25.42939909559757,
+              71.91230433327591
+            ],
+            [
+              -25.53608314850527,
+              72.19154162528115
+            ],
+            [
+              -25.629481286306472,
+              72.47203171183179
+            ],
+            [
+              -25.709493495935867,
+              72.7534742371174
+            ],
+            [
+              -25.776034098315343,
+              73.03556782543286
+            ],
+            [
+              -25.829031840101134,
+              73.31801040389801
+            ],
+            [
+              -25.868429969983936,
+              73.60049952592539
+            ],
+            [
+              -25.878391272547006,
+              73.70965366584397
+            ],
+            [
+              -20.45207336806374,
+              80.86610191668422
+            ],
+            [
+              -8.019910697539267,
+              80.86610191668422
+            ],
+            [
+              -8.00163498386256,
+              80.85965858232177
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "bay": "REAR_TRAP_R",
+      "profile_count": 1,
+      "original_rounded_area_mm2": 285.47243532410573,
+      "new_area_mm2": 285.47243555188174,
+      "equal_projected_area_feasible": true,
+      "profile_growth_mm": 0.2981019166842174,
+      "maximum_allowed_growth_mm": 0.65,
+      "area_deficit_mm2": 0,
+      "source_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.0895421344174245,
+              77.95722840505094
+            ],
+            [
+              3.353580158760982,
+              78.19388741146675
+            ],
+            [
+              3.6280858478105937,
+              78.4253717502176
+            ],
+            [
+              3.912765253998815,
+              78.65143354207548
+            ],
+            [
+              4.2073135354870494,
+              78.87183071441179
+            ],
+            [
+              4.511415282597827,
+              79.08632726041355
+            ],
+            [
+              4.824744855563484,
+              79.2946934918072
+            ],
+            [
+              5.146966733229204,
+              79.49670628481272
+            ],
+            [
+              5.477735872337615,
+              79.69214931907189
+            ],
+            [
+              5.816698077009676,
+              79.88081330928806
+            ],
+            [
+              6.163490378026511,
+              80.06249622933518
+            ],
+            [
+              6.5177414215061,
+              80.23700352859157
+            ],
+            [
+              6.879071866557988,
+              80.40414834027052
+            ],
+            [
+              7.247094791491271,
+              80.56375168152093
+            ],
+            [
+              7.621416108139986,
+              80.71564264508746
+            ],
+            [
+              8.001634983862532,
+              80.85965858232177
+            ],
+            [
+              8.01991069753924,
+              80.86610191668422
+            ],
+            [
+              20.452073368063736,
+              80.86610191668422
+            ],
+            [
+              25.878391272546995,
+              73.70965366584397
+            ],
+            [
+              25.868429969983936,
+              73.60049952592539
+            ],
+            [
+              25.82903184010111,
+              73.31801040389801
+            ],
+            [
+              25.7760340983153,
+              73.03556782543296
+            ],
+            [
+              25.709493495935853,
+              72.75347423711752
+            ],
+            [
+              25.629481286306472,
+              72.47203171183179
+            ],
+            [
+              25.536083148505256,
+              72.19154162528126
+            ],
+            [
+              25.42939909559757,
+              71.91230433327591
+            ],
+            [
+              25.309543367539426,
+              71.63461885010238
+            ],
+            [
+              25.176644308846466,
+              71.35878252833119
+            ],
+            [
+              25.03084423115947,
+              71.08509074040478
+            ],
+            [
+              24.87229926085361,
+              70.81383656234475
+            ],
+            [
+              24.701179171854108,
+              70.54531045991918
+            ],
+            [
+              24.517667203838393,
+              70.27979997760431
+            ],
+            [
+              24.32195986601831,
+              70.0175894306751
+            ],
+            [
+              24.11426672671309,
+              69.75895960075293
+            ],
+            [
+              23.89481018893849,
+              69.50418743513725
+            ],
+            [
+              23.708778591349503,
+              69.30232460489462
+            ],
+            [
+              8.430891552758718,
+              65.04344458971222
+            ],
+            [
+              8.091096672584762,
+              65.11276815612496
+            ],
+            [
+              7.709560951583494,
+              65.20054102825203
+            ],
+            [
+              7.3338284019499085,
+              65.29705283346921
+            ],
+            [
+              6.964301367509226,
+              65.40220022451814
+            ],
+            [
+              6.601375547065542,
+              65.51587060693879
+            ],
+            [
+              6.245439570677737,
+              65.6379422596386
+            ],
+            [
+              5.896874583504548,
+              65.7682844652341
+            ],
+            [
+              5.556053837664814,
+              65.90675765002703
+            ],
+            [
+              5.223342292549791,
+              66.05321353346262
+            ],
+            [
+              4.899096224015548,
+              66.20749528691266
+            ],
+            [
+              4.583662842873741,
+              66.36943770161119
+            ],
+            [
+              4.277379923089621,
+              66.53886736556424
+            ],
+            [
+              3.9805754400852624,
+              66.71560284924395
+            ],
+            [
+              3.693567219535197,
+              66.89945489986779
+            ],
+            [
+              3.4166625970307525,
+              67.0902266440549
+            ],
+            [
+              3.150158088977461,
+              67.28771379864298
+            ],
+            [
+              3.049898083315783,
+              67.36766152264734
+            ],
+            [
+              3.049898083315783,
+              77.9194167667225
+            ],
+            [
+              3.0895421344174245,
+              77.95722840505094
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

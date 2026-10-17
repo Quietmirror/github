@@ -7,6 +7,7 @@ from surfaces import make_surfaces
 def main():
     variant=sys.argv[1];assert variant in ['B1','B2','B3','B4']
     p=json.loads((ROOT/'cad/rebuild_r2/parameters.json').read_text());p['l2']={'skeleton':variant}
+    p['l2']['diagnostic_dir']=str(ROOT/f'exports/l2_revision/failed_construction/{variant}')
     outer,inner,_=make_surfaces(p);mech=mechanics_l2.build_mechanics(p,outer,inner)
     r.build_mechanics=lambda *args:mech
     out=ROOT/f'exports/l2_revision/{variant}';rp=ROOT/f'reports/l2_revision/{variant}'

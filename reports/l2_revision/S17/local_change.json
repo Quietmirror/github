@@ -1,0 +1,12 @@
+{
+  "description": "Nominal1.7 inner cavity only in rear-side boxes X+/-25 width8,Y72..78,Z5..17, clipped to A_BODY_SKIN. Rest remains1.8. Candidate placement is geometric, not claimed stress optimisation.",
+  "baseline_BODY_mm3": 12801.728063791752,
+  "new_BODY_mm3": 12786.499337320754,
+  "net_removed_mm3": 15.228726470997572,
+  "PA12_saving_g": 0.015381013735707548,
+  "individual_operations_mm3": [
+    7.617821378828012,
+    7.607437137592569
+  ],
+  "not_strength_accepted": true
+}

@@ -1,0 +1,44 @@
+{
+  "variant": "F1H",
+  "method": "Alternate strict ledger avoiding coincident outer-surface intersections.\n\nApplied identically to R3.2 and the selected variant. A is material outside the\nsource inner cavity, excluding the five dedicated short foot platforms. B is\nthe remaining native structural-member union plus those platforms. C is the\nremaining internal installation material. Original ledger is retained.\n",
+  "parts": [
+    {
+      "category": "A_BODY_SKIN",
+      "mm3": 6577.543074631123,
+      "PA12_g": 6.643318505377435,
+      "PLA_solid_g": 8.156153412542592,
+      "adaptive_integration_error": 7.359776517754573e-07
+    },
+    {
+      "category": "B_BODY_SKELETON",
+      "mm3": 2339.188742790642,
+      "PA12_g": 2.362580630218549,
+      "PLA_solid_g": 2.9005940410603963,
+      "adaptive_integration_error": 3.293574912869791e-08
+    },
+    {
+      "category": "C_BODY_MOUNTS",
+      "mm3": 4293.477468125329,
+      "PA12_g": 4.336412242806583,
+      "PLA_solid_g": 5.323912060475409,
+      "adaptive_integration_error": 5.023208775413559e-08
+    },
+    {
+      "category": "C_SEPARATE_MOUNTS",
+      "mm3": 918.0619932995444,
+      "PA12_g": 0.9272426132325399,
+      "PLA_solid_g": 1.138396871691435
+    },
+    {
+      "category": "D_MOVING_OTHER",
+      "mm3": 4682.94250481448,
+      "PA12_g": 4.7297719298626255,
+      "PLA_solid_g": 5.806848705969956
+    }
+  ],
+  "BODY_mm3": 13210.394857094087,
+  "BODY_closure_error_mm3": -0.18557154699192324,
+  "tolerance_mm3": 0.25,
+  "whole_PA12_g": 18.999325921497732,
+  "scope": "Native mutually exclusive BRep cut/intersection ledger. Source inner-cavity functional attribution with feet explicitly assigned to B; not directly interchangeable with the earlier outer-skin-first taxonomy. No delivered geometry modified."
+}

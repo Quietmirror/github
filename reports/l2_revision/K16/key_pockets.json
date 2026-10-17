@@ -1,0 +1,33 @@
+{
+  "candidate": "K16",
+  "parts": [
+    {
+      "part": "LEFT_KEY",
+      "remaining_vertical_skin_mm": 1.6,
+      "removed_mm3": 104.64920687339782,
+      "PA12_saving_g": 0.1056956989421318,
+      "pocket_Y_mm": [
+        7,
+        31
+      ],
+      "protected_spine_width_mm": 2.0,
+      "contact_island_radius_mm": 3.2,
+      "limit": "Nominal vertical skin, not minimum normal wall; torsion/edge-press and slicing validation required."
+    },
+    {
+      "part": "RIGHT_KEY",
+      "remaining_vertical_skin_mm": 1.6,
+      "removed_mm3": 104.64926926073326,
+      "PA12_saving_g": 0.1056957619533406,
+      "pocket_Y_mm": [
+        7,
+        31
+      ],
+      "protected_spine_width_mm": 2.0,
+      "contact_island_radius_mm": 3.2,
+      "limit": "Nominal vertical skin, not minimum normal wall; torsion/edge-press and slicing validation required."
+    }
+  ],
+  "total_saving_g": 0.2113914608954724,
+  "status": "CANDIDATE_NOT_RELEASED"
+}

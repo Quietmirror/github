@@ -1,0 +1,303 @@
+[
+  {
+    "version": "B1",
+    "archive": "releases/Quietmirror-L2-Research/history/B1_CAD_DELTA.zip",
+    "bytes": 6362051,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "B2",
+    "archive": "releases/Quietmirror-L2-Research/history/B2_CAD_DELTA.zip",
+    "bytes": 6394853,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "B4",
+    "archive": "releases/Quietmirror-L2-Research/history/B4_CAD_DELTA.zip",
+    "bytes": 6613471,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "C1",
+    "archive": "releases/Quietmirror-L2-Research/history/C1_CAD_DELTA.zip",
+    "bytes": 6097123,
+    "files": 72,
+    "included": 1
+  },
+  {
+    "version": "F1",
+    "archive": "releases/Quietmirror-L2-Research/history/F1_CAD_DELTA.zip",
+    "bytes": 6047743,
+    "files": 72,
+    "included": 25
+  },
+  {
+    "version": "F1_P0",
+    "archive": "releases/Quietmirror-L2-Research/history/F1_P0_CAD_DELTA.zip",
+    "bytes": 6058703,
+    "files": 72,
+    "included": 25
+  },
+  {
+    "version": "F1B",
+    "archive": "releases/Quietmirror-L2-Research/history/F1B_CAD_DELTA.zip",
+    "bytes": 1346,
+    "files": 72,
+    "included": 0
+  },
+  {
+    "version": "F1C",
+    "archive": "releases/Quietmirror-L2-Research/history/F1C_CAD_DELTA.zip",
+    "bytes": 533686,
+    "files": 72,
+    "included": 24
+  },
+  {
+    "version": "F1D",
+    "archive": "releases/Quietmirror-L2-Research/history/F1D_CAD_DELTA.zip",
+    "bytes": 6519605,
+    "files": 72,
+    "included": 25
+  },
+  {
+    "version": "F1E",
+    "archive": "releases/Quietmirror-L2-Research/history/F1E_CAD_DELTA.zip",
+    "bytes": 6382009,
+    "files": 72,
+    "included": 25
+  },
+  {
+    "version": "F1G",
+    "archive": "releases/Quietmirror-L2-Research/history/F1G_CAD_DELTA.zip",
+    "bytes": 6571798,
+    "files": 72,
+    "included": 25
+  },
+  {
+    "version": "F1H",
+    "archive": "releases/Quietmirror-L2-Research/history/F1H_CAD_DELTA.zip",
+    "bytes": 6553872,
+    "files": 72,
+    "included": 25
+  },
+  {
+    "version": "F1S",
+    "archive": "releases/Quietmirror-L2-Research/history/F1S_CAD_DELTA.zip",
+    "bytes": 7258570,
+    "files": 72,
+    "included": 25
+  },
+  {
+    "version": "F1V",
+    "archive": "releases/Quietmirror-L2-Research/history/F1V_CAD_DELTA.zip",
+    "bytes": 6745124,
+    "files": 72,
+    "included": 25
+  },
+  {
+    "version": "F1W",
+    "archive": "releases/Quietmirror-L2-Research/history/F1W_CAD_DELTA.zip",
+    "bytes": 6733332,
+    "files": 72,
+    "included": 25
+  },
+  {
+    "version": "F2",
+    "archive": "releases/Quietmirror-L2-Research/history/F2_CAD_DELTA.zip",
+    "bytes": 6095303,
+    "files": 72,
+    "included": 25
+  },
+  {
+    "version": "F2_P0",
+    "archive": "releases/Quietmirror-L2-Research/history/F2_P0_CAD_DELTA.zip",
+    "bytes": 6108098,
+    "files": 72,
+    "included": 25
+  },
+  {
+    "version": "F2D",
+    "archive": "releases/Quietmirror-L2-Research/history/F2D_CAD_DELTA.zip",
+    "bytes": 6668173,
+    "files": 72,
+    "included": 25
+  },
+  {
+    "version": "F2E",
+    "archive": "releases/Quietmirror-L2-Research/history/F2E_CAD_DELTA.zip",
+    "bytes": 6531018,
+    "files": 72,
+    "included": 25
+  },
+  {
+    "version": "failed_construction",
+    "archive": "releases/Quietmirror-L2-Research/history/failed_construction_CAD_DELTA.zip",
+    "bytes": 49751,
+    "files": 2,
+    "included": 2
+  },
+  {
+    "version": "K12",
+    "archive": "releases/Quietmirror-L2-Research/history/K12_CAD_DELTA.zip",
+    "bytes": 1400357,
+    "files": 2,
+    "included": 2
+  },
+  {
+    "version": "K14",
+    "archive": "releases/Quietmirror-L2-Research/history/K14_CAD_DELTA.zip",
+    "bytes": 1399939,
+    "files": 2,
+    "included": 2
+  },
+  {
+    "version": "K14R",
+    "archive": "releases/Quietmirror-L2-Research/history/K14R_CAD_DELTA.zip",
+    "bytes": 2521456,
+    "files": 2,
+    "included": 2
+  },
+  {
+    "version": "K16",
+    "archive": "releases/Quietmirror-L2-Research/history/K16_CAD_DELTA.zip",
+    "bytes": 1402102,
+    "files": 2,
+    "included": 2
+  },
+  {
+    "version": "L2_D_R0_BLOCKED",
+    "archive": "releases/Quietmirror-L2-Research/history/L2_D_R0_BLOCKED_CAD_DELTA.zip",
+    "bytes": 6754067,
+    "files": 89,
+    "included": 42
+  },
+  {
+    "version": "L2_H_R0_BLOCKED",
+    "archive": "releases/Quietmirror-L2-Research/history/L2_H_R0_BLOCKED_CAD_DELTA.zip",
+    "bytes": 6961479,
+    "files": 104,
+    "included": 57
+  },
+  {
+    "version": "L2_H_REFERENCE_BOARD_BLOCKED",
+    "archive": "releases/Quietmirror-L2-Research/history/L2_H_REFERENCE_BOARD_BLOCKED_CAD_DELTA.zip",
+    "bytes": 6874988,
+    "files": 105,
+    "included": 58
+  },
+  {
+    "version": "P1_R10",
+    "archive": "releases/Quietmirror-L2-Research/history/P1_R10_CAD_DELTA.zip",
+    "bytes": 5303360,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "P1_R10_FACETED_R0",
+    "archive": "releases/Quietmirror-L2-Research/history/P1_R10_FACETED_R0_CAD_DELTA.zip",
+    "bytes": 5522077,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "P1_R13",
+    "archive": "releases/Quietmirror-L2-Research/history/P1_R13_CAD_DELTA.zip",
+    "bytes": 5288071,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "P1_R15",
+    "archive": "releases/Quietmirror-L2-Research/history/P1_R15_CAD_DELTA.zip",
+    "bytes": 5286601,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "P1_R15_FACETED_R0",
+    "archive": "releases/Quietmirror-L2-Research/history/P1_R15_FACETED_R0_CAD_DELTA.zip",
+    "bytes": 5504629,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "P2",
+    "archive": "releases/Quietmirror-L2-Research/history/P2_CAD_DELTA.zip",
+    "bytes": 5449538,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "P2_FACETED_R0",
+    "archive": "releases/Quietmirror-L2-Research/history/P2_FACETED_R0_CAD_DELTA.zip",
+    "bytes": 5723103,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "P3",
+    "archive": "releases/Quietmirror-L2-Research/history/P3_CAD_DELTA.zip",
+    "bytes": 5738034,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "P3_FACETED_R0",
+    "archive": "releases/Quietmirror-L2-Research/history/P3_FACETED_R0_CAD_DELTA.zip",
+    "bytes": 6582753,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "P4",
+    "archive": "releases/Quietmirror-L2-Research/history/P4_CAD_DELTA.zip",
+    "bytes": 5207220,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "P4_FACETED_R0",
+    "archive": "releases/Quietmirror-L2-Research/history/P4_FACETED_R0_CAD_DELTA.zip",
+    "bytes": 5312926,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "P5",
+    "archive": "releases/Quietmirror-L2-Research/history/P5_CAD_DELTA.zip",
+    "bytes": 5303076,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "P5_FACETED_R0",
+    "archive": "releases/Quietmirror-L2-Research/history/P5_FACETED_R0_CAD_DELTA.zip",
+    "bytes": 5422888,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "P6",
+    "archive": "releases/Quietmirror-L2-Research/history/P6_CAD_DELTA.zip",
+    "bytes": 5269770,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "P6_FACETED_R0",
+    "archive": "releases/Quietmirror-L2-Research/history/P6_FACETED_R0_CAD_DELTA.zip",
+    "bytes": 5477517,
+    "files": 72,
+    "included": 3
+  },
+  {
+    "version": "S17",
+    "archive": "releases/Quietmirror-L2-Research/history/S17_CAD_DELTA.zip",
+    "bytes": 5605728,
+    "files": 72,
+    "included": 1
+  }
+]

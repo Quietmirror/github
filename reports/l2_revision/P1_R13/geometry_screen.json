@@ -1,0 +1,15 @@
+{
+  "variant": "P1_R13",
+  "BODY_CAD_mm3": 12804.055535383854,
+  "BODY_PA12_g": 12.932096090737693,
+  "BODY_mesh_mm3": 12797.678133858784,
+  "CAD_valid": true,
+  "solids": 1,
+  "watertight": true,
+  "self_intersecting_faces": 0,
+  "mesh_components": 1,
+  "original_other_eight_parts_mm3": 5704.9480357253,
+  "total_PA12_g": 18.694093606820246,
+  "full_assembly_validation": false,
+  "geometry_screen_pass": true
+}
